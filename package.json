@@ -1,0 +1,22 @@
+{
+    "name": "whotracksme-converter",
+    "version": "1.0.0",
+    "description": "A tool that converts the Whotracks.me database to a simple JSON format.",
+    "main": "index.js",
+    "scripts": {
+        "convert": "node index.js",
+        "lint": "eslint ."
+    },
+    "author": "AdGuard",
+    "license": "CC-BY-SA-4.0",
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.20.1"
+    },
+    "dependencies": {
+        "consola": "^2.15.3",
+        "sqlite3": "^5.0.2"
+    }
+}
