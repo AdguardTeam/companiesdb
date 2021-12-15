@@ -2,10 +2,27 @@ name: Build
 
 on:
   push:
-    branches: [master]
+    branches: [main]
+  schedule:
+    - cron: "* * */7 * *" # Every week
 
 jobs:
-  test:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Lint
+        run: |
+          yarn install
+          yarn lint
+
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,6 +44,7 @@ jobs:
           yarn convert
 
       - name: Deploy
+        if: github.ref == 'refs/heads/main'
         run: |
           git config --global user.name 'GH action'
           git config --global user.email 'devteam@adguard.com'
