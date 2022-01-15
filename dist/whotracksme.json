@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2022-01-09T00:51:37.419Z",
+    "timeUpdated": "2022-01-15T00:29:16.303Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -6506,6 +6506,11 @@
             "name": "Google Appspot",
             "categoryId": 10,
             "url": "http://www.google.com"
+        },
+        "google_beacons": {
+            "name": "Google Beacons",
+            "categoryId": 6,
+            "url": "https://google.xyz"
         },
         "google_custom_search": {
             "name": "Google Custom Search Ads",
@@ -17751,6 +17756,7 @@
         "googleadservices.com": "google_adservices",
         "google-analytics.com": "google_analytics",
         "appspot.com": "google_appspot",
+        "beacons-google.com": "google_beacons",
         "adsensecustomsearchads.com": "google_custom_search",
         "mail-ads.google.com": "google_email",
         "fonts.googleapis.com": "google_fonts",
