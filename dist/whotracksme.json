@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2022-03-02T00:15:26.669Z",
+    "timeUpdated": "2022-03-08T00:04:54.389Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -9247,6 +9247,11 @@
             "categoryId": 4,
             "url": "https://adcenter.microsoft.com"
         },
+        "microsoft_clarity": {
+            "name": "Microsoft Clarity",
+            "categoryId": 6,
+            "url": "https://clarity.microsoft.com/"
+        },
         "mindset_media": {
             "name": "Mindset Media",
             "categoryId": 4,
@@ -10728,9 +10733,14 @@
             "url": "https://pipz.com/br/"
         },
         "piwik": {
-            "name": "Piwik Pro",
+            "name": "Tombstone (Matomo/Piwik before the split)",
             "categoryId": 6,
             "url": "http://piwik.org/"
+        },
+        "piwik_pro_analytics_suite": {
+            "name": "Piwik PRO Analytics Suite",
+            "categoryId": 6,
+            "url": "https://piwik.pro/"
         },
         "pixalate": {
             "name": "Pixalate",
@@ -18422,6 +18432,7 @@
         "nzaza.com": "matiro",
         "matomo.cloud": "matomo",
         "matomo.org": "matomo",
+        "piwik.org": "matomo",
         "adsmarket.com": "matomy_market",
         "m2pub.com": "matomy_market",
         "mb01.com": "maxbounty",
@@ -18519,6 +18530,18 @@
         "trouter.io": "microsoft",
         "windows.net": "microsoft",
         "analytics.live.com": "microsoft_analytics",
+        "a.clarity.ms": "microsoft_clarity",
+        "b.clarity.ms": "microsoft_clarity",
+        "c.clarity.ms": "microsoft_clarity",
+        "d.clarity.ms": "microsoft_clarity",
+        "e.clarity.ms": "microsoft_clarity",
+        "f.clarity.ms": "microsoft_clarity",
+        "g.clarity.ms": "microsoft_clarity",
+        "h.clarity.ms": "microsoft_clarity",
+        "i.clarity.ms": "microsoft_clarity",
+        "j.clarity.ms": "microsoft_clarity",
+        "log.clarity.ms": "microsoft_clarity",
+        "www.clarity.ms": "microsoft_clarity",
         "mmismm.com": "mindset_media",
         "imgfarm.com": "mindspark",
         "mindspark.com": "mindspark",
@@ -18876,8 +18899,8 @@
         "pinimg.com": "pinterest",
         "pinterest.com": "pinterest",
         "app.pipz.io": "pipz",
-        "piwik.org": "piwik",
-        "piwik.pro": "piwik",
+        "disabled.invalid": "piwik",
+        "piwik.pro": "piwik_pro_analytics_suite",
         "adrta.com": "pixalate",
         "app.pixelpop.co": "pixel_union",
         "pixfuture.net": "pixfuture",
