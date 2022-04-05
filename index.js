@@ -75,6 +75,7 @@ async function runScript() {
                 name: row.name,
                 categoryId: row.category_id,
                 url,
+                companyId: row.company_id,
             };
         });
 
