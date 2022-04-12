@@ -24,6 +24,7 @@ async function runScript() {
     const whotracksme = {
         timeUpdated: new Date().toISOString(),
         categories: {},
+        companies: {},
         trackers: {},
         trackerDomains: {},
     };
@@ -56,6 +57,12 @@ async function runScript() {
                 id: row.id,
                 name: row.name,
                 website_url: row.website_url,
+            };
+
+            whotracksme.companies[row.id] = {
+                name: row.name,
+                websiteUrl: row.website_url,
+                description: row.description,
             };
         });
 
