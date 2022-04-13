@@ -1,0 +1,60 @@
+{
+    "timeUpdated": "2022-04-13T08:24:53.623Z",
+    "companies": {
+        "akamai": {
+            "name": "Akamai Technologies",
+            "websiteUrl": "https://www.akamai.com/",
+            "description": "Akamai is a cloud based content delivery network. They offer application performance services, solutions for digital media and software distribution and storage, online advertising services and other specialized/ Internet-based offerings."
+        },
+        "apple": {
+            "name": "Apple",
+            "websiteUrl": "http://www.apple.com/",
+            "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers."
+        },
+        "facebook": {
+            "name": "Facebook",
+            "websiteUrl": "https://www.facebook.com/",
+            "description": "Facebook is an online social network accessible to anyone with an active email address. People use Facebook to keep up with friends, upload photos, share links and videos, and learn more about the people they meet."
+        },
+        "verizon": {
+            "name": "Verizon",
+            "websiteUrl": "https://www.verizon.com/",
+            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL,[9][10] and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc."
+        },
+        "google": {
+            "name": "Google",
+            "websiteUrl": "http://www.google.com",
+            "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
+        },
+        "appsflyer": {
+            "name": "AppsFlyer",
+            "websiteUrl": "https://www.appsflyer.com/",
+            "description": "AppsFlyer is the global leading platform for Mobile Attribution & Marketing Analytics."
+        },
+        "yandex": {
+            "name": "Yandex",
+            "websiteUrl": "https://www.yandex.com/",
+            "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network."
+        },
+        "adjust": {
+            "name": "Adjust GmbH",
+            "websiteUrl": "https://www.adjust.com/",
+            "description": "Adjust is the industry leader in mobile measurement and fraud prevention."
+        },
+        "branch_metrics_inc": {
+            "name": "Branch Metrics",
+            "websiteUrl": "https://branch.io/",
+            "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
+        },
+        "markmonitor": {
+            "name": "MarkMonitor",
+            "websiteUrl": "https://www.markmonitor.com/",
+            "description": "\\\"When the world's leading brands rely on you to protect their revenue and reputation in the digital world, you develop powerful insights and unrivalled methodologies to help combat sophisticated, evolving online threats. MarkMonitor clients look to our unique combination of industry-leading expertise, advanced technologies and extensive industry relationships to preserve marketing investments, revenues and customer trust.\\\""
+        },
+        "microsoft": {
+            "name": "Microsoft",
+            "websiteUrl": "https://www.microsoft.com/",
+            "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
+        }
+    }
+}
