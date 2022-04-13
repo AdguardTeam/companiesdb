@@ -19,21 +19,21 @@ yarn convert
 
 - `adguard.json` 
     
-    Trackers data json file.
+    Maintained trackers data json file. 
 
 - `adguard_companies.json` 
     
-    Companies data json file. The data from this file will override data selected from `Whotracks.me` database. 
+    Maintained companies data json file. The data from this file will override data selected from `Whotracks.me` database. 
 
 ### Output
+
+- `adguard.json` 
+    
+    Trackers data json file.
 
 - `whotrackme.json`
 
     Trackers data json file.
-    
-- `whotrackme_companies.json`
-
-    Companies data json file. This file contains only data selected from `Whotracks.me` database.
     
 - `companies.json`
 

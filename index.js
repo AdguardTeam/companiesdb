@@ -8,7 +8,6 @@ const INPUT_SQL_PATH = 'trackerdb.sql';
 const ADG_COMPANIES_INPUT_PATH = 'dist/adguard_companies.json';
 
 const OUTPUT_PATH = 'dist/whotracksme.json';
-const WTM_COMPANIES_OUTPUT_PATH = 'dist/whotracksme_companies.json';
 const COMPANIES_OUTPUT_PATH = 'dist/companies.json';
 
 async function runScript() {
@@ -34,10 +33,7 @@ async function runScript() {
         trackerDomains: {},
     };
 
-    const whotracksmeCompaniesData = {
-        timeUpdated: new Date().toISOString(),
-        companies: {},
-    };
+    const whotracksmeCompanies = {};
 
     const companiesData = {
         timeUpdated: new Date().toISOString(),
@@ -74,7 +70,7 @@ async function runScript() {
                 website_url: row.website_url,
             };
 
-            whotracksmeCompaniesData.companies[row.id] = {
+            whotracksmeCompanies[row.id] = {
                 name: row.name,
                 websiteUrl: row.website_url,
                 description: row.description,
@@ -118,7 +114,7 @@ async function runScript() {
         }
 
         // Copy whotrackme companies and merge with adGuard companies
-        companiesData.companies = { ...whotracksmeCompaniesData.companies };
+        companiesData.companies = whotracksmeCompanies;
         // eslint-disable-next-line no-restricted-syntax
         for (const [id, company] of Object.entries(adGuardCompanies.companies)) {
             companiesData.companies[id] = company;
@@ -126,9 +122,6 @@ async function runScript() {
 
         fs.writeFileSync(OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4));
         consola.info(`Trackers json file has been updated: ${OUTPUT_PATH}`);
-
-        fs.writeFileSync(WTM_COMPANIES_OUTPUT_PATH, JSON.stringify(whotracksmeCompaniesData, 0, 4));
-        consola.info(`Whotracksme companies json file has been updated: ${WTM_COMPANIES_OUTPUT_PATH}`);
 
         fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4));
         consola.info(`Companies json file has been updated: ${COMPANIES_OUTPUT_PATH}`);
