@@ -6,6 +6,7 @@ const consola = require('consola');
 // aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
 const INPUT_SQL_PATH = 'trackerdb.sql';
 const OUTPUT_PATH = 'dist/whotracksme.json';
+const COMPANIES_OUTPUT_PATH = 'dist/whotracksme_companies.json';
 
 async function runScript() {
     consola.info(`Reading ${INPUT_SQL_PATH}`);
@@ -24,9 +25,13 @@ async function runScript() {
     const whotracksme = {
         timeUpdated: new Date().toISOString(),
         categories: {},
-        companies: {},
         trackers: {},
         trackerDomains: {},
+    };
+
+    const companiesData = {
+        timeUpdated: new Date().toISOString(),
+        companies: {},
     };
 
     consola.info('Initializing the in-memory trackers database');
@@ -59,7 +64,7 @@ async function runScript() {
                 website_url: row.website_url,
             };
 
-            whotracksme.companies[row.id] = {
+            companiesData.companies[row.id] = {
                 name: row.name,
                 websiteUrl: row.website_url,
                 description: row.description,
@@ -104,6 +109,9 @@ async function runScript() {
 
         fs.writeFileSync(OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4));
         consola.info(`Trackers json file has been updated: ${OUTPUT_PATH}`);
+
+        fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4));
+        consola.info(`Companies json file has been updated: ${COMPANIES_OUTPUT_PATH}`);
     });
 }
 
