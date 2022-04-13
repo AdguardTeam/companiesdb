@@ -14,3 +14,27 @@ aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
 yarn install
 yarn convert
 ```
+
+### Sources
+
+- `adguard.json` 
+    
+    Trackers data json file.
+
+- `adguard_companies.json` 
+    
+    Companies data json file. The data from this file will override data selected from `Whotracks.me` database. 
+
+### Output
+
+- `whotrackme.json`
+
+    Trackers data json file.
+    
+- `whotrackme_companies.json`
+
+    Companies data json file. This file contains only data selected from `Whotracks.me` database.
+    
+- `companies.json`
+
+    Companies data json file. This file contains companies list merged with AdGuard companies from `adguard_companies.json`.
