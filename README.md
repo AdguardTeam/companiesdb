@@ -1,11 +1,31 @@
 # Companies DB
 
 This is a companies DB that we use in AdGuard Home and AdGuard DNS.
-
 It is basically the [Whotracks.me](https://github.com/whotracksme/whotracks.me)
 database converted to a simple JSON format with some additions from us.
 
-### How to run
+In addition, there's also a file with companies metadata that we use in
+AdGuard VPN.
+
+### Contribute
+
+If you want to contribute to this data, please open a pull request.
+
+Here are the files that you can change.
+
+**Trackers database**
+
+- `dist/adguard.json` - trackers data. The data from this file will override
+  data selected from `Whotracks.me` database in case if there's any
+  intersection.
+- `dist/adguard_companies.json` - companies data. The data from this file will
+  override data selected from `Whotracks.me` database in case if there's any
+  intersection.
+- `dist/vpn_services.json` - contains a list of "Services" that can be added
+  to exclusions in AdGuard VPN apps. This file is composed manually and not
+  built from other sources.
+
+### How to build trackers data
 
 ```sh
 # Download Whotracks.me data
@@ -15,26 +35,15 @@ yarn install
 yarn convert
 ```
 
-### Sources
+#### Sources
 
-- `adguard.json` 
-    
-    Maintained trackers data json file. 
+- `dist/adguard.json`
+- `dist/adguard_companies.json`
 
-- `adguard_companies.json` 
-    
-    Maintained companies data json file. The data from this file will override data selected from `Whotracks.me` database. 
+#### Output
 
-### Output
-
-- `adguard.json` 
-    
-    Trackers data json file.
-
-- `whotrackme.json`
-
-    Trackers data json file.
-    
-- `companies.json`
-
-    Companies data json file. This file contains companies list merged with AdGuard companies from `adguard_companies.json`.
+- `dist/adguard.json` - trackers data json file. We don't merge it with
+  `whotracksme.json`.
+- `dist/whotrackme.json` - trackers data json file.
+- `dist/companies.json` - companies data json file. This file contains companies
+  list merged with AdGuard companies from `adguard_companies.json`.
