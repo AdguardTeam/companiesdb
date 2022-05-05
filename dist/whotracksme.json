@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2022-05-01T00:11:45.540Z",
+    "timeUpdated": "2022-05-05T10:37:43.420Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -14,7 +14,9 @@
         "10": "hosting",
         "11": "unknown",
         "12": "extensions",
-        "13": "email"
+        "13": "email",
+        "14": "consent",
+        "15": "telemetry"
     },
     "trackers": {
         "163": {
@@ -16769,6 +16771,18 @@
             "url": "https://trafmag.com/",
             "companyId": "trafmag"
         },
+        "transcend": {
+            "name": "Transcend Consent",
+            "categoryId": 14,
+            "url": "https://transcend.io/consent/",
+            "companyId": "transcend"
+        },
+        "transcend_telemetry": {
+            "name": "Transcend Telemetry",
+            "categoryId": 6,
+            "url": "https://transcend.io",
+            "companyId": "transcend"
+        },
         "transmatic": {
             "name": "Transmatic",
             "categoryId": 6,
@@ -22957,6 +22971,9 @@
         "traffiliate.com": "traffiliate",
         "storage.trafic.ro": "trafic",
         "trafmag.com": "trafmag.com",
+        "api.transcend.io": "transcend",
+        "cdn.transcend.io": "transcend",
+        "telemetry.transcend.io": "transcend_telemetry",
         "backoffice.transmatico.com": "transmatic",
         "travelaudience.com": "travel_audience",
         "trbo.com": "trbo",
