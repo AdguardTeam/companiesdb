@@ -425,10 +425,11 @@
       "youtube.com",
       "youtubeeducation.com",
       "ytimg.com",
-      "googlevideo.com"
+      "googlevideo.com",
+      "ggpht.com"
     ],
     "icon_domain": "youtube.com",
-    "modified_time": "2021-09-14 10:23"
+    "modified_time": "2022-05-05 10:23"
   },
   {
     "service_id": "deezer",
@@ -698,7 +699,6 @@
     "domains": [
       "1e100.net",
       "g.co",
-      "ggpht.com",
       "goo.gl",
       "google.ad",
       "google.ae",
