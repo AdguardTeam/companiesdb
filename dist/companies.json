@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2022-04-13T09:40:00.952Z",
+    "timeUpdated": "2022-05-26T08:54:07.654Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10100,6 +10100,11 @@
             "name": "TrafMag",
             "websiteUrl": "http://trafmag.com/",
             "description": "\\\"TrafMag is the advertising network that has united the best spaces of Russian spoken Internet, providing the web-site owners with an effective tool of site monetization management.\\\"\\r\\n\\r\\nTranslated by Google Translate"
+        },
+        "transcend": {
+            "name": "Transcend",
+            "websiteUrl": "https://transcend.io",
+            "description": "Transcend is a privacy company that makes it easy to encode privacy across your stack, from GDPR to Facebook’s LDU protocol. From automated data mapping and silo discovery, to seamless fulfillment of access, deletion, opt-out requests and more. "
         },
         "transmatico": {
             "name": "Transmatico",
