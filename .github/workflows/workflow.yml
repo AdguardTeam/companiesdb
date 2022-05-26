@@ -48,6 +48,6 @@ jobs:
         run: |
           git config --global user.name 'GH action'
           git config --global user.email 'devteam@adguard.com'
-          git add dist/whotracksme.json
+          git add dist/whotracksme.json dist/companies.json
           git commit -m "Auto-update"
           git push
