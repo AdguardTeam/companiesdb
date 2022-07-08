@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2022-07-01T00:10:29.552Z",
+    "timeUpdated": "2022-07-08T00:11:16.509Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19754,6 +19754,7 @@
         "amazon.it": "amazon",
         "d3io1k5o0zdpqr.cloudfront.net": "amazon",
         "amazon-adsystem.com": "amazon_adsystem",
+        "serving-sys.com": "amazon_adsystem",
         "sizmek.com": "amazon_adsystem",
         "assoc-amazon.ca": "amazon_associates",
         "assoc-amazon.co.uk": "amazon_associates",
@@ -23508,7 +23509,6 @@
         "rfihub.com": "zeta",
         "rfihub.net": "zeta",
         "ru4.com": "zeta",
-        "serving-sys.com": "zeta",
         "xplusone.com": "zeta",
         "zeusclicks.com": "zeusclicks",
         "webtest.net": "ziff_davis",
