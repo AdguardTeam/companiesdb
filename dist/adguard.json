@@ -119,6 +119,12 @@
             "categoryId": 4,
             "url": "https://www.usebutton.com/",
             "companyId": null
+        },
+        "netflix": {
+            "name": "Netflix",
+            "categoryId": 8,
+            "url": "https://www.netflix.com/",
+            "companyId": null
         }
     },
     "trackerDomains": {
@@ -143,6 +149,11 @@
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
         "azure.com": "azure",
-        "bttn.io": "button"
+        "bttn.io": "button",
+        "netflix.com": "netflix",
+        "nflxext.com": "netflix",
+        "nflximg.net": "netflix",
+        "nflxso.net": "netflix",
+        "nflxvideo.net": "netflix"
     }
 }
