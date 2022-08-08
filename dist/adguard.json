@@ -149,11 +149,6 @@
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
         "azure.com": "azure",
-        "bttn.io": "button",
-        "netflix.com": "netflix",
-        "nflxext.com": "netflix",
-        "nflximg.net": "netflix",
-        "nflxso.net": "netflix",
-        "nflxvideo.net": "netflix"
+        "bttn.io": "button"
     }
 }
