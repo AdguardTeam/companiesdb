@@ -120,6 +120,12 @@
             "url": "https://www.usebutton.com/",
             "companyId": null
         },
+        "netflix": {
+            "name": "Netflix",
+            "categoryId": 8,
+            "url": "https://www.netflix.com/",
+            "companyId": null
+        },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
