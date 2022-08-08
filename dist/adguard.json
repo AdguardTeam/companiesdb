@@ -119,6 +119,12 @@
             "categoryId": 4,
             "url": "https://www.usebutton.com/",
             "companyId": null
+        },
+        "netflix": {
+            "name": "Netflix",
+            "categoryId": 8,
+            "url": "https://www.netflix.com/",
+            "companyId": null
         }
     },
     "trackerDomains": {
