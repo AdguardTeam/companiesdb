@@ -125,6 +125,24 @@
             "categoryId": 8,
             "url": "https://www.netflix.com/",
             "companyId": null
+        },
+        "mail.ru_banner": {
+            "name": "Mail.Ru Banner Network",
+            "categoryId": 4,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
+        },
+        "mail.ru_counter": {
+            "name": "Mail.Ru Counter",
+            "categoryId": 2,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
+        },
+        "mail.ru_group": {
+            "name": "Mail.Ru Group",
+            "categoryId": 7,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
         }
     },
     "trackerDomains": {
