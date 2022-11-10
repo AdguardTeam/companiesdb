@@ -44,7 +44,11 @@
       "SOCIAL_NETWORKS"
     ],
     "domains": [
+      "cdn.fbsbx.com",
       "cdninstagram.com",
+      "facebook.com",
+      "facebook.net",
+      "fbcdn.net",
       "instagram.com"
     ],
     "icon_domain": "instagram.com",
