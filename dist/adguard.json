@@ -36,6 +36,12 @@
             "url": "https://searchads.apple.com/",
             "companyId": "apple"
         },
+        "apple_news": {
+            "name": "Apple",
+            "categoryId": 8,
+            "url": "https://apple.news/",
+            "companyId": "apple"
+        },
         "facebook_audience": {
             "name": "Facebook Audience Network",
             "categoryId": 4,
