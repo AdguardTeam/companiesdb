@@ -37,7 +37,7 @@
             "companyId": "apple"
         },
         "apple_news": {
-            "name": "Apple News",
+            "name": "Apple",
             "categoryId": 8,
             "url": "https://apple.news/",
             "companyId": "apple"
