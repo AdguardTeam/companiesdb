@@ -143,6 +143,24 @@
             "categoryId": 7,
             "url": "http://mail.ru/",
             "companyId": "vk"
+        },
+        "vk.com": {
+            "name": "Vk.com",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte": {
+            "name": "VKontakte",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte_widgets": {
+            "name": "VKontakte Widgets",
+            "categoryId": 7,
+            "url": "http://vk.com/developers.php",
+            "companyId": "vk"
         }
     },
     "trackerDomains": {
