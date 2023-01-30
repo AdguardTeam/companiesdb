@@ -60,6 +60,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": null
         },
+        "google_trust_services": {
+            "name": "Google Trust Services",
+            "categoryId": 6,
+            "url": "https://pki.goog/",
+            "companyId": "google"
+        },
         "firebase": {
             "name": "Firebase",
             "categoryId": 101,
@@ -168,6 +174,7 @@
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
         "azure.com": "azure",
-        "bttn.io": "button"
+        "bttn.io": "button",
+        "pki.goog":"google_trust_services"
     }
 }
