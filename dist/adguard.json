@@ -96,6 +96,12 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "outlook": {
+            "name": "Microsoft Outlook",
+            "categoryId": 10,
+            "url": "https://outlook.live.com/",
+            "companyId": "microsoft"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -168,6 +174,8 @@
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
         "azure.com": "azure",
+        "live.com": "outlook",
+        "hotmail.com": "outlook",
         "bttn.io": "button"
     }
 }
