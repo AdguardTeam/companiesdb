@@ -62,7 +62,7 @@
         },
         "google_trust_services": {
             "name": "Google Trust Services",
-            "categoryId": 6,
+            "categoryId": 5,
             "url": "https://pki.goog/",
             "companyId": "google"
         },
