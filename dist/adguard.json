@@ -15,6 +15,8 @@
         "11": "unknown",
         "12": "extensions",
         "13": "email",
+        "14": "consent",
+        "15": "telemetry",
         "101": "mobile_analytics"
     },
     "trackers": {
@@ -59,6 +61,12 @@
             "categoryId": 101,
             "url": "https://hockeyapp.net/",
             "companyId": null
+        },
+        "google_trust_services": {
+            "name": "Google Trust Services",
+            "categoryId": 5,
+            "url": "https://pki.goog/",
+            "companyId": "google"
         },
         "firebase": {
             "name": "Firebase",
@@ -149,6 +157,24 @@
             "categoryId": 7,
             "url": "http://mail.ru/",
             "companyId": "vk"
+        },
+        "vk.com": {
+            "name": "Vk.com",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte": {
+            "name": "VKontakte",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte_widgets": {
+            "name": "VKontakte Widgets",
+            "categoryId": 7,
+            "url": "https://dev.vk.com/",
+            "companyId": "vk"
         }
     },
     "trackerDomains": {
@@ -176,6 +202,7 @@
         "azure.com": "azure",
         "live.com": "outlook",
         "hotmail.com": "outlook",
-        "bttn.io": "button"
+        "bttn.io": "button",
+        "pki.goog":"google_trust_services"
     }
 }
