@@ -98,7 +98,7 @@
         },
         "outlook": {
             "name": "Microsoft Outlook",
-            "categoryId": 10,
+            "categoryId": 13,
             "url": "https://outlook.live.com/",
             "companyId": "microsoft"
         },
