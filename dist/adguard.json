@@ -159,7 +159,7 @@
         "vkontakte_widgets": {
             "name": "VKontakte Widgets",
             "categoryId": 7,
-            "url": "http://vk.com/developers.php",
+            "url": "https://dev.vk.com/",
             "companyId": "vk"
         }
     },
