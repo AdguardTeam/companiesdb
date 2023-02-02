@@ -48,6 +48,12 @@
             "url": "https://crashlytics.com/",
             "companyId": null
         },
+        "showrss": {
+            "name": "showRSS",
+            "categoryId": 6,
+            "url": "https://showrss.info/",
+            "companyId": null
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -155,6 +161,7 @@
         "icloud.com": "apple",
         "mzstatic.com": "apple",
         "iadsdk.apple.com": "apple_ads",
+        "showrss.info": "showrss",
         "graph.facebook.com": "facebook_audience",
         "crashlytics.com": "crashlytics",
         "flurry.com": "flurry",
