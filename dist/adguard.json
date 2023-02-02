@@ -96,6 +96,12 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "categoryId": 8,
+            "url": "https://www.solaredge.com/",
+            "companyId": "solaredge"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -156,6 +162,7 @@
         "mzstatic.com": "apple",
         "iadsdk.apple.com": "apple_ads",
         "graph.facebook.com": "facebook_audience",
+        "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
         "flurry.com": "flurry",
         "hockeyapp.net": "hockeyapp",
