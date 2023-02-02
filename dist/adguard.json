@@ -122,7 +122,7 @@
         },
         "netflix": {
             "name": "Netflix",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://www.netflix.com/",
             "companyId": null
         },
@@ -146,6 +146,7 @@
         }
     },
     "trackerDomains": {
+        "nflximg.com":"netflix",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
