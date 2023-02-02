@@ -50,7 +50,7 @@
         },
         "showrss": {
             "name": "showRSS",
-            "categoryId": 6,
+            "categoryId": 8,
             "url": "https://showrss.info/",
             "companyId": "showRSS"
         },
