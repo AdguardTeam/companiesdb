@@ -875,7 +875,7 @@
             "name": "Adguard",
             "categoryId": 12,
             "url": "https://adguard.com/",
-            "companyId": null
+            "companyId": "adguard"
         },
         "adhands": {
             "name": "AdHands",
@@ -19405,6 +19405,14 @@
         "adgorithms.com": "adgorithms",
         "adgoto.com": "adgoto",
         "adguard.com": "adguard",
+        "adguard.app": "adguard",
+        "adguard.io": "adguard",
+        "adguard.org": "adguard",
+        "adguard-dns.com": "adguard",
+        "adguard-dns.io": "adguard",
+        "adguard-vpn.com": "adguard",
+        "adguardvpn.com": "adguard",
+        "adguard-vpn.online": "adguard",
         "adhands.ru": "adhands",
         "adhese.be": "adhese",
         "adhese.com": "adhese",
