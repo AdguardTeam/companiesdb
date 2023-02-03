@@ -56,6 +56,11 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "netflix": {
+            "name": "Netflix",
+            "websiteUrl": "https://www.netflix.com/",
+            "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
+        },
         "vk": {
             "name": "VK",
             "websiteUrl": "https://vk.company",

@@ -124,7 +124,7 @@
             "name": "Netflix",
             "categoryId": 0,
             "url": "https://www.netflix.com/",
-            "companyId": null
+            "companyId": "netflix"
         },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
