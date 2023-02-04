@@ -136,9 +136,9 @@
         },
         "netflix": {
             "name": "Netflix",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://www.netflix.com/",
-            "companyId": null
+            "companyId": "netflix"
         },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
@@ -178,6 +178,7 @@
         }
     },
     "trackerDomains": {
+        "nflximg.com": "netflix",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
