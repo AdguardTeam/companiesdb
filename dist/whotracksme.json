@@ -875,7 +875,7 @@
             "name": "Adguard",
             "categoryId": 12,
             "url": "https://adguard.com/",
-            "companyId": "adguard"
+            "companyId": null
         },
         "adhands": {
             "name": "AdHands",
