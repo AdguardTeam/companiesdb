@@ -20,6 +20,12 @@
         "101": "mobile_analytics"
     },
     "trackers": {
+        "adguard": {
+            "name": "AdGuard",
+            "categoryId": 8,
+            "url": "https://adguard.com/",
+            "companyId": "adguard"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -190,6 +196,14 @@
         }
     },
     "trackerDomains": {
+        "adguard.app": "adguard",
+        "adguard.io": "adguard",
+        "adguard.org": "adguard",
+        "adguard-dns.com": "adguard",
+        "adguard-dns.io": "adguard",
+        "adguard-vpn.com": "adguard",
+        "adguardvpn.com": "adguard",
+        "adguard-vpn.online": "adguard",
         "nflximg.com": "netflix",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
