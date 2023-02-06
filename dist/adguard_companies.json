@@ -1,6 +1,11 @@
 {
     "timeUpdated": "2022-04-13T08:24:53.623Z",
     "companies": {
+        "adguard": {
+            "name": "AdGuard",
+            "websiteUrl": "https://adguard.com/",
+            "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
+        },
         "akamai": {
             "name": "Akamai Technologies",
             "websiteUrl": "https://www.akamai.com/",
