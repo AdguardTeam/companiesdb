@@ -65,6 +65,11 @@
             "name": "VK",
             "websiteUrl": "https://vk.company",
             "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet."
+        },
+        "showrss": {
+            "name": "showRSS",
+            "websiteUrl": "https://showrss.info/",
+            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
         }
     }
 }
