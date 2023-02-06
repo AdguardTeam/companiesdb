@@ -52,7 +52,7 @@
             "name": "showRSS",
             "categoryId": 8,
             "url": "https://showrss.info/",
-            "companyId": "showRSS"
+            "companyId": "showrss"
         },
         "flurry": {
             "name": "Flurry",
