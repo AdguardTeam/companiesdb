@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-06T12:30:37.614Z",
+    "timeUpdated": "2023-02-06T14:42:24.176Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11450,6 +11450,11 @@
             "name": "Zypmedia",
             "websiteUrl": "http://www.zypmedia.com/",
             "description": "ZypLink connects local media companies, advertising agencies and advertisers with the widest array of premium video and display impressions across desktop, mobile and connected TVs. ZypLink applies advanced geographic, demographic, contextual, behavioral and other targeting utilizing the best 3rd party data sources, proprietary 1st party data collected and segmented by ZypMedia, and 1st data supplied by advertisers (when available)."
+        },
+        "adguard": {
+            "name": "AdGuard",
+            "websiteUrl": "https://adguard.com/",
+            "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
         },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
