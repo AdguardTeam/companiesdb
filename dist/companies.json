@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-01-27T09:19:06.944Z",
+    "timeUpdated": "2023-02-06T12:30:37.614Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11451,10 +11451,25 @@
             "websiteUrl": "http://www.zypmedia.com/",
             "description": "ZypLink connects local media companies, advertising agencies and advertisers with the widest array of premium video and display impressions across desktop, mobile and connected TVs. ZypLink applies advanced geographic, demographic, contextual, behavioral and other targeting utilizing the best 3rd party data sources, proprietary 1st party data collected and segmented by ZypMedia, and 1st data supplied by advertisers (when available)."
         },
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "websiteUrl": "https://www.solaredge.com/",
+            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
+        },
+        "netflix": {
+            "name": "Netflix",
+            "websiteUrl": "https://www.netflix.com/",
+            "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
+        },
         "vk": {
             "name": "VK",
             "websiteUrl": "https://vk.company",
             "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet."
+        },
+        "showrss": {
+            "name": "showRSS",
+            "websiteUrl": "https://showrss.info/",
+            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
         }
     }
 }

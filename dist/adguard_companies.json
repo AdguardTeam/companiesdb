@@ -56,6 +56,16 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "websiteUrl": "https://www.solaredge.com/",
+            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
+        },
+        "netflix": {
+            "name": "Netflix",
+            "websiteUrl": "https://www.netflix.com/",
+            "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
+        },
         "vk": {
             "name": "VK",
             "websiteUrl": "https://vk.company",
@@ -65,6 +75,11 @@
             "name": "Snap Inc.",
             "websiteUrl": "https://www.snapchat.com/",
             "description": "Snap Inc. is a camera company.\\n\\nWe believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.\\nOur products empower people to express themselves, live in the moment, learn about the world, and have fun together."
+        },
+        "showrss": {
+            "name": "showRSS",
+            "websiteUrl": "https://showrss.info/",
+            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
         }
     }
 }

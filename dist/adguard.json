@@ -15,6 +15,8 @@
         "11": "unknown",
         "12": "extensions",
         "13": "email",
+        "14": "consent",
+        "15": "telemetry",
         "101": "mobile_analytics"
     },
     "trackers": {
@@ -48,6 +50,12 @@
             "url": "https://crashlytics.com/",
             "companyId": null
         },
+        "showrss": {
+            "name": "showRSS",
+            "categoryId": 8,
+            "url": "https://showrss.info/",
+            "companyId": "showrss"
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -59,6 +67,12 @@
             "categoryId": 101,
             "url": "https://hockeyapp.net/",
             "companyId": null
+        },
+        "google_trust_services": {
+            "name": "Google Trust Services",
+            "categoryId": 5,
+            "url": "https://pki.goog/",
+            "companyId": "google"
         },
         "firebase": {
             "name": "Firebase",
@@ -96,6 +110,18 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "categoryId": 8,
+            "url": "https://www.solaredge.com/",
+            "companyId": "solaredge"
+        },
+        "outlook": {
+            "name": "Microsoft Outlook",
+            "categoryId": 13,
+            "url": "https://outlook.live.com/",
+            "companyId": "microsoft"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -122,9 +148,9 @@
         },
         "netflix": {
             "name": "Netflix",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://www.netflix.com/",
-            "companyId": null
+            "companyId": "netflix"
         },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
@@ -143,9 +169,28 @@
             "categoryId": 7,
             "url": "http://mail.ru/",
             "companyId": "vk"
+        },
+        "vk.com": {
+            "name": "Vk.com",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte": {
+            "name": "VKontakte",
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
+        },
+        "vkontakte_widgets": {
+            "name": "VKontakte Widgets",
+            "categoryId": 7,
+            "url": "https://dev.vk.com/",
+            "companyId": "vk"
         }
     },
     "trackerDomains": {
+        "nflximg.com": "netflix",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
@@ -155,7 +200,9 @@
         "icloud.com": "apple",
         "mzstatic.com": "apple",
         "iadsdk.apple.com": "apple_ads",
+        "showrss.info": "showrss",
         "graph.facebook.com": "facebook_audience",
+        "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
         "flurry.com": "flurry",
         "hockeyapp.net": "hockeyapp",
@@ -168,6 +215,9 @@
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
         "azure.com": "azure",
-        "bttn.io": "button"
+        "live.com": "outlook",
+        "hotmail.com": "outlook",
+        "bttn.io": "button",
+        "pki.goog":"google_trust_services"
     }
 }
