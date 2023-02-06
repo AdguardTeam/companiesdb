@@ -50,6 +50,12 @@
             "url": "https://crashlytics.com/",
             "companyId": null
         },
+        "showrss": {
+            "name": "showRSS",
+            "categoryId": 8,
+            "url": "https://showrss.info/",
+            "companyId": "showrss"
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -142,9 +148,9 @@
         },
         "netflix": {
             "name": "Netflix",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://www.netflix.com/",
-            "companyId": null
+            "companyId": "netflix"
         },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
@@ -184,6 +190,7 @@
         }
     },
     "trackerDomains": {
+        "nflximg.com": "netflix",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
@@ -193,6 +200,7 @@
         "icloud.com": "apple",
         "mzstatic.com": "apple",
         "iadsdk.apple.com": "apple_ads",
+        "showrss.info": "showrss",
         "graph.facebook.com": "facebook_audience",
         "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
