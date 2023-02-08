@@ -116,6 +116,12 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "qualcomm": {
+            "name": "Qualcomm",
+            "categoryId": 8,
+            "url": "https://www.qualcomm.com/",
+            "companyId": "qualcomm"
+        },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
             "categoryId": 8,
@@ -234,6 +240,8 @@
         "live.com": "outlook",
         "hotmail.com": "outlook",
         "bttn.io": "button",
-        "pki.goog":"google_trust_services"
+        "pki.goog":"google_trust_services",
+        "xtracloud.net": "qualcomm",
+        "qualcomm.com": "qualcomm"
     }
 }
