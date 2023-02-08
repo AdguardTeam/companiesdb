@@ -71,6 +71,11 @@
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
         },
+        "reddit": {
+            "name": "Reddit, Inc.",
+            "websiteUrl": "https://www.reddit.com",
+            "description": "\\\"reddit is a source for what's new and popular on the web. Users like you provide all of the content and decide, through voting, what's good and what's junk.\\\""
+        },
         "vk": {
             "name": "VK",
             "websiteUrl": "https://vk.company",
