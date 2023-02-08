@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-08T09:25:52.551Z",
+    "timeUpdated": "2023-02-08T14:42:28.917Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11456,6 +11456,11 @@
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
         },
+        "qualcomm": {
+            "name": "Qualcomm",
+            "websiteUrl": "https://www.qualcomm.com/",
+            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."
+        },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
@@ -11475,6 +11480,11 @@
             "name": "showRSS",
             "websiteUrl": "https://showrss.info/",
             "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
+        },
+        "element": {
+            "name": "Element",
+            "websiteUrl": "https://element.io/",
+            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
         }
     }
 }
