@@ -61,6 +61,11 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "qualcomm": {
+            "name": "Qualcomm",
+            "websiteUrl": "https://www.qualcomm.com/",
+            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."    
+        },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
