@@ -194,6 +194,12 @@
             "url": "http://mail.ru/",
             "companyId": "vk"
         },
+        "matrix": {
+            "name": "Matrix",
+            "categoryId": 5,
+            "url": "https://matrix.org/",
+            "companyId": "matrix"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -233,6 +239,7 @@
         "aaplimg.com": "apple",
         "icloud.com": "apple",
         "mzstatic.com": "apple",
+        "matrix.org": "matrix",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",

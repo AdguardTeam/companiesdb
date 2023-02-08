@@ -61,6 +61,11 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "matrix": {
+            "name": "Matrix",
+            "websiteUrl": "https://matrix.org/",
+            "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations."
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "websiteUrl": "https://www.qualcomm.com/",
