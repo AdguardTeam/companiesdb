@@ -128,6 +128,12 @@
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge"
         },
+        "element": {
+            "name": "Element",
+            "categoryId": 7,
+            "url": "https://element.io/",
+            "companyId": "element"
+        },
         "outlook": {
             "name": "Microsoft Outlook",
             "categoryId": 13,
@@ -211,6 +217,8 @@
         "adguardvpn.com": "adguard",
         "adguard-vpn.online": "adguard",
         "nflximg.com": "netflix",
+        "element.io": "element",
+        "riot.im": "element",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
