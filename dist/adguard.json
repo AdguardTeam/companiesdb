@@ -213,6 +213,7 @@
         "aaplimg.com": "apple",
         "icloud.com": "apple",
         "mzstatic.com": "apple",
+        "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
         "graph.facebook.com": "facebook_audience",
