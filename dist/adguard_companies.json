@@ -86,6 +86,11 @@
             "websiteUrl": "https://vk.company",
             "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet."
         },
+        "snap_technologies": {
+            "name": "Snap Inc.",
+            "websiteUrl": "https://www.snapchat.com/",
+            "description": "Snap Inc. is a camera company.\\n\\nWe believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.\\nOur products empower people to express themselves, live in the moment, learn about the world, and have fun together."
+        },
         "showrss": {
             "name": "showRSS",
             "websiteUrl": "https://showrss.info/",
