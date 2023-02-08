@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-08T14:43:28.059Z",
+    "timeUpdated": "2023-02-08T17:21:42.018Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11455,6 +11455,11 @@
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
+        },
+        "matrix": {
+            "name": "Matrix",
+            "websiteUrl": "https://matrix.org/",
+            "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations."
         },
         "qualcomm": {
             "name": "Qualcomm",
