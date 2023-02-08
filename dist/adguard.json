@@ -20,6 +20,12 @@
         "101": "mobile_analytics"
     },
     "trackers": {
+        "slack": {
+            "name": "Slack",
+            "categoryId": 8,
+            "url": "https://www.slack.com/",
+            "companyId": "salesforce"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -220,6 +226,10 @@
         }
     },
     "trackerDomains": {
+        "slack.com": "slack",
+        "slackb.com": "slack",
+        "slack-edge.com": "slack",
+        "slack-imgs.com": "slack",
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
