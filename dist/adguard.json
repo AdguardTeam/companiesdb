@@ -158,6 +158,12 @@
             "url": "https://www.netflix.com/",
             "companyId": "netflix"
         },
+        "plex": {
+            "name": "Plex",
+            "categoryId": 0,
+            "url": "https://www.plex.tv/",
+            "companyId": "plex"
+        },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
@@ -226,6 +232,8 @@
         "appmetrica.yandex.com": "yandex_appmetrica",
         "adjust.com": "adjust",
         "mobileapptracking.com": "branch",
+        "plex.tv": "plex",
+        "plex.direct": "plex",
         "edgecastcdn.net": "markmonitor",
         "appcenter.ms": "appcenter",
         "unityads.unity3d.com": "unity_ads",
