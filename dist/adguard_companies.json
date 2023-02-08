@@ -85,6 +85,11 @@
             "name": "showRSS",
             "websiteUrl": "https://showrss.info/",
             "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
+        },
+        "element": {
+            "name": "Element",
+            "websiteUrl": "https://element.io/",
+            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
         }
     }
 }
