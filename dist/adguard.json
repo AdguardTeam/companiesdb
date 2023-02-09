@@ -164,6 +164,12 @@
             "url": "https://www.usebutton.com/",
             "companyId": null
         },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "categoryId": 5,
+            "url": "https://letsencrypt.org/",
+            "companyId": "lets_encrypt"
+        },
         "netflix": {
             "name": "Netflix",
             "categoryId": 0,
@@ -252,6 +258,8 @@
         "appsflyer.com": "appsflyer",
         "appmetrica.yandex.com": "yandex_appmetrica",
         "adjust.com": "adjust",
+        "letsencrypt.org": "lets_encrypt",
+        "lencr.org": "lets_encrypt",
         "mobileapptracking.com": "branch",
         "plex.tv": "plex",
         "plex.direct": "plex",

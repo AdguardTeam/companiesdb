@@ -51,6 +51,11 @@
             "websiteUrl": "https://branch.io/",
             "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
         },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "websiteUrl": "https://letsencrypt.org/",
+            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
+        },
         "markmonitor": {
             "name": "MarkMonitor",
             "websiteUrl": "https://www.markmonitor.com/",
