@@ -145,7 +145,7 @@ function buildCompanies(whotracksmeCompanies) {
     consola.info(`Reading ${COMPANIES_INPUT_PATH}`);
     const companies = JSON.parse(fs.readFileSync(COMPANIES_INPUT_PATH).toString());
 
-    // Copy whotrackme companies and merge with adGuard companies
+    // Copy whotrackme companies and merge with AdGuard companies.
     companiesData.companies = whotracksmeCompanies;
 
     for (const [id, company] of Object.entries(companies.companies)) {
