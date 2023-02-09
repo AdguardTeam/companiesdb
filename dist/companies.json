@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-08T17:21:42.018Z",
+    "timeUpdated": "2023-02-09T10:10:09.396Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11455,6 +11455,11 @@
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
+        },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "websiteUrl": "https://letsencrypt.org/",
+            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
         },
         "matrix": {
             "name": "Matrix",
