@@ -28,11 +28,11 @@ Here are the files that you can change.
 **Output**
 
 - `dist/trackers.json` - trackers data json file. Combined data from two files:
-  `source/adguard.json` and `dist/whotracksme.json`.
+  `source/trackers.json` and `dist/whotracksme.json`.
 - `dist/whotrackme.json` - trackers data json file from `Whotracks.me`.
 - `dist/companies.json` - companies data json file. This file contains companies
-  list from `Whotracks.me` merged with AdGuard companies
-  from `adguard_companies.json`.
+  list from `Whotracks.me` merged with AdGuard companies from
+  `source/companies.json`.
 - `dist/vpn_services.json` - just a copy of `source/vpn_services.json`.
 
 ### How to build trackers data
