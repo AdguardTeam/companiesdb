@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 const fs = require('fs');
 const sqlite3 = require('sqlite3').verbose();
 const consola = require('consola');
@@ -5,127 +6,250 @@ const consola = require('consola');
 // Needs to be downloaded prior to running the script:
 // aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
 const INPUT_SQL_PATH = 'trackerdb.sql';
-const ADG_COMPANIES_INPUT_PATH = 'dist/adguard_companies.json';
+const COMPANIES_INPUT_PATH = 'source/companies.json';
+const TRACKERS_INPUT_PATH = 'source/trackers.json';
+const VPN_SERVICES_INPUT_PATH = 'source/vpn_services.json';
 
-const OUTPUT_PATH = 'dist/whotracksme.json';
+const WHOTRACKSME_OUTPUT_PATH = 'dist/whotracksme.json';
 const COMPANIES_OUTPUT_PATH = 'dist/companies.json';
+const TRACKERS_OUTPUT_PATH = 'dist/trackers.json';
+const VPN_SERVICES_OUTPUT_PATH = 'dist/vpn_services.json';
 
-async function runScript() {
-    consola.info(`Reading ${INPUT_SQL_PATH}`);
-    const trackersDbSql = fs.readFileSync(INPUT_SQL_PATH).toString();
-    consola.info(`Reading ${ADG_COMPANIES_INPUT_PATH}`);
-    const adGuardCompanies = JSON.parse(fs.readFileSync(ADG_COMPANIES_INPUT_PATH).toString());
+/**
+ * Converts the WhoTracksMe database to the JSON format.
+ */
+function convertWhotracksmeDB() {
+    return new Promise((resolve, reject) => {
+        try {
+            consola.info(`Reading ${INPUT_SQL_PATH}`);
+            const trackersDbSql = fs.readFileSync(INPUT_SQL_PATH).toString();
 
-    const transformToSqlite = (sql) => {
-        let sqlFixed = sql.trim();
+            const transformToSqlite = (sql) => {
+                let sqlFixed = sql.trim();
 
-        if (sqlFixed.indexOf('CREATE TABLE') >= 0) {
-            sqlFixed = sqlFixed.replace(/UNIQUE/g, '');
+                if (sqlFixed.indexOf('CREATE TABLE') >= 0) {
+                    sqlFixed = sqlFixed.replace(/UNIQUE/g, '');
+                }
+
+                return sqlFixed;
+            };
+
+            const whotracksme = {
+                timeUpdated: new Date().toISOString(),
+                categories: {},
+                trackers: {},
+                trackerDomains: {},
+            };
+
+            const whotracksmeCompanies = {};
+
+            consola.info('Initializing the in-memory trackers database');
+            const db = new sqlite3.Database(':memory:');
+            db.serialize(() => {
+                trackersDbSql.split(/;\s*$/gm).forEach((sql) => {
+                    const sqlFixed = transformToSqlite(sql);
+                    db.run(sqlFixed, () => { });
+                });
+
+                db.each('SELECT * FROM categories', (err, row) => {
+                    if (err) {
+                        reject(new Error(`Error while reading categories: ${err}`));
+                        return;
+                    }
+
+                    whotracksme.categories[row.id] = row.name;
+                });
+
+                const companies = {};
+                db.each('SELECT * FROM companies', (err, row) => {
+                    if (err) {
+                        reject(new Error(`Error while reading companies: ${err}`));
+                        return;
+                    }
+
+                    companies[row.id] = {
+                        id: row.id,
+                        name: row.name,
+                        website_url: row.website_url,
+                    };
+
+                    whotracksmeCompanies[row.id] = {
+                        name: row.name,
+                        websiteUrl: row.website_url,
+                        description: row.description,
+                    };
+                });
+
+                db.each('SELECT * FROM trackers', (err, row) => {
+                    if (err) {
+                        reject(new Error(`Error while reading trackers: ${err}`));
+                        return;
+                    }
+
+                    const company = companies[row.company_id];
+                    let url = row.website_url;
+                    if (!url && company) {
+                        url = company.website_url;
+                    }
+
+                    whotracksme.trackers[row.id] = {
+                        name: row.name,
+                        categoryId: row.category_id,
+                        url,
+                        companyId: row.company_id,
+                    };
+                });
+
+                db.each('SELECT * FROM tracker_domains', (err, row) => {
+                    if (err) {
+                        reject(new Error(`Error while reading tracker_domains: ${err}`));
+                        return;
+                    }
+
+                    whotracksme.trackerDomains[row.domain] = row.tracker;
+                });
+            });
+
+            db.close((err) => {
+                if (err) {
+                    reject(new Error(`Error while closing the database: ${err}`));
+                    return;
+                }
+
+                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4));
+
+                consola.info(`Finished converting the WhoTracksMe database to ${WHOTRACKSME_OUTPUT_PATH}`);
+
+                resolve({
+                    whotracksme,
+                    whotracksmeCompanies,
+                });
+            });
+        } catch (ex) {
+            reject(new Error(`Error while converting the WhoTracksMe database: ${ex}`));
         }
+    });
+}
 
-        return sqlFixed;
-    };
-
-    const whotracksme = {
-        timeUpdated: new Date().toISOString(),
-        categories: {},
-        trackers: {},
-        trackerDomains: {},
-    };
-
-    const whotracksmeCompanies = {};
+/**
+ * Builds the companies JSON file.
+ */
+function buildCompanies(whotracksmeCompanies) {
+    consola.info('Start building the companies JSON file');
 
     const companiesData = {
         timeUpdated: new Date().toISOString(),
         companies: {},
     };
 
-    consola.info('Initializing the in-memory trackers database');
-    const db = new sqlite3.Database(':memory:');
-    db.serialize(() => {
-        trackersDbSql.split(/;\s*$/gm).forEach((sql) => {
-            const sqlFixed = transformToSqlite(sql);
-            db.run(sqlFixed, () => { });
-        });
+    consola.info(`Reading ${COMPANIES_INPUT_PATH}`);
+    const companies = JSON.parse(fs.readFileSync(COMPANIES_INPUT_PATH).toString());
 
-        db.each('SELECT * FROM categories', (err, row) => {
-            if (err) {
-                consola.error(err);
-                return;
-            }
+    // Copy whotrackme companies and merge with adGuard companies
+    companiesData.companies = whotracksmeCompanies;
 
-            whotracksme.categories[row.id] = row.name;
-        });
+    for (const [id, company] of Object.entries(companies.companies)) {
+        // Overriding whotracksme info with the companies defined in the source
+        // companies file.
+        // Also, indicate, that the company came from AdGuard data.
+        company.source = 'AdGuard';
+        companiesData.companies[id] = company;
+    }
 
-        const companies = {};
-        db.each('SELECT * FROM companies', (err, row) => {
-            if (err) {
-                consola.error(err);
-                return;
-            }
+    fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4));
+    consola.info(`Finished building the companies JSON file: ${COMPANIES_OUTPUT_PATH}`);
 
-            companies[row.id] = {
-                id: row.id,
-                name: row.name,
-                website_url: row.website_url,
-            };
-
-            whotracksmeCompanies[row.id] = {
-                name: row.name,
-                websiteUrl: row.website_url,
-                description: row.description,
-            };
-        });
-
-        db.each('SELECT * FROM trackers', (err, row) => {
-            if (err) {
-                consola.error(err);
-                return;
-            }
-
-            const company = companies[row.company_id];
-            let url = row.website_url;
-            if (!url && company) {
-                url = company.website_url;
-            }
-
-            whotracksme.trackers[row.id] = {
-                name: row.name,
-                categoryId: row.category_id,
-                url,
-                companyId: row.company_id,
-            };
-        });
-
-        db.each('SELECT * FROM tracker_domains', (err, row) => {
-            if (err) {
-                consola.error(err);
-                return;
-            }
-
-            whotracksme.trackerDomains[row.domain] = row.tracker;
-        });
-    });
-
-    db.close((err) => {
-        if (err) {
-            consola.error(err);
-            return;
-        }
-
-        // Copy whotrackme companies and merge with adGuard companies
-        companiesData.companies = whotracksmeCompanies;
-        // eslint-disable-next-line no-restricted-syntax
-        for (const [id, company] of Object.entries(adGuardCompanies.companies)) {
-            companiesData.companies[id] = company;
-        }
-
-        fs.writeFileSync(OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4));
-        consola.info(`Trackers json file has been updated: ${OUTPUT_PATH}`);
-
-        fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4));
-        consola.info(`Companies json file has been updated: ${COMPANIES_OUTPUT_PATH}`);
-    });
+    return companiesData;
 }
 
-runScript();
+/**
+ * Merges whotracksme trackers database with the AdGuard trackers database.
+ *
+ * @param {Object} whotracksmeTrackers whotracksme trackers database.
+ * @param {Object} companies the map with companies (merged whotracksme+adguard).
+ */
+function buildTrackers(whotracksmeTrackers, companies) {
+    consola.info('Start building the trackers JSON file');
+
+    const trackersData = {
+        timeUpdated: new Date().toISOString(),
+        categories: {},
+        trackers: {},
+        trackerDomains: {},
+    };
+
+    const trackers = JSON.parse(fs.readFileSync(TRACKERS_INPUT_PATH).toString());
+
+    // First, we merge the categories from both AdGuard and WhoTracksMe.
+    trackersData.categories = whotracksmeTrackers.categories;
+    for (const [id, category] of Object.entries(trackers.categories)) {
+        trackersData.categories[id] = category;
+    }
+
+    // Second, we merge the trackers data and override the data from WhoTracksMe.
+    trackersData.trackers = whotracksmeTrackers.trackers;
+    for (const [id, tracker] of Object.entries(trackers.trackers)) {
+        // Indicate, that the tracker data came from AdGuard.
+        tracker.source = 'AdGuard';
+
+        // Override the tracker data in the final database.
+        trackersData.trackers[id] = tracker;
+    }
+
+    // Validate the company information and exit immediately if it's wrong.
+    for (const [id, tracker] of Object.entries(trackersData.trackers)) {
+        if (tracker.companyId === null) {
+            consola.warn(`Tracker ${id} has no company ID, consider adding it`);
+        } else if (!companies[tracker.companyId]) {
+            throw new Error(`Tracker ${id} has an invalid company ID: ${tracker.companyId}`);
+        }
+    }
+
+    // Third, merge the "tracker domains" data.
+    trackersData.trackerDomains = whotracksmeTrackers.trackerDomains;
+    for (const [domain, trackerId] of Object.entries(trackers.trackerDomains)) {
+        trackersData.trackerDomains[domain] = trackerId;
+    }
+
+    // Validate the tracker domains and exit immediately if it's wrong.
+    for (const [domain, trackerId] of Object.entries(trackersData.trackerDomains)) {
+        // Make sure that the tracker ID is valid.
+        if (!trackersData.trackers[trackerId]) {
+            throw new Error(`Tracker domain ${domain} has an invalid tracker ID: ${trackerId}`);
+        }
+    }
+
+    fs.writeFileSync(TRACKERS_OUTPUT_PATH, JSON.stringify(trackersData, 0, 4));
+    consola.info(`Finished building the trackers JSON file: ${TRACKERS_OUTPUT_PATH}`);
+}
+
+/**
+ * Builds the VPN services JSON file.
+ * Effectively just copies it from sources.
+ */
+function buildVpnServices() {
+    consola.info('Start building the VPN services JSON file');
+
+    const vpnServices = JSON.parse(fs.readFileSync(VPN_SERVICES_INPUT_PATH).toString());
+
+    fs.writeFileSync(VPN_SERVICES_OUTPUT_PATH, JSON.stringify(vpnServices, 0, 4));
+
+    consola.info(`Finished building the VPN services JSON file: ${VPN_SERVICES_OUTPUT_PATH}`);
+}
+
+(async () => {
+    try {
+        consola.info('Start building the companies DB');
+
+        const whotracksmeDB = await convertWhotracksmeDB();
+        const companiesData = buildCompanies(whotracksmeDB.whotracksmeCompanies);
+        buildTrackers(whotracksmeDB.whotracksme, companiesData.companies);
+        buildVpnServices();
+
+        consola.info('Finished building the companies DB');
+    } catch (ex) {
+        consola.error(`Error while building the companies DB: ${ex}`);
+
+        process.exit(1);
+    }
+})();
