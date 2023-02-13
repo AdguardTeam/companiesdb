@@ -3,6 +3,7 @@ name: Build
 on:
   push:
     branches: [main]
+  pull_request:
   schedule:
     - cron: "0 0 */7 * *" # Every week
 
@@ -44,7 +45,7 @@ jobs:
           yarn convert
 
       - name: Deploy
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.repository == 'AdguardTeam/companiesdb'
         run: |
           git config --global user.name 'GH action'
           git config --global user.email 'devteam@adguard.com'
