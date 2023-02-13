@@ -134,17 +134,17 @@
             "url": "https://element.io/",
             "companyId": "element"
         },
-        "outlook": {
-            "name": "Microsoft Outlook",
-            "categoryId": 13,
-            "url": "https://outlook.live.com/",
-            "companyId": "microsoft"
-        },
         "oppo": {
             "name": "OPPO",
             "categoryId": 101,
             "url": "https://www.oppo.com/",
             "companyId": "oppo"
+        },
+        "outlook": {
+            "name": "Microsoft Outlook",
+            "categoryId": 13,
+            "url": "https://outlook.live.com/",
+            "companyId": "microsoft"
         },
         "appcenter": {
             "name": "Microsoft App Center",
@@ -228,6 +228,8 @@
         "adguard-vpn.com": "adguard",
         "adguardvpn.com": "adguard",
         "adguard-vpn.online": "adguard",
+        "allawnos.com": "oppo",
+        "allawntech.com": "oppo",
         "nflximg.com": "netflix",
         "element.io": "element",
         "riot.im": "element",
@@ -252,8 +254,6 @@
         "appmetrica.yandex.com": "yandex_appmetrica",
         "adjust.com": "adjust",
         "mobileapptracking.com": "branch",
-        "allawnos.com": "oppo",
-        "allawntech.com": "oppo",
         "plex.tv": "plex",
         "plex.direct": "plex",
         "edgecastcdn.net": "markmonitor",

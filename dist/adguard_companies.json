@@ -11,11 +11,6 @@
             "websiteUrl": "https://www.akamai.com/",
             "description": "Akamai is a cloud based content delivery network. They offer application performance services, solutions for digital media and software distribution and storage, online advertising services and other specialized/ Internet-based offerings."
         },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
-        },
         "apple": {
             "name": "Apple",
             "websiteUrl": "http://www.apple.com/",
@@ -65,6 +60,11 @@
             "name": "Microsoft",
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
+        },
+        "oppo": {
+            "name": "OPPO",
+            "websiteUrl": "https://www.oppo.com/",
+            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
         },
         "qualcomm": {
             "name": "Qualcomm",
