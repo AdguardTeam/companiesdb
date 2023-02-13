@@ -20,6 +20,12 @@
         "101": "mobile_analytics"
     },
     "trackers": {
+        "slack": {
+            "name": "Slack",
+            "categoryId": 8,
+            "url": "https://www.slack.com/",
+            "companyId": "salesforce"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -170,6 +176,12 @@
             "url": "https://www.usebutton.com/",
             "companyId": null
         },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "categoryId": 5,
+            "url": "https://letsencrypt.org/",
+            "companyId": "lets_encrypt"
+        },
         "netflix": {
             "name": "Netflix",
             "categoryId": 0,
@@ -200,6 +212,12 @@
             "url": "http://mail.ru/",
             "companyId": "vk"
         },
+        "matrix": {
+            "name": "Matrix",
+            "categoryId": 5,
+            "url": "https://matrix.org/",
+            "companyId": "matrix"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -220,6 +238,10 @@
         }
     },
     "trackerDomains": {
+        "slack.com": "slack",
+        "slackb.com": "slack",
+        "slack-edge.com": "slack",
+        "slack-imgs.com": "slack",
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
@@ -240,7 +262,9 @@
         "apple-dns.net": "apple",
         "aaplimg.com": "apple",
         "icloud.com": "apple",
+        "icloud-content.com": "apple",
         "mzstatic.com": "apple",
+        "matrix.org": "matrix",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
@@ -253,6 +277,8 @@
         "appsflyer.com": "appsflyer",
         "appmetrica.yandex.com": "yandex_appmetrica",
         "adjust.com": "adjust",
+        "letsencrypt.org": "lets_encrypt",
+        "lencr.org": "lets_encrypt",
         "mobileapptracking.com": "branch",
         "plex.tv": "plex",
         "plex.direct": "plex",

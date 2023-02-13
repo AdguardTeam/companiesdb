@@ -51,6 +51,11 @@
             "websiteUrl": "https://branch.io/",
             "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
         },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "websiteUrl": "https://letsencrypt.org/",
+            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
+        },
         "markmonitor": {
             "name": "MarkMonitor",
             "websiteUrl": "https://www.markmonitor.com/",
@@ -66,10 +71,15 @@
             "websiteUrl": "https://www.oppo.com/",
             "description": "OPPO is a Chinese consumer electronics and mobile communications company."
         },
+        "matrix": {
+            "name": "Matrix",
+            "websiteUrl": "https://matrix.org/",
+            "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations."
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "websiteUrl": "https://www.qualcomm.com/",
-            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."    
+            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."
         },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
