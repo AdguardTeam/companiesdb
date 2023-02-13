@@ -140,6 +140,12 @@
             "url": "https://element.io/",
             "companyId": "element"
         },
+        "oppo": {
+            "name": "OPPO",
+            "categoryId": 101,
+            "url": "https://www.oppo.com/",
+            "companyId": "oppo"
+        },
         "outlook": {
             "name": "Microsoft Outlook",
             "categoryId": 13,
@@ -244,6 +250,8 @@
         "adguard-vpn.com": "adguard",
         "adguardvpn.com": "adguard",
         "adguard-vpn.online": "adguard",
+        "allawnos.com": "oppo",
+        "allawntech.com": "oppo",
         "nflximg.com": "netflix",
         "element.io": "element",
         "riot.im": "element",
