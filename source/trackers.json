@@ -272,6 +272,7 @@
         "graph.facebook.com": "facebook_audience",
         "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
+        "cloudflare-dns.com": "cloudflare",
         "flurry.com": "flurry",
         "hockeyapp.net": "hockeyapp",
         "app-measurement.com": "firebase",
