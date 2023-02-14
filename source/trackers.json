@@ -188,6 +188,12 @@
             "url": "https://www.netflix.com/",
             "companyId": "netflix"
         },
+        "kik": {
+            "name": "Kik",
+            "categoryId": 7,
+            "url": "https://kik.com/",
+            "companyId": "kik"
+        },
         "plex": {
             "name": "Plex",
             "categoryId": 0,
@@ -264,6 +270,9 @@
         "icloud.com": "apple",
         "itunes.com": "apple",
         "icloud-content.com": "apple",
+        "kik.com": "kik",
+        "apikik.com": "kik",
+        "kik-live.com": "kik",
         "mzstatic.com": "apple",
         "matrix.org": "matrix",
         "l-msedge.net": "microsoft",
