@@ -271,6 +271,8 @@
         "apple-cloudkit.com": "apple",
         "apzones.com": "apple",
         "apple-livephotoskit.com": "apple",
+        "safebrowsing.apple": "apple",
+        "safebrowsing.g.applimg.com": "apple",
         "matrix.org": "matrix",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
