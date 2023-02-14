@@ -275,6 +275,7 @@
         "safebrowsing.apple": "apple",
         "safebrowsing.g.applimg.com": "apple",
         "matrix.org": "matrix",
+        "phicdn.net": "digicert_trust_seal",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
