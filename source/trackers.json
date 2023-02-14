@@ -255,6 +255,8 @@
         "nflximg.com": "netflix",
         "element.io": "element",
         "riot.im": "element",
+        "gvt1.com": "google_servers",
+        "gvt2.com": "google_servers",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "apple.com": "apple",
