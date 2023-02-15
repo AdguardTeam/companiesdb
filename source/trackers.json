@@ -140,6 +140,12 @@
             "url": "https://element.io/",
             "companyId": "element"
         },
+        "oztam": {
+            "name": "OzTAM",
+            "categoryId": 8,
+            "url": "https://oztam.com.au/",
+            "companyId": "oztam"
+        },
         "oppo": {
             "name": "OPPO",
             "categoryId": 101,
@@ -294,6 +300,7 @@
         "adjust.com": "adjust",
         "letsencrypt.org": "lets_encrypt",
         "lencr.org": "lets_encrypt",
+        "oztam": "oztam.com.au",
         "mobileapptracking.com": "branch",
         "plex.tv": "plex",
         "plex.direct": "plex",
