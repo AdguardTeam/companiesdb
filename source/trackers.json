@@ -134,6 +134,12 @@
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge"
         },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "categoryId": 5,
+            "url": "https://www.solaredge.com/",
+            "companyId": "sectigo"
+        },
         "element": {
             "name": "Element",
             "categoryId": 7,
@@ -282,6 +288,7 @@
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
+        "sectigo.com": "sectigo",
         "graph.facebook.com": "facebook_audience",
         "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
