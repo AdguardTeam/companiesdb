@@ -66,6 +66,11 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "telstra": {
+            "name": "Telstra",
+            "websiteUrl": "https://www.telstra.com.au/",
+            "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
+        },
         "oppo": {
             "name": "OPPO",
             "websiteUrl": "https://www.oppo.com/",
