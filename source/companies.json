@@ -115,6 +115,11 @@
             "name": "Element",
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
+        },
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "websiteUrl": "https://medialab.la/",
+            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands."
         }
     }
 }

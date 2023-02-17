@@ -122,6 +122,12 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "categoryId": 8,
+            "url": "https://medialab.la/",
+            "companyId": "medialab"
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "categoryId": 8,
@@ -292,6 +298,8 @@
         "safebrowsing.apple": "apple",
         "safebrowsing.g.applimg.com": "apple",
         "matrix.org": "matrix",
+        "medialab.la": "medialab",
+        "media-lab.ai": "medialab",
         "phicdn.net": "digicert_trust_seal",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
