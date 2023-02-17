@@ -21,6 +21,11 @@
             "websiteUrl": "https://www.facebook.com/",
             "description": "Facebook is an online social network accessible to anyone with an active email address. People use Facebook to keep up with friends, upload photos, share links and videos, and learn more about the people they meet."
         },
+        "whatsapp": {
+            "name": "WhatsApp",
+            "websiteUrl": "https://www.whatsapp.com/",
+            "description": "WhatsApp is an internationally available freeware, cross-platform, centralized instant messaging and voice-over-IP service."
+        },
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",

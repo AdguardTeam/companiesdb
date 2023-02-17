@@ -242,6 +242,12 @@
             "url": "https://matrix.org/",
             "companyId": "matrix"
         },
+        "whatsapp": {
+            "name": "WhatsApp",
+            "categoryId": 8,
+            "url": "https://www.whatsapp.com/",
+            "companyId": "whatsapp"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -262,6 +268,8 @@
         }
     },
     "trackerDomains": {
+        "whatsapp.net": "whatsapp",
+        "whatsapp.com": "whatsapp",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "slack.com": "slack",
