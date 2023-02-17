@@ -122,6 +122,12 @@
             "url": "https://www.markmonitor.com/",
             "companyId": "markmonitor"
         },
+        "telstra": {
+            "name": "Telstra",
+            "categoryId": 8,
+            "url": "https://www.telstra.com.au/",
+            "companyId": "telstra"
+        },
         "medialab": {
             "name": "MediaLab.AI Inc.",
             "categoryId": 8,
@@ -256,6 +262,8 @@
         }
     },
     "trackerDomains": {
+        "telstra.com.au": "telstra",
+        "telstra.com": "telstra",
         "slack.com": "slack",
         "slackb.com": "slack",
         "slack-edge.com": "slack",
