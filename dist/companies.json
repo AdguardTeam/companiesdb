@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-17T09:34:06.462Z",
+    "timeUpdated": "2023-02-17T09:37:32.678Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11476,6 +11476,12 @@
             "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
             "source": "AdGuard"
         },
+        "oztam": {
+            "name": "OzTAM",
+            "websiteUrl": "https://oztam.com.au/",
+            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television.",
+            "source": "AdGuard"
+        },
         "oppo": {
             "name": "OPPO",
             "websiteUrl": "https://www.oppo.com/",
@@ -11500,6 +11506,12 @@
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
             "source": "AdGuard"
         },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "websiteUrl": "https://sectigo.com/",
+            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security.",
+            "source": "AdGuard"
+        },
         "netflix": {
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
@@ -11522,6 +11534,12 @@
             "name": "Element",
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
+            "source": "AdGuard"
+        },
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "websiteUrl": "https://medialab.la/",
+            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands.",
             "source": "AdGuard"
         }
     }
