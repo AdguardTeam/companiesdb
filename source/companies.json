@@ -86,6 +86,11 @@
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
         },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "websiteUrl": "https://sectigo.com/",
+            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security."
+        },
         "netflix": {
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
