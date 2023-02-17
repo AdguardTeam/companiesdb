@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-17T09:37:32.689Z",
+    "timeUpdated": "2023-02-17T10:40:49.590Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19292,6 +19292,13 @@
             "companyId": "branch_metrics_inc",
             "source": "AdGuard"
         },
+        "telstra": {
+            "name": "Telstra",
+            "categoryId": 8,
+            "url": "https://www.telstra.com.au/",
+            "companyId": "telstra",
+            "source": "AdGuard"
+        },
         "medialab": {
             "name": "MediaLab.AI Inc.",
             "categoryId": 8,
@@ -23726,6 +23733,8 @@
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
         "extend.tv": "zypmedia",
+        "telstra.com.au": "telstra",
+        "telstra.com": "telstra",
         "slack.com": "slack",
         "slackb.com": "slack",
         "slack-edge.com": "slack",
