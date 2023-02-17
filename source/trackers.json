@@ -245,6 +245,7 @@
     },
     "trackerDomains": {
         "telstra.com.au": "telstra",
+        "telstra.com": "telstra",
         "slack.com": "slack",
         "slackb.com": "slack",
         "slack-edge.com": "slack",
