@@ -71,6 +71,11 @@
             "websiteUrl": "https://www.telstra.com.au/",
             "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
         },
+        "oztam": {
+            "name": "OzTAM",
+            "websiteUrl": "https://oztam.com.au/",
+            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television."
+        },
         "oppo": {
             "name": "OPPO",
             "websiteUrl": "https://www.oppo.com/",
@@ -90,6 +95,11 @@
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
+        },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "websiteUrl": "https://sectigo.com/",
+            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security."
         },
         "netflix": {
             "name": "Netflix",
@@ -120,6 +130,11 @@
             "name": "Element",
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
+        },
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "websiteUrl": "https://medialab.la/",
+            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands."
         }
     }
 }

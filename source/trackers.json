@@ -128,6 +128,12 @@
             "url": "https://www.telstra.com.au/",
             "companyId": "telstra"
         },
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "categoryId": 8,
+            "url": "https://medialab.la/",
+            "companyId": "medialab"
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "categoryId": 8,
@@ -140,11 +146,23 @@
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge"
         },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "categoryId": 5,
+            "url": "https://www.solaredge.com/",
+            "companyId": "sectigo"
+        },
         "element": {
             "name": "Element",
             "categoryId": 7,
             "url": "https://element.io/",
             "companyId": "element"
+        },
+        "oztam": {
+            "name": "OzTAM",
+            "categoryId": 8,
+            "url": "https://oztam.com.au/",
+            "companyId": "oztam"
         },
         "oppo": {
             "name": "OPPO",
@@ -250,6 +268,16 @@
         "slackb.com": "slack",
         "slack-edge.com": "slack",
         "slack-imgs.com": "slack",
+        "addlive.io": "snap",
+        "feelinsonice.com": "snap",
+        "sc-cdn.net": "snap",
+        "sc-corp.net": "snap",
+        "sc-gw.com": "snap",
+        "sc-jpl.com": "snap",
+        "sc-prod.net": "snap",
+        "snap-dev.net": "snap",
+        "snapads.com": "snap",
+        "snapkit.com": "snap",
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
@@ -258,6 +286,10 @@
         "adguard-vpn.com": "adguard",
         "adguardvpn.com": "adguard",
         "adguard-vpn.online": "adguard",
+        "oppomobile.com": "oppo",
+        "heytapmobi.com": "oppo",
+        "heytapmobile.com": "oppo",
+        "heytapdl.com": "oppo",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
         "nflximg.com": "netflix",
@@ -286,10 +318,13 @@
         "safebrowsing.apple": "apple",
         "safebrowsing.g.applimg.com": "apple",
         "matrix.org": "matrix",
+        "medialab.la": "medialab",
+        "media-lab.ai": "medialab",
         "phicdn.net": "digicert_trust_seal",
         "l-msedge.net": "microsoft",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
+        "sectigo.com": "sectigo",
         "graph.facebook.com": "facebook_audience",
         "solaredge.com": "solaredge",
         "crashlytics.com": "crashlytics",
@@ -302,6 +337,7 @@
         "adjust.com": "adjust",
         "letsencrypt.org": "lets_encrypt",
         "lencr.org": "lets_encrypt",
+        "oztam.com.au": "oztam",
         "mobileapptracking.com": "branch",
         "plex.tv": "plex",
         "plex.direct": "plex",
