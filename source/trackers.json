@@ -248,6 +248,12 @@
             "url": "https://matrix.org/",
             "companyId": "matrix"
         },
+        "ntppool": {
+            "name": "Network Time Protocol",
+            "categoryId": 5,
+            "url": "https://ntp.org/",
+            "companyId": "ntppool"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -349,6 +355,8 @@
         "lencr.org": "lets_encrypt",
         "oztam.com.au": "oztam",
         "mobileapptracking.com": "branch",
+        "ntp.org": "ntppool",
+        "ntppool.org": "ntppool",
         "plex.tv": "plex",
         "plex.direct": "plex",
         "edgecastcdn.net": "markmonitor",
