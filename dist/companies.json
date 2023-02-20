@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-17T10:40:49.578Z",
+    "timeUpdated": "2023-02-20T11:33:56.298Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11487,6 +11487,12 @@
             "name": "OPPO",
             "websiteUrl": "https://www.oppo.com/",
             "description": "OPPO is a Chinese consumer electronics and mobile communications company.",
+            "source": "AdGuard"
+        },
+        "kik": {
+            "name": "Kik",
+            "websiteUrl": "https://kik.com/",
+            "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems.",
             "source": "AdGuard"
         },
         "matrix": {
