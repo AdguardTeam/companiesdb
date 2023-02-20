@@ -50,11 +50,71 @@
             "url": "https://searchads.apple.com/",
             "companyId": "apple"
         },
+        "instagram_com": {
+            "name": "Instagram",
+            "categoryId": 8,
+            "url": "https://www.facebook.com/",
+            "companyId": "meta"
+        },
         "facebook_audience": {
             "name": "Facebook Audience Network",
             "categoryId": 4,
             "url": "https://www.facebook.com/business/products/audience-network",
-            "companyId": "facebook"
+            "companyId": "meta"
+        },
+        "facebook": {
+            "name": "Facebook",
+            "categoryId": 4,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
+        },
+        "facebook_beacon": {
+            "name": "Facebook Beacon",
+            "categoryId": 7,
+            "url": "http://www.facebook.com/beacon/faq.php",
+            "companyId": "meta"
+        },
+        "facebook_cdn": {
+            "name": "Facebook CDN",
+            "categoryId": 9,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
+        },
+        "facebook_connect": {
+            "name": "Facebook Connect",
+            "categoryId": 6,
+            "url": "https://developers.facebook.com/connect.php",
+            "companyId": "meta"
+        },
+        "facebook_conversion_tracking": {
+            "name": "Facebook Conversion Tracking",
+            "categoryId": 4,
+            "url": "http://www.facebook.com/",
+            "companyId": "meta"
+        },
+        "facebook_custom_audience": {
+            "name": "Facebook Custom Audience",
+            "categoryId": 4,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
+        },
+        "facebook_graph": {
+            "name": "Facebook Social Graph",
+            "categoryId": 7,
+            "url": "https://developers.facebook.com/docs/reference/api/",
+            "companyId": "meta"
+        },
+        "facebook_impressions": {
+            "name": "Facebook Impressions",
+            "categoryId": 4,
+            "url": "https://www.facebook.com/",
+            "companyId": "meta"
+        },
+        "facebook_social_plugins": {
+            "name": "Facebook Social Plugins",
+            "categoryId": 7,
+            "url": "https://developers.facebook.com/plugins",
+            "companyId": "meta"
         },
         "crashlytics": {
             "name": "Crashlytics",
@@ -246,7 +306,7 @@
             "name": "WhatsApp",
             "categoryId": 8,
             "url": "https://www.whatsapp.com/",
-            "companyId": "whatsapp"
+            "companyId": "meta"
         },
         "vk.com": {
             "name": "Vk.com",
