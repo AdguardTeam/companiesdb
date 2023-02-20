@@ -80,6 +80,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": null
         },
+        "gmail": {
+            "name": "Gmail",
+            "categoryId": 13,
+            "url": "https://mail.google.com/",
+            "companyId": "google"
+        },
         "google_trust_services": {
             "name": "Google Trust Services",
             "categoryId": 5,
@@ -362,6 +368,7 @@
         "bttn.io": "button",
         "pki.goog":"google_trust_services",
         "xtracloud.net": "qualcomm",
-        "qualcomm.com": "qualcomm"
+        "qualcomm.com": "qualcomm",
+        "gmail.com": "gmail"
     }
 }
