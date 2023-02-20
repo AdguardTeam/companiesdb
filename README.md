@@ -29,7 +29,7 @@ Here are the files that you can change.
 
 - `dist/trackers.json` - trackers data json file. Combined data from two files:
   `source/trackers.json` and `dist/whotracksme.json`.
-- `dist/whotrackme.json` - trackers data json file from `Whotracks.me`.
+- `dist/whotracksme.json` - trackers data json file from `Whotracks.me`.
 - `dist/companies.json` - companies data json file. This file contains companies
   list from `Whotracks.me` merged with AdGuard companies from
   `source/companies.json`.
@@ -44,11 +44,3 @@ aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
 yarn install
 yarn convert
 ```
-
-#### Output
-
-- `dist/adguard.json` - trackers data json file. We don't merge it with
-  `whotracksme.json`.
-- `dist/whotrackme.json` - trackers data json file.
-- `dist/companies.json` - companies data json file. This file contains companies
-  list merged with AdGuard companies from `adguard_companies.json`.
