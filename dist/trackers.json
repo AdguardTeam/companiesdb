@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-20T11:33:56.309Z",
+    "timeUpdated": "2023-02-20T11:54:02.833Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -23778,6 +23778,7 @@
         "gvt3.com": "google_servers",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
+        "akaquill.net": "akamai_technologies",
         "me.com": "apple",
         "apple.news": "apple",
         "apple-dns.net": "apple",
