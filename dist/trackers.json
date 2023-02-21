@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-21T06:58:50.925Z",
+    "timeUpdated": "2023-02-21T07:33:43.069Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19274,6 +19274,13 @@
             "companyId": null,
             "source": "AdGuard"
         },
+        "gmail": {
+            "name": "Gmail",
+            "categoryId": 13,
+            "url": "https://mail.google.com/",
+            "companyId": "google",
+            "source": "AdGuard"
+        },
         "google_trust_services": {
             "name": "Google Trust Services",
             "categoryId": 5,
@@ -23848,6 +23855,7 @@
         "bttn.io": "button",
         "pki.goog": "google_trust_services",
         "xtracloud.net": "qualcomm",
-        "qualcomm.com": "qualcomm"
+        "qualcomm.com": "qualcomm",
+        "gmail.com": "gmail"
     }
 }
