@@ -355,9 +355,44 @@
             "categoryId": 8,
             "url": "https://www.microsoft.com/en-us/edge",
             "companyId": "microsoft"
+        },
+        "windowsupdate": {
+            "name": "Windows Update",
+            "categoryId": 9,
+            "url": "https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2",
+            "companyId": "microsoft"
+        },
+        "windows_notifications": {
+            "name": "The Windows Push Notification Services",
+            "categoryId": 8,
+            "url": "https://learn.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview",
+            "companyId": "microsoft"
+        },
+        "azure_blob_storage": {
+            "name": "Azure Blob Storage",
+            "categoryId": 8,
+            "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
+            "companyId": "microsoft"
+        },
+        "windows_maps": {
+            "name": "Windows Maps",
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/store/apps/9wzdncrdtbvb",
+            "companyId": "microsoft"
+        },
+        "windows_time": {
+            "name": "Windows Time Service",
+            "categoryId": 8,
+            "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
+            "companyId": "microsoft"
         }
     },
     "trackerDomains": {
+        "windowsupdate.com": "windowsupdate",
+        "client.wns.windows.com": "windows_notifications",
+        "blob.core.windows.net": "azure_blob_storage",
+        "maps.windows.com": "windows_maps",
+        "time.windows.com": "windows_time",
         "whatsapp.net": "whatsapp",
         "whatsapp.com": "whatsapp",
         "telstra.com.au": "telstra",
