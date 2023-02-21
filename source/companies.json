@@ -16,6 +16,11 @@
             "websiteUrl": "http://www.apple.com/",
             "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers."
         },
+        "meta": {
+            "name": "Meta",
+            "websiteUrl": "https://www.meta.com/",
+            "description": "Meta builds technologies that help people connect, find communities and grow businesses."
+        },
         "facebook": {
             "name": "Facebook",
             "websiteUrl": "https://www.facebook.com/",
