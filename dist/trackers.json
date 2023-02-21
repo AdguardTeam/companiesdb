@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-21T07:37:44.721Z",
+    "timeUpdated": "2023-02-21T12:46:33.324Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19441,6 +19441,20 @@
             "url": "https://www.whatsapp.com/",
             "companyId": "meta",
             "source": "AdGuard"
+        },
+        "vscode": {
+            "name": "Visual Studio Code",
+            "categoryId": 8,
+            "url": "https://code.visualstudio.com/",
+            "companyId": "microsoft",
+            "source": "AdGuard"
+        },
+        "msedge": {
+            "name": "Microsoft Edge",
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/en-us/edge",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         }
     },
     "trackerDomains": {
@@ -23835,7 +23849,12 @@
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
         "phicdn.net": "digicert_trust_seal",
-        "l-msedge.net": "microsoft",
+        "e-msedge.net": "msedge",
+        "l-msedge.net": "msedge",
+        "exp-tas.com": "vscode",
+        "vscode-unpkg.net": "vscode",
+        "v0cdn.net": "vscode",
+        "vscode-cdn.net": "vscode",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
         "sectigo.com": "sectigo",
@@ -23861,6 +23880,7 @@
         "azure.com": "azure",
         "trafficmanager.net": "azure",
         "hotmail.com": "outlook",
+        "outlook.com": "outlook",
         "bttn.io": "button",
         "pki.goog": "google_trust_services",
         "xtracloud.net": "qualcomm",
