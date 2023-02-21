@@ -313,6 +313,7 @@
             "categoryId": 5,
             "url": "https://ntp.org/",
             "companyId": "ntppool"
+        },
         "whatsapp": {
             "name": "WhatsApp",
             "categoryId": 8,
