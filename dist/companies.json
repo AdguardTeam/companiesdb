@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-21T07:33:43.059Z",
+    "timeUpdated": "2023-02-21T07:37:44.707Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10606,7 +10606,7 @@
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",
-            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL,[9][10] and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc.",
+            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL, and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc.",
             "source": "AdGuard"
         },
         "vero": {
@@ -11547,6 +11547,12 @@
             "name": "Element",
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
+            "source": "AdGuard"
+        },
+        "ntppool": {
+            "name": "Network Time Protocol",
+            "websiteUrl": "https://www.ntp.org/",
+            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software.",
             "source": "AdGuard"
         },
         "medialab": {

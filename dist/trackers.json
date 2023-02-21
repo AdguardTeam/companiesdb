@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-21T07:33:43.069Z",
+    "timeUpdated": "2023-02-21T07:37:44.721Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19428,6 +19428,13 @@
             "companyId": "matrix",
             "source": "AdGuard"
         },
+        "ntppool": {
+            "name": "Network Time Protocol",
+            "categoryId": 5,
+            "url": "https://ntp.org/",
+            "companyId": "ntppool",
+            "source": "AdGuard"
+        },
         "whatsapp": {
             "name": "WhatsApp",
             "categoryId": 8,
@@ -23843,6 +23850,8 @@
         "lencr.org": "lets_encrypt",
         "oztam.com.au": "oztam",
         "mobileapptracking.com": "branch",
+        "ntp.org": "ntppool",
+        "ntppool.org": "ntppool",
         "plex.tv": "plex",
         "plex.direct": "plex",
         "edgecastcdn.net": "markmonitor",
