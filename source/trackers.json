@@ -265,6 +265,18 @@
             "categoryId": 7,
             "url": "https://dev.vk.com/",
             "companyId": "vk"
+        },
+        "vscode": {
+            "name": "Visual Studio Code",
+            "categoryId": 8,
+            "url": "https://code.visualstudio.com/",
+            "companyId": "microsoft"
+        },
+        "msedge": {
+            "name": "Microsoft Edge",
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/en-us/edge",
+            "companyId": "microsoft"
         }
     },
     "trackerDomains": {
@@ -331,12 +343,12 @@
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
         "phicdn.net": "digicert_trust_seal",
-        "exp-tas.com": "microsoft",
-        "e-msedge.net": "microsoft",
-        "l-msedge.net": "microsoft",
-        "vscode-unpkg.net": "microsoft",
-        "v0cdn.net" : "microsoft",
-        "vscode-cdn.net" : "microsoft",
+        "e-msedge.net": "msedge",
+        "l-msedge.net": "msedge",
+        "exp-tas.com": "vscode",
+        "vscode-unpkg.net": "vscode",
+        "v0cdn.net" : "vscode",
+        "vscode-cdn.net" : "vscode",
         "iadsdk.apple.com": "apple_ads",
         "showrss.info": "showrss",
         "sectigo.com": "sectigo",
