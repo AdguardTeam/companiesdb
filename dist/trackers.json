@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-20T11:54:02.833Z",
+    "timeUpdated": "2023-02-21T06:58:50.925Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -6772,55 +6772,64 @@
             "name": "Facebook",
             "categoryId": 4,
             "url": "https://www.facebook.com",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_beacon": {
             "name": "Facebook Beacon",
             "categoryId": 7,
             "url": "http://www.facebook.com/beacon/faq.php",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_cdn": {
             "name": "Facebook CDN",
             "categoryId": 9,
             "url": "https://www.facebook.com",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_connect": {
             "name": "Facebook Connect",
             "categoryId": 6,
             "url": "https://developers.facebook.com/connect.php",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_conversion_tracking": {
             "name": "Facebook Conversion Tracking",
             "categoryId": 4,
             "url": "http://www.facebook.com/",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_custom_audience": {
             "name": "Facebook Custom Audience",
             "categoryId": 4,
             "url": "https://www.facebook.com",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_graph": {
             "name": "Facebook Social Graph",
             "categoryId": 7,
             "url": "https://developers.facebook.com/docs/reference/api/",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_impressions": {
             "name": "Facebook Impressions",
             "categoryId": 4,
             "url": "https://www.facebook.com/",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facebook_social_plugins": {
             "name": "Facebook Social Plugins",
             "categoryId": 7,
             "url": "https://developers.facebook.com/plugins",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "facetz.dca": {
             "name": "Facetz.DCA",
@@ -8909,7 +8918,8 @@
             "name": "Instagram",
             "categoryId": 8,
             "url": "https://www.facebook.com/",
-            "companyId": "facebook"
+            "companyId": "meta",
+            "source": "AdGuard"
         },
         "instant_check_mate": {
             "name": "Instant Check Mate",
@@ -19240,7 +19250,7 @@
             "name": "Facebook Audience Network",
             "categoryId": 4,
             "url": "https://www.facebook.com/business/products/audience-network",
-            "companyId": "facebook",
+            "companyId": "meta",
             "source": "AdGuard"
         },
         "crashlytics": {
@@ -19409,6 +19419,13 @@
             "categoryId": 5,
             "url": "https://matrix.org/",
             "companyId": "matrix",
+            "source": "AdGuard"
+        },
+        "whatsapp": {
+            "name": "WhatsApp",
+            "categoryId": 8,
+            "url": "https://www.whatsapp.com/",
+            "companyId": "meta",
             "source": "AdGuard"
         }
     },
@@ -23740,6 +23757,8 @@
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
         "extend.tv": "zypmedia",
+        "whatsapp.net": "whatsapp",
+        "whatsapp.com": "whatsapp",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "slack.com": "slack",

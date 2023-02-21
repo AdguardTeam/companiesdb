@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-20T11:54:02.823Z",
+    "timeUpdated": "2023-02-21T06:58:50.913Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11469,6 +11469,12 @@
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware.",
+            "source": "AdGuard"
+        },
+        "meta": {
+            "name": "Meta",
+            "websiteUrl": "https://www.meta.com/",
+            "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
             "source": "AdGuard"
         },
         "lets_encrypt": {
