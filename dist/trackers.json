@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-22T19:59:14.506Z",
+    "timeUpdated": "2023-02-22T20:47:12.456Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19512,6 +19512,13 @@
             "companyId": "microsoft",
             "source": "AdGuard"
         },
+        "notion": {
+            "name": "Notion",
+            "categoryId": 8,
+            "url": "https://www.notion.so/",
+            "companyId": "notion",
+            "source": "AdGuard"
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -23848,8 +23855,10 @@
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
         "extend.tv": "zypmedia",
+        "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",
         "bitwarden.com": "bitwarden",
+        "notion.so": "notion",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",
         "blob.core.windows.net": "azure_blob_storage",
