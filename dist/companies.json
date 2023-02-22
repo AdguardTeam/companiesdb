@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-22T18:30:03.505Z",
+    "timeUpdated": "2023-02-22T19:03:48.332Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11541,6 +11541,12 @@
             "name": "VK",
             "websiteUrl": "https://vk.company",
             "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet.",
+            "source": "AdGuard"
+        },
+        "similarweb": {
+            "name": "SimilarWeb Ltd.",
+            "websiteUrl": "https://www.similarweb.com/",
+            "description": "SimilarWeb offers an AI-based market intelligence platform that helps monitor web and mobile app traffic.",
             "source": "AdGuard"
         },
         "showrss": {
