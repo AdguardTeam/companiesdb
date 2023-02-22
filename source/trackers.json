@@ -400,6 +400,7 @@
         }
     },
     "trackerDomains": {
+        "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",
         "bitwarden.com": "bitwarden",
         "windowsupdate.com": "windowsupdate",
