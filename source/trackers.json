@@ -418,6 +418,7 @@
         }
     },
     "trackerDomains": {
+        "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",
         "bitwarden.com": "bitwarden",
         "notion.so": "notion",
