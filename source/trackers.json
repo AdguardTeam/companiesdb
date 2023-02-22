@@ -26,8 +26,6 @@
             "url": "https://www.slack.com/",
             "companyId": "salesforce"
         },
-
-
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -46,8 +44,6 @@
             "url": "https://adguard.com/",
             "companyId": "adguard"
         },
-
-
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
