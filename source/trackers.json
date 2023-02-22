@@ -391,9 +391,16 @@
             "categoryId": 8,
             "url": "https://www.notion.so/",
             "companyId": "notion"
+        },
+        "bitwarden": {
+            "name": "Bitwarden",
+            "categoryId": 8,
+            "url": "https://bitwarden.com/",
+            "companyId": "bitwarden"
         }
     },
     "trackerDomains": {
+        "bitwarden.com": "bitwarden",
         "notion.so": "notion",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",

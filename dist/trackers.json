@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-22T12:18:24.212Z",
+    "timeUpdated": "2023-02-22T18:30:03.515Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19490,6 +19490,13 @@
             "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
             "companyId": "microsoft",
             "source": "AdGuard"
+        },
+        "bitwarden": {
+            "name": "Bitwarden",
+            "categoryId": 8,
+            "url": "https://bitwarden.com/",
+            "companyId": "bitwarden",
+            "source": "AdGuard"
         }
     },
     "trackerDomains": {
@@ -23820,6 +23827,7 @@
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
         "extend.tv": "zypmedia",
+        "bitwarden.com": "bitwarden",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",
         "blob.core.windows.net": "azure_blob_storage",

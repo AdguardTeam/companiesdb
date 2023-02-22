@@ -16,6 +16,11 @@
             "websiteUrl": "http://www.apple.com/",
             "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers."
         },
+        "bitwarden": {
+            "name": "Bitwarden",
+            "websiteUrl": "https://bitwarden.com/",
+            "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations."
+        },
         "meta": {
             "name": "Meta",
             "websiteUrl": "https://www.meta.com/",
