@@ -32,6 +32,18 @@
             "url": "https://adguard.com/",
             "companyId": "adguard"
         },
+        "adguard_dns": {
+            "name": "AdGuard DNS",
+            "categoryId": 8,
+            "url": "https://adguard-dns.io/",
+            "companyId": "adguard"
+        },
+        "adguard_vpn": {
+            "name": "AdGuard VPN",
+            "categoryId": 8,
+            "url": "https://adguard-vpn.com/",
+            "companyId": "adguard"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -430,11 +442,11 @@
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
-        "adguard-dns.com": "adguard",
-        "adguard-dns.io": "adguard",
-        "adguard-vpn.com": "adguard",
-        "adguardvpn.com": "adguard",
-        "adguard-vpn.online": "adguard",
+        "adguard-dns.com": "adguard_dns",
+        "adguard-dns.io": "adguard_dns",
+        "adguardvpn.com": "adguard_vpn",
+        "adguard-vpn.com": "adguard_vpn",
+        "adguard-vpn.online": "adguard_vpn",
         "oppomobile.com": "oppo",
         "heytapmobi.com": "oppo",
         "heytapmobile.com": "oppo",
