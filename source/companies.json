@@ -156,6 +156,11 @@
             "websiteUrl": "https://www.ntp.org/",
             "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
         },
+        "notion": {
+            "name": "Notion Labs Inc.",
+            "websiteUrl": "https://www.notion.so/",
+            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate."
+        },
         "medialab": {
             "name": "MediaLab.AI Inc.",
             "websiteUrl": "https://medialab.la/",

@@ -404,6 +404,12 @@
             "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
             "companyId": "microsoft"
         },
+        "notion": {
+            "name": "Notion",
+            "categoryId": 8,
+            "url": "https://www.notion.so/",
+            "companyId": "notion"
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -414,6 +420,7 @@
     "trackerDomains": {
         "similarweb.com": "similarweb",
         "bitwarden.com": "bitwarden",
+        "notion.so": "notion",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",
         "blob.core.windows.net": "azure_blob_storage",
