@@ -320,6 +320,12 @@
             "url": "https://ntp.org/",
             "companyId": "ntppool"
         },
+        "similarweb": {
+            "name": "SimilarWeb",
+            "categoryId": 6,
+            "url": "https://www.similarweb.com/",
+            "companyId": "similarweb"
+        },
         "whatsapp": {
             "name": "WhatsApp",
             "categoryId": 8,
@@ -394,6 +400,7 @@
         }
     },
     "trackerDomains": {
+        "similarweb.com": "similarweb",
         "bitwarden.com": "bitwarden",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",
