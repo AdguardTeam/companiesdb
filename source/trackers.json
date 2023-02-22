@@ -35,13 +35,13 @@
         "adguard_dns": {
             "name": "AdGuard",
             "categoryId": 8,
-            "url": "https://adguard.com/",
+            "url": "https://adguard-dns.io/",
             "companyId": "adguard"
         },
         "adguard_vpn": {
             "name": "AdGuard",
             "categoryId": 8,
-            "url": "https://adguard.com/",
+            "url": "https://adguard-vpn.com/",
             "companyId": "adguard"
         },
         "akamai_technologies": {
