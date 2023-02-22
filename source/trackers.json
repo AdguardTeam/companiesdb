@@ -33,13 +33,13 @@
             "companyId": "adguard"
         },
         "adguard_dns": {
-            "name": "AdGuard",
+            "name": "AdGuard DNS",
             "categoryId": 8,
             "url": "https://adguard-dns.io/",
             "companyId": "adguard"
         },
         "adguard_vpn": {
-            "name": "AdGuard",
+            "name": "AdGuard VPN",
             "categoryId": 8,
             "url": "https://adguard-vpn.com/",
             "companyId": "adguard"
