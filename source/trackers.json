@@ -385,9 +385,16 @@
             "categoryId": 8,
             "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
             "companyId": "microsoft"
+        },
+        "bitwarden": {
+            "name": "Bitwarden",
+            "categoryId": 8,
+            "url": "https://bitwarden.com/",
+            "companyId": "bitwarden"
         }
     },
     "trackerDomains": {
+        "bitwarden.com": "bitwarden",
         "windowsupdate.com": "windowsupdate",
         "client.wns.windows.com": "windows_notifications",
         "blob.core.windows.net": "azure_blob_storage",
