@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-22T19:03:48.342Z",
+    "timeUpdated": "2023-02-22T19:59:14.506Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19232,6 +19232,20 @@
             "companyId": "salesforce",
             "source": "AdGuard"
         },
+        "adguard_dns": {
+            "name": "AdGuard DNS",
+            "categoryId": 8,
+            "url": "https://adguard-dns.io/",
+            "companyId": "adguard",
+            "source": "AdGuard"
+        },
+        "adguard_vpn": {
+            "name": "AdGuard VPN",
+            "categoryId": 8,
+            "url": "https://adguard-vpn.com/",
+            "companyId": "adguard",
+            "source": "AdGuard"
+        },
         "apple": {
             "name": "Apple",
             "categoryId": 8,
@@ -23864,11 +23878,11 @@
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
-        "adguard-dns.com": "adguard",
-        "adguard-dns.io": "adguard",
-        "adguard-vpn.com": "adguard",
-        "adguardvpn.com": "adguard",
-        "adguard-vpn.online": "adguard",
+        "adguard-dns.com": "adguard_dns",
+        "adguard-dns.io": "adguard_dns",
+        "adguardvpn.com": "adguard_vpn",
+        "adguard-vpn.com": "adguard_vpn",
+        "adguard-vpn.online": "adguard_vpn",
         "oppomobile.com": "oppo",
         "heytapmobi.com": "oppo",
         "heytapmobile.com": "oppo",
