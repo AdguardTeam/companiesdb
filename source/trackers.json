@@ -21,400 +21,400 @@
     },
     "trackers": {
         "adguard": {
-            "categoryId": 8,
-            "companyId": "adguard",
             "name": "AdGuard",
-            "url": "https://adguard.com/"
+            "categoryId": 8,
+            "url": "https://adguard.com/",
+            "companyId": "adguard"
         },
         "adguard_dns": {
-            "categoryId": 8,
-            "companyId": "adguard",
             "name": "AdGuard DNS",
-            "url": "https://adguard-dns.io/"
+            "categoryId": 8,
+            "url": "https://adguard-dns.io/",
+            "companyId": "adguard"
         },
         "adguard_vpn": {
-            "categoryId": 8,
-            "companyId": "adguard",
             "name": "AdGuard VPN",
-            "url": "https://adguard-vpn.com/"
+            "categoryId": 8,
+            "url": "https://adguard-vpn.com/",
+            "companyId": "adguard"
         },
         "adjust": {
-            "categoryId": 101,
-            "companyId": "adjust",
             "name": "Adjust",
-            "url": "https://www.adjust.com/"
+            "categoryId": 101,
+            "url": "https://www.adjust.com/",
+            "companyId": "adjust"
         },
         "akamai_technologies": {
-            "categoryId": 9,
-            "companyId": "akamai",
             "name": "Akamai Technologies",
-            "url": "https://www.akamai.com/"
+            "categoryId": 9,
+            "url": "https://www.akamai.com/",
+            "companyId": "akamai"
         },
         "appcenter": {
-            "categoryId": 5,
-            "companyId": null,
             "name": "Microsoft App Center",
-            "url": "https://appcenter.ms/"
+            "categoryId": 5,
+            "url": "https://appcenter.ms/",
+            "companyId": null
         },
         "apple": {
-            "categoryId": 8,
-            "companyId": "apple",
             "name": "Apple",
-            "url": "https://www.apple.com/"
+            "categoryId": 8,
+            "url": "https://www.apple.com/",
+            "companyId": "apple"
         },
         "apple_ads": {
-            "categoryId": 4,
-            "companyId": "apple",
             "name": "Apple Search Ads",
-            "url": "https://searchads.apple.com/"
+            "categoryId": 4,
+            "url": "https://searchads.apple.com/",
+            "companyId": "apple"
         },
         "appsflyer": {
-            "categoryId": 101,
-            "companyId": "appsflyer",
             "name": "AppsFlyer",
-            "url": "https://www.appsflyer.com/"
+            "categoryId": 101,
+            "url": "https://www.appsflyer.com/",
+            "companyId": "appsflyer"
         },
         "azure": {
-            "categoryId": 10,
-            "companyId": "microsoft",
             "name": "Microsoft Azure",
-            "url": "https://azure.microsoft.com/"
+            "categoryId": 10,
+            "url": "https://azure.microsoft.com/",
+            "companyId": "microsoft"
         },
         "azure_blob_storage": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "Azure Blob Storage",
-            "url": "https://azure.microsoft.com/en-us/products/storage/blobs"
+            "categoryId": 8,
+            "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
+            "companyId": "microsoft"
         },
         "bitwarden": {
-            "categoryId": 8,
-            "companyId": "bitwarden",
             "name": "Bitwarden",
-            "url": "https://bitwarden.com/"
+            "categoryId": 8,
+            "url": "https://bitwarden.com/",
+            "companyId": "bitwarden"
         },
         "branch": {
-            "categoryId": 101,
-            "companyId": "branch_metrics_inc",
             "name": "Branch.io",
-            "url": "https://branch.io/"
+            "categoryId": 101,
+            "url": "https://branch.io/",
+            "companyId": "branch_metrics_inc"
         },
         "button": {
-            "categoryId": 4,
-            "companyId": null,
             "name": "Button",
-            "url": "https://www.usebutton.com/"
+            "categoryId": 4,
+            "url": "https://www.usebutton.com/",
+            "companyId": null
         },
         "crashlytics": {
-            "categoryId": 101,
-            "companyId": null,
             "name": "Crashlytics",
-            "url": "https://crashlytics.com/"
+            "categoryId": 101,
+            "url": "https://crashlytics.com/",
+            "companyId": null
         },
         "element": {
-            "categoryId": 7,
-            "companyId": "element",
             "name": "Element",
-            "url": "https://element.io/"
+            "categoryId": 7,
+            "url": "https://element.io/",
+            "companyId": "element"
         },
         "facebook": {
-            "categoryId": 4,
-            "companyId": "meta",
             "name": "Facebook",
-            "url": "https://www.facebook.com"
+            "categoryId": 4,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
         },
         "facebook_audience": {
-            "categoryId": 4,
-            "companyId": "meta",
             "name": "Facebook Audience Network",
-            "url": "https://www.facebook.com/business/products/audience-network"
+            "categoryId": 4,
+            "url": "https://www.facebook.com/business/products/audience-network",
+            "companyId": "meta"
         },
         "facebook_beacon": {
-            "categoryId": 7,
-            "companyId": "meta",
             "name": "Facebook Beacon",
-            "url": "http://www.facebook.com/beacon/faq.php"
+            "categoryId": 7,
+            "url": "http://www.facebook.com/beacon/faq.php",
+            "companyId": "meta"
         },
         "facebook_cdn": {
-            "categoryId": 9,
-            "companyId": "meta",
             "name": "Facebook CDN",
-            "url": "https://www.facebook.com"
+            "categoryId": 9,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
         },
         "facebook_connect": {
-            "categoryId": 6,
-            "companyId": "meta",
             "name": "Facebook Connect",
-            "url": "https://developers.facebook.com/connect.php"
+            "categoryId": 6,
+            "url": "https://developers.facebook.com/connect.php",
+            "companyId": "meta"
         },
         "facebook_conversion_tracking": {
-            "categoryId": 4,
-            "companyId": "meta",
             "name": "Facebook Conversion Tracking",
-            "url": "http://www.facebook.com/"
+            "categoryId": 4,
+            "url": "http://www.facebook.com/",
+            "companyId": "meta"
         },
         "facebook_custom_audience": {
-            "categoryId": 4,
-            "companyId": "meta",
             "name": "Facebook Custom Audience",
-            "url": "https://www.facebook.com"
+            "categoryId": 4,
+            "url": "https://www.facebook.com",
+            "companyId": "meta"
         },
         "facebook_graph": {
-            "categoryId": 7,
-            "companyId": "meta",
             "name": "Facebook Social Graph",
-            "url": "https://developers.facebook.com/docs/reference/api/"
+            "categoryId": 7,
+            "url": "https://developers.facebook.com/docs/reference/api/",
+            "companyId": "meta"
         },
         "facebook_impressions": {
-            "categoryId": 4,
-            "companyId": "meta",
             "name": "Facebook Impressions",
-            "url": "https://www.facebook.com/"
+            "categoryId": 4,
+            "url": "https://www.facebook.com/",
+            "companyId": "meta"
         },
         "facebook_social_plugins": {
-            "categoryId": 7,
-            "companyId": "meta",
             "name": "Facebook Social Plugins",
-            "url": "https://developers.facebook.com/plugins"
+            "categoryId": 7,
+            "url": "https://developers.facebook.com/plugins",
+            "companyId": "meta"
         },
         "firebase": {
-            "categoryId": 101,
-            "companyId": "google",
             "name": "Firebase",
-            "url": "https://firebase.google.com/"
+            "categoryId": 101,
+            "url": "https://firebase.google.com/",
+            "companyId": "google"
         },
         "flurry": {
-            "categoryId": 101,
-            "companyId": "verizon",
             "name": "Flurry",
-            "url": "http://www.flurry.com/"
+            "categoryId": 101,
+            "url": "http://www.flurry.com/",
+            "companyId": "verizon"
         },
         "gmail": {
-            "categoryId": 13,
-            "companyId": "google",
             "name": "Gmail",
-            "url": "https://mail.google.com/"
+            "categoryId": 13,
+            "url": "https://mail.google.com/",
+            "companyId": "google"
         },
         "google_trust_services": {
-            "categoryId": 5,
-            "companyId": "google",
             "name": "Google Trust Services",
-            "url": "https://pki.goog/"
+            "categoryId": 5,
+            "url": "https://pki.goog/",
+            "companyId": "google"
         },
         "hockeyapp": {
-            "categoryId": 101,
-            "companyId": null,
             "name": "HockeyApp",
-            "url": "https://hockeyapp.net/"
+            "categoryId": 101,
+            "url": "https://hockeyapp.net/",
+            "companyId": null
         },
         "instagram_com": {
-            "categoryId": 8,
-            "companyId": "meta",
             "name": "Instagram",
-            "url": "https://www.facebook.com/"
+            "categoryId": 8,
+            "url": "https://www.facebook.com/",
+            "companyId": "meta"
         },
         "kik": {
-            "categoryId": 7,
-            "companyId": "kik",
             "name": "Kik",
-            "url": "https://kik.com/"
+            "categoryId": 7,
+            "url": "https://kik.com/",
+            "companyId": "kik"
         },
         "lets_encrypt": {
-            "categoryId": 5,
-            "companyId": "lets_encrypt",
             "name": "Let's Encrypt",
-            "url": "https://letsencrypt.org/"
+            "categoryId": 5,
+            "url": "https://letsencrypt.org/",
+            "companyId": "lets_encrypt"
         },
         "mail.ru_banner": {
-            "categoryId": 4,
-            "companyId": "vk",
             "name": "Mail.Ru Banner Network",
-            "url": "http://mail.ru/"
+            "categoryId": 4,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
         },
         "mail.ru_counter": {
-            "categoryId": 2,
-            "companyId": "vk",
             "name": "Mail.Ru Counter",
-            "url": "http://mail.ru/"
+            "categoryId": 2,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
         },
         "mail.ru_group": {
-            "categoryId": 7,
-            "companyId": "vk",
             "name": "Mail.Ru Group",
-            "url": "http://mail.ru/"
+            "categoryId": 7,
+            "url": "http://mail.ru/",
+            "companyId": "vk"
         },
         "markmonitor": {
-            "categoryId": 4,
-            "companyId": "markmonitor",
             "name": "MarkMonitor",
-            "url": "https://www.markmonitor.com/"
+            "categoryId": 4,
+            "url": "https://www.markmonitor.com/",
+            "companyId": "markmonitor"
         },
         "matrix": {
-            "categoryId": 5,
-            "companyId": "matrix",
             "name": "Matrix",
-            "url": "https://matrix.org/"
+            "categoryId": 5,
+            "url": "https://matrix.org/",
+            "companyId": "matrix"
         },
         "medialab": {
-            "categoryId": 8,
-            "companyId": "medialab",
             "name": "MediaLab.AI Inc.",
-            "url": "https://medialab.la/"
+            "categoryId": 8,
+            "url": "https://medialab.la/",
+            "companyId": "medialab"
         },
         "msedge": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "Microsoft Edge",
-            "url": "https://www.microsoft.com/en-us/edge"
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/en-us/edge",
+            "companyId": "microsoft"
         },
         "netflix": {
-            "categoryId": 0,
-            "companyId": "netflix",
             "name": "Netflix",
-            "url": "https://www.netflix.com/"
+            "categoryId": 0,
+            "url": "https://www.netflix.com/",
+            "companyId": "netflix"
         },
         "notion": {
-            "categoryId": 8,
-            "companyId": "notion",
             "name": "Notion",
-            "url": "https://www.notion.so/"
+            "categoryId": 8,
+            "url": "https://www.notion.so/",
+            "companyId": "notion"
         },
         "ntppool": {
-            "categoryId": 5,
-            "companyId": "ntppool",
             "name": "Network Time Protocol",
-            "url": "https://ntp.org/"
+            "categoryId": 5,
+            "url": "https://ntp.org/",
+            "companyId": "ntppool"
         },
         "oppo": {
-            "categoryId": 101,
-            "companyId": "oppo",
             "name": "OPPO",
-            "url": "https://www.oppo.com/"
+            "categoryId": 101,
+            "url": "https://www.oppo.com/",
+            "companyId": "oppo"
         },
         "outlook": {
-            "categoryId": 13,
-            "companyId": "microsoft",
             "name": "Microsoft Outlook",
-            "url": "https://outlook.live.com/"
+            "categoryId": 13,
+            "url": "https://outlook.live.com/",
+            "companyId": "microsoft"
         },
         "oztam": {
-            "categoryId": 8,
-            "companyId": "oztam",
             "name": "OzTAM",
-            "url": "https://oztam.com.au/"
+            "categoryId": 8,
+            "url": "https://oztam.com.au/",
+            "companyId": "oztam"
         },
         "plex": {
-            "categoryId": 0,
-            "companyId": "plex",
             "name": "Plex",
-            "url": "https://www.plex.tv/"
+            "categoryId": 0,
+            "url": "https://www.plex.tv/",
+            "companyId": "plex"
         },
         "qualcomm": {
-            "categoryId": 8,
-            "companyId": "qualcomm",
             "name": "Qualcomm",
-            "url": "https://www.qualcomm.com/"
+            "categoryId": 8,
+            "url": "https://www.qualcomm.com/",
+            "companyId": "qualcomm"
         },
         "sectigo": {
-            "categoryId": 5,
-            "companyId": "sectigo",
             "name": "Sectigo Limited",
-            "url": "https://www.solaredge.com/"
+            "categoryId": 5,
+            "url": "https://www.solaredge.com/",
+            "companyId": "sectigo"
         },
         "showrss": {
-            "categoryId": 8,
-            "companyId": "showrss",
             "name": "showRSS",
-            "url": "https://showrss.info/"
+            "categoryId": 8,
+            "url": "https://showrss.info/",
+            "companyId": "showrss"
         },
         "similarweb": {
-            "categoryId": 6,
-            "companyId": "similarweb",
             "name": "SimilarWeb",
-            "url": "https://www.similarweb.com/"
+            "categoryId": 6,
+            "url": "https://www.similarweb.com/",
+            "companyId": "similarweb"
         },
         "slack": {
-            "categoryId": 8,
-            "companyId": "salesforce",
             "name": "Slack",
-            "url": "https://www.slack.com/"
+            "categoryId": 8,
+            "url": "https://www.slack.com/",
+            "companyId": "salesforce"
         },
         "solaredge": {
-            "categoryId": 8,
-            "companyId": "solaredge",
             "name": "SolarEdge Technologies, Inc.",
-            "url": "https://www.solaredge.com/"
+            "categoryId": 8,
+            "url": "https://www.solaredge.com/",
+            "companyId": "solaredge"
         },
         "telstra": {
-            "categoryId": 8,
-            "companyId": "telstra",
             "name": "Telstra",
-            "url": "https://www.telstra.com.au/"
+            "categoryId": 8,
+            "url": "https://www.telstra.com.au/",
+            "companyId": "telstra"
         },
         "unity_ads": {
-            "categoryId": 4,
-            "companyId": null,
             "name": "Unity Ads",
-            "url": "https://unity.com/solutions/mobile-business/monetize-your-game"
+            "categoryId": 4,
+            "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
+            "companyId": null
         },
         "vk.com": {
-            "categoryId": 7,
-            "companyId": "vk",
             "name": "Vk.com",
-            "url": "https://vk.com/"
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
         },
         "vkontakte": {
-            "categoryId": 7,
-            "companyId": "vk",
             "name": "VKontakte",
-            "url": "https://vk.com/"
+            "categoryId": 7,
+            "url": "https://vk.com/",
+            "companyId": "vk"
         },
         "vkontakte_widgets": {
-            "categoryId": 7,
-            "companyId": "vk",
             "name": "VKontakte Widgets",
-            "url": "https://dev.vk.com/"
+            "categoryId": 7,
+            "url": "https://dev.vk.com/",
+            "companyId": "vk"
         },
         "vscode": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "Visual Studio Code",
-            "url": "https://code.visualstudio.com/"
+            "categoryId": 8,
+            "url": "https://code.visualstudio.com/",
+            "companyId": "microsoft"
         },
         "whatsapp": {
-            "categoryId": 8,
-            "companyId": "meta",
             "name": "WhatsApp",
-            "url": "https://www.whatsapp.com/"
+            "categoryId": 8,
+            "url": "https://www.whatsapp.com/",
+            "companyId": "meta"
         },
         "windows_maps": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "Windows Maps",
-            "url": "https://www.microsoft.com/store/apps/9wzdncrdtbvb"
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/store/apps/9wzdncrdtbvb",
+            "companyId": "microsoft"
         },
         "windows_notifications": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "The Windows Push Notification Services",
-            "url": "https://learn.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview"
+            "categoryId": 8,
+            "url": "https://learn.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview",
+            "companyId": "microsoft"
         },
         "windows_time": {
-            "categoryId": 8,
-            "companyId": "microsoft",
             "name": "Windows Time Service",
-            "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works"
+            "categoryId": 8,
+            "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
+            "companyId": "microsoft"
         },
         "windowsupdate": {
-            "categoryId": 9,
-            "companyId": "microsoft",
             "name": "Windows Update",
-            "url": "https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2"
+            "categoryId": 9,
+            "url": "https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2",
+            "companyId": "microsoft"
         },
         "yandex_appmetrica": {
-            "categoryId": 101,
-            "companyId": "yandex",
             "name": "Yandex AppMetrica",
-            "url": "https://appmetrica.yandex.com/"
+            "categoryId": 101,
+            "url": "https://appmetrica.yandex.com/",
+            "companyId": "yandex"
         }
     },
     "trackerDomains": {
