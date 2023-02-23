@@ -418,16 +418,16 @@
         }
     },
     "trackerDomains": {
-        "adguard-dns.com": "adguard_dns",
-        "adguard-dns.io": "adguard_dns",
-        "adguardvpn.com": "adguard_vpn",
-        "adguard-vpn.com": "adguard_vpn",
-        "adguard-vpn.online": "adguard_vpn",
         "adtidy.org": "adguard",
         "agrd.io": "adguard",
         "adguard.app": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
+        "adguard-dns.com": "adguard_dns",
+        "adguard-dns.io": "adguard_dns",
+        "adguardvpn.com": "adguard_vpn",
+        "adguard-vpn.com": "adguard_vpn",
+        "adguard-vpn.online": "adguard_vpn",
         "adjust.com": "adjust",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
@@ -470,6 +470,7 @@
         "gvt1.com": "google_servers",
         "gvt2.com": "google_servers",
         "gvt3.com": "google_servers",
+        "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
         "kik.com": "kik",
         "apikik.com": "kik",
@@ -533,7 +534,6 @@
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
         "windowsupdate.com": "windowsupdate",
-        "appmetrica.yandex.com": "yandex_appmetrica",
-        "pki.goog": "google_trust_services"
-    }
+        "appmetrica.yandex.com": "yandex_appmetrica"
+        }
 }
