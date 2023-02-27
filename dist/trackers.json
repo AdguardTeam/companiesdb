@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-27T09:01:56.833Z",
+    "timeUpdated": "2023-02-27T16:51:51.091Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19246,6 +19246,20 @@
             "companyId": null,
             "source": "AdGuard"
         },
+        "alibaba_cloud": {
+            "name": "Alibaba Cloud",
+            "categoryId": 10,
+            "url": "https://www.alibabacloud.com/",
+            "companyId": "alibaba",
+            "source": "AdGuard"
+        },
+        "alibaba_ucbrowser": {
+            "name": "UC Browser",
+            "categoryId": 8,
+            "url": "https://ucweb.com/",
+            "companyId": "alibaba",
+            "source": "AdGuard"
+        },
         "apple": {
             "name": "Apple",
             "categoryId": 8,
@@ -23868,6 +23882,18 @@
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
+        "aliapp.org": "alibaba.com",
+        "alibabachengdun.com": "alibaba.com",
+        "alibabausercontent.com": "alibaba.com",
+        "aliexpress.com": "alibaba.com",
+        "alikunlun.com": "alibaba.com",
+        "aliyuncs.com": "alibaba.com",
+        "alibabacloud.com": "alibaba_cloud",
+        "alibabadns.com": "alibaba_cloud",
+        "aliyun.com": "alibaba_cloud",
+        "ucweb.com": "alibaba_ucbrowser",
+        "alipayobjects.com": "alipay.com",
+        "taobao.com": "taobao",
         "appcenter.ms": "appcenter",
         "iadsdk.apple.com": "apple_ads",
         "me.com": "apple",
