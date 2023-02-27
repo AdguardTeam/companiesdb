@@ -489,6 +489,7 @@
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
         "app-measurement.com": "firebase",
+        "flipboard.com": "flipboard",
         "flurry.com": "flurry",
         "gmail.com": "gmail",
         "gvt1.com": "google_servers",
