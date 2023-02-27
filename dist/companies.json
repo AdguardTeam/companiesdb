@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-02-22T20:47:12.443Z",
+    "timeUpdated": "2023-02-27T09:01:56.822Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11477,28 +11477,10 @@
             "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations.",
             "source": "AdGuard"
         },
-        "meta": {
-            "name": "Meta",
-            "websiteUrl": "https://www.meta.com/",
-            "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
-            "source": "AdGuard"
-        },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "websiteUrl": "https://letsencrypt.org/",
-            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
-            "source": "AdGuard"
-        },
-        "oztam": {
-            "name": "OzTAM",
-            "websiteUrl": "https://oztam.com.au/",
-            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television.",
-            "source": "AdGuard"
-        },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company.",
+        "element": {
+            "name": "Element",
+            "websiteUrl": "https://element.io/",
+            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
             "source": "AdGuard"
         },
         "kik": {
@@ -11507,28 +11489,28 @@
             "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems.",
             "source": "AdGuard"
         },
+        "lets_encrypt": {
+            "name": "Let's Encrypt",
+            "websiteUrl": "https://letsencrypt.org/",
+            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
+            "source": "AdGuard"
+        },
         "matrix": {
             "name": "Matrix",
             "websiteUrl": "https://matrix.org/",
             "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations.",
             "source": "AdGuard"
         },
-        "qualcomm": {
-            "name": "Qualcomm",
-            "websiteUrl": "https://www.qualcomm.com/",
-            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology.",
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "websiteUrl": "https://medialab.la/",
+            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands.",
             "source": "AdGuard"
         },
-        "solaredge": {
-            "name": "SolarEdge Technologies, Inc.",
-            "websiteUrl": "https://www.solaredge.com/",
-            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
-            "source": "AdGuard"
-        },
-        "sectigo": {
-            "name": "Sectigo Limited",
-            "websiteUrl": "https://sectigo.com/",
-            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security.",
+        "meta": {
+            "name": "Meta",
+            "websiteUrl": "https://www.meta.com/",
+            "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
             "source": "AdGuard"
         },
         "netflix": {
@@ -11537,28 +11519,10 @@
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
             "source": "AdGuard"
         },
-        "vk": {
-            "name": "VK",
-            "websiteUrl": "https://vk.company",
-            "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet.",
-            "source": "AdGuard"
-        },
-        "similarweb": {
-            "name": "SimilarWeb Ltd.",
-            "websiteUrl": "https://www.similarweb.com/",
-            "description": "SimilarWeb offers an AI-based market intelligence platform that helps monitor web and mobile app traffic.",
-            "source": "AdGuard"
-        },
-        "showrss": {
-            "name": "showRSS",
-            "websiteUrl": "https://showrss.info/",
-            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows.",
-            "source": "AdGuard"
-        },
-        "element": {
-            "name": "Element",
-            "websiteUrl": "https://element.io/",
-            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
+        "notion": {
+            "name": "Notion Labs Inc.",
+            "websiteUrl": "https://www.notion.so/",
+            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate.",
             "source": "AdGuard"
         },
         "ntppool": {
@@ -11567,16 +11531,52 @@
             "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software.",
             "source": "AdGuard"
         },
-        "notion": {
-            "name": "Notion Labs Inc.",
-            "websiteUrl": "https://www.notion.so/",
-            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate.",
+        "oppo": {
+            "name": "OPPO",
+            "websiteUrl": "https://www.oppo.com/",
+            "description": "OPPO is a Chinese consumer electronics and mobile communications company.",
             "source": "AdGuard"
         },
-        "medialab": {
-            "name": "MediaLab.AI Inc.",
-            "websiteUrl": "https://medialab.la/",
-            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands.",
+        "oztam": {
+            "name": "OzTAM",
+            "websiteUrl": "https://oztam.com.au/",
+            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television.",
+            "source": "AdGuard"
+        },
+        "qualcomm": {
+            "name": "Qualcomm",
+            "websiteUrl": "https://www.qualcomm.com/",
+            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology.",
+            "source": "AdGuard"
+        },
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "websiteUrl": "https://sectigo.com/",
+            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security.",
+            "source": "AdGuard"
+        },
+        "showrss": {
+            "name": "showRSS",
+            "websiteUrl": "https://showrss.info/",
+            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows.",
+            "source": "AdGuard"
+        },
+        "similarweb": {
+            "name": "SimilarWeb Ltd.",
+            "websiteUrl": "https://www.similarweb.com/",
+            "description": "SimilarWeb offers an AI-based market intelligence platform that helps monitor web and mobile app traffic.",
+            "source": "AdGuard"
+        },
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "websiteUrl": "https://www.solaredge.com/",
+            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
+            "source": "AdGuard"
+        },
+        "vk": {
+            "name": "VK",
+            "websiteUrl": "https://vk.company",
+            "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet.",
             "source": "AdGuard"
         }
     }
