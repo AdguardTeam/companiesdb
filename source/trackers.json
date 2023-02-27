@@ -56,6 +56,18 @@
             "url": "https://appcenter.ms/",
             "companyId": null
         },
+        "alibaba_cloud": {
+            "name": "Alibaba Cloud",
+            "categoryId": 10,
+            "url": "https://www.alibabacloud.com/",
+            "companyId": "alibaba"
+        },
+        "alibaba_ucbrowser": {
+            "name": "UC Browser",
+            "categoryId": 8,
+            "url": "https://ucweb.com/",
+            "companyId": "alibaba"
+        },
         "apple": {
             "name": "Apple",
             "categoryId": 8,
@@ -432,6 +444,18 @@
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
+        "aliapp.org": "alibaba.com",
+        "alibabachengdun.com": "alibaba.com",
+        "alibabausercontent.com": "alibaba.com",
+        "aliexpress.com": "alibaba.com",
+        "alikunlun.com": "alibaba.com",
+        "aliyuncs.com": "alibaba.com",
+        "alibabacloud.com": "alibaba_cloud",
+        "alibabadns.com": "alibaba_cloud",
+        "aliyun.com": "alibaba_cloud",
+        "ucweb.com": "alibaba_ucbrowser",
+        "alipayobjects.com": "alipay.com",
+        "taobao.com": "taobao",
         "appcenter.ms": "appcenter",
         "iadsdk.apple.com": "apple_ads",
         "me.com": "apple",
