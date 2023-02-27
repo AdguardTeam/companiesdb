@@ -278,6 +278,12 @@
             "url": "https://www.microsoft.com/en-us/edge",
             "companyId": "microsoft"
         },
+        "mozilla": {
+            "name": "Mozilla Foundation",
+            "categoryId": 8,
+            "url": "https://www.mozilla.org/",
+            "companyId": "mozilla"
+        },
         "netflix": {
             "name": "Netflix",
             "categoryId": 0,
@@ -507,6 +513,12 @@
         "media-lab.ai": "medialab",
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
+        "firefox.com": "mozilla",
+        "mozaws.net": "mozilla",
+        "mozgcp.net": "mozilla",
+        "mozilla.com": "mozilla",
+        "mozilla.net": "mozilla",
+        "mozilla.org": "mozilla",
         "nflximg.com": "netflix",
         "notion.so": "notion",
         "ntp.org": "ntppool",
