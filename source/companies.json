@@ -6,6 +6,11 @@
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
         },
+        "adjust": {
+            "name": "Adjust GmbH",
+            "websiteUrl": "https://www.adjust.com/",
+            "description": "Adjust is the industry leader in mobile measurement and fraud prevention."
+        },
         "akamai": {
             "name": "Akamai Technologies",
             "websiteUrl": "https://www.akamai.com/",
@@ -16,50 +21,40 @@
             "websiteUrl": "http://www.apple.com/",
             "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers."
         },
+        "appsflyer": {
+            "name": "AppsFlyer",
+            "websiteUrl": "https://www.appsflyer.com/",
+            "description": "AppsFlyer is the global leading platform for Mobile Attribution & Marketing Analytics."
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "websiteUrl": "https://bitwarden.com/",
             "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations."
         },
-        "meta": {
-            "name": "Meta",
-            "websiteUrl": "https://www.meta.com/",
-            "description": "Meta builds technologies that help people connect, find communities and grow businesses."
+        "branch_metrics_inc": {
+            "name": "Branch Metrics",
+            "websiteUrl": "https://branch.io/",
+            "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
+        },
+        "element": {
+            "name": "Element",
+            "websiteUrl": "https://element.io/",
+            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
         },
         "facebook": {
             "name": "Facebook",
             "websiteUrl": "https://www.facebook.com/",
             "description": "Facebook is an online social network accessible to anyone with an active email address. People use Facebook to keep up with friends, upload photos, share links and videos, and learn more about the people they meet."
         },
-        "verizon": {
-            "name": "Verizon",
-            "websiteUrl": "https://www.verizon.com/",
-            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL, and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc."
-        },
         "google": {
             "name": "Google",
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
-        "appsflyer": {
-            "name": "AppsFlyer",
-            "websiteUrl": "https://www.appsflyer.com/",
-            "description": "AppsFlyer is the global leading platform for Mobile Attribution & Marketing Analytics."
-        },
-        "yandex": {
-            "name": "Yandex",
-            "websiteUrl": "https://www.yandex.com/",
-            "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network."
-        },
-        "adjust": {
-            "name": "Adjust GmbH",
-            "websiteUrl": "https://www.adjust.com/",
-            "description": "Adjust is the industry leader in mobile measurement and fraud prevention."
-        },
-        "branch_metrics_inc": {
-            "name": "Branch Metrics",
-            "websiteUrl": "https://branch.io/",
-            "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
+        "kik": {
+            "name": "Kik",
+            "websiteUrl": "https://kik.com/",
+            "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems."
         },
         "lets_encrypt": {
             "name": "Let's Encrypt",
@@ -71,65 +66,70 @@
             "websiteUrl": "https://www.markmonitor.com/",
             "description": "\\\"When the world's leading brands rely on you to protect their revenue and reputation in the digital world, you develop powerful insights and unrivalled methodologies to help combat sophisticated, evolving online threats. MarkMonitor clients look to our unique combination of industry-leading expertise, advanced technologies and extensive industry relationships to preserve marketing investments, revenues and customer trust.\\\""
         },
-        "microsoft": {
-            "name": "Microsoft",
-            "websiteUrl": "https://www.microsoft.com/",
-            "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
-        },
-        "telstra": {
-            "name": "Telstra",
-            "websiteUrl": "https://www.telstra.com.au/",
-            "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
-        },
-        "oztam": {
-            "name": "OzTAM",
-            "websiteUrl": "https://oztam.com.au/",
-            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television."
-        },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
-        },
-        "kik": {
-            "name": "Kik",
-            "websiteUrl": "https://kik.com/",
-            "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems."
-        },
         "matrix": {
             "name": "Matrix",
             "websiteUrl": "https://matrix.org/",
             "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations."
         },
-        "qualcomm": {
-            "name": "Qualcomm",
-            "websiteUrl": "https://www.qualcomm.com/",
-            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."
+        "medialab": {
+            "name": "MediaLab.AI Inc.",
+            "websiteUrl": "https://medialab.la/",
+            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands."
         },
-        "solaredge": {
-            "name": "SolarEdge Technologies, Inc.",
-            "websiteUrl": "https://www.solaredge.com/",
-            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
+        "meta": {
+            "name": "Meta",
+            "websiteUrl": "https://www.meta.com/",
+            "description": "Meta builds technologies that help people connect, find communities and grow businesses."
         },
-        "sectigo": {
-            "name": "Sectigo Limited",
-            "websiteUrl": "https://sectigo.com/",
-            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security."
+        "microsoft": {
+            "name": "Microsoft",
+            "websiteUrl": "https://www.microsoft.com/",
+            "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
         "netflix": {
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
         },
+        "notion": {
+            "name": "Notion Labs Inc.",
+            "websiteUrl": "https://www.notion.so/",
+            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate."
+        },
+        "ntppool": {
+            "name": "Network Time Protocol",
+            "websiteUrl": "https://www.ntp.org/",
+            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
+        },
+        "oppo": {
+            "name": "OPPO",
+            "websiteUrl": "https://www.oppo.com/",
+            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
+        },
+        "oztam": {
+            "name": "OzTAM",
+            "websiteUrl": "https://oztam.com.au/",
+            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television."
+        },
+        "qualcomm": {
+            "name": "Qualcomm",
+            "websiteUrl": "https://www.qualcomm.com/",
+            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology."
+        },
         "reddit": {
             "name": "Reddit, Inc.",
             "websiteUrl": "https://www.reddit.com",
             "description": "\\\"reddit is a source for what's new and popular on the web. Users like you provide all of the content and decide, through voting, what's good and what's junk.\\\""
         },
-        "vk": {
-            "name": "VK",
-            "websiteUrl": "https://vk.company",
-            "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet."
+        "sectigo": {
+            "name": "Sectigo Limited",
+            "websiteUrl": "https://sectigo.com/",
+            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security."
+        },
+        "showrss": {
+            "name": "showRSS",
+            "websiteUrl": "https://showrss.info/",
+            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
         },
         "similarweb": {
             "name": "SimilarWeb Ltd.",
@@ -141,30 +141,30 @@
             "websiteUrl": "https://www.snapchat.com/",
             "description": "Snap Inc. is a camera company.\\n\\nWe believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.\\nOur products empower people to express themselves, live in the moment, learn about the world, and have fun together."
         },
-        "showrss": {
-            "name": "showRSS",
-            "websiteUrl": "https://showrss.info/",
-            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows."
+        "solaredge": {
+            "name": "SolarEdge Technologies, Inc.",
+            "websiteUrl": "https://www.solaredge.com/",
+            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
         },
-        "element": {
-            "name": "Element",
-            "websiteUrl": "https://element.io/",
-            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
+        "telstra": {
+            "name": "Telstra",
+            "websiteUrl": "https://www.telstra.com.au/",
+            "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
         },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "websiteUrl": "https://www.ntp.org/",
-            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
+        "verizon": {
+            "name": "Verizon",
+            "websiteUrl": "https://www.verizon.com/",
+            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL, and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc."
         },
-        "notion": {
-            "name": "Notion Labs Inc.",
-            "websiteUrl": "https://www.notion.so/",
-            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate."
+        "vk": {
+            "name": "VK",
+            "websiteUrl": "https://vk.company",
+            "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet."
         },
-        "medialab": {
-            "name": "MediaLab.AI Inc.",
-            "websiteUrl": "https://medialab.la/",
-            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands."
+        "yandex": {
+            "name": "Yandex",
+            "websiteUrl": "https://www.yandex.com/",
+            "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network."
         }
     }
 }
