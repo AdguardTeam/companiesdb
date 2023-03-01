@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-01T09:27:24.279Z",
+    "timeUpdated": "2023-03-01T09:54:26.522Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -23931,6 +23931,7 @@
         "element.io": "element",
         "riot.im": "element",
         "app-measurement.com": "firebase",
+        "flipboard.com": "flipboard",
         "flurry.com": "flurry",
         "gmail.com": "gmail",
         "gvt1.com": "google_servers",
@@ -23942,6 +23943,7 @@
         "apikik.com": "kik",
         "kik-live.com": "kik",
         "letsencrypt.org": "lets_encrypt",
+        "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "edgecastcdn.net": "markmonitor",
         "matrix.org": "matrix",
