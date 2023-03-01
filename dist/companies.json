@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-01T00:11:52.667Z",
+    "timeUpdated": "2023-03-01T09:27:24.269Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11505,6 +11505,12 @@
             "name": "MediaLab.AI Inc.",
             "websiteUrl": "https://medialab.la/",
             "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands.",
+            "source": "AdGuard"
+        },
+        "meganz": {
+            "name": "Mega Ltd.",
+            "websiteUrl": "https://mega.io/",
+            "description": "MEGA was the first to introduce fully featured, end-to-end encrypted cloud storage and communications, accessed through web browsers and mobile devices.",
             "source": "AdGuard"
         },
         "meta": {

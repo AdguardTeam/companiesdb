@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-01T00:11:52.680Z",
+    "timeUpdated": "2023-03-01T09:27:24.279Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19386,6 +19386,13 @@
             "companyId": "medialab",
             "source": "AdGuard"
         },
+        "meganz": {
+            "name": "Mega Ltd.",
+            "categoryId": 8,
+            "url": "https://mega.io/",
+            "companyId": "meganz",
+            "source": "AdGuard"
+        },
         "msedge": {
             "name": "Microsoft Edge",
             "categoryId": 8,
@@ -23940,6 +23947,9 @@
         "matrix.org": "matrix",
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
+        "mega.co.nz": "meganz",
+        "mega.io": "meganz",
+        "mega.nz": "meganz",
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
         "nflximg.com": "netflix",
