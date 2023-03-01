@@ -236,6 +236,12 @@
             "url": "https://letsencrypt.org/",
             "companyId": "lets_encrypt"
         },
+        "lgtv": {
+            "name": "LG TV",
+            "categoryId": 8,
+            "url": "https://www.lg.com/",
+            "companyId": "lgtv"
+        },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
@@ -528,6 +534,10 @@
         "apikik.com": "kik",
         "kik-live.com": "kik",
         "letsencrypt.org": "lets_encrypt",
+        "lgsmartad.com": "lgtv",
+        "lgtvcommon.com": "lgtv",
+        "lge.com": "lgtv",
+        "lg.com": "lgtv",
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "edgecastcdn.net": "markmonitor",
