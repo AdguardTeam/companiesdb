@@ -503,6 +503,8 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "ghcr.io": "github",
+        "github.dev": "github",
         "gmail.com": "gmail",
         "gvt1.com": "google_servers",
         "gvt2.com": "google_servers",
