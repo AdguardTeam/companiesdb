@@ -581,6 +581,12 @@
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
         "windowsupdate.com": "windowsupdate",
+        "ya.ru": "yandex",
+        "yandex.by": "yandex",
+        "yandex.com": "yandex",
+        "yandex.com.tr": "yandex",
+        "yandex.fr": "yandex",
+        "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica"
         }
 }
