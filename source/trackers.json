@@ -487,6 +487,8 @@
         "apple-livephotoskit.com": "apple",
         "safebrowsing.apple": "apple",
         "safebrowsing.g.applimg.com": "apple",
+        "applvn.com": "applovin",
+        "applovin.com": "applovin",
         "appsflyer.com": "appsflyer",
         "blob.core.windows.net": "azure_blob_storage",
         "azure.com": "azure",
