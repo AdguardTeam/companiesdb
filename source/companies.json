@@ -91,6 +91,11 @@
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services."
         },
+        "mozilla": {
+            "name": "Mozilla Foundation",
+            "websiteUrl": "https://www.mozilla.org/",
+            "description": "Mozilla is a global nonprofit dedicated to keeping the Internet a global public resource that is open and accessible to all."
+        },
         "netflix": {
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
