@@ -272,6 +272,12 @@
             "url": "https://medialab.la/",
             "companyId": "medialab"
         },
+        "meganz": {
+            "name": "Mega Ltd.",
+            "categoryId": 8,
+            "url": "https://mega.io/",
+            "companyId": "meganz"
+        },
         "msedge": {
             "name": "Microsoft Edge",
             "categoryId": 8,
@@ -505,6 +511,9 @@
         "matrix.org": "matrix",
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
+        "mega.co.nz": "meganz",
+        "mega.io": "meganz",
+        "mega.nz": "meganz",
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
         "nflximg.com": "netflix",
