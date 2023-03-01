@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-01T09:54:26.511Z",
+    "timeUpdated": "2023-03-01T10:05:51.432Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11517,6 +11517,12 @@
             "name": "Meta",
             "websiteUrl": "https://www.meta.com/",
             "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
+            "source": "AdGuard"
+        },
+        "mozilla": {
+            "name": "Mozilla Foundation",
+            "websiteUrl": "https://www.mozilla.org/",
+            "description": "Mozilla is a global nonprofit dedicated to keeping the Internet a global public resource that is open and accessible to all.",
             "source": "AdGuard"
         },
         "netflix": {

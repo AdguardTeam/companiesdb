@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-01T09:54:26.522Z",
+    "timeUpdated": "2023-03-01T10:05:51.445Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19400,6 +19400,13 @@
             "companyId": "microsoft",
             "source": "AdGuard"
         },
+        "mozilla": {
+            "name": "Mozilla Foundation",
+            "categoryId": 8,
+            "url": "https://www.mozilla.org/",
+            "companyId": "mozilla",
+            "source": "AdGuard"
+        },
         "notion": {
             "name": "Notion",
             "categoryId": 8,
@@ -23954,6 +23961,12 @@
         "mega.nz": "meganz",
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
+        "firefox.com": "mozilla",
+        "mozaws.net": "mozilla",
+        "mozgcp.net": "mozilla",
+        "mozilla.com": "mozilla",
+        "mozilla.net": "mozilla",
+        "mozilla.org": "mozilla",
         "nflximg.com": "netflix",
         "notion.so": "notion",
         "ntp.org": "ntppool",
@@ -24004,6 +24017,12 @@
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
         "windowsupdate.com": "windowsupdate",
+        "ya.ru": "yandex",
+        "yandex.by": "yandex",
+        "yandex.com": "yandex",
+        "yandex.com.tr": "yandex",
+        "yandex.fr": "yandex",
+        "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica"
     }
 }
