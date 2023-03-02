@@ -350,6 +350,12 @@
             "url": "https://www.qualcomm.com/",
             "companyId": "qualcomm"
         },
+        "recaptcha": {
+            "name": "reCAPTCHA",
+            "categoryId": 8,
+            "url": "https://www.google.com/recaptcha/about/",
+            "companyId": "google"
+        },
         "sectigo": {
             "name": "Sectigo Limited",
             "categoryId": 5,
@@ -597,6 +603,7 @@
         "plex.direct": "plex",
         "xtracloud.net": "qualcomm",
         "qualcomm.com": "qualcomm",
+        "recaptcha.net": "recaptcha",
         "sectigo.com": "sectigo",
         "showrss.info": "showrss",
         "similarweb.io": "similarweb",
