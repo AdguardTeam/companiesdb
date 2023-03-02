@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-02T10:19:56.721Z",
+    "timeUpdated": "2023-03-02T11:00:53.368Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19372,6 +19372,13 @@
             "companyId": "lets_encrypt",
             "source": "AdGuard"
         },
+        "lgtv": {
+            "name": "LG TV",
+            "categoryId": 8,
+            "url": "https://www.lg.com/",
+            "companyId": "lgcorp",
+            "source": "AdGuard"
+        },
         "matrix": {
             "name": "Matrix",
             "categoryId": 5,
@@ -23973,9 +23980,14 @@
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
-        "letsencrypt.org": "lets_encrypt",
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
+        "letsencrypt.org": "lets_encrypt",
+        "lgsmartad.com": "lgtv",
+        "lgtvcommon.com": "lgtv",
+        "lgtvsdp.com": "lgtv",
+        "lge.com": "lgtv",
+        "lg.com": "lgtv",
         "edgecastcdn.net": "markmonitor",
         "matrix.org": "matrix",
         "medialab.la": "medialab",
