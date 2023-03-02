@@ -240,7 +240,7 @@
             "name": "LG TV",
             "categoryId": 8,
             "url": "https://www.lg.com/",
-            "companyId": "lgtv"
+            "companyId": "lgcorp"
         },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
@@ -533,14 +533,14 @@
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
+        "slatic.net": "lazada",
+        "lencr.org": "lets_encrypt",
         "letsencrypt.org": "lets_encrypt",
         "lgsmartad.com": "lgtv",
         "lgtvcommon.com": "lgtv",
         "lgtvsdp.com": "lgtv",
         "lge.com": "lgtv",
         "lg.com": "lgtv",
-        "slatic.net": "lazada",
-        "lencr.org": "lets_encrypt",
         "edgecastcdn.net": "markmonitor",
         "matrix.org": "matrix",
         "medialab.la": "medialab",
