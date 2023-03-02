@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-02T19:23:46.731Z",
+    "timeUpdated": "2023-03-02T19:27:16.944Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19470,6 +19470,13 @@
             "companyId": "qualcomm",
             "source": "AdGuard"
         },
+        "recaptcha": {
+            "name": "reCAPTCHA",
+            "categoryId": 8,
+            "url": "https://www.google.com/recaptcha/about/",
+            "companyId": "google",
+            "source": "AdGuard"
+        },
         "sectigo": {
             "name": "Sectigo Limited",
             "categoryId": 5,
@@ -24035,6 +24042,7 @@
         "plex.direct": "plex",
         "xtracloud.net": "qualcomm",
         "qualcomm.com": "qualcomm",
+        "recaptcha.net": "recaptcha",
         "sectigo.com": "sectigo",
         "showrss.info": "showrss",
         "similarweb.io": "similarweb",
