@@ -61,6 +61,11 @@
             "websiteUrl": "https://letsencrypt.org/",
             "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
         },
+        "lgcorp": {
+            "name": "LG Group",
+            "websiteUrl": "https://www.lgcorp.com/",
+            "description": "LG is a leading manufacturer of consumer and commercial products ranging from TVs, home appliances, air solutions, monitors, service robots, automotive components and its premium LG SIGNATURE and intelligent LG ThinQ brands are familiar names world over."
+        },
         "markmonitor": {
             "name": "MarkMonitor",
             "websiteUrl": "https://www.markmonitor.com/",
