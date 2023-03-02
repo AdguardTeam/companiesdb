@@ -41,6 +41,11 @@
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app."
         },
+        "edgio": {
+            "name": "Edgio",
+            "websiteUrl": "https://edg.io/",
+            "description": "Edgio is a content delivery network (CDN) service provider that enables organizations to deliver faster websites, more responsive applications, and quality video."
+        },
         "facebook": {
             "name": "Facebook",
             "websiteUrl": "https://www.facebook.com/",

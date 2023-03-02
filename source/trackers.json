@@ -128,6 +128,12 @@
             "url": "https://element.io/",
             "companyId": "element"
         },
+        "edgio": {
+            "name": "Edgio",
+            "categoryId": 9,
+            "url": "https://edg.io/",
+            "companyId": "edgio"
+        },
         "facebook": {
             "name": "Facebook",
             "categoryId": 4,
@@ -527,6 +533,12 @@
         "phicdn.net": "digicert_trust_seal",
         "element.io": "element",
         "riot.im": "element",
+        "alphacdn.net": "edgio",
+        "edg.io": "edgio",
+        "edgecast.com": "edgio",
+        "edgecastcdn.net": "edgio",
+        "edgecastdns.net": "edgio",
+        "sigmacdn.net": "edgio",
         "graph.facebook.com": "facebook_audience",
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
@@ -550,7 +562,7 @@
         "lgtvsdp.com": "lgtv",
         "lge.com": "lgtv",
         "lg.com": "lgtv",
-        "edgecastcdn.net": "markmonitor",
+        "markmonitor.com": "markmonitor",
         "matrix.org": "matrix",
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
