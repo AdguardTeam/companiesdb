@@ -296,6 +296,12 @@
             "url": "https://www.mozilla.org/",
             "companyId": "mozilla"
         },
+        "nab": {
+            "name": "National Australia Bank",
+            "categoryId": 8,
+            "url": "https://www.nab.com.au/",
+            "companyId": "nab"
+        },
         "netflix": {
             "name": "Netflix",
             "categoryId": 0,
@@ -566,6 +572,13 @@
         "mozilla.net": "mozilla",
         "mozilla.org": "mozilla",
         "nflximg.com": "netflix",
+        "nab.com": "nab",
+        "nab.com.au": "nab",
+        "nab.net": "nab",
+        "nabgroup.com": "nab",
+        "national.com.au": "nab",
+        "nationalaustraliabank.com.au": "nab",
+        "nationalbank.com.au": "nab",
         "notion.so": "notion",
         "ntp.org": "ntppool",
         "ntppool.org": "ntppool",

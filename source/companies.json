@@ -101,6 +101,11 @@
             "websiteUrl": "https://www.mozilla.org/",
             "description": "Mozilla is a global nonprofit dedicated to keeping the Internet a global public resource that is open and accessible to all."
         },
+        "nab": {
+            "name": "National Australia Bank",
+            "websiteUrl": "https://www.nab.com.au/",
+            "description": "National Australia Bank is one of the four largest financial institutions in Australia in terms of market capitalisation, earnings and customers."
+        },
         "netflix": {
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
