@@ -121,8 +121,8 @@ If **the value does not exist** - enter **null**:
 | 11 | unknown | This tracker has either not been labelled yet, or we do not have enough information to label it. |
 | 12 | extensions | - |
 | 13 | email | Includes webmail and email clients |
-| 14 | consent | ? |
-| 15 | telemetry | ? |
+| 14 | consent | - |
+| 15 | telemetry | - |
 | 16 | mobile_analytics | Collects and analyzes data related to mobile app usage and performance. |
 
 ## **How to build trackers data**
