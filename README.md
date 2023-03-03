@@ -49,6 +49,13 @@ The list of trackers and companies is generated from the database [whotracks.me]
 - [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [whotracks.me](http://whotracks.me) database and [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
 - [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) - contains information about companies, which overwrites or supplements information in [companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/dist/companies.json) .
 
+**VPN Services**:
+
+- [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - contains a list of "Services" that can be added
+  to exclusions in AdGuard VPN apps. This file is composed manually and not
+  built from other sources.
+- [dist/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - just a copy of `source/vpn_services.json`.
+
 ## How to add new or rewrite whotracks.me data
 
 If need to add new data or rewrite [whotracks.me](http://whotracks.me/) data:
