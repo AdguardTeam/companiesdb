@@ -56,7 +56,7 @@ If need to add new data or rewrite [whotracks.me](http://whotracks.me/) data:
 - **company** - add in [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
 - **tracker** - add in [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json)
 
-> **Note**
+> **Warning**
 > Add companies and tracker names in alphabetical order. Tracker domains - alphabetically **by value.**
 
 ### How to add a new company or overwrite whotracks.me data
