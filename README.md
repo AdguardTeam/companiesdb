@@ -106,7 +106,7 @@ Add tracker domains to the **trackerDomains** section:
 }
 ```
 
-> **Note**
+> **Warning**
 > If **the value does not exist** - enter **null**:
 
 ```json
