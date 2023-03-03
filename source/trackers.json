@@ -122,17 +122,17 @@
             "url": "https://crashlytics.com/",
             "companyId": null
         },
-        "element": {
-            "name": "Element",
-            "categoryId": 7,
-            "url": "https://element.io/",
-            "companyId": "element"
-        },
         "edgio": {
             "name": "Edgio",
             "categoryId": 9,
             "url": "https://edg.io/",
             "companyId": "edgio"
+        },
+        "element": {
+            "name": "Element",
+            "categoryId": 7,
+            "url": "https://element.io/",
+            "companyId": "element"
         },
         "facebook": {
             "name": "Facebook",
@@ -531,14 +531,14 @@
         "cloudflare-dns.com": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
-        "element.io": "element",
-        "riot.im": "element",
         "alphacdn.net": "edgio",
         "edg.io": "edgio",
         "edgecast.com": "edgio",
         "edgecastcdn.net": "edgio",
         "edgecastdns.net": "edgio",
         "sigmacdn.net": "edgio",
+        "element.io": "element",
+        "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
