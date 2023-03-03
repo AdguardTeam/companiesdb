@@ -51,12 +51,13 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 ### How to add new or rewrite whotracks.me data
 
-💡 If need to add new data or rewrite [whotracks.me](http://whotracks.me/) data:
+If need to add new data or rewrite [whotracks.me](http://whotracks.me/) data:
 
 - **company** - add in [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
 - **tracker** - add in [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json)
 
-⚠️ Add companies and tracker names in alphabetical order. Tracker domains - alphabetically **by value.**
+> **Note**
+> Add companies and tracker names in alphabetical order. Tracker domains - alphabetically **by value.**
 
 ### How to add a new company or overwrite whotracks.me data
 
@@ -65,6 +66,14 @@ The data about the company is added in the [source/companies.json](https://raw.g
 - **name** - the official name of the company, will be displayed in the filter log.
 - **websiteUrl** [](https://www.notion.so/companiesdb-87733d1e43294ceb9311e6e60c1663b4)- the address of the company website, also used to define the company icon.
 - **description** - company description, not displayed anywhere.
+
+```json
+"companyincID": {
+    "name": "Company inc.",
+    "websiteUrl": "https://www.company.org/",
+    "description": "Description of Company inc."
+}
+```
 
 ### How to add a new tracker or overwrite whotracks.me data
 
@@ -97,7 +106,8 @@ Add tracker domains to the **trackerDomains** section:
 }
 ```
 
-If **the value does not exist** - enter **null**:
+> **Note**
+> If **the value does not exist** - enter **null**:
 
 ```json
 "url": null
@@ -152,4 +162,5 @@ During the build process, a list of warnings and errors is displayed that should
 ## Company icons
 
 The favicon of the company website is used as the company icon. It can be checked using our icon service:
+
 [https://icons.adguard.org/icon?domain=adguard.com](https://icons.adguard.org/icon?domain=adguard.com)
