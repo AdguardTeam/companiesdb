@@ -68,7 +68,7 @@ If you need to add new data or to rewrite [whotracks.me](http://whotracks.me/) d
 
 ### How to add a new company or overwrite whotracks.me data
 
-The data about the company is added in the [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) file to the JSON key with the name, that defines **companyId**, which is used when adding trackers:
+The data about the company is added to the [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) file into the JSON key with the name that defines **companyId**, which is used when adding trackers:
 
 - **name** - the official name of the company, will be displayed in the filter log.
 - **websiteUrl** [](https://www.notion.so/companiesdb-87733d1e43294ceb9311e6e60c1663b4)- the address of the company website, also used to define the company icon.
