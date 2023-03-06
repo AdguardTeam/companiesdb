@@ -155,7 +155,7 @@ yarn convert
 
 The result is:
 
-- **dist/companies.json** - companies data json file. This file contains companies
+- **dist/companies.json** - companies data JSON file. This file contains companies
 list from whotracks.me merged with AdGuard companies from
 **source/companies.json**.
 - **dist/trackers.json** - trackers data json file. Combined data from two files:
