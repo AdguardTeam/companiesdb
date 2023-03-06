@@ -57,7 +57,7 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 ## How to add new or rewrite whotracks.me data
 
-If need to add new data or rewrite [whotracks.me](http://whotracks.me/) data:
+If you need to add new data or to rewrite [whotracks.me](http://whotracks.me/) data:
 
 - **company** - add in [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
 - **tracker** - add in [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json)
