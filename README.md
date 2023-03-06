@@ -84,7 +84,7 @@ The data about the company is added to the [source/companies.json](https://raw.g
 
 ### How to add a new tracker or overwrite whotracks.me data
 
-The data about the tracker is added in the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) file to the nested JSON key inside **trackers** section with the name, that defines the **tracker name** of the company, which is used when adding trackers to the **trackerDomains** section:
+The data about the tracker is added to the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) file into the nested JSON key inside the **trackers** section with the name that defines the **tracker name** of the company, which is used when adding trackers to the **trackerDomains** section:
 
 - **name** - tracker name of the company.
 - **categoryId** - tracker category.
