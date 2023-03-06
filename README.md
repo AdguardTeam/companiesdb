@@ -161,7 +161,7 @@ The result is:
   - **source/trackers.json**
   - **dist/whotracksme.json**.
 
-  To the information, added from AdGuard files, is added an additional key
+  An additional key is added to the information from AdGuard files:
     **"source": "AdGuard"**
 
 - **dist/whotrackme.json** - actual **whotrack.me** trackers data json file, compiled from **trackerdb.sql**.
