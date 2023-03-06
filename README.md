@@ -46,7 +46,7 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 **Companies**:
 
-- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [whotracks.me](http://whotracks.me) database and [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
+- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [whotracks.me](http://whotracks.me) database with [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
 - [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) - contains information about companies, which overwrites or supplements information in [companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/dist/companies.json) .
 
 **VPN Services**:
