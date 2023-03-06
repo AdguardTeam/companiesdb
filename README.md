@@ -51,8 +51,7 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 **VPN Services**:
 
-- [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - contains a list of "Services" that can be added
-  to exclusions in AdGuard VPN apps. This file is composed manually and not
+- [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - contains a list of "Services" that can be added to exclusions in AdGuard VPN apps. This file is composed manually and not
   built from other sources.
 - [dist/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - just a copy of [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json).
 
