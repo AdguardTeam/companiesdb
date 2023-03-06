@@ -129,19 +129,19 @@ Add tracker domains to the **trackerDomains** section:
 | 1 | comments | Enables comments sections for articles and product reviews |
 | 2 | customer_interaction | Includes chat, email messaging, customer support, and other interaction tools |
 | 3 | pornvertising | Delivers advertisements that generally appear on sites with adult content |
-| 4 | advertising | Provides advertising or advertising-related services such as data collection, behavioral analysis or re-targeting. |
+| 4 | advertising | Provides advertising or advertising-related services such as data collection, behavioral analysis or re-targeting |
 | 5 | essential | Includes tag managers, privacy notices, and technologies that are critical to the functionality of a website |
-| 6 | site_analytics | Collects and analyzes data related to site usage and performance. |
+| 6 | site_analytics | Collects and analyzes data related to site usage and performance |
 | 7 | social_media | Integrates features related to social media sites |
-| 8 | misc | This tracker does not fit in other categories. |
-| 9 | cdn | Content delivery network that delivers resources for different site utilities and usually for many different customers. |
+| 8 | misc | This tracker does not fit in other categories |
+| 9 | cdn | Content delivery network that delivers resources for different site utilities and usually for many different customers |
 | 10 | hosting | This is a service used by the content provider or site owner |
-| 11 | unknown | This tracker has either not been labelled yet, or we do not have enough information to label it. |
+| 11 | unknown | This tracker has either not been labelled yet, or we do not have enough information to label it |
 | 12 | extensions | - |
 | 13 | email | Includes webmail and email clients |
 | 14 | consent | - |
 | 15 | telemetry | - |
-| 16 | mobile_analytics | Collects and analyzes data related to mobile app usage and performance. |
+| 16 | mobile_analytics | Collects and analyzes data related to mobile app usage and performance |
 
 ## **How to build trackers data**
 
