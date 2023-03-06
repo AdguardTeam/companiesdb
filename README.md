@@ -155,12 +155,13 @@ yarn convert
 
 The result is:
 
-- **dist/companies.json** - companies data JSON file. This file contains companies
-list from whotracks.me merged with AdGuard companies from
-**source/companies.json**.
+- **dist/companies.json** - companies data JSON file. This file contains the companies list from whotracks.me merged with AdGuard companies from **source/companies.json**.
 - **dist/trackers.json** - trackers data json file. Combined data from two files:
-**source/trackers.json** and **dist/whotracksme.json**.
-    To the information, added from AdGuard files, is added an additional key
+
+  - **source/trackers.json**
+  - **dist/whotracksme.json**.
+
+  To the information, added from AdGuard files, is added an additional key
     **"source": "AdGuard"**
 
 - **dist/whotrackme.json** - actual **whotrack.me** trackers data json file, compiled from **trackerdb.sql**.
