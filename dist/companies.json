@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-02T19:27:16.934Z",
+    "timeUpdated": "2023-03-06T12:58:19.713Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11481,6 +11481,12 @@
             "name": "Element",
             "websiteUrl": "https://element.io/",
             "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
+            "source": "AdGuard"
+        },
+        "edgio": {
+            "name": "Edgio",
+            "websiteUrl": "https://edg.io/",
+            "description": "Edgio is a content delivery network (CDN) service provider that enables organizations to deliver faster websites, more responsive applications, and quality video.",
             "source": "AdGuard"
         },
         "kik": {

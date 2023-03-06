@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-02T19:27:16.944Z",
+    "timeUpdated": "2023-03-06T12:58:19.723Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19316,6 +19316,13 @@
             "companyId": null,
             "source": "AdGuard"
         },
+        "edgio": {
+            "name": "Edgio",
+            "categoryId": 9,
+            "url": "https://edg.io/",
+            "companyId": "edgio",
+            "source": "AdGuard"
+        },
         "element": {
             "name": "Element",
             "categoryId": 7,
@@ -23978,6 +23985,12 @@
         "cloudflare-dns.com": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
+        "alphacdn.net": "edgio",
+        "edg.io": "edgio",
+        "edgecast.com": "edgio",
+        "edgecastcdn.net": "edgio",
+        "edgecastdns.net": "edgio",
+        "sigmacdn.net": "edgio",
         "element.io": "element",
         "riot.im": "element",
         "app-measurement.com": "firebase",
@@ -24003,7 +24016,7 @@
         "lgtvsdp.com": "lgtv",
         "lge.com": "lgtv",
         "lg.com": "lgtv",
-        "edgecastcdn.net": "markmonitor",
+        "markmonitor.com": "markmonitor",
         "matrix.org": "matrix",
         "medialab.la": "medialab",
         "media-lab.ai": "medialab",
