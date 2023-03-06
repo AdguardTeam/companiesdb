@@ -64,7 +64,7 @@ If you need to add new data or to rewrite [whotracks.me](http://whotracks.me/) d
 
 > **Warning**
 >
-> Add companies and tracker names in alphabetical order. Tracker domains - alphabetically **by value.**
+> Add companies and tracker names in alphabetical order. Add tracker domains alphabetically **by value.**
 
 ### How to add a new company or overwrite whotracks.me data
 
