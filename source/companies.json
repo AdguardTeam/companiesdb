@@ -36,6 +36,11 @@
             "websiteUrl": "https://branch.io/",
             "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
         },
+        "domainglass": {
+            "name": "Domain Glass",
+            "websiteUrl": "https://domain.glass/",
+            "description": "DNS Record, IP address hostname, and WHOIS lookup information."
+        },
         "element": {
             "name": "Element",
             "websiteUrl": "https://element.io/",
