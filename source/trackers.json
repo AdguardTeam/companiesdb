@@ -230,6 +230,12 @@
             "url": "https://www.facebook.com/",
             "companyId": "meta"
         },
+        "karambasecurity": {
+            "name": "Karamba Security",
+            "categoryId": 8,
+            "url": "https://karambasecurity.com/",
+            "companyId": "karambasecurity"
+        },
         "kik": {
             "name": "Kik",
             "categoryId": 7,
@@ -564,6 +570,7 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",

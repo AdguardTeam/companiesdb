@@ -56,6 +56,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "karambasecurity": {
+            "name": "Karamba Security",
+            "websiteUrl": "https://karambasecurity.com/",
+            "description": "Karamba Security provides industry-leading, award winning, end-to-end cybersecurity solutions for vehicles and connected systems."
+        },
         "kik": {
             "name": "Kik",
             "websiteUrl": "https://kik.com/",
