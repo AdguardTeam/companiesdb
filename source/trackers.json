@@ -392,6 +392,12 @@
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge"
         },
+        "sonos": {
+            "name": "Sonos",
+            "categoryId": 8,
+            "url": "https://www.sonos.com/",
+            "companyId": "sonos"
+        },
         "telstra": {
             "name": "Telstra",
             "categoryId": 8,
@@ -635,6 +641,7 @@
         "snapads.com": "snap",
         "snapkit.com": "snap",
         "solaredge.com": "solaredge",
+        "sonos.com": "sonos",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
