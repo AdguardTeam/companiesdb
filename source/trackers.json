@@ -248,6 +248,12 @@
             "url": "https://www.lg.com/",
             "companyId": "lgcorp"
         },
+        "lgads": {
+            "name": "LG Ad Solutions",
+            "categoryId": 4,
+            "url": "https://lgads.tv/",
+            "companyId": "lgcorp"
+        },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
@@ -575,6 +581,8 @@
         "lgtvsdp.com": "lgtv",
         "lge.com": "lgtv",
         "lg.com": "lgtv",
+        "lgads.tv": "lgads",
+        "alphonso.tv": "lgads",
         "markmonitor.com": "markmonitor",
         "matrix.org": "matrix",
         "medialab.la": "medialab",
