@@ -208,7 +208,7 @@
         },
         "freeview": {
             "name": "Freeview",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://freeview.com.au/",
             "companyId": "freeview"
         },
