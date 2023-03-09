@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-09T19:02:45.462Z",
+    "timeUpdated": "2023-03-09T19:06:03.210Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19526,6 +19526,13 @@
             "companyId": "solaredge",
             "source": "AdGuard"
         },
+        "switchtv": {
+            "name": "Switch Media",
+            "categoryId": 8,
+            "url": "https://www.switch.tv/",
+            "companyId": "switchtv",
+            "source": "AdGuard"
+        },
         "telstra": {
             "name": "Telstra",
             "categoryId": 8,
@@ -24084,6 +24091,7 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",

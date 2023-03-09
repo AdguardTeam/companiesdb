@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-09T19:02:45.451Z",
+    "timeUpdated": "2023-03-09T19:06:03.200Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11607,6 +11607,12 @@
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
+            "source": "AdGuard"
+        },
+        "switchtv": {
+            "name": "Switch Media",
+            "websiteUrl": "https://www.switch.tv/",
+            "description": "Switch Media has successfully delivered complex, multi-award-winning online video solutions for major brands and global live streaming events.",
             "source": "AdGuard"
         },
         "vk": {
