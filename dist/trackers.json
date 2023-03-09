@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-09T19:06:03.210Z",
+    "timeUpdated": "2023-03-09T19:15:11.839Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19316,6 +19316,13 @@
             "companyId": null,
             "source": "AdGuard"
         },
+        "domainglass": {
+            "name": "Domain Glass",
+            "categoryId": 8,
+            "url": "https://domain.glass/",
+            "companyId": "domainglass",
+            "source": "AdGuard"
+        },
         "edgio": {
             "name": "Edgio",
             "categoryId": 9,
@@ -19370,6 +19377,13 @@
             "categoryId": 101,
             "url": "https://hockeyapp.net/",
             "companyId": null,
+            "source": "AdGuard"
+        },
+        "karambasecurity": {
+            "name": "Karamba Security",
+            "categoryId": 8,
+            "url": "https://karambasecurity.com/",
+            "companyId": "karambasecurity",
             "source": "AdGuard"
         },
         "kik": {
@@ -19524,6 +19538,13 @@
             "categoryId": 8,
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge",
+            "source": "AdGuard"
+        },
+        "sonos": {
+            "name": "Sonos",
+            "categoryId": 8,
+            "url": "https://www.sonos.com/",
+            "companyId": "sonos",
             "source": "AdGuard"
         },
         "switchtv": {
@@ -23999,6 +24020,7 @@
         "cloudflare-dns.com": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
+        "domain.glass": "domainglass",
         "alphacdn.net": "edgio",
         "edg.io": "edgio",
         "edgecast.com": "edgio",
@@ -24022,6 +24044,7 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
@@ -24093,6 +24116,7 @@
         "snapkit.com": "snap",
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
+        "sonos.com": "sonos",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",

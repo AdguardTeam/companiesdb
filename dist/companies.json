@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-09T19:06:03.200Z",
+    "timeUpdated": "2023-03-09T19:15:11.828Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11477,6 +11477,12 @@
             "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations.",
             "source": "AdGuard"
         },
+        "domainglass": {
+            "name": "Domain Glass",
+            "websiteUrl": "https://domain.glass/",
+            "description": "DNS Record, IP address hostname, and WHOIS lookup information.",
+            "source": "AdGuard"
+        },
         "element": {
             "name": "Element",
             "websiteUrl": "https://element.io/",
@@ -11493,6 +11499,12 @@
             "name": "Freeview",
             "websiteUrl": "https://freeview.com.au/",
             "description": "Freeview is the brand name of the digital terrestrial television platform in Australia intended to bring all of free-to-air broadcasters onto a consistent marketing platform, to compete against subscription television, in particular Foxtel.",
+            "source": "AdGuard"
+        },
+        "karambasecurity": {
+            "name": "Karamba Security",
+            "websiteUrl": "https://karambasecurity.com/",
+            "description": "Karamba Security provides industry-leading, award winning, end-to-end cybersecurity solutions for vehicles and connected systems.",
             "source": "AdGuard"
         },
         "kik": {
@@ -11607,6 +11619,12 @@
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
+            "source": "AdGuard"
+        },
+        "sonos": {
+            "name": "Sonos, Inc.",
+            "websiteUrl": "https://www.sonos.com/",
+            "description": "Sonos, Inc. is an American developer and manufacturer of audio products best known for its multi-room audio products.",
             "source": "AdGuard"
         },
         "switchtv": {
