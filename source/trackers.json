@@ -206,6 +206,12 @@
             "url": "http://www.flurry.com/",
             "companyId": "verizon"
         },
+        "freeview": {
+            "name": "Freeview",
+            "categoryId": 0,
+            "url": "https://freeview.com.au/",
+            "companyId": "freeview"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
@@ -398,6 +404,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "switchtv": {
+            "name": "Switch Media",
+            "categoryId": 8,
+            "url": "https://www.switch.tv/",
+            "companyId": "switchtv"
+        },
         "telstra": {
             "name": "Telstra",
             "categoryId": 8,
@@ -561,6 +573,9 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "freeviewaustralia.tv": "freeview",
+        "freeview.com.au": "freeview",
+        "freeview.com": "freeview",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
@@ -640,6 +655,7 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
         "telstra.com.au": "telstra",

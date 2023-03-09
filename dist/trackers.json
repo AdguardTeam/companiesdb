@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-06T14:43:41.754Z",
+    "timeUpdated": "2023-03-09T19:06:03.210Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19344,6 +19344,13 @@
             "companyId": "google",
             "source": "AdGuard"
         },
+        "freeview": {
+            "name": "Freeview",
+            "categoryId": 0,
+            "url": "https://freeview.com.au/",
+            "companyId": "freeview",
+            "source": "AdGuard"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
@@ -19517,6 +19524,13 @@
             "categoryId": 8,
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge",
+            "source": "AdGuard"
+        },
+        "switchtv": {
+            "name": "Switch Media",
+            "categoryId": 8,
+            "url": "https://www.switch.tv/",
+            "companyId": "switchtv",
             "source": "AdGuard"
         },
         "telstra": {
@@ -23996,6 +24010,9 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "freeviewaustralia.tv": "freeview",
+        "freeview.com.au": "freeview",
+        "freeview.com": "freeview",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
@@ -24074,6 +24091,7 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",

@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-06T14:43:41.743Z",
+    "timeUpdated": "2023-03-09T19:06:03.200Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11489,6 +11489,12 @@
             "description": "Edgio is a content delivery network (CDN) service provider that enables organizations to deliver faster websites, more responsive applications, and quality video.",
             "source": "AdGuard"
         },
+        "freeview": {
+            "name": "Freeview",
+            "websiteUrl": "https://freeview.com.au/",
+            "description": "Freeview is the brand name of the digital terrestrial television platform in Australia intended to bring all of free-to-air broadcasters onto a consistent marketing platform, to compete against subscription television, in particular Foxtel.",
+            "source": "AdGuard"
+        },
         "kik": {
             "name": "Kik",
             "websiteUrl": "https://kik.com/",
@@ -11601,6 +11607,12 @@
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
+            "source": "AdGuard"
+        },
+        "switchtv": {
+            "name": "Switch Media",
+            "websiteUrl": "https://www.switch.tv/",
+            "description": "Switch Media has successfully delivered complex, multi-award-winning online video solutions for major brands and global live streaming events.",
             "source": "AdGuard"
         },
         "vk": {
