@@ -206,6 +206,12 @@
             "url": "http://www.flurry.com/",
             "companyId": "verizon"
         },
+        "freeview": {
+            "name": "Freeview",
+            "categoryId": 0,
+            "url": "https://freeview.com.au/",
+            "companyId": "freeview"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
@@ -555,6 +561,9 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "freeviewaustralia.tv": "freeview",
+        "freeview.com.au": "freeview",
+        "freeview.com": "freeview",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
