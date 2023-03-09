@@ -176,6 +176,11 @@
             "websiteUrl": "https://www.solaredge.com/",
             "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency."
         },
+        "switchtv": {
+            "name": "Switch Media",
+            "websiteUrl": "https://www.switch.tv/",
+            "description": "Switch Media has successfully delivered complex, multi-award-winning online video solutions for major brands and global live streaming events."
+        },
         "telstra": {
             "name": "Telstra",
             "websiteUrl": "https://www.telstra.com.au/",

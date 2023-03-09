@@ -398,6 +398,12 @@
             "url": "https://www.solaredge.com/",
             "companyId": "solaredge"
         },
+        "switchtv": {
+            "name": "Switch Media",
+            "categoryId": 8,
+            "url": "https://www.switch.tv/",
+            "companyId": "switchtv"
+        },
         "telstra": {
             "name": "Telstra",
             "categoryId": 8,
@@ -643,6 +649,7 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
