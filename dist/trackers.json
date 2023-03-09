@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-08T00:09:48.692Z",
+    "timeUpdated": "2023-03-09T19:02:45.462Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19344,6 +19344,13 @@
             "companyId": "google",
             "source": "AdGuard"
         },
+        "freeview": {
+            "name": "Freeview",
+            "categoryId": 0,
+            "url": "https://freeview.com.au/",
+            "companyId": "freeview",
+            "source": "AdGuard"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
@@ -23996,6 +24003,9 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "freeviewaustralia.tv": "freeview",
+        "freeview.com.au": "freeview",
+        "freeview.com": "freeview",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
