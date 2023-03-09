@@ -122,6 +122,12 @@
             "url": "https://crashlytics.com/",
             "companyId": null
         },
+        "domainglass": {
+            "name": "Domain Glass",
+            "categoryId": 8,
+            "url": "https://domain.glass/",
+            "companyId": "domainglass"
+        },
         "edgio": {
             "name": "Edgio",
             "categoryId": 9,
@@ -567,6 +573,7 @@
         "cloudflare-dns.com": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
+        "domain.glass": "domainglass",
         "alphacdn.net": "edgio",
         "edg.io": "edgio",
         "edgecast.com": "edgio",
