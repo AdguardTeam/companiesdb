@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-09T19:15:11.839Z",
+    "timeUpdated": "2023-03-10T13:38:19.836Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19400,6 +19400,13 @@
             "companyId": "lets_encrypt",
             "source": "AdGuard"
         },
+        "lgads": {
+            "name": "LG Ad Solutions",
+            "categoryId": 4,
+            "url": "https://lgads.tv/",
+            "companyId": "lgcorp",
+            "source": "AdGuard"
+        },
         "lgtv": {
             "name": "LG TV",
             "categoryId": 8,
@@ -24051,6 +24058,8 @@
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "letsencrypt.org": "lets_encrypt",
+        "alphonso.tv": "lgads",
+        "lgads.tv": "lgads",
         "lgsmartad.com": "lgtv",
         "lgtvcommon.com": "lgtv",
         "lgtvsdp.com": "lgtv",
