@@ -260,6 +260,12 @@
             "url": "https://letsencrypt.org/",
             "companyId": "lets_encrypt"
         },
+        "lgads": {
+            "name": "LG Ad Solutions",
+            "categoryId": 4,
+            "url": "https://lgads.tv/",
+            "companyId": "lgcorp"
+        },
         "lgtv": {
             "name": "LG TV",
             "categoryId": 8,
@@ -605,6 +611,8 @@
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "letsencrypt.org": "lets_encrypt",
+        "alphonso.tv": "lgads",
+        "lgads.tv": "lgads",
         "lgsmartad.com": "lgtv",
         "lgtvcommon.com": "lgtv",
         "lgtvsdp.com": "lgtv",
