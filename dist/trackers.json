@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-15T00:09:23.350Z",
+    "timeUpdated": "2023-03-15T09:45:28.309Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19372,6 +19372,13 @@
             "companyId": "google",
             "source": "AdGuard"
         },
+        "iqiyi": {
+            "name": "iQiyi",
+            "categoryId": 0,
+            "url": "https://www.iqiyi.com/",
+            "companyId": "iqiyi",
+            "source": "AdGuard"
+        },
         "hockeyapp": {
             "name": "HockeyApp",
             "categoryId": 101,
@@ -24051,6 +24058,9 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "qy.net": "iqiyi",
+        "iqiyi.com": "iqiyi",
+        "iq.com": "iqiyi",
         "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
