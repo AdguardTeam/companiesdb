@@ -66,6 +66,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "iqiyi": {
+            "name": "iQiyi",
+            "websiteUrl": "https://www.iqiyi.com/",
+            "description": "iQiyi is a Chinese ad-supported television and movie portal providing fully-licensed, high-definition, professionally produced content"
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "websiteUrl": "https://karambasecurity.com/",

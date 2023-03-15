@@ -230,6 +230,12 @@
             "url": "https://pki.goog/",
             "companyId": "google"
         },
+        "iqiyi": {
+            "name": "iQiyi",
+            "categoryId": 0,
+            "url": "https://www.iqiyi.com/",
+            "companyId": "iqiyi"
+        },
         "hockeyapp": {
             "name": "HockeyApp",
             "categoryId": 101,
@@ -604,6 +610,9 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "qy.net": "iqiyi",
+        "iqiyi.com": "iqiyi",
+        "iq.com": "iqiyi",
         "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
