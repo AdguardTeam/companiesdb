@@ -344,6 +344,12 @@
             "url": "https://www.netflix.com/",
             "companyId": "netflix"
         },
+        "netify": {
+            "name": "Netify",
+            "categoryId": 8,
+            "url": "https://www.netify.ai/",
+            "companyId": "netify"
+        },
         "notion": {
             "name": "Notion",
             "categoryId": 8,
@@ -643,6 +649,7 @@
         "mozilla.net": "mozilla",
         "mozilla.org": "mozilla",
         "nflximg.com": "netflix",
+        "netify.ai": "netify",
         "nab.com": "nab",
         "nab.com.au": "nab",
         "nab.net": "nab",
