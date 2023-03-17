@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-15T09:45:28.309Z",
+    "timeUpdated": "2023-03-17T17:50:25.758Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19463,6 +19463,13 @@
             "companyId": "nab",
             "source": "AdGuard"
         },
+        "netify": {
+            "name": "Netify",
+            "categoryId": 8,
+            "url": "https://www.netify.ai/",
+            "companyId": "netify",
+            "source": "AdGuard"
+        },
         "notion": {
             "name": "Notion",
             "categoryId": 8,
@@ -24091,6 +24098,7 @@
         "mozilla.net": "mozilla",
         "mozilla.org": "mozilla",
         "nflximg.com": "netflix",
+        "netify.ai": "netify",
         "nab.com": "nab",
         "nab.com.au": "nab",
         "nab.net": "nab",

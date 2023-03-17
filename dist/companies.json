@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-15T09:45:28.299Z",
+    "timeUpdated": "2023-03-17T17:50:25.747Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11571,6 +11571,12 @@
             "name": "Netflix",
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+            "source": "AdGuard"
+        },
+        "netify": {
+            "name": "Netify",
+            "websiteUrl": "https://www.netify.ai/",
+            "description": "Netify provides network intelligence and visibility.",
             "source": "AdGuard"
         },
         "notion": {
