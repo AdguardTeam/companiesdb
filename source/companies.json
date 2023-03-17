@@ -136,6 +136,11 @@
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
         },
+        "netify": {
+            "name": "Netify",
+            "websiteUrl": "https://www.netify.ai/",
+            "description": "Netify provides network intelligence and visibility."
+        },
         "notion": {
             "name": "Notion Labs Inc.",
             "websiteUrl": "https://www.notion.so/",
