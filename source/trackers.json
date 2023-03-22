@@ -514,6 +514,16 @@
         }
     },
     "trackerDomains": {
+        "abc.net.au": "abc",
+        "ab.co": "abc",
+        "abc-cdn.net.au": "abc",
+        "abc-host.net": "abc",
+        "abc-host.net.au": "abc",
+        "abc-prod.net.au": "abc",
+        "abc-stage.net.au": "abc",
+        "abc-test.net.au": "abc",
+        "abcaustralia.net.au": "abc",
+        "abcradio.net.au": "abc",
         "adtidy.org": "adguard",
         "agrd.io": "adguard",
         "adguard.app": "adguard",
