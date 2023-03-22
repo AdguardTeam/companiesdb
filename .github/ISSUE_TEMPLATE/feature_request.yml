@@ -1,0 +1,117 @@
+name: Feature request
+description: Report new data or fixing incorrect data from the [Whotracks.me](http://whotracks.me/) database
+labels: [pending triage]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the issue
+      description: What would you like to change or add?
+      placeholder: Description
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Where can it be repeated?
+      description: Enter the web address or affected application link.
+      placeholder: ex. https://example.com/
+    validations:
+      required: true
+
+  - type: input
+    id: company_name
+    attributes:
+      label: What is the name of the company?
+      description: Enter the official name of the company.
+      placeholder: ex. Example Inc.
+    validations:
+      required: false
+
+  - type: input
+    id: company_site
+    attributes:
+      label: What is the address of the company website?
+      description: Enter the official website of the company.
+      placeholder: ex. https://example.com/
+    validations:
+      required: false
+
+  - type: input
+    id: tracker_name
+    attributes:
+      label: What is the name of the tracker or service?
+      description: Enter the official name of the tracker or service.
+      placeholder: ex. Example Analytics.
+    validations:
+      required: false
+
+  - type: input
+    id: tracker_purpose
+    attributes:
+      label: What is the purpose of the tracker or service?
+      description: Provide a very short description of the tracker or service. It will be used to choose the tracker category.
+      placeholder: ex. Ads targeting.
+    validations:
+      required: false
+
+  - type: input
+    id: tracker_site
+    attributes:
+      label: What is the address of the tracker or service?
+      description: Enter the site or URL of the tracker or service. May be the same as the company website.
+      placeholder: ex. https://example.com/
+    validations:
+      required: false
+
+  - type: textarea
+    id: tracker_domains
+    attributes:
+      label: List the domains that are used by the tracker or service.
+      description: |
+        The tracker domain may be the same as the domain of the company website
+      value: |
+          1. track.example.com
+          2. exmpl.xyz
+    validations:
+      required: false
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Add your comment and screenshots.
+      description: |
+        0. DO NOT upload screenshots with sexually explicit material on GitHub directly. Instead, upload it to third-party image hosting and post URL here;
+        1. Add screenshots of the problem. You can drag and drop images or paste them from clipboard;
+          Use `<details> </details>` tag to hide screenshots under the spoiler;
+        2. Describe the issue extensively unless it is absolutely clear from the screenshot what the problem is;
+          You can also indicate any other information that you think the developers should know.
+
+        Warning: Please remove personal information before uploading screenshots!
+      value: |
+          1. <comment>
+
+          2. Screenshots
+          <details><summary>Screenshot 1:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
+
+          <details><summary>Screenshot N:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Privacy
+      description: By submitting this issue, you agree that report does not contain private info
+      options:
+        - label: I agree to follow this condition
+          required: true
