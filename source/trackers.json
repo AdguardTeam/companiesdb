@@ -511,6 +511,12 @@
             "categoryId": 101,
             "url": "https://appmetrica.yandex.com/",
             "companyId": "yandex"
+        },
+        "3gpp": {
+            "name": "3GPP Network",
+            "categoryId": 5,
+            "url": "https://www.3gpp.org/",
+            "companyId": "3gpp"
         }
     },
     "trackerDomains": {
@@ -716,6 +722,8 @@
         "yandex.com.tr": "yandex",
         "yandex.fr": "yandex",
         "yandex.kz": "yandex",
-        "appmetrica.yandex.com": "yandex_appmetrica"
+        "appmetrica.yandex.com": "yandex_appmetrica",
+        "3gppnetwork.org": "3gpp",
+        "3gpp.org": "3gpp"
         }
 }
