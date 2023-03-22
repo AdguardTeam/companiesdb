@@ -211,6 +211,11 @@
             "websiteUrl": "https://www.telstra.com.au/",
             "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
         },
+        "uspto": {
+            "name": "Uspto",
+            "websiteUrl": "https://uspto.report/",
+            "description": "The role of the USPTO is to grant patents for the protection of inventions and to register trademarks and service marks for products and services, respectively."
+        },
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",

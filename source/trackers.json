@@ -452,6 +452,12 @@
             "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
             "companyId": null
         },
+        "uspto": {
+            "name": "Uspto",
+            "categoryId": 8,
+            "url": "https://uspto.report/",
+            "companyId": "uspto"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -700,6 +706,7 @@
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
         "unityads.unity3d.com": "unity_ads",
+        "uspto.report": "uspto",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",
         "v0cdn.net": "vscode",
