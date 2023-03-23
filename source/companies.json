@@ -225,6 +225,11 @@
             "name": "Yandex",
             "websiteUrl": "https://www.yandex.com/",
             "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network."
+        },
+        "3gpp": {
+            "name": "3GPP Network",
+            "websiteUrl": "https://www.3gpp.org/",
+            "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling."
         }
     }
 }
