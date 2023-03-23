@@ -1,5 +1,5 @@
-name: Feature request
-description: Report new data or fixing incorrect data from the [Whotracks.me](http://whotracks.me/) database
+name: Database correction
+description: Report new or correct existing information in the database.
 labels: [pending triage]
 body:
   - type: textarea
@@ -8,15 +8,6 @@ body:
       label: Describe the issue
       description: What would you like to change or add?
       placeholder: Description
-    validations:
-      required: true
-
-  - type: input
-    id: url
-    attributes:
-      label: Where can it be repeated?
-      description: Enter the web address or affected application link.
-      placeholder: ex. https://example.com/
     validations:
       required: true
 
