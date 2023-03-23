@@ -76,8 +76,7 @@ body:
         0. DO NOT upload screenshots with sexually explicit material on GitHub directly. Instead, upload it to third-party image hosting and post URL here;
         1. Add screenshots of the problem. You can drag and drop images or paste them from clipboard;
           Use `<details> </details>` tag to hide screenshots under the spoiler;
-        2. Describe the issue extensively unless it is absolutely clear from the screenshot what the problem is;
-          You can also indicate any other information that you think the developers should know.
+        2. Recommended to attach screenshots from the DNS filtering log
 
         Warning: Please remove personal information before uploading screenshots!
       value: |
@@ -85,12 +84,6 @@ body:
 
           2. Screenshots
           <details><summary>Screenshot 1:</summary>
-
-          <!-- paste screenshot here -->
-
-          </details>
-
-          <details><summary>Screenshot N:</summary>
 
           <!-- paste screenshot here -->
 
