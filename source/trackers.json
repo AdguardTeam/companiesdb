@@ -20,6 +20,12 @@
         "101": "mobile_analytics"
     },
     "trackers": {
+        "abc": {
+            "name": "Australian Broadcasting Corporation",
+            "categoryId": 8,
+            "url": "https://www.abc.net.au/",
+            "companyId": "abc"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -520,6 +526,16 @@
         }
     },
     "trackerDomains": {
+        "abc.net.au": "abc",
+        "ab.co": "abc",
+        "abc-cdn.net.au": "abc",
+        "abc-host.net": "abc",
+        "abc-host.net.au": "abc",
+        "abc-prod.net.au": "abc",
+        "abc-stage.net.au": "abc",
+        "abc-test.net.au": "abc",
+        "abcaustralia.net.au": "abc",
+        "abcradio.net.au": "abc",
         "adtidy.org": "adguard",
         "agrd.io": "adguard",
         "adguard.app": "adguard",
