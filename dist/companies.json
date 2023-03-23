@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-22T00:08:19.692Z",
+    "timeUpdated": "2023-03-23T08:42:58.151Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11649,6 +11649,12 @@
             "name": "VK",
             "websiteUrl": "https://vk.company",
             "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet.",
+            "source": "AdGuard"
+        },
+        "3gpp": {
+            "name": "3GPP Network",
+            "websiteUrl": "https://www.3gpp.org/",
+            "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling.",
             "source": "AdGuard"
         }
     }

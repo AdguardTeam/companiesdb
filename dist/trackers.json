@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-22T00:08:19.705Z",
+    "timeUpdated": "2023-03-23T08:42:58.164Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19637,6 +19637,13 @@
             "url": "https://appmetrica.yandex.com/",
             "companyId": "yandex",
             "source": "AdGuard"
+        },
+        "3gpp": {
+            "name": "3GPP Network",
+            "categoryId": 5,
+            "url": "https://www.3gpp.org/",
+            "companyId": "3gpp",
+            "source": "AdGuard"
         }
     },
     "trackerDomains": {
@@ -24164,6 +24171,8 @@
         "yandex.com.tr": "yandex",
         "yandex.fr": "yandex",
         "yandex.kz": "yandex",
-        "appmetrica.yandex.com": "yandex_appmetrica"
+        "appmetrica.yandex.com": "yandex_appmetrica",
+        "3gppnetwork.org": "3gpp",
+        "3gpp.org": "3gpp"
     }
 }
