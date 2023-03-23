@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-03-23T08:42:58.164Z",
+    "timeUpdated": "2023-03-23T08:46:18.627Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19225,6 +19225,13 @@
             "url": "http://www.zypmedia.com/",
             "companyId": "zypmedia"
         },
+        "abc": {
+            "name": "Australian Broadcasting Corporation",
+            "categoryId": 8,
+            "url": "https://www.abc.net.au/",
+            "companyId": "abc",
+            "source": "AdGuard"
+        },
         "adguard_dns": {
             "name": "AdGuard DNS",
             "categoryId": 8,
@@ -23974,6 +23981,16 @@
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
         "extend.tv": "zypmedia",
+        "abc.net.au": "abc",
+        "ab.co": "abc",
+        "abc-cdn.net.au": "abc",
+        "abc-host.net": "abc",
+        "abc-host.net.au": "abc",
+        "abc-prod.net.au": "abc",
+        "abc-stage.net.au": "abc",
+        "abc-test.net.au": "abc",
+        "abcaustralia.net.au": "abc",
+        "abcradio.net.au": "abc",
         "adtidy.org": "adguard",
         "agrd.io": "adguard",
         "adguard.app": "adguard",
