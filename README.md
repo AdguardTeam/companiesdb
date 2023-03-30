@@ -173,3 +173,11 @@ During the build process, a list of warnings and errors is displayed that should
 The favicon of the company website is used as the company icon. It can be checked using our icon service:
 
 [https://icons.adguard.org/icon?domain=adguard.com](https://icons.adguard.org/icon?domain=adguard.com)
+
+## Policy
+
+| **Categories**                                                                                          | **Restrictions**                                         |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| misc, audio_video_player, customer_interaction, social_media                                            | availability of a law firm, sufficient popularity of use |
+| pornvertising, advertising, essential, site_analytics, cdn, hosting, email, telemetry, mobile_analytics | will be added without restrictions                       |
+| stand-alone sites not related to any service                                                            | will not be added                                        |
