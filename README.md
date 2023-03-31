@@ -176,8 +176,22 @@ The favicon of the company website is used as the company icon. It can be checke
 
 ## Policy
 
-| **Categories**                                                                                          | **Restrictions**                                         |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| misc, audio_video_player, customer_interaction, social_media                                            | availability of a law firm, sufficient popularity of use |
-| pornvertising, advertising, essential, site_analytics, cdn, hosting, email, telemetry, mobile_analytics | will be added without restrictions                       |
-| stand-alone sites not related to any service                                                            | will not be added                                        |
+We are currently in the process of developing our policy for adding new companies to our database, and we appreciate your patience as we work on this.
+
+For now, we will only consider adding companies that meet the following criteria:
+
+ 1. The company must have a notable and influential entity that is
+    widely recognized within its industry and/or technologies that are
+    critical to the functionality of a website.
+
+ 2. Information about the company and its activities must be publicly
+    available and confirmed by reliable sources, such as publication
+    reports, public company declarations, reports of research
+    organizations, etc.
+
+ 3. The company collects and/or uses users personal information without
+    their explicit consent
+
+We will not add personal websites, blogs or services that do not appear to be popular enough.
+
+Please note that these criteria are subject to change as we continue to develop our policy.
