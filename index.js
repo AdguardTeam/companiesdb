@@ -116,7 +116,7 @@ function convertWhotracksmeDB() {
                     return;
                 }
 
-                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4));
+                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4) + '\n');
 
                 consola.info(`Finished converting the WhoTracksMe database to ${WHOTRACKSME_OUTPUT_PATH}`);
 
@@ -156,7 +156,7 @@ function buildCompanies(whotracksmeCompanies) {
         companiesData.companies[id] = company;
     }
 
-    fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4));
+    fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4) + '\n');
     consola.info(`Finished building the companies JSON file: ${COMPANIES_OUTPUT_PATH}`);
 
     return companiesData;
@@ -219,7 +219,7 @@ function buildTrackers(whotracksmeTrackers, companies) {
         }
     }
 
-    fs.writeFileSync(TRACKERS_OUTPUT_PATH, JSON.stringify(trackersData, 0, 4));
+    fs.writeFileSync(TRACKERS_OUTPUT_PATH, JSON.stringify(trackersData, 0, 4) + '\n');
     consola.info(`Finished building the trackers JSON file: ${TRACKERS_OUTPUT_PATH}`);
 }
 
@@ -232,7 +232,7 @@ function buildVpnServices() {
 
     const vpnServices = JSON.parse(fs.readFileSync(VPN_SERVICES_INPUT_PATH).toString());
 
-    fs.writeFileSync(VPN_SERVICES_OUTPUT_PATH, JSON.stringify(vpnServices, 0, 4));
+    fs.writeFileSync(VPN_SERVICES_OUTPUT_PATH, JSON.stringify(vpnServices, 0, 4) + '\n');
 
     consola.info(`Finished building the VPN services JSON file: ${VPN_SERVICES_OUTPUT_PATH}`);
 }
