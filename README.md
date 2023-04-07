@@ -176,16 +176,8 @@ The favicon of the company website is used as the company icon. It can be checke
 
 ## Policy
 
-We are currently in the process of developing our policy for adding new companies to our database, and we appreciate your patience as we work on this.
+The detailed policy currently is under development. The decision to add a company is at the discretion of the maintainers,
+each request will review on a case-by-case basis. Factors such as the company's industry, reputation, and relevance
+will be taken into account during the evaluation process.
 
-For now, we will only consider adding companies that meet the following criteria:
-
- 1. The company must have a notable and influential entity that is widely recognized within its industry and/or technologies that are
-    critical to the functionality of a website.
-
- 2. Information about the company and its activities must be publicly available and confirmed by reliable sources, such as publication
-    reports, public company declarations, reports of research organizations, etc.
-
- 3. The company collects and/or uses users personal information without their explicit consent
-
-We will not add personal websites, blogs or services that do not appear to be popular enough.
+Currently, we are avoiding adding personal websites/blogs or services that do not seem to have sufficient popularity.
