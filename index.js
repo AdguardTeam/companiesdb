@@ -13,6 +13,7 @@ const VPN_SERVICES_INPUT_PATH = 'source/vpn_services.json';
 const WHOTRACKSME_OUTPUT_PATH = 'dist/whotracksme.json';
 const COMPANIES_OUTPUT_PATH = 'dist/companies.json';
 const TRACKERS_OUTPUT_PATH = 'dist/trackers.json';
+const TRACKERS_CSV_OUTPUT_PATH = 'dist/trackers.csv';
 const VPN_SERVICES_OUTPUT_PATH = 'dist/vpn_services.json';
 
 /**
@@ -116,7 +117,7 @@ function convertWhotracksmeDB() {
                     return;
                 }
 
-                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, JSON.stringify(whotracksme, 0, 4) + '\n');
+                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, `${JSON.stringify(whotracksme, 0, 4)}\n`);
 
                 consola.info(`Finished converting the WhoTracksMe database to ${WHOTRACKSME_OUTPUT_PATH}`);
 
@@ -156,7 +157,7 @@ function buildCompanies(whotracksmeCompanies) {
         companiesData.companies[id] = company;
     }
 
-    fs.writeFileSync(COMPANIES_OUTPUT_PATH, JSON.stringify(companiesData, 0, 4) + '\n');
+    fs.writeFileSync(COMPANIES_OUTPUT_PATH, `${JSON.stringify(companiesData, 0, 4)}\n`);
     consola.info(`Finished building the companies JSON file: ${COMPANIES_OUTPUT_PATH}`);
 
     return companiesData;
@@ -167,6 +168,7 @@ function buildCompanies(whotracksmeCompanies) {
  *
  * @param {Object} whotracksmeTrackers whotracksme trackers database.
  * @param {Object} companies the map with companies (merged whotracksme+adguard).
+ * @returns {Object} the merged trackers database.
  */
 function buildTrackers(whotracksmeTrackers, companies) {
     consola.info('Start building the trackers JSON file');
@@ -219,8 +221,44 @@ function buildTrackers(whotracksmeTrackers, companies) {
         }
     }
 
-    fs.writeFileSync(TRACKERS_OUTPUT_PATH, JSON.stringify(trackersData, 0, 4) + '\n');
+    fs.writeFileSync(TRACKERS_OUTPUT_PATH, `${JSON.stringify(trackersData, 0, 4)}\n`);
     consola.info(`Finished building the trackers JSON file: ${TRACKERS_OUTPUT_PATH}`);
+
+    return trackersData;
+}
+
+/**
+ * Builds the trackers CSV file in the following form:
+ * domain;tracker_id;category_id
+ *
+ * This CSV file is used in the ETL process of AdGuard DNS (for data enrichment),
+ * any changes to its format should be reflected in the ETL code as well.
+ *
+ * @param {Object} trackersData the trackers database to build the CSV file from.
+ */
+function buildTrackersCSV(trackersData) {
+    consola.info(`Start building the trackers CSV file: ${TRACKERS_CSV_OUTPUT_PATH}`);
+
+    // Init with the header.
+    let csv = 'domain;tracker_id;category_id\n';
+
+    for (const [domain, trackerId] of Object.entries(trackersData.trackerDomains)) {
+        const tracker = trackersData.trackers[trackerId];
+
+        if (!tracker) {
+            throw new Error(`Tracker domain ${domain} has an invalid tracker ID: ${trackerId}`);
+        }
+
+        const { categoryId } = tracker;
+        if (typeof categoryId !== 'undefined') {
+            csv += `${domain};${trackerId};${categoryId}\n`;
+        } else {
+            consola.warn(`Tracker ${trackerId} has no category ID, consider adding it`);
+        }
+    }
+
+    fs.writeFileSync(TRACKERS_CSV_OUTPUT_PATH, csv);
+    consola.info(`Finished building the trackers CSV file: ${TRACKERS_CSV_OUTPUT_PATH}`);
 }
 
 /**
@@ -232,7 +270,7 @@ function buildVpnServices() {
 
     const vpnServices = JSON.parse(fs.readFileSync(VPN_SERVICES_INPUT_PATH).toString());
 
-    fs.writeFileSync(VPN_SERVICES_OUTPUT_PATH, JSON.stringify(vpnServices, 0, 4) + '\n');
+    fs.writeFileSync(VPN_SERVICES_OUTPUT_PATH, `${JSON.stringify(vpnServices, 0, 4)}\n`);
 
     consola.info(`Finished building the VPN services JSON file: ${VPN_SERVICES_OUTPUT_PATH}`);
 }
@@ -243,7 +281,8 @@ function buildVpnServices() {
 
         const whotracksmeDB = await convertWhotracksmeDB();
         const companiesData = buildCompanies(whotracksmeDB.whotracksmeCompanies);
-        buildTrackers(whotracksmeDB.whotracksme, companiesData.companies);
+        const trackersData = buildTrackers(whotracksmeDB.whotracksme, companiesData.companies);
+        buildTrackersCSV(trackersData);
         buildVpnServices();
 
         consola.info('Finished building the companies DB');
