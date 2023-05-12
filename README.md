@@ -176,3 +176,11 @@ During the build process, a list of warnings and errors is displayed that should
 The favicon of the company website is used as the company icon. It can be checked using our icon service:
 
 [https://icons.adguard.org/icon?domain=adguard.com](https://icons.adguard.org/icon?domain=adguard.com)
+
+## Policy
+
+The detailed policy currently is under development. The decision to add a company is at the discretion of the maintainers,
+each request will review on a case-by-case basis. Factors such as the company's industry, reputation, and relevance
+will be taken into account during the evaluation process.
+
+Currently, we are avoiding adding personal websites/blogs or services that do not seem to have sufficient popularity.
