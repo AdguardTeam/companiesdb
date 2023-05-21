@@ -216,6 +216,11 @@
             "websiteUrl": "https://www.telstra.com.au/",
             "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets."
         },
+        "ubuntu": {
+            "name": "Ubuntu",
+            "websiteUrl": "https://ubuntu.com",
+            "description": "Ubuntu is an ancient African word meaning ‘humanity to others’. It is often described as reminding us that ‘I am what I am because of who we all are’. We bring the spirit of Ubuntu to the world of computers and software. The Ubuntu distribution represents the best of what the world’s software community has shared with the world."
+        },                
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",
