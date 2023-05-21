@@ -452,6 +452,12 @@
             "url": "https://www.telstra.com.au/",
             "companyId": "telstra"
         },
+        "ubuntu": {
+            "name": "Ubuntu",
+            "categoryId": 8,
+            "url": "https://ubuntu.com/",
+            "companyId": "ubuntu"
+        },
         "unity_ads": {
             "name": "Unity Ads",
             "categoryId": 4,
@@ -753,6 +759,12 @@
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
+        "canonical.com": "ubuntu",
+        "launchpad.net": "ubuntu",
+        "launchpadcontent.net": "ubuntu",
+        "snapcraft.io": "ubuntu",
+        "snapcraftcontent.com": "ubuntu",
+        "ubuntu.com": "ubuntu",
         "unityads.unity3d.com": "unity_ads",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",
