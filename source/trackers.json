@@ -529,6 +529,12 @@
             "categoryId": 5,
             "url": "https://www.3gpp.org/",
             "companyId": "3gpp"
+        },
+        "7plus": {
+            "name": "7plus",
+            "categoryId": 0,
+            "url": "https://7plus.com.au/",
+            "companyId": "7plus"
         }
     },
     "trackerDomains": {
@@ -784,6 +790,7 @@
         "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica",
         "3gppnetwork.org": "3gpp",
-        "3gpp.org": "3gpp"
+        "3gpp.org": "3gpp",
+        "swm.digital": "7plus"
         }
 }
