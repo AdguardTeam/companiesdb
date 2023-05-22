@@ -31,6 +31,11 @@
             "websiteUrl": "https://www.appsflyer.com/",
             "description": "AppsFlyer is the global leading platform for Mobile Attribution & Marketing Analytics."
         },
+        "atlassian": {
+            "name": "Atlassian",
+            "websiteUrl": "https://www.atlassian.com/",
+            "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "websiteUrl": "https://bitwarden.com/",
