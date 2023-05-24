@@ -611,6 +611,7 @@
         "applovin.com": "applovin",
         "appsflyer.com": "appsflyer",
         "bitbucket.org": "atlassian.net",
+        "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
         "stspg-customer.com": "statuspage.io",
         "blob.core.windows.net": "azure_blob_storage",
