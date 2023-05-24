@@ -414,37 +414,37 @@
             "name": "Samsung Ads",
             "categoryId": 4,
             "url": "https://www.samsung.com/business/samsungads/",
-            "companyId": "samsung"
+            "companyId": "samsungads"
         },
         "samsungapps": {
             "name": "Samsung Apps",
             "categoryId": 101,
             "url": "https://www.samsung.com/au/apps/",
-            "companyId": "samsung"
+            "companyId": "samsungapps"
         },
         "samsungmobile": {
             "name": "Samsung Mobile",
             "categoryId": 101,
             "url": "https://www.samsung.com/mobile/",
-            "companyId": "samsung"
+            "companyId": "samsungmobile"
         },
         "samsungpush": {
             "name": "Samsung Push",
             "categoryId": 8,
             "url": null,
-            "companyId": "samsung"
+            "companyId": "samsungpush"
         },
         "samsungsds": {
             "name": "Samsung SDS",
             "categoryId": 10,
             "url": "https://www.samsungsds.com/",
-            "companyId": "samsung"
+            "companyId": "samsungsds"
         },
         "samsungtv": {
             "name": "Samsung TV",
             "categoryId": 15,
             "url": "https://www.samsung.com/au/tvs/",
-            "companyId": "samsung"
+            "companyId": "samsungtv"
         },
         "sectigo": {
             "name": "Sectigo Limited",
