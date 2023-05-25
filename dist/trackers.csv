@@ -4401,6 +4401,10 @@ safebrowsing.apple;apple;8
 safebrowsing.g.applimg.com;apple;8
 applvn.com;applovin;4
 applovin.com;applovin;4
+bitbucket.org;atlassian.net;2
+jira.com;atlassian.net;2
+ss-inf.net;atlassian.net;2
+stspg-customer.com;statuspage.io;2
 blob.core.windows.net;azure_blob_storage;8
 azure.com;azure;10
 trafficmanager.net;azure;10

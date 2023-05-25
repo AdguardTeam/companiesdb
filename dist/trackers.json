@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-24T18:50:22.317Z",
+    "timeUpdated": "2023-05-25T15:27:09.528Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -24063,6 +24063,10 @@
         "safebrowsing.g.applimg.com": "apple",
         "applvn.com": "applovin",
         "applovin.com": "applovin",
+        "bitbucket.org": "atlassian.net",
+        "jira.com": "atlassian.net",
+        "ss-inf.net": "atlassian.net",
+        "stspg-customer.com": "statuspage.io",
         "blob.core.windows.net": "azure_blob_storage",
         "azure.com": "azure",
         "trafficmanager.net": "azure",

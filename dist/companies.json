@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-24T18:50:22.305Z",
+    "timeUpdated": "2023-05-25T15:27:09.518Z",
     "companies": {
         "163": {
             "name": "163",
@@ -1623,7 +1623,8 @@
         "atlassian": {
             "name": "Atlassian",
             "websiteUrl": "https://www.atlassian.com/",
-            "description": null
+            "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams.",
+            "source": "AdGuard"
         },
         "atomz": {
             "name": "Atomz",
