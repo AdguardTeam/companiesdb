@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-25T15:27:09.518Z",
+    "timeUpdated": "2023-05-26T10:22:37.060Z",
     "companies": {
         "163": {
             "name": "163",
@@ -8739,8 +8739,9 @@
         },
         "samsung": {
             "name": "Samsung",
-            "websiteUrl": "http://www.samsung.com/",
-            "description": "\\\"AdGear’s real-time ad products offer advanced advertising analytics capability, attribution measurement, ad serving, real-time bidding and exchange technology.\\\""
+            "websiteUrl": "https://www.samsung.com/",
+            "description": "Samsung Electronics Co., Ltd. is a South Korean multinational electronics corporation headquartered in Yeongtong-gu, Suwon, South Korea.",
+            "source": "AdGuard"
         },
         "samurai_factory": {
             "name": "Samurai Factory",
