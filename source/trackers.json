@@ -398,6 +398,12 @@
             "url": "https://www.qualcomm.com/",
             "companyId": "qualcomm"
         },
+        "qualcomm_location_service": {
+            "name": "Qualcomm Location Service",
+            "categoryId": 15,
+            "url": "https://www.qualcomm.com/site/privacy/services",
+            "companyId": "qualcomm"
+        },
         "recaptcha": {
             "name": "reCAPTCHA",
             "categoryId": 8,
@@ -778,8 +784,10 @@
         "oztam.com.au": "oztam",
         "plex.tv": "plex",
         "plex.direct": "plex",
-        "xtracloud.net": "qualcomm",
         "qualcomm.com": "qualcomm",
+        "gpsonextra.net":"qualcomm_location_service",
+        "izatcloud.net":"qualcomm_location_service",
+        "xtracloud.net": "qualcomm_location_service",
         "recaptcha.net": "recaptcha",
         "adgear.com": "samsungads",
         "adgrx.com": "samsungads",
