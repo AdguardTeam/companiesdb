@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-29T00:09:41.760Z",
+    "timeUpdated": "2023-05-29T14:15:44.932Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19707,6 +19707,13 @@
             "url": "https://www.3gpp.org/",
             "companyId": "3gpp",
             "source": "AdGuard"
+        },
+        "7plus": {
+            "name": "7plus",
+            "categoryId": 0,
+            "url": "https://7plus.com.au/",
+            "companyId": "7plus",
+            "source": "AdGuard"
         }
     },
     "trackerDomains": {
@@ -24347,6 +24354,7 @@
         "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica",
         "3gppnetwork.org": "3gpp",
-        "3gpp.org": "3gpp"
+        "3gpp.org": "3gpp",
+        "swm.digital": "7plus"
     }
 }
