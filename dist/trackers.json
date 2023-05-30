@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-29T14:15:44.932Z",
+    "timeUpdated": "2023-05-30T20:23:35.440Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19526,6 +19526,13 @@
             "companyId": "qualcomm",
             "source": "AdGuard"
         },
+        "qualcomm_location_service": {
+            "name": "Qualcomm Location Service",
+            "categoryId": 15,
+            "url": "https://www.qualcomm.com/site/privacy/services",
+            "companyId": "qualcomm",
+            "source": "AdGuard"
+        },
         "recaptcha": {
             "name": "reCAPTCHA",
             "categoryId": 8,
@@ -24243,8 +24250,10 @@
         "oztam.com.au": "oztam",
         "plex.tv": "plex",
         "plex.direct": "plex",
-        "xtracloud.net": "qualcomm",
         "qualcomm.com": "qualcomm",
+        "gpsonextra.net": "qualcomm_location_service",
+        "izatcloud.net": "qualcomm_location_service",
+        "xtracloud.net": "qualcomm_location_service",
         "recaptcha.net": "recaptcha",
         "samsungacr.com": "samsungads",
         "samsungadhub.com": "samsungads",

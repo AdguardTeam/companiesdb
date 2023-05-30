@@ -4525,8 +4525,10 @@ outlook.com;outlook;13
 oztam.com.au;oztam;8
 plex.tv;plex;0
 plex.direct;plex;0
-xtracloud.net;qualcomm;8
 qualcomm.com;qualcomm;8
+gpsonextra.net;qualcomm_location_service;15
+izatcloud.net;qualcomm_location_service;15
+xtracloud.net;qualcomm_location_service;15
 recaptcha.net;recaptcha;8
 samsungacr.com;samsungads;4
 samsungadhub.com;samsungads;4
