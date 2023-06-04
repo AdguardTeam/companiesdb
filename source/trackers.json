@@ -458,6 +458,12 @@
             "url": "https://www.solaredge.com/",
             "companyId": "sectigo"
         },
+        "shopify": {
+            "name": "Shopify Inc.",
+            "categoryId": 2,
+            "url": "https://www.shopify.com/",
+            "companyId": "shopify"
+        },
         "showrss": {
             "name": "showRSS",
             "categoryId": 8,
@@ -859,6 +865,17 @@
         "samsungvisioncloud.com": "samsungapps",
         "sbixby.com": "samsungapps",
         "sectigo.com": "sectigo",
+        "myshopify.com": "shopify",
+        "shop.app": "shopify",
+        "shopifyapps.com": "shopify",
+        "shopifycdn.net": "shopify",
+        "shopify.com.au": "shopify",
+        "shopify.com.mx": "shopify",
+        "shopify.co.za": "shopify",
+        "shopify.dev": "shopify",
+        "shopifynetwork.com": "shopify",
+        "shopifypreview.com": "shopify",
+        "shopifysvc.com": "shopify",
         "showrss.info": "showrss",
         "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",
