@@ -216,6 +216,11 @@
             "websiteUrl": "https://www.sonos.com/",
             "description": "Sonos, Inc. is an American developer and manufacturer of audio products best known for its multi-room audio products."
         },
+        "streamotion": {
+            "name": "Streamotion",
+            "websiteUrl": "https://streamotion.com.au/",
+            "description": "Streamotion is a digital B2C business that is home to Kayo, WatchAFL and WatchNRL.\\n\\nIt is a streaming tech business that designed and built the leading digital customer experience platform that Kayo is housed on."
+        },
         "switchtv": {
             "name": "Switch Media",
             "websiteUrl": "https://www.switch.tv/",

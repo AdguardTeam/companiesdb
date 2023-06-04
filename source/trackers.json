@@ -488,6 +488,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "streamedia": {
+            "name": "Streamedia",
+            "categoryId": 0,
+            "url": "https://streamotion.com.au/",
+            "companyId": "foxtelgroup"
+        },
         "switchtv": {
             "name": "Switch Media",
             "categoryId": 8,
@@ -876,6 +882,7 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "streamotion.com.au": "streamedia",
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
