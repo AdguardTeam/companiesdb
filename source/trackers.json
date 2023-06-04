@@ -488,6 +488,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "streamotion": {
+            "name": "Streamotion",
+            "categoryId": 0,
+            "url": "https://streamotion.com.au/",
+            "companyId": "streamotion"
+        },
         "switchtv": {
             "name": "Switch Media",
             "categoryId": 8,
@@ -879,6 +885,7 @@
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
+        "streamotion.com.au": "streamotion",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
