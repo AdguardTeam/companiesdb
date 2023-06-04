@@ -104,6 +104,12 @@
             "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
             "companyId": "microsoft"
         },
+        "binge": {
+            "name": "BINGE",
+            "categoryId": 0,
+            "url": "https://binge.com.au/",
+            "companyId": "binge"
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -671,6 +677,7 @@
         "blob.core.windows.net": "azure_blob_storage",
         "azure.com": "azure",
         "trafficmanager.net": "azure",
+        "binge.com.au": "binge",
         "bitwarden.com": "bitwarden",
         "mobileapptracking.com": "branch",
         "bttn.io": "button",

@@ -36,6 +36,11 @@
             "websiteUrl": "https://www.atlassian.com/",
             "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
         },
+        "binge": {
+            "name": "BINGE",
+            "websiteUrl": "https://binge.com.au/",
+            "description": "Binge is a video streaming subscription service available in Australia, owned by Streamotion (a wholly owned subsidiary of Foxtel). The service offers on demand and live entertainment, lifestyle, reality and movie programming."
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "websiteUrl": "https://bitwarden.com/",
