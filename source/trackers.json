@@ -488,8 +488,8 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
-        "streamedia": {
-            "name": "Streamedia",
+        "streamotion": {
+            "name": "Streamotion",
             "categoryId": 0,
             "url": "https://streamotion.com.au/",
             "companyId": "foxtelgroup"
@@ -711,7 +711,6 @@
         "app-measurement.com": "firebase",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
-        "streamotion.com.au": "foxtelgroup",
         "freeviewaustralia.tv": "freeview",
         "freeview.com.au": "freeview",
         "freeview.com": "freeview",
@@ -886,6 +885,7 @@
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
+        "streamotion.com.au": "streamotion",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
