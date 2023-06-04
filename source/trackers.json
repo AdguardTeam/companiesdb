@@ -488,6 +488,12 @@
             "url": "https://www.qualcomm.com/",
             "companyId": "qualcomm"
         },
+        "qualcomm_location_service": {
+            "name": "Qualcomm Location Service",
+            "categoryId": 15,
+            "url": "https://www.qualcomm.com/site/privacy/services",
+            "companyId": "qualcomm"
+        },
         "recaptcha": {
             "name": "reCAPTCHA",
             "categoryId": 8,
@@ -661,6 +667,12 @@
             "categoryId": 5,
             "url": "https://www.3gpp.org/",
             "companyId": "3gpp"
+        },
+        "7plus": {
+            "name": "7plus",
+            "categoryId": 0,
+            "url": "https://7plus.com.au/",
+            "companyId": "7plus"
         }
     },
     "trackerDomains": {
@@ -1108,6 +1120,9 @@
         "qy.net": "iqiyi",
         "iqiyi.com": "iqiyi",
         "iq.com": "iqiyi",
+        "ironsrc.com": "ironsource",
+        "ironsrc.net": "ironsource",
+        "supersonicads.com": "ironsource",
         "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
@@ -1178,8 +1193,10 @@
         "oztam.com.au": "oztam",
         "plex.tv": "plex",
         "plex.direct": "plex",
-        "xtracloud.net": "qualcomm",
         "qualcomm.com": "qualcomm",
+        "gpsonextra.net":"qualcomm_location_service",
+        "izatcloud.net":"qualcomm_location_service",
+        "xtracloud.net": "qualcomm_location_service",
         "recaptcha.net": "recaptcha",
         "adgear.com": "samsungads",
         "adgrx.com": "samsungads",
@@ -1291,6 +1308,7 @@
         "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica",
         "3gppnetwork.org": "3gpp",
-        "3gpp.org": "3gpp"
+        "3gpp.org": "3gpp",
+        "swm.digital": "7plus"
         }
 }

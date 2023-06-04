@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-05-26T10:22:37.060Z",
+    "timeUpdated": "2023-06-01T00:12:12.648Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11669,6 +11669,12 @@
             "name": "3GPP Network",
             "websiteUrl": "https://www.3gpp.org/",
             "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling.",
+            "source": "AdGuard"
+        },
+        "7plus": {
+            "name": "7plus",
+            "websiteUrl": "https://7plus.com.au/",
+            "description": "7plus is a video on demand, catch-up TV service run by the Seven Network.",
             "source": "AdGuard"
         }
     }
