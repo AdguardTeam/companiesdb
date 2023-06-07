@@ -76,6 +76,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "isolarcloud": {
+            "name": "iSolarCloud",
+            "websiteUrl": "https://isolarcloud.com/",
+            "description": "iSolarCloud provides operational analysis and mobile operation and maintenance services for plants, which is an extension of Web's functions.Services provided mainly are: plant connection, remote parameter configuration, WLAN configuration, fault management, alarm reporting push, device monitoring, knowledge repository, etc."
+        },
         "iqiyi": {
             "name": "iQiyi",
             "websiteUrl": "https://www.iqiyi.com/",

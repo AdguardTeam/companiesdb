@@ -254,6 +254,12 @@
             "url": "https://www.facebook.com/",
             "companyId": "meta"
         },
+        "isolarcloud": {
+            "name": "iSolarCloud",
+            "categoryId": 6,
+            "url": "https://isolarcloud.com/",
+            "companyId": "isolarcloud"
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "categoryId": 8,
@@ -723,6 +729,7 @@
         "ironsrc.com": "ironsource",
         "ironsrc.net": "ironsource",
         "supersonicads.com": "ironsource",
+        "isolarcloud.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
