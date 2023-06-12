@@ -76,6 +76,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "websiteUrl": "https://identrust.com/",
+            "description": "IdenTrust, part of HID Global and headquartered in Salt Lake City, Utah, is a public key certificate authority that provides digital certificates to financial institutions, healthcare providers, government agencies and enterprises. As a certificate authority (CA), IdenTrust provides public key infrastructure (PKI) and validation for digital certificates, including TLS/SSL certificates, email security via S/MIME certificates, digital signature certificates, code signing certificates and x.509 certificates for protecting network and IoT devices."
+        },
         "iqiyi": {
             "name": "iQiyi",
             "websiteUrl": "https://www.iqiyi.com/",
