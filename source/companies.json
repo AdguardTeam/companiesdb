@@ -71,6 +71,11 @@
             "websiteUrl": "https://freeview.com.au/",
             "description": "Freeview is the brand name of the digital terrestrial television platform in Australia intended to bring all of free-to-air broadcasters onto a consistent marketing platform, to compete against subscription television, in particular Foxtel."
         },
+        "gifer": {
+            "name": "Gifer",
+            "websiteUrl": "https://gifer.com/",
+            "description": "Gifer is a GIF search engine that allows users to search multiple GIFs using keywords. It provides the GIFs under various categories including art& design, animals, celebrities, cartoons & comics, emotions, anime, gaming, fashion & beauty, holidays, etc. The search engine provides the relevant GIFs list based on the user's keywords. Users can search, browse, download, copy, and share on multiple social media platforms. Also allows users to upload their own created GIFs and share them on the platform."
+        },
         "google": {
             "name": "Google",
             "websiteUrl": "http://www.google.com",
