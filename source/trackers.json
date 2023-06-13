@@ -506,12 +506,6 @@
             "url": "https://ubuntu.com/",
             "companyId": "ubuntu"
         },
-        "unity": {
-            "name": "Unity Technologies",
-            "categoryId": 8,
-            "url": "https://unity.com/",
-            "companyId": "unity"
-        },
         "unity_ads": {
             "name": "Unity Ads",
             "categoryId": 4,
