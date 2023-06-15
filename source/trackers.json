@@ -248,6 +248,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": null
         },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "categoryId": 5,
+            "url": "https://identrust.com/",
+            "companyId": "identrust"
+        },
         "instagram_com": {
             "name": "Instagram",
             "categoryId": 8,
@@ -457,6 +463,18 @@
             "categoryId": 5,
             "url": "https://www.solaredge.com/",
             "companyId": "sectigo"
+        },
+        "shopify": {
+            "name": "Shopify Inc.",
+            "categoryId": 2,
+            "url": "https://www.shopify.com/",
+            "companyId": "shopify"
+        },
+        "shopify_stats": {
+            "name": "Shopify Stats",
+            "categoryId": 6,
+            "url": "http://www.shopify.com/",
+            "companyId": "shopify"
         },
         "showrss": {
             "name": "showRSS",
@@ -717,6 +735,7 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "identrust.com": "identrust",
         "qy.net": "iqiyi",
         "iqiyi.com": "iqiyi",
         "iq.com": "iqiyi",
@@ -728,6 +747,7 @@
         "apikik.com": "kik",
         "kik-live.com": "kik",
         "klaviyo.com": "klaviyo",
+        "launchdarkly.com": "launch_darkly",
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "letsencrypt.org": "lets_encrypt",
@@ -788,6 +808,7 @@
         "heytapdl.com": "oppo",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
+        "episerver.net": "optimizely",
         "live.com": "outlook",
         "hotmail.com": "outlook",
         "outlook.com": "outlook",
@@ -860,6 +881,22 @@
         "samsungvisioncloud.com": "samsungapps",
         "sbixby.com": "samsungapps",
         "sectigo.com": "sectigo",
+        "cdn.shopify.com": "shopify",
+        "myshopify.com": "shopify",
+        "shop.app": "shopify",
+        "shopify.com": "shopify",
+        "shopifyapps.com": "shopify",
+        "shopifycdn.com": "shopify",
+        "shopifycdn.net": "shopify",
+        "shopify.com.au": "shopify",
+        "shopify.com.mx": "shopify",
+        "shopify.co.za": "shopify",
+        "shopify.dev": "shopify",
+        "shopifynetwork.com": "shopify",
+        "shopifypreview.com": "shopify",
+        "shopifysvc.com": "shopify_stats",
+        "stats.shopify.com": "shopify_stats",
+        "v.shopify.com": "shopify_stats",
         "showrss.info": "showrss",
         "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",

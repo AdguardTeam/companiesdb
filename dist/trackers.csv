@@ -3362,8 +3362,8 @@ app.shoptarget.com.br;shop_target;4
 retargeter.com.br;shop_target;4
 shopauskunft.de;shopauskunft.de;2
 shopgate.com;shopgate.com;2
-shopify.com;shopify_stats;4
-shopifycdn.com;shopifycdn.com;9
+shopify.com;shopify;2
+shopifycdn.com;shopify;2
 shopifycloud.com;shopifycloud.com;2
 shopperapproved.com;shopper_approved;2
 shoppingshadow.com;shopping_com;4
@@ -4453,6 +4453,7 @@ gvt2.com;google_servers;8
 gvt3.com;google_servers;8
 pki.goog;google_trust_services;5
 hockeyapp.net;hockeyapp;101
+identrust.com;identrust;5
 qy.net;iqiyi;0
 iqiyi.com;iqiyi;0
 iq.com;iqiyi;0
@@ -4463,6 +4464,7 @@ karambasecurity.com;karambasecurity;8
 kik.com;kik;7
 apikik.com;kik;7
 kik-live.com;kik;7
+launchdarkly.com;launch_darkly;5
 slatic.net;lazada;4
 lencr.org;lets_encrypt;5
 letsencrypt.org;lets_encrypt;5
@@ -4523,6 +4525,7 @@ heytapmobile.com;oppo;101
 heytapdl.com;oppo;101
 allawnos.com;oppo;101
 allawntech.com;oppo;101
+episerver.net;optimizely;6
 hotmail.com;outlook;13
 outlook.com;outlook;13
 oztam.com.au;oztam;8
@@ -4592,6 +4595,20 @@ samsungmdec.com;samsungapps;101
 samsungvisioncloud.com;samsungapps;101
 sbixby.com;samsungapps;101
 sectigo.com;sectigo;5
+cdn.shopify.com;shopify;2
+myshopify.com;shopify;2
+shop.app;shopify;2
+shopifyapps.com;shopify;2
+shopifycdn.net;shopify;2
+shopify.com.au;shopify;2
+shopify.com.mx;shopify;2
+shopify.co.za;shopify;2
+shopify.dev;shopify;2
+shopifynetwork.com;shopify;2
+shopifypreview.com;shopify;2
+shopifysvc.com;shopify_stats;6
+stats.shopify.com;shopify_stats;6
+v.shopify.com;shopify_stats;6
 showrss.info;showrss;8
 similarweb.io;similarweb;6
 similarweb.com;similarweb;6
