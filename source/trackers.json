@@ -241,6 +241,12 @@
             "url": "https://foxsports.com.au/",
             "companyId": "foxtel"
         },
+        "foxtel": {
+            "name": "Foxtel",
+            "categoryId": 0,
+            "url": "https://foxtel.com.au/",
+            "companyId": "foxtel"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
