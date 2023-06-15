@@ -104,6 +104,11 @@
             "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
             "companyId": "microsoft"
         },
+        "binge": {
+            "name": "Binge",
+            "websiteUrl": "https://binge.com.au/",
+            "description": "Binge is a video streaming subscription service available in Australia, owned by Streamotion (a wholly owned subsidiary of Foxtel). The service offers on demand and live entertainment, lifestyle, reality and movie programming."
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -212,6 +217,12 @@
             "url": "https://firebase.google.com/",
             "companyId": "google"
         },
+        "flash": {
+            "name": "Flash",
+            "categoryId": 0,
+            "url": "https://flashnews.com.au/",
+            "companyId": "foxtel"
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -223,6 +234,12 @@
             "categoryId": 0,
             "url": "https://freeview.com.au/",
             "companyId": "freeview"
+        },
+        "fox_sports": {
+            "name": "Fox Sports",
+            "categoryId": 0,
+            "url": "https://foxsports.com.au/",
+            "companyId": "foxtel"
         },
         "gmail": {
             "name": "Gmail",
@@ -259,6 +276,12 @@
             "categoryId": 8,
             "url": "https://karambasecurity.com/",
             "companyId": "karambasecurity"
+        },
+        "kayo_sports": {
+            "name": "Kayo Sports",
+            "categoryId": 0,
+            "url": "https://kayosports.com.au/",
+            "companyId": "foxtel"
         },
         "kik": {
             "name": "Kik",
@@ -492,7 +515,7 @@
             "name": "Streamotion",
             "categoryId": 0,
             "url": "https://streamotion.com.au/",
-            "companyId": "streamotion"
+            "companyId": "foxtel"
         },
         "switchtv": {
             "name": "Switch Media",
