@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-15T00:09:41.749Z",
+    "timeUpdated": "2023-06-15T11:23:28.061Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19393,6 +19393,13 @@
             "companyId": null,
             "source": "AdGuard"
         },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "categoryId": 5,
+            "url": "https://identrust.com/",
+            "companyId": "identrust",
+            "source": "AdGuard"
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "categoryId": 8,
@@ -24178,6 +24185,7 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "identrust.com": "identrust",
         "qy.net": "iqiyi",
         "iqiyi.com": "iqiyi",
         "iq.com": "iqiyi",
@@ -24188,6 +24196,7 @@
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
+        "launchdarkly.com": "launch_darkly",
         "slatic.net": "lazada",
         "lencr.org": "lets_encrypt",
         "letsencrypt.org": "lets_encrypt",
@@ -24248,6 +24257,7 @@
         "heytapdl.com": "oppo",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
+        "episerver.net": "optimizely",
         "hotmail.com": "outlook",
         "outlook.com": "outlook",
         "oztam.com.au": "oztam",

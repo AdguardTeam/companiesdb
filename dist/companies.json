@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-15T00:09:41.737Z",
+    "timeUpdated": "2023-06-15T11:23:28.050Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11507,6 +11507,12 @@
             "name": "Freeview",
             "websiteUrl": "https://freeview.com.au/",
             "description": "Freeview is the brand name of the digital terrestrial television platform in Australia intended to bring all of free-to-air broadcasters onto a consistent marketing platform, to compete against subscription television, in particular Foxtel.",
+            "source": "AdGuard"
+        },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "websiteUrl": "https://identrust.com/",
+            "description": "IdenTrust, part of HID Global and headquartered in Salt Lake City, Utah, is a public key certificate authority that provides digital certificates to financial institutions, healthcare providers, government agencies and enterprises. As a certificate authority (CA), IdenTrust provides public key infrastructure (PKI) and validation for digital certificates, including TLS/SSL certificates, email security via S/MIME certificates, digital signature certificates, code signing certificates and x.509 certificates for protecting network and IoT devices.",
             "source": "AdGuard"
         },
         "iqiyi": {

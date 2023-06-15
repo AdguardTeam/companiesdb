@@ -4453,6 +4453,7 @@ gvt2.com;google_servers;8
 gvt3.com;google_servers;8
 pki.goog;google_trust_services;5
 hockeyapp.net;hockeyapp;101
+identrust.com;identrust;5
 qy.net;iqiyi;0
 iqiyi.com;iqiyi;0
 iq.com;iqiyi;0
@@ -4463,6 +4464,7 @@ karambasecurity.com;karambasecurity;8
 kik.com;kik;7
 apikik.com;kik;7
 kik-live.com;kik;7
+launchdarkly.com;launch_darkly;5
 slatic.net;lazada;4
 lencr.org;lets_encrypt;5
 letsencrypt.org;lets_encrypt;5
@@ -4523,6 +4525,7 @@ heytapmobile.com;oppo;101
 heytapdl.com;oppo;101
 allawnos.com;oppo;101
 allawntech.com;oppo;101
+episerver.net;optimizely;6
 hotmail.com;outlook;13
 outlook.com;outlook;13
 oztam.com.au;oztam;8
