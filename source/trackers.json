@@ -506,10 +506,10 @@
             "url": "https://ubuntu.com/",
             "companyId": "ubuntu"
         },
-        "unity_ads": {
-            "name": "Unity Ads",
-            "categoryId": 4,
-            "url": "https://unity.com/products/unity-ads/",
+        "unity": {
+            "name": "Unity",
+            "categoryId": 8,
+            "url": "https://unity.com/",
             "companyId": "unity"
         },
         "vk.com": {
@@ -889,7 +889,7 @@
         "snapcraftcontent.com": "ubuntu",
         "ubuntu.com": "ubuntu",
         "ubuntucompanyservices.co.za": "ubuntu",
-        "unity.com": "unity_ads",
+        "unity.com": "unity",
         "unity3d.com": "unity_ads",
         "unity3dusercontent.com": "unity_ads",
         "unityads.unity3d.com": "unity_ads",
