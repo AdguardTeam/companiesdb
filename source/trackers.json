@@ -248,6 +248,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": null
         },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "categoryId": 5,
+            "url": "https://identrust.com/",
+            "companyId": "identrust"
+        },
         "instagram_com": {
             "name": "Instagram",
             "categoryId": 8,
@@ -717,6 +723,7 @@
         "gvt3.com": "google_servers",
         "pki.goog": "google_trust_services",
         "hockeyapp.net": "hockeyapp",
+        "identrust.com": "identrust",
         "qy.net": "iqiyi",
         "iqiyi.com": "iqiyi",
         "iq.com": "iqiyi",
