@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-15T11:23:28.061Z",
+    "timeUpdated": "2023-06-15T11:24:09.032Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -14994,9 +14994,10 @@
         },
         "shopify_stats": {
             "name": "Shopify Stats",
-            "categoryId": 4,
+            "categoryId": 6,
             "url": "http://www.shopify.com/",
-            "companyId": "shopify"
+            "companyId": "shopify",
+            "source": "AdGuard"
         },
         "shopifycdn.com": {
             "name": "Shopify CDN",
@@ -19603,6 +19604,13 @@
             "companyId": "sectigo",
             "source": "AdGuard"
         },
+        "shopify": {
+            "name": "Shopify Inc.",
+            "categoryId": 2,
+            "url": "https://www.shopify.com/",
+            "companyId": "shopify",
+            "source": "AdGuard"
+        },
         "showrss": {
             "name": "showRSS",
             "categoryId": 8,
@@ -23094,8 +23102,8 @@
         "retargeter.com.br": "shop_target",
         "shopauskunft.de": "shopauskunft.de",
         "shopgate.com": "shopgate.com",
-        "shopify.com": "shopify_stats",
-        "shopifycdn.com": "shopifycdn.com",
+        "shopify.com": "shopify",
+        "shopifycdn.com": "shopify",
         "shopifycloud.com": "shopifycloud.com",
         "shopperapproved.com": "shopper_approved",
         "shoppingshadow.com": "shopping_com",
@@ -24327,6 +24335,20 @@
         "samsungvisioncloud.com": "samsungapps",
         "sbixby.com": "samsungapps",
         "sectigo.com": "sectigo",
+        "cdn.shopify.com": "shopify",
+        "myshopify.com": "shopify",
+        "shop.app": "shopify",
+        "shopifyapps.com": "shopify",
+        "shopifycdn.net": "shopify",
+        "shopify.com.au": "shopify",
+        "shopify.com.mx": "shopify",
+        "shopify.co.za": "shopify",
+        "shopify.dev": "shopify",
+        "shopifynetwork.com": "shopify",
+        "shopifypreview.com": "shopify",
+        "shopifysvc.com": "shopify_stats",
+        "stats.shopify.com": "shopify_stats",
+        "v.shopify.com": "shopify_stats",
         "showrss.info": "showrss",
         "similarweb.io": "similarweb",
         "similarweb.com": "similarweb",
