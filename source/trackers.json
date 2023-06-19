@@ -106,8 +106,9 @@
         },
         "binge": {
             "name": "Binge",
-            "websiteUrl": "https://binge.com.au/",
-            "description": "Binge is a video streaming subscription service available in Australia, owned by Streamotion (a wholly owned subsidiary of Foxtel). The service offers on demand and live entertainment, lifestyle, reality and movie programming."
+            "categoryId": 0,
+            "url": "https://binge.com.au/",
+            "companyId": "foxtel"
         },
         "bitwarden": {
             "name": "Bitwarden",
