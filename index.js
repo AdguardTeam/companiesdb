@@ -1,11 +1,9 @@
 /* eslint-disable no-restricted-syntax */
 const fs = require('fs');
-const sqlite3 = require('sqlite3').verbose();
 const consola = require('consola');
 
-// Needs to be downloaded prior to running the script:
-// aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
-const INPUT_SQL_PATH = 'trackerdb.sql';
+const WHOTRACKSME_INPUT_PATH = 'source/whotracksme.json';
+const WHOTRACKSME_COMPANIES_INPUT_PATH = 'source/whotracksme_companies.json';
 const COMPANIES_INPUT_PATH = 'source/companies.json';
 const TRACKERS_INPUT_PATH = 'source/trackers.json';
 const VPN_SERVICES_INPUT_PATH = 'source/vpn_services.json';
@@ -17,119 +15,25 @@ const TRACKERS_CSV_OUTPUT_PATH = 'dist/trackers.csv';
 const VPN_SERVICES_OUTPUT_PATH = 'dist/vpn_services.json';
 
 /**
- * Converts the WhoTracksMe database to the JSON format.
+ * Parses whotracksme trackers and companies data from source and writes trackers to dist.
  */
-function convertWhotracksmeDB() {
-    return new Promise((resolve, reject) => {
-        try {
-            consola.info(`Reading ${INPUT_SQL_PATH}`);
-            const trackersDbSql = fs.readFileSync(INPUT_SQL_PATH).toString();
+function buildWhotracksme() {
+    consola.info('Start building the whotrackme JSON file');
 
-            const transformToSqlite = (sql) => {
-                let sqlFixed = sql.trim();
+    const whotracksme = JSON.parse(fs.readFileSync(WHOTRACKSME_INPUT_PATH).toString());
 
-                if (sqlFixed.indexOf('CREATE TABLE') >= 0) {
-                    sqlFixed = sqlFixed.replace(/UNIQUE/g, '');
-                }
+    const { companies: whotracksmeCompanies } = JSON.parse(
+        fs.readFileSync(WHOTRACKSME_COMPANIES_INPUT_PATH).toString(),
+    );
 
-                return sqlFixed;
-            };
+    fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, `${JSON.stringify(whotracksme, 0, 4)}\n`);
 
-            const whotracksme = {
-                timeUpdated: new Date().toISOString(),
-                categories: {},
-                trackers: {},
-                trackerDomains: {},
-            };
+    consola.info(`Finished building the whotrackme JSON file: ${WHOTRACKSME_OUTPUT_PATH}`);
 
-            const whotracksmeCompanies = {};
-
-            consola.info('Initializing the in-memory trackers database');
-            const db = new sqlite3.Database(':memory:');
-            db.serialize(() => {
-                trackersDbSql.split(/;\s*$/gm).forEach((sql) => {
-                    const sqlFixed = transformToSqlite(sql);
-                    db.run(sqlFixed, () => { });
-                });
-
-                db.each('SELECT * FROM categories', (err, row) => {
-                    if (err) {
-                        reject(new Error(`Error while reading categories: ${err}`));
-                        return;
-                    }
-
-                    whotracksme.categories[row.id] = row.name;
-                });
-
-                const companies = {};
-                db.each('SELECT * FROM companies', (err, row) => {
-                    if (err) {
-                        reject(new Error(`Error while reading companies: ${err}`));
-                        return;
-                    }
-
-                    companies[row.id] = {
-                        id: row.id,
-                        name: row.name,
-                        website_url: row.website_url,
-                    };
-
-                    whotracksmeCompanies[row.id] = {
-                        name: row.name,
-                        websiteUrl: row.website_url,
-                        description: row.description,
-                    };
-                });
-
-                db.each('SELECT * FROM trackers', (err, row) => {
-                    if (err) {
-                        reject(new Error(`Error while reading trackers: ${err}`));
-                        return;
-                    }
-
-                    const company = companies[row.company_id];
-                    let url = row.website_url;
-                    if (!url && company) {
-                        url = company.website_url;
-                    }
-
-                    whotracksme.trackers[row.id] = {
-                        name: row.name,
-                        categoryId: row.category_id,
-                        url,
-                        companyId: row.company_id,
-                    };
-                });
-
-                db.each('SELECT * FROM tracker_domains', (err, row) => {
-                    if (err) {
-                        reject(new Error(`Error while reading tracker_domains: ${err}`));
-                        return;
-                    }
-
-                    whotracksme.trackerDomains[row.domain] = row.tracker;
-                });
-            });
-
-            db.close((err) => {
-                if (err) {
-                    reject(new Error(`Error while closing the database: ${err}`));
-                    return;
-                }
-
-                fs.writeFileSync(WHOTRACKSME_OUTPUT_PATH, `${JSON.stringify(whotracksme, 0, 4)}\n`);
-
-                consola.info(`Finished converting the WhoTracksMe database to ${WHOTRACKSME_OUTPUT_PATH}`);
-
-                resolve({
-                    whotracksme,
-                    whotracksmeCompanies,
-                });
-            });
-        } catch (ex) {
-            reject(new Error(`Error while converting the WhoTracksMe database: ${ex}`));
-        }
-    });
+    return {
+        whotracksme,
+        whotracksmeCompanies,
+    };
 }
 
 /**
@@ -275,11 +179,11 @@ function buildVpnServices() {
     consola.info(`Finished building the VPN services JSON file: ${VPN_SERVICES_OUTPUT_PATH}`);
 }
 
-(async () => {
+(() => {
     try {
         consola.info('Start building the companies DB');
 
-        const whotracksmeDB = await convertWhotracksmeDB();
+        const whotracksmeDB = buildWhotracksme();
         const companiesData = buildCompanies(whotracksmeDB.whotracksmeCompanies);
         const trackersData = buildTrackers(whotracksmeDB.whotracksme, companiesData.companies);
         buildTrackersCSV(trackersData);

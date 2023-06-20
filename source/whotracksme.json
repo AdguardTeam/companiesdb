@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-20T15:24:20.701Z",
+    "timeUpdated": "2023-06-15T11:25:12.656Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -16,8 +16,7 @@
         "12": "extensions",
         "13": "email",
         "14": "consent",
-        "15": "telemetry",
-        "101": "mobile_analytics"
+        "15": "telemetry"
     },
     "trackers": {
         "163": {
@@ -873,11 +872,10 @@
             "companyId": "adgoto"
         },
         "adguard": {
-            "name": "AdGuard",
-            "categoryId": 8,
+            "name": "Adguard",
+            "categoryId": 12,
             "url": "https://adguard.com/",
-            "companyId": "adguard",
-            "source": "AdGuard"
+            "companyId": null
         },
         "adhands": {
             "name": "AdHands",
@@ -953,10 +951,9 @@
         },
         "adjust": {
             "name": "Adjust",
-            "categoryId": 101,
+            "categoryId": 6,
             "url": "https://www.adjust.com/",
-            "companyId": "adjust",
-            "source": "AdGuard"
+            "companyId": "adjust"
         },
         "adk2": {
             "name": "adk2",
@@ -2144,8 +2141,7 @@
             "name": "Akamai Technologies",
             "categoryId": 9,
             "url": "https://www.akamai.com/",
-            "companyId": "akamai",
-            "source": "AdGuard"
+            "companyId": "akamai"
         },
         "akamoihd.net": {
             "name": "akamoihd.net",
@@ -2545,10 +2541,9 @@
         },
         "appsflyer": {
             "name": "AppsFlyer",
-            "categoryId": 101,
+            "categoryId": 6,
             "url": "https://www.appsflyer.com/",
-            "companyId": "appsflyer",
-            "source": "AdGuard"
+            "companyId": "appsflyer"
         },
         "apptv": {
             "name": "appTV",
@@ -6772,64 +6767,55 @@
             "name": "Facebook",
             "categoryId": 4,
             "url": "https://www.facebook.com",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_beacon": {
             "name": "Facebook Beacon",
             "categoryId": 7,
             "url": "http://www.facebook.com/beacon/faq.php",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_cdn": {
             "name": "Facebook CDN",
             "categoryId": 9,
             "url": "https://www.facebook.com",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_connect": {
             "name": "Facebook Connect",
             "categoryId": 6,
             "url": "https://developers.facebook.com/connect.php",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_conversion_tracking": {
             "name": "Facebook Conversion Tracking",
             "categoryId": 4,
             "url": "http://www.facebook.com/",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_custom_audience": {
             "name": "Facebook Custom Audience",
             "categoryId": 4,
             "url": "https://www.facebook.com",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_graph": {
             "name": "Facebook Social Graph",
             "categoryId": 7,
             "url": "https://developers.facebook.com/docs/reference/api/",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_impressions": {
             "name": "Facebook Impressions",
             "categoryId": 4,
             "url": "https://www.facebook.com/",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facebook_social_plugins": {
             "name": "Facebook Social Plugins",
             "categoryId": 7,
             "url": "https://developers.facebook.com/plugins",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "facetz.dca": {
             "name": "Facetz.DCA",
@@ -7109,10 +7095,9 @@
         },
         "flurry": {
             "name": "Flurry",
-            "categoryId": 101,
+            "categoryId": 6,
             "url": "http://www.flurry.com/",
-            "companyId": "verizon",
-            "source": "AdGuard"
+            "companyId": "verizon"
         },
         "flxone": {
             "name": "FLXONE",
@@ -8918,8 +8903,7 @@
             "name": "Instagram",
             "categoryId": 8,
             "url": "https://www.facebook.com/",
-            "companyId": "meta",
-            "source": "AdGuard"
+            "companyId": "facebook"
         },
         "instant_check_mate": {
             "name": "Instant Check Mate",
@@ -10509,22 +10493,19 @@
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
             "url": "http://mail.ru/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "companyId": "megafon"
         },
         "mail.ru_counter": {
             "name": "Mail.Ru Counter",
             "categoryId": 2,
-            "url": "http://mail.ru/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "url": "https://corp.megafon.com/",
+            "companyId": "megafon"
         },
         "mail.ru_group": {
             "name": "Mail.Ru Group",
             "categoryId": 7,
             "url": "http://mail.ru/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "companyId": "megafon"
         },
         "mailchimp_tracking": {
             "name": "MailChimp Tracking",
@@ -10650,8 +10631,7 @@
             "name": "MarkMonitor",
             "categoryId": 4,
             "url": "https://www.markmonitor.com/",
-            "companyId": "markmonitor",
-            "source": "AdGuard"
+            "companyId": "markmonitor"
         },
         "marktest": {
             "name": "Marktest",
@@ -11711,10 +11691,9 @@
         },
         "netflix": {
             "name": "Netflix",
-            "categoryId": 0,
-            "url": "https://www.netflix.com/",
-            "companyId": "netflix",
-            "source": "AdGuard"
+            "categoryId": 8,
+            "url": null,
+            "companyId": null
         },
         "netletix": {
             "name": "Netletix",
@@ -14994,10 +14973,9 @@
         },
         "shopify_stats": {
             "name": "Shopify Stats",
-            "categoryId": 6,
+            "categoryId": 4,
             "url": "http://www.shopify.com/",
-            "companyId": "shopify",
-            "source": "AdGuard"
+            "companyId": "shopify"
         },
         "shopifycdn.com": {
             "name": "Shopify CDN",
@@ -17991,22 +17969,19 @@
             "name": "Vk.com",
             "categoryId": 7,
             "url": "https://vk.com/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "companyId": "megafon"
         },
         "vkontakte": {
             "name": "VKontakte",
             "categoryId": 7,
             "url": "https://vk.com/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "companyId": "megafon"
         },
         "vkontakte_widgets": {
             "name": "VKontakte Widgets",
             "categoryId": 7,
-            "url": "https://dev.vk.com/",
-            "companyId": "vk",
-            "source": "AdGuard"
+            "url": "http://vk.com/developers.php",
+            "companyId": "megafon"
         },
         "vntsm.com": {
             "name": "Venatus Media",
@@ -19225,517 +19200,6 @@
             "categoryId": 4,
             "url": "http://www.zypmedia.com/",
             "companyId": "zypmedia"
-        },
-        "abc": {
-            "name": "Australian Broadcasting Corporation",
-            "categoryId": 8,
-            "url": "https://www.abc.net.au/",
-            "companyId": "abc",
-            "source": "AdGuard"
-        },
-        "adguard_dns": {
-            "name": "AdGuard DNS",
-            "categoryId": 8,
-            "url": "https://adguard-dns.io/",
-            "companyId": "adguard",
-            "source": "AdGuard"
-        },
-        "adguard_vpn": {
-            "name": "AdGuard VPN",
-            "categoryId": 8,
-            "url": "https://adguard-vpn.com/",
-            "companyId": "adguard",
-            "source": "AdGuard"
-        },
-        "appcenter": {
-            "name": "Microsoft App Center",
-            "categoryId": 5,
-            "url": "https://appcenter.ms/",
-            "companyId": null,
-            "source": "AdGuard"
-        },
-        "alibaba_cloud": {
-            "name": "Alibaba Cloud",
-            "categoryId": 10,
-            "url": "https://www.alibabacloud.com/",
-            "companyId": "alibaba",
-            "source": "AdGuard"
-        },
-        "alibaba_ucbrowser": {
-            "name": "UC Browser",
-            "categoryId": 8,
-            "url": "https://ucweb.com/",
-            "companyId": "alibaba",
-            "source": "AdGuard"
-        },
-        "apple": {
-            "name": "Apple",
-            "categoryId": 8,
-            "url": "https://www.apple.com/",
-            "companyId": "apple",
-            "source": "AdGuard"
-        },
-        "apple_ads": {
-            "name": "Apple Search Ads",
-            "categoryId": 4,
-            "url": "https://searchads.apple.com/",
-            "companyId": "apple",
-            "source": "AdGuard"
-        },
-        "azure": {
-            "name": "Microsoft Azure",
-            "categoryId": 10,
-            "url": "https://azure.microsoft.com/",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "azure_blob_storage": {
-            "name": "Azure Blob Storage",
-            "categoryId": 8,
-            "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "bitwarden": {
-            "name": "Bitwarden",
-            "categoryId": 8,
-            "url": "https://bitwarden.com/",
-            "companyId": "bitwarden",
-            "source": "AdGuard"
-        },
-        "branch": {
-            "name": "Branch.io",
-            "categoryId": 101,
-            "url": "https://branch.io/",
-            "companyId": "branch_metrics_inc",
-            "source": "AdGuard"
-        },
-        "button": {
-            "name": "Button",
-            "categoryId": 4,
-            "url": "https://www.usebutton.com/",
-            "companyId": null,
-            "source": "AdGuard"
-        },
-        "crashlytics": {
-            "name": "Crashlytics",
-            "categoryId": 101,
-            "url": "https://crashlytics.com/",
-            "companyId": null,
-            "source": "AdGuard"
-        },
-        "domainglass": {
-            "name": "Domain Glass",
-            "categoryId": 8,
-            "url": "https://domain.glass/",
-            "companyId": "domainglass",
-            "source": "AdGuard"
-        },
-        "edgio": {
-            "name": "Edgio",
-            "categoryId": 9,
-            "url": "https://edg.io/",
-            "companyId": "edgio",
-            "source": "AdGuard"
-        },
-        "element": {
-            "name": "Element",
-            "categoryId": 7,
-            "url": "https://element.io/",
-            "companyId": "element",
-            "source": "AdGuard"
-        },
-        "facebook_audience": {
-            "name": "Facebook Audience Network",
-            "categoryId": 4,
-            "url": "https://www.facebook.com/business/products/audience-network",
-            "companyId": "meta",
-            "source": "AdGuard"
-        },
-        "firebase": {
-            "name": "Firebase",
-            "categoryId": 101,
-            "url": "https://firebase.google.com/",
-            "companyId": "google",
-            "source": "AdGuard"
-        },
-        "freeview": {
-            "name": "Freeview",
-            "categoryId": 0,
-            "url": "https://freeview.com.au/",
-            "companyId": "freeview",
-            "source": "AdGuard"
-        },
-        "gmail": {
-            "name": "Gmail",
-            "categoryId": 13,
-            "url": "https://mail.google.com/",
-            "companyId": "google",
-            "source": "AdGuard"
-        },
-        "google_trust_services": {
-            "name": "Google Trust Services",
-            "categoryId": 5,
-            "url": "https://pki.goog/",
-            "companyId": "google",
-            "source": "AdGuard"
-        },
-        "iqiyi": {
-            "name": "iQiyi",
-            "categoryId": 0,
-            "url": "https://www.iqiyi.com/",
-            "companyId": "iqiyi",
-            "source": "AdGuard"
-        },
-        "hockeyapp": {
-            "name": "HockeyApp",
-            "categoryId": 101,
-            "url": "https://hockeyapp.net/",
-            "companyId": null,
-            "source": "AdGuard"
-        },
-        "identrust": {
-            "name": "IdenTrust, Inc.",
-            "categoryId": 5,
-            "url": "https://identrust.com/",
-            "companyId": "identrust",
-            "source": "AdGuard"
-        },
-        "karambasecurity": {
-            "name": "Karamba Security",
-            "categoryId": 8,
-            "url": "https://karambasecurity.com/",
-            "companyId": "karambasecurity",
-            "source": "AdGuard"
-        },
-        "kik": {
-            "name": "Kik",
-            "categoryId": 7,
-            "url": "https://kik.com/",
-            "companyId": "kik",
-            "source": "AdGuard"
-        },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "categoryId": 5,
-            "url": "https://letsencrypt.org/",
-            "companyId": "lets_encrypt",
-            "source": "AdGuard"
-        },
-        "lgads": {
-            "name": "LG Ad Solutions",
-            "categoryId": 4,
-            "url": "https://lgads.tv/",
-            "companyId": "lgcorp",
-            "source": "AdGuard"
-        },
-        "lgtv": {
-            "name": "LG TV",
-            "categoryId": 8,
-            "url": "https://www.lg.com/",
-            "companyId": "lgcorp",
-            "source": "AdGuard"
-        },
-        "matrix": {
-            "name": "Matrix",
-            "categoryId": 5,
-            "url": "https://matrix.org/",
-            "companyId": "matrix",
-            "source": "AdGuard"
-        },
-        "medialab": {
-            "name": "MediaLab.AI Inc.",
-            "categoryId": 8,
-            "url": "https://medialab.la/",
-            "companyId": "medialab",
-            "source": "AdGuard"
-        },
-        "meganz": {
-            "name": "Mega Ltd.",
-            "categoryId": 8,
-            "url": "https://mega.io/",
-            "companyId": "meganz",
-            "source": "AdGuard"
-        },
-        "msedge": {
-            "name": "Microsoft Edge",
-            "categoryId": 8,
-            "url": "https://www.microsoft.com/en-us/edge",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "mozilla": {
-            "name": "Mozilla Foundation",
-            "categoryId": 8,
-            "url": "https://www.mozilla.org/",
-            "companyId": "mozilla",
-            "source": "AdGuard"
-        },
-        "nab": {
-            "name": "National Australia Bank",
-            "categoryId": 8,
-            "url": "https://www.nab.com.au/",
-            "companyId": "nab",
-            "source": "AdGuard"
-        },
-        "netify": {
-            "name": "Netify",
-            "categoryId": 8,
-            "url": "https://www.netify.ai/",
-            "companyId": "netify",
-            "source": "AdGuard"
-        },
-        "notion": {
-            "name": "Notion",
-            "categoryId": 8,
-            "url": "https://www.notion.so/",
-            "companyId": "notion",
-            "source": "AdGuard"
-        },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "categoryId": 5,
-            "url": "https://ntp.org/",
-            "companyId": "ntppool",
-            "source": "AdGuard"
-        },
-        "oppo": {
-            "name": "OPPO",
-            "categoryId": 101,
-            "url": "https://www.oppo.com/",
-            "companyId": "oppo",
-            "source": "AdGuard"
-        },
-        "outlook": {
-            "name": "Microsoft Outlook",
-            "categoryId": 13,
-            "url": "https://outlook.live.com/",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "oztam": {
-            "name": "OzTAM",
-            "categoryId": 8,
-            "url": "https://oztam.com.au/",
-            "companyId": "oztam",
-            "source": "AdGuard"
-        },
-        "plex": {
-            "name": "Plex",
-            "categoryId": 0,
-            "url": "https://www.plex.tv/",
-            "companyId": "plex",
-            "source": "AdGuard"
-        },
-        "qualcomm": {
-            "name": "Qualcomm",
-            "categoryId": 8,
-            "url": "https://www.qualcomm.com/",
-            "companyId": "qualcomm",
-            "source": "AdGuard"
-        },
-        "qualcomm_location_service": {
-            "name": "Qualcomm Location Service",
-            "categoryId": 15,
-            "url": "https://www.qualcomm.com/site/privacy/services",
-            "companyId": "qualcomm",
-            "source": "AdGuard"
-        },
-        "recaptcha": {
-            "name": "reCAPTCHA",
-            "categoryId": 8,
-            "url": "https://www.google.com/recaptcha/about/",
-            "companyId": "google",
-            "source": "AdGuard"
-        },
-        "samsung": {
-            "name": "Samsung",
-            "categoryId": 8,
-            "url": "https://www.samsung.com/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungads": {
-            "name": "Samsung Ads",
-            "categoryId": 4,
-            "url": "https://www.samsung.com/business/samsungads/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungapps": {
-            "name": "Samsung Apps",
-            "categoryId": 101,
-            "url": "https://www.samsung.com/au/apps/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungmobile": {
-            "name": "Samsung Mobile",
-            "categoryId": 101,
-            "url": "https://www.samsung.com/mobile/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungpush": {
-            "name": "Samsung Push",
-            "categoryId": 8,
-            "url": null,
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungsds": {
-            "name": "Samsung SDS",
-            "categoryId": 10,
-            "url": "https://www.samsungsds.com/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "samsungtv": {
-            "name": "Samsung TV",
-            "categoryId": 15,
-            "url": "https://www.samsung.com/au/tvs/",
-            "companyId": "samsung",
-            "source": "AdGuard"
-        },
-        "sectigo": {
-            "name": "Sectigo Limited",
-            "categoryId": 5,
-            "url": "https://www.solaredge.com/",
-            "companyId": "sectigo",
-            "source": "AdGuard"
-        },
-        "shopify": {
-            "name": "Shopify Inc.",
-            "categoryId": 2,
-            "url": "https://www.shopify.com/",
-            "companyId": "shopify",
-            "source": "AdGuard"
-        },
-        "showrss": {
-            "name": "showRSS",
-            "categoryId": 8,
-            "url": "https://showrss.info/",
-            "companyId": "showrss",
-            "source": "AdGuard"
-        },
-        "similarweb": {
-            "name": "SimilarWeb",
-            "categoryId": 6,
-            "url": "https://www.similarweb.com/",
-            "companyId": "similarweb",
-            "source": "AdGuard"
-        },
-        "slack": {
-            "name": "Slack",
-            "categoryId": 8,
-            "url": "https://www.slack.com/",
-            "companyId": "salesforce",
-            "source": "AdGuard"
-        },
-        "solaredge": {
-            "name": "SolarEdge Technologies, Inc.",
-            "categoryId": 8,
-            "url": "https://www.solaredge.com/",
-            "companyId": "solaredge",
-            "source": "AdGuard"
-        },
-        "sonos": {
-            "name": "Sonos",
-            "categoryId": 8,
-            "url": "https://www.sonos.com/",
-            "companyId": "sonos",
-            "source": "AdGuard"
-        },
-        "switchtv": {
-            "name": "Switch Media",
-            "categoryId": 8,
-            "url": "https://www.switch.tv/",
-            "companyId": "switchtv",
-            "source": "AdGuard"
-        },
-        "telstra": {
-            "name": "Telstra",
-            "categoryId": 8,
-            "url": "https://www.telstra.com.au/",
-            "companyId": "telstra",
-            "source": "AdGuard"
-        },
-        "ubuntu": {
-            "name": "Ubuntu",
-            "categoryId": 8,
-            "url": "https://ubuntu.com/",
-            "companyId": "ubuntu",
-            "source": "AdGuard"
-        },
-        "unity_ads": {
-            "name": "Unity Ads",
-            "categoryId": 4,
-            "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
-            "companyId": null,
-            "source": "AdGuard"
-        },
-        "vscode": {
-            "name": "Visual Studio Code",
-            "categoryId": 8,
-            "url": "https://code.visualstudio.com/",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "whatsapp": {
-            "name": "WhatsApp",
-            "categoryId": 8,
-            "url": "https://www.whatsapp.com/",
-            "companyId": "meta",
-            "source": "AdGuard"
-        },
-        "windows_maps": {
-            "name": "Windows Maps",
-            "categoryId": 8,
-            "url": "https://www.microsoft.com/store/apps/9wzdncrdtbvb",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "windows_notifications": {
-            "name": "The Windows Push Notification Services",
-            "categoryId": 8,
-            "url": "https://learn.microsoft.com/en-us/windows/apps/design/shell/tiles-and-notifications/windows-push-notification-services--wns--overview",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "windows_time": {
-            "name": "Windows Time Service",
-            "categoryId": 8,
-            "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/how-the-windows-time-service-works",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "windowsupdate": {
-            "name": "Windows Update",
-            "categoryId": 9,
-            "url": "https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2",
-            "companyId": "microsoft",
-            "source": "AdGuard"
-        },
-        "yandex_appmetrica": {
-            "name": "Yandex AppMetrica",
-            "categoryId": 101,
-            "url": "https://appmetrica.yandex.com/",
-            "companyId": "yandex",
-            "source": "AdGuard"
-        },
-        "3gpp": {
-            "name": "3GPP Network",
-            "categoryId": 5,
-            "url": "https://www.3gpp.org/",
-            "companyId": "3gpp",
-            "source": "AdGuard"
-        },
-        "7plus": {
-            "name": "7plus",
-            "categoryId": 0,
-            "url": "https://7plus.com.au/",
-            "companyId": "7plus",
-            "source": "AdGuard"
         }
     },
     "trackerDomains": {
@@ -19928,8 +19392,8 @@
         "adfreestyle.pl": "adfreestyle",
         "adfront.org": "adfront",
         "adfrontiers.com": "adfrontiers",
-        "adgear.com": "samsungads",
-        "adgrx.com": "samsungads",
+        "adgear.com": "adgear",
+        "adgrx.com": "adgear",
         "adgebra.co.in": "adgebra",
         "adgenie.co.uk": "adgenie",
         "ad.adgile.com": "adgile",
@@ -21276,7 +20740,7 @@
         "facebook.net": "facebook",
         "fbcdn.net": "facebook_cdn",
         "fbsbx.com": "facebook_cdn",
-        "graph.facebook.com": "facebook_audience",
+        "graph.facebook.com": "facebook_graph",
         "facetz.net": "facetz.dca",
         "adsfac.eu": "facilitate_digital",
         "adsfac.net": "facilitate_digital",
@@ -21809,7 +21273,7 @@
         "isocket.com": "isocket",
         "ispot.tv": "ispot.tv",
         "itineraire.info": "itineraire.info",
-        "apple.com": "apple",
+        "apple.com": "itunes_link_maker",
         "autolinkmaker.itunes.apple.com": "itunes_link_maker",
         "ity.im": "ity.im",
         "iubenda.com": "iubenda.com",
@@ -22263,7 +21727,7 @@
         "azurewebsites.net": "microsoft",
         "cloudapp.net": "microsoft",
         "gfx.ms": "microsoft",
-        "live.com": "outlook",
+        "live.com": "microsoft",
         "microsoft.com": "microsoft",
         "microsoftonline-p.com": "microsoft",
         "microsoftonline.com": "microsoft",
@@ -23102,8 +22566,8 @@
         "retargeter.com.br": "shop_target",
         "shopauskunft.de": "shopauskunft.de",
         "shopgate.com": "shopgate.com",
-        "shopify.com": "shopify",
-        "shopifycdn.com": "shopify",
+        "shopify.com": "shopify_stats",
+        "shopifycdn.com": "shopifycdn.com",
         "shopifycloud.com": "shopifycloud.com",
         "shopperapproved.com": "shopper_approved",
         "shoppingshadow.com": "shopping_com",
@@ -24065,341 +23529,6 @@
         "zukxd6fkxqn.com": "zukxd6fkxqn.com",
         "zwaar.net": "zwaar",
         "zwaar.org": "zwaar",
-        "extend.tv": "zypmedia",
-        "abc.net.au": "abc",
-        "ab.co": "abc",
-        "abc-cdn.net.au": "abc",
-        "abc-host.net": "abc",
-        "abc-host.net.au": "abc",
-        "abc-prod.net.au": "abc",
-        "abc-stage.net.au": "abc",
-        "abc-test.net.au": "abc",
-        "abcaustralia.net.au": "abc",
-        "abcradio.net.au": "abc",
-        "adtidy.org": "adguard",
-        "agrd.io": "adguard",
-        "adguard.app": "adguard",
-        "adguard.io": "adguard",
-        "adguard.org": "adguard",
-        "adguard-dns.com": "adguard_dns",
-        "adguard-dns.io": "adguard_dns",
-        "adguardvpn.com": "adguard_vpn",
-        "adguard-vpn.com": "adguard_vpn",
-        "adguard-vpn.online": "adguard_vpn",
-        "adjust.net.in": "adjust",
-        "adj.st": "adjust",
-        "adjust.io": "adjust",
-        "adjust.world": "adjust",
-        "apptrace.com": "adjust",
-        "akadns.net": "akamai_technologies",
-        "akamaiedge.net": "akamai_technologies",
-        "akaquill.net": "akamai_technologies",
-        "aliapp.org": "alibaba.com",
-        "alibabachengdun.com": "alibaba.com",
-        "alibabausercontent.com": "alibaba.com",
-        "aliexpress.com": "alibaba.com",
-        "alikunlun.com": "alibaba.com",
-        "aliyuncs.com": "alibaba.com",
-        "alibabacloud.com": "alibaba_cloud",
-        "alibabadns.com": "alibaba_cloud",
-        "aliyun.com": "alibaba_cloud",
-        "ucweb.com": "alibaba_ucbrowser",
-        "alipayobjects.com": "alipay.com",
-        "amazoncrl.com": "amazon",
-        "aamazoncognito.com": "amazon",
-        "amazonbrowserapp.es": "amazon",
-        "amazonbrowserapp.co.uk": "amazon",
-        "amazon.sa": "amazon",
-        "amazon.nl": "amazon",
-        "amazon.in": "amazon",
-        "amazon.com.mx": "amazon",
-        "amazon.com.au": "amazon",
-        "amazon-corp.com": "amazon",
-        "a2z.com": "amazon",
-        "amazontrust.com": "amazon_cdn",
-        "associates-amazon.com": "amazon_cdn",
-        "amazonpay.in": "amazon_payments",
-        "amazonvideo.com": "amazon_video",
-        "taobao.com": "taobao",
-        "appcenter.ms": "appcenter",
-        "iadsdk.apple.com": "apple_ads",
-        "me.com": "apple",
-        "apple.news": "apple",
-        "apple-dns.net": "apple",
-        "aaplimg.com": "apple",
-        "icloud.com": "apple",
-        "itunes.com": "apple",
-        "icloud-content.com": "apple",
-        "mzstatic.com": "apple",
-        "cdn-apple.com": "apple",
-        "apple-mapkit.com": "apple",
-        "icons.axm-usercontent-apple.com": "apple",
-        "apple-cloudkit.com": "apple",
-        "apzones.com": "apple",
-        "apple-livephotoskit.com": "apple",
-        "safebrowsing.apple": "apple",
-        "safebrowsing.g.applimg.com": "apple",
-        "applvn.com": "applovin",
-        "applovin.com": "applovin",
-        "bitbucket.org": "atlassian.net",
-        "jira.com": "atlassian.net",
-        "ss-inf.net": "atlassian.net",
-        "stspg-customer.com": "statuspage.io",
-        "blob.core.windows.net": "azure_blob_storage",
-        "azure.com": "azure",
-        "trafficmanager.net": "azure",
-        "bitwarden.com": "bitwarden",
-        "mobileapptracking.com": "branch",
-        "bttn.io": "button",
-        "cloudflare-dns.com": "cloudflare",
-        "cloudflare-dm-cmpimg.com": "cloudflare",
-        "cloudflare-ipfs.com": "cloudflare",
-        "cloudflare-quic.com": "cloudflare",
-        "cloudflare-terms-of-service-abuse.com": "cloudflare",
-        "cloudflare.tv": "cloudflare",
-        "cloudflareaccess.com": "cloudflare",
-        "cloudflareclient.com": "cloudflare",
-        "cloudflareinsights.com": "cloudflare",
-        "cloudflareok.com": "cloudflare",
-        "cloudflareportal.com": "cloudflare",
-        "cloudflareresolve.com": "cloudflare",
-        "cloudflaressl.com": "cloudflare",
-        "cloudflarestatus.com": "cloudflare",
-        "pacloudflare.com": "cloudflare",
-        "sn-cloudflare.com": "cloudflare",
-        "crashlytics.com": "crashlytics",
-        "phicdn.net": "digicert_trust_seal",
-        "domain.glass": "domainglass",
-        "alphacdn.net": "edgio",
-        "edg.io": "edgio",
-        "edgecast.com": "edgio",
-        "edgecastcdn.net": "edgio",
-        "edgecastdns.net": "edgio",
-        "sigmacdn.net": "edgio",
-        "element.io": "element",
-        "riot.im": "element",
-        "app-measurement.com": "firebase",
-        "flipboard.com": "flipboard",
-        "flurry.com": "flurry",
-        "freeviewaustralia.tv": "freeview",
-        "freeview.com.au": "freeview",
-        "freeview.com": "freeview",
-        "ghcr.io": "github",
-        "github.dev": "github",
-        "gmail.com": "gmail",
-        "googlehosted.com": "google_appspot",
-        "gvt1.com": "google_servers",
-        "gvt2.com": "google_servers",
-        "gvt3.com": "google_servers",
-        "pki.goog": "google_trust_services",
-        "hockeyapp.net": "hockeyapp",
-        "identrust.com": "identrust",
-        "qy.net": "iqiyi",
-        "iqiyi.com": "iqiyi",
-        "iq.com": "iqiyi",
-        "ironsrc.com": "ironsource",
-        "ironsrc.net": "ironsource",
-        "supersonicads.com": "ironsource",
-        "karambasecurity.com": "karambasecurity",
-        "kik.com": "kik",
-        "apikik.com": "kik",
-        "kik-live.com": "kik",
-        "klaviyo.com": "klaviyo",
-        "launchdarkly.com": "launch_darkly",
-        "slatic.net": "lazada",
-        "lencr.org": "lets_encrypt",
-        "letsencrypt.org": "lets_encrypt",
-        "alphonso.tv": "lgads",
-        "lgads.tv": "lgads",
-        "lgsmartad.com": "lgtv",
-        "lgtvcommon.com": "lgtv",
-        "lgtvsdp.com": "lgtv",
-        "lge.com": "lgtv",
-        "lg.com": "lgtv",
-        "markmonitor.com": "markmonitor",
-        "matrix.org": "matrix",
-        "medialab.la": "medialab",
-        "media-lab.ai": "medialab",
-        "mega.co.nz": "meganz",
-        "mega.io": "meganz",
-        "mega.nz": "meganz",
-        "e-msedge.net": "msedge",
-        "l-msedge.net": "msedge",
-        "firefox.com": "mozilla",
-        "mozaws.net": "mozilla",
-        "mozgcp.net": "mozilla",
-        "mozilla.com": "mozilla",
-        "mozilla.net": "mozilla",
-        "mozilla.org": "mozilla",
-        "flxvpn.net": "netflix",
-        "netflix.ca": "netflix",
-        "netflix.com.au": "netflix",
-        "netflix.net": "netflix",
-        "netflixdnstest1.com": "netflix",
-        "netflixdnstest10.com": "netflix",
-        "netflixdnstest2.com": "netflix",
-        "netflixdnstest3.com": "netflix",
-        "netflixdnstest4.com": "netflix",
-        "netflixdnstest5.com": "netflix",
-        "netflixdnstest6.com": "netflix",
-        "netflixdnstest7.com": "netflix",
-        "netflixdnstest8.com": "netflix",
-        "netflixdnstest9.com": "netflix",
-        "netflixinvestor.com": "netflix",
-        "netflixstudios.com": "netflix",
-        "netflixtechblog.com": "netflix",
-        "nflximg.com": "netflix",
-        "netify.ai": "netify",
-        "nab.com": "nab",
-        "nab.com.au": "nab",
-        "nab.net": "nab",
-        "nabgroup.com": "nab",
-        "national.com.au": "nab",
-        "nationalaustraliabank.com.au": "nab",
-        "nationalbank.com.au": "nab",
-        "notion.so": "notion",
-        "ntp.org": "ntppool",
-        "ntppool.org": "ntppool",
-        "oppomobile.com": "oppo",
-        "heytapmobi.com": "oppo",
-        "heytapmobile.com": "oppo",
-        "heytapdl.com": "oppo",
-        "allawnos.com": "oppo",
-        "allawntech.com": "oppo",
-        "episerver.net": "optimizely",
-        "hotmail.com": "outlook",
-        "outlook.com": "outlook",
-        "oztam.com.au": "oztam",
-        "plex.tv": "plex",
-        "plex.direct": "plex",
-        "qualcomm.com": "qualcomm",
-        "gpsonextra.net": "qualcomm_location_service",
-        "izatcloud.net": "qualcomm_location_service",
-        "xtracloud.net": "qualcomm_location_service",
-        "recaptcha.net": "recaptcha",
-        "samsungacr.com": "samsungads",
-        "samsungadhub.com": "samsungads",
-        "samsungads.com": "samsungads",
-        "samsungtifa.com": "samsungads",
-        "game-mode.net": "samsung",
-        "gos-gsp.io": "samsung",
-        "lldns.net": "samsung",
-        "pavv.co.kr": "samsung",
-        "remotesamsung.com": "samsung",
-        "samsung-gamelauncher.com": "samsung",
-        "samsung.co.kr": "samsung",
-        "samsung.com": "samsung",
-        "samsung.com.cn": "samsung",
-        "samsungcloud.com": "samsung",
-        "samsungcloudcdn.com": "samsung",
-        "samsungcloudprint.com": "samsung",
-        "samsungcloudsolution.com": "samsung",
-        "samsungcloudsolution.net": "samsung",
-        "samsungelectronics.com": "samsung",
-        "samsunghealth.com": "samsung",
-        "samsungiotcloud.com": "samsung",
-        "samsungknox.com": "samsung",
-        "samsungnyc.com": "samsung",
-        "samsungosp.com": "samsung",
-        "samsungotn.net": "samsung",
-        "samsungpositioning.com": "samsung",
-        "samsungqbe.com": "samsung",
-        "samsungrm.net": "samsung",
-        "samsungrs.com": "samsung",
-        "samsungsemi.com": "samsung",
-        "samsungsetup.com": "samsung",
-        "samsungusa.com": "samsung",
-        "secb2b.com": "samsung",
-        "smartthings.com": "samsung",
-        "ospserver.net": "samsungmobile",
-        "samsungdms.net": "samsungmobile",
-        "samsungmax.com": "samsungmobile",
-        "samsungmobile.com": "samsungmobile",
-        "secmobilesvc.com": "samsungmobile",
-        "internetat.tv": "samsungtv",
-        "samsungcloud.tv": "samsungtv",
-        "samsungsds.com": "samsungsds",
-        "push.samsungosp.com": "samsungpush",
-        "pushmessage.samsung.com": "samsungpush",
-        "scs.samsungqbe.com": "samsungpush",
-        "ssp.samsung.com": "samsungpush",
-        "aibixby.com": "samsungapps",
-        "findmymobile.samsung.com": "samsungapps",
-        "samsapps.cust.lldns.net": "samsungapps",
-        "samsung-omc.com": "samsungapps",
-        "samsungapps.com": "samsungapps",
-        "samsungdiroute.net": "samsungapps",
-        "samsungdive.com": "samsungapps",
-        "samsungdm.com": "samsungapps",
-        "samsungdmroute.com": "samsungapps",
-        "samsungmdec.com": "samsungapps",
-        "samsungvisioncloud.com": "samsungapps",
-        "sbixby.com": "samsungapps",
-        "sectigo.com": "sectigo",
-        "cdn.shopify.com": "shopify",
-        "myshopify.com": "shopify",
-        "shop.app": "shopify",
-        "shopifyapps.com": "shopify",
-        "shopifycdn.net": "shopify",
-        "shopify.com.au": "shopify",
-        "shopify.com.mx": "shopify",
-        "shopify.co.za": "shopify",
-        "shopify.dev": "shopify",
-        "shopifynetwork.com": "shopify",
-        "shopifypreview.com": "shopify",
-        "shopifysvc.com": "shopify_stats",
-        "stats.shopify.com": "shopify_stats",
-        "v.shopify.com": "shopify_stats",
-        "showrss.info": "showrss",
-        "similarweb.io": "similarweb",
-        "similarweb.com": "similarweb",
-        "slack.com": "slack",
-        "slackb.com": "slack",
-        "slack-edge.com": "slack",
-        "slack-imgs.com": "slack",
-        "addlive.io": "snap",
-        "feelinsonice.com": "snap",
-        "sc-cdn.net": "snap",
-        "sc-corp.net": "snap",
-        "sc-gw.com": "snap",
-        "sc-jpl.com": "snap",
-        "sc-prod.net": "snap",
-        "snap-dev.net": "snap",
-        "snapads.com": "snap",
-        "snapkit.com": "snap",
-        "switch.tv": "switchtv",
-        "solaredge.com": "solaredge",
-        "sonos.com": "sonos",
-        "telstra.com.au": "telstra",
-        "telstra.com": "telstra",
-        "usertrust.com": "trustlogo",
-        "canonical.com": "ubuntu",
-        "launchpad.net": "ubuntu",
-        "launchpadcontent.net": "ubuntu",
-        "snapcraft.io": "ubuntu",
-        "snapcraftcontent.com": "ubuntu",
-        "ubuntu.com": "ubuntu",
-        "ubuntucompanyservices.co.za": "ubuntu",
-        "unityads.unity3d.com": "unity_ads",
-        "exp-tas.com": "vscode",
-        "vscode-unpkg.net": "vscode",
-        "v0cdn.net": "vscode",
-        "vscode-cdn.net": "vscode",
-        "whatsapp.net": "whatsapp",
-        "whatsapp.com": "whatsapp",
-        "maps.windows.com": "windows_maps",
-        "client.wns.windows.com": "windows_notifications",
-        "time.windows.com": "windows_time",
-        "windowsupdate.com": "windowsupdate",
-        "ya.ru": "yandex",
-        "yandex.by": "yandex",
-        "yandex.com": "yandex",
-        "yandex.com.tr": "yandex",
-        "yandex.fr": "yandex",
-        "yandex.kz": "yandex",
-        "appmetrica.yandex.com": "yandex_appmetrica",
-        "3gppnetwork.org": "3gpp",
-        "3gpp.org": "3gpp",
-        "swm.digital": "7plus"
+        "extend.tv": "zypmedia"
     }
 }
