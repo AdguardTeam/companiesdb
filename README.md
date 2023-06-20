@@ -14,11 +14,6 @@ AdGuard VPN.
 - add a tracker.
 - create a Pull Request.
 
-To work with the repository you need:
-
-- [Python](https://www.python.org/downloads/) 3.6 or newer.
-- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
-
 ## Naming of branches and commits
 
 - the branch name format:
@@ -41,13 +36,16 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 **Trackers**:
 
-- [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json) - contains information about trackers, fetched from whotracks.me.
-- [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) - contains information about trackers, which overwrites or supplements [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
+- [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json) - just a copy of [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json).
+- [dist/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) - contains information about trackers, obtained by merging the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) with [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
+- [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json) - contains information about trackers, fetched from whotracks.me.
+- [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) - contains information about trackers, which overwrites or supplements [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
 
 **Companies**:
 
-- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [whotracks.me](http://whotracks.me) database with [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
-- [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) - contains information about companies, which overwrites or supplements information in [companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/dist/companies.json) .
+- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [source/whotracksme_companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json) with [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
+- [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) - contains information about companies, which overwrites or supplements information in [source/whotracksme_companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/source/whotracksme_companies.json).
+- [source/whotracksme_companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json) - contains information about companies, fetched from whotracks.me.
 
 **VPN Services**:
 
@@ -146,9 +144,6 @@ Add tracker domains to the **trackerDomains** section:
 ## **How to build trackers data**
 
 ```bash
-# Download Whotracks.me data
-aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
-# Run the script
 yarn install
 yarn convert
 ```
