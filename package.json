@@ -16,7 +16,6 @@
         "eslint-plugin-import": "^2.20.1"
     },
     "dependencies": {
-        "consola": "^2.15.3",
-        "sqlite3": "^5.0.2"
+        "consola": "^2.15.3"
     }
 }
