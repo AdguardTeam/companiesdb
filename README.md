@@ -179,3 +179,8 @@ each request will review on a case-by-case basis. Factors such as the company's 
 will be taken into account during the evaluation process.
 
 Currently, we are avoiding adding personal websites/blogs or services that do not seem to have sufficient popularity.
+
+## Acknowledgements
+
+We would like to thank the team at **whotrack.me** for their work.
+Initially, our database was built on top of the **whotrack.me** database, using their extensive data collection. However, we would like to emphasise that our current database is now independent and updated separately from **whotrack.me**.
