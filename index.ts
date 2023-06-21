@@ -126,6 +126,33 @@ function readTrackersJSON(source: string): TrackersJSON {
     return trackersJSONSchema.parse(data);
 }
 
+/**
+ * Sorts the records alphabetically by key or value.
+ *
+ * @param record The record to sort.
+ * @param sortByKey Flag specifying whether to sort by key or value. Defaults sort by key (true).
+ * @returns New sorted record.
+ */
+function sortRecordsAlphabetically<T>(
+    record: Record<string, T>,
+    sortByKey = true,
+): Record<string, T> {
+    return Object.fromEntries(Object.entries(record).sort(([aKey, aValue], [bKey, bValue]) => {
+        const a = sortByKey ? aKey : aValue;
+        const b = sortByKey ? bKey : bValue;
+
+        if (a < b) {
+            return -1;
+        }
+
+        if (a > b) {
+            return 1;
+        }
+
+        return 0;
+    }));
+}
+
 type Companies = CompaniesJSON['companies'];
 
 /**
@@ -151,7 +178,7 @@ function buildCompanies(
         merged[id].source = 'AdGuard';
     });
 
-    return merged;
+    return sortRecordsAlphabetically(merged);
 }
 
 type TrackersCategories = TrackersJSON['categories'];
@@ -167,7 +194,10 @@ function buildTrackersCategories(
     whotracksmeTrackersCategories: TrackersCategories,
     adguardTrackersCategories: TrackersCategories,
 ): TrackersCategories {
-    return { ...whotracksmeTrackersCategories, ...adguardTrackersCategories };
+    return sortRecordsAlphabetically({
+        ...whotracksmeTrackersCategories,
+        ...adguardTrackersCategories,
+    });
 }
 
 type Trackers = TrackersJSON['trackers'];
@@ -206,7 +236,7 @@ function buildTrackers(
         }
     });
 
-    return merged;
+    return sortRecordsAlphabetically(merged);
 }
 
 type TrackersDomains = TrackersJSON['trackerDomains'];
@@ -237,7 +267,7 @@ function buildTrackersDomains(
         }
     });
 
-    return merged;
+    return sortRecordsAlphabetically(merged, false);
 }
 
 /**
