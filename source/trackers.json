@@ -260,6 +260,12 @@
             "url": "https://www.facebook.com/",
             "companyId": "meta"
         },
+        "isolarcloud": {
+            "name": "iSolarCloud",
+            "categoryId": 6,
+            "url": "https://isolarcloud.com/",
+            "companyId": "sungrow"
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "categoryId": 8,
@@ -742,6 +748,10 @@
         "ironsrc.com": "ironsource",
         "ironsrc.net": "ironsource",
         "supersonicads.com": "ironsource",
+        "isolarcloud.com": "isolarcloud",
+        "isolarcloud.com.a.lahuashanbx.com": "isolarcloud",
+        "isolarcloud.com.w.cdngslb.com": "isolarcloud",
+        "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
         "kik.com": "kik",
         "apikik.com": "kik",
