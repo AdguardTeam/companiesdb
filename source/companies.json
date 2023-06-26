@@ -238,9 +238,14 @@
         },
         "ubuntu": {
             "name": "Ubuntu",
-            "websiteUrl": "https://ubuntu.com",
+            "websiteUrl": "https://ubuntu.com/",
             "description": "Ubuntu is an ancient African word meaning ‘humanity to others’. It is often described as reminding us that ‘I am what I am because of who we all are’. We bring the spirit of Ubuntu to the world of computers and software. The Ubuntu distribution represents the best of what the world’s software community has shared with the world."
-        },                
+        },     
+        "unity": {
+            "name": "Unity Technologies",
+            "websiteUrl": "https://unity.com/",
+            "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development."
+        },
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",
