@@ -33,12 +33,6 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: Fetch whotracks.me data
-        run: |
-          aws --no-sign-request s3 cp s3://data.whotracks.me/trackerdb.sql .
-        env:
-          AWS_DEFAULT_REGION: us-east-1
-
       - name: Run conversion
         run: |
           yarn install
