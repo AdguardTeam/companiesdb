@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-22T00:09:32.385Z",
+    "timeUpdated": "2023-06-26T10:42:04.603Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -9385,6 +9385,13 @@
             "categoryId": 4,
             "url": "http://www.isocket.com/",
             "companyId": "rubicon_project"
+        },
+        "isolarcloud": {
+            "name": "iSolarCloud",
+            "categoryId": 6,
+            "url": "https://isolarcloud.com/",
+            "companyId": "sungrow",
+            "source": "AdGuard"
         },
         "ispot.tv": {
             "name": "iSpot.tv",
@@ -21941,6 +21948,10 @@
         "supersonicads.com": "ironsource",
         "adsbyisocket.com": "isocket",
         "isocket.com": "isocket",
+        "isolarcloud.com": "isolarcloud",
+        "isolarcloud.com.a.lahuashanbx.com": "isolarcloud",
+        "isolarcloud.com.w.cdngslb.com": "isolarcloud",
+        "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "ispot.tv": "ispot.tv",
         "itineraire.info": "itineraire.info",
         "autolinkmaker.itunes.apple.com": "itunes_link_maker",

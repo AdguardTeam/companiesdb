@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-22T00:09:32.385Z",
+    "timeUpdated": "2023-06-26T10:42:04.603Z",
     "companies": {
         "163": {
             "name": "163",
@@ -9886,6 +9886,12 @@
             "name": "SundaySky",
             "websiteUrl": "http://www.sundaysky.com/",
             "description": "\\\"SmartVideo delivers a compelling, personalized, real-time video experience designed to reach people with what they need to know in the most engaging, entertaining and informative way possible....Our platform generates hundreds of thousands of SmartVideos daily that attract traffic, retarget prospects, convert prospects to customers, support customers and enhance customer relationships.\\\""
+        },
+        "sungrow": {
+            "name": "Sungrow Power Supply Company Limited",
+            "websiteUrl": "https://sungrowpower.com/",
+            "description": "Sungrow Power Supply Company Limited develops, produces, sells and provides services for solar PV inverters, wind power converters and other power supply. The Company also provides system solutions to renewable energy industry users.",
+            "source": "AdGuard"
         },
         "supercounters": {
             "name": "SuperCounters",
