@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-22T00:09:32.385Z",
+    "timeUpdated": "2023-06-15T11:25:13.745Z",
     "companies": {
         "163": {
             "name": "163",
@@ -66,12 +66,6 @@
             "websiteUrl": "http://www.3dstats.com/",
             "description": "3DStats.com offers a service that analyzes traffic patterns and profiles visitors at your site. You can see data in real-time and you don't have to install any software. 3Dstats tracks and reports the number of visitors, requests and orders for any online advertising campaign you run. "
         },
-        "3gpp": {
-            "name": "3GPP Network",
-            "websiteUrl": "https://www.3gpp.org/",
-            "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling.",
-            "source": "AdGuard"
-        },
         "4w_marketplace": {
             "name": "4w Marketplace",
             "websiteUrl": "http://www.4wmarketplace.com/",
@@ -107,12 +101,6 @@
             "websiteUrl": "http://www.77agency.com/",
             "description": "We’ve always been at the forefront of digital and we thrive on finding new and better ways and embracing technology. We were one of the initial three companies to have access to the Facebook API and we were one of only 13 companies selected as a global Facebook Strategic Preferred Marketing Developer.\\nWe’ve developed propriety platforms that have become industry standards and used by the likes of ABN Amro, BWin, and Huawei. We’re Microsoft and Google partners and and we were even the first company to run a financial services ad on Adwords."
         },
-        "7plus": {
-            "name": "7plus",
-            "websiteUrl": "https://7plus.com.au/",
-            "description": "7plus is a video on demand, catch-up TV service run by the Seven Network.",
-            "source": "AdGuard"
-        },
         "888_media": {
             "name": "888 Media",
             "websiteUrl": "http://888media.net/",
@@ -142,12 +130,6 @@
             "name": "AB Tasty",
             "websiteUrl": "https://www.abtasty.com/us/",
             "description": "Our mission\\r\\nTo provide the most simple, intuitive and effective solutions, so that you can bring your own optimisation ideas to life and measure their impact, before mobilising technical resources for their final implementation.\\r\\n\\r\\nTo offer cross-device, open testing and personalisation solutions to provide your users with a seamless browsing experience, whatever kind of screen they are using, for effortless integration of third party solutions (e.g. web analytics solutions, tag management systems, data management platforms, etc.)\\r\\n\\r\\nTo offer local support so that you get the most from our solution throughout our collaboration, by providing you with testing ideas, by planning your roadmap, by ensuring its compliance and assisting you technically, if needed"
-        },
-        "abc": {
-            "name": "Australian Broadcasting Corporation",
-            "websiteUrl": "https://www.abc.net.au/",
-            "description": "The Australian Broadcasting Corporation is the national broadcaster of Australia. It is principally funded by direct grants from the Australian Government and is administered by a government-appointed board.",
-            "source": "AdGuard"
         },
         "accelia": {
             "name": "Accelia",
@@ -554,12 +536,6 @@
             "websiteUrl": "http://adgoto.com/",
             "description": "\\\"ADGoto, is one of the world's largest online advertisement companies. We deliver scalable solutions for advertisers to cost-effectively acquire customers and for publishers to maximize their revenue.\\\""
         },
-        "adguard": {
-            "name": "AdGuard",
-            "websiteUrl": "https://adguard.com/",
-            "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware.",
-            "source": "AdGuard"
-        },
         "adhands": {
             "name": "AdHands",
             "websiteUrl": "http://promo.adhands.ru/",
@@ -604,12 +580,6 @@
             "name": "AdJug",
             "websiteUrl": "http://www.adjug.com/",
             "description": "AdJug is a UK-based online advertising exchange.  The marketplace connects buyers and sellers of online advertising.  They allow publishers to set the price and worth of their inventory while advertisers have transparency on where their campaigns are allowed to run."
-        },
-        "adjust": {
-            "name": "Adjust GmbH",
-            "websiteUrl": "https://www.adjust.com/",
-            "description": "Adjust is the industry leader in mobile measurement and fraud prevention.",
-            "source": "AdGuard"
         },
         "adk2_plymedia": {
             "name": "PLYmedia",
@@ -1366,12 +1336,6 @@
             "websiteUrl": "http://www.airpush.com/",
             "description": "\\\"Airpush is the only mobile ad network focused exclusively on Android. Over 40,000 developers use our innovative ad formats to increase revenue 10 - 30x versus traditional in-app ad networks. Our ad formats include Push Notification Ads, Icon Ads, and AppWall.\\\""
         },
-        "akamai": {
-            "name": "Akamai Technologies",
-            "websiteUrl": "https://www.akamai.com/",
-            "description": "Akamai is a cloud based content delivery network. They offer application performance services, solutions for digital media and software distribution and storage, online advertising services and other specialized/ Internet-based offerings.",
-            "source": "AdGuard"
-        },
         "akane": {
             "name": "AkaNe",
             "websiteUrl": "http://akane-ad.com/",
@@ -1547,12 +1511,6 @@
             "websiteUrl": "http://www.appier.com/en/index.html",
             "description": "Appier is a technology company that makes it easy for businesses to use artificial intelligence to grow and succeed in a cross screen era. The fact is, we are living in a post-mobile world, where cross screen is no longer optional.Businesses trying to reach customers online face mounting complexity as the number and types of screens multiply. We believe artificial intelligence is the best approach to resolve this complexity as the number and types of screens multiply, making it easy for clients to reach across screens."
         },
-        "apple": {
-            "name": "Apple",
-            "websiteUrl": "http://www.apple.com/",
-            "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers.",
-            "source": "AdGuard"
-        },
         "applifier": {
             "name": "Applifier",
             "websiteUrl": "http://www.applifier.com/",
@@ -1572,12 +1530,6 @@
             "name": "AppNexus Inc.",
             "websiteUrl": "https://www.appnexus.com/en",
             "description": "AppNexus operates an online advertising exchange. Their core technology platform enables ad networks and agencies real-time media buying capabilities and a gateway to multiple inventory aggregators.  Their platform is supported by cloud computing technology. In 2018, AppNexus was bought by AT&T."
-        },
-        "appsflyer": {
-            "name": "AppsFlyer",
-            "websiteUrl": "https://www.appsflyer.com/",
-            "description": "AppsFlyer is the global leading platform for Mobile Attribution & Marketing Analytics.",
-            "source": "AdGuard"
         },
         "apptv": {
             "name": "appTV",
@@ -1643,12 +1595,6 @@
             "name": "Atlas",
             "websiteUrl": "https://atlassolutionsgroup.com/",
             "description": "\\\"We provide digital media technologies for agencies, advertisers and publishers. Our solutions for agencies and advertisers enable the unified management of digital marketing campaigns across display banners, rich media, search, video, and websites.\\\""
-        },
-        "atlassian": {
-            "name": "Atlassian",
-            "websiteUrl": "https://www.atlassian.com/",
-            "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams.",
-            "source": "AdGuard"
         },
         "atomz": {
             "name": "Atomz",
@@ -2030,12 +1976,6 @@
             "websiteUrl": "https://www.bitrix24.com/",
             "description": "\\\"Bitrix24 - ['bɪtrɪks] 24 - is an initiative of Bitrix, Inc., a privately-owned company owned and managed by its founders. The Bitrix24 service is the final evolutionary stage of Bitrix Intranet and Extranet solutions (Bitrix, Inc. products) and was launched as a beta cloud-based service in April, 2012. Bitrix takes pride in serving customers ranging from Fortune 500 companies to small organizations, including well-known enterprises like Xerox, Samsung, Volkswagen, KIA, Gazprom, Vogue and PC Magazine.\\\""
         },
-        "bitwarden": {
-            "name": "Bitwarden",
-            "websiteUrl": "https://bitwarden.com/",
-            "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations.",
-            "source": "AdGuard"
-        },
         "bizcn": {
             "name": "Bizcn",
             "websiteUrl": "http://www.bizcn.com/",
@@ -2175,12 +2115,6 @@
             "name": "BrainSINS",
             "websiteUrl": "http://www.brainsins.com/",
             "description": "\\\"We develop recommender systems for eCommerce and social networks that improve sells and pageviews.\\\""
-        },
-        "branch_metrics_inc": {
-            "name": "Branch Metrics",
-            "websiteUrl": "https://branch.io/",
-            "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links.",
-            "source": "AdGuard"
         },
         "brand_networks": {
             "name": "Brand Networks",
@@ -3577,12 +3511,6 @@
             "websiteUrl": "http://s.dogannet.tv/",
             "description": null
         },
-        "domainglass": {
-            "name": "Domain Glass",
-            "websiteUrl": "https://domain.glass/",
-            "description": "DNS Record, IP address hostname, and WHOIS lookup information.",
-            "source": "AdGuard"
-        },
         "doorbell.io": {
             "name": "Doorbell.io",
             "websiteUrl": "https://doorbell.io/",
@@ -3743,12 +3671,6 @@
             "websiteUrl": "http://www.eco-tag.jp/",
             "description": "\\\"[Ecotag] is a solution...to facilitate the introduction of advertising effectiveness measurement tool and site analysis tool, set the tags to the site in the run-time of various targeting and results pay-advertising, changes, centralized management of the tag to be handled.\\\"\\r\\n\\r\\nTranslated by Google Translate"
         },
-        "edgio": {
-            "name": "Edgio",
-            "websiteUrl": "https://edg.io/",
-            "description": "Edgio is a content delivery network (CDN) service provider that enables organizations to deliver faster websites, more responsive applications, and quality video.",
-            "source": "AdGuard"
-        },
         "edigitalresearch": {
             "name": "eDigitalResearch",
             "websiteUrl": "http://www.edigitalresearch.com/",
@@ -3798,12 +3720,6 @@
             "name": "Elastic Ad",
             "websiteUrl": "http://www.elasticad.com",
             "description": "We focus on infrastructure, you focus on advertising. Use our technology and you won’t have to ask publishers to modify their websites to be suitable for native ads. Just white label the ElasticAd platform and you are ready to go!"
-        },
-        "element": {
-            "name": "Element",
-            "websiteUrl": "https://element.io/",
-            "description": "Element is a Matrix-based end-to-end encrypted messenger and secure collaboration app.",
-            "source": "AdGuard"
         },
         "elicit": {
             "name": "elicit",
@@ -4125,12 +4041,6 @@
             "websiteUrl": "http://www.eyeviewdigital.com/",
             "description": "Eyeview develops technology solutions that enable advertisers and agencies to create and target personalized video ads. We have both a passion for online video advertising and a vision for what it can be in the digital age. We aspire to bring the most comprehensive, advanced video advertising technology solution to the market.\\r\\n\\r\\nOur technology enhances brand quality video ads by adding dynamic compositions that are updated and targeted in real-time. With Eyeview’s technology, advertisers provide a more personal, relevant, local and brand effective video experience"
         },
-        "facebook": {
-            "name": "Facebook",
-            "websiteUrl": "https://www.facebook.com/",
-            "description": "Facebook is an online social network accessible to anyone with an active email address. People use Facebook to keep up with friends, upload photos, share links and videos, and learn more about the people they meet.",
-            "source": "AdGuard"
-        },
         "faktor.io": {
             "name": "Faktor B.V.",
             "websiteUrl": "https://faktor.io/",
@@ -4406,12 +4316,6 @@
             "websiteUrl": "https://www.freedommortgage.com/",
             "description": "Freedom Mortgage is a full-service mortgage lender with strong customer service and a unique streamlined process."
         },
-        "freeview": {
-            "name": "Freeview",
-            "websiteUrl": "https://freeview.com.au/",
-            "description": "Freeview is the brand name of the digital terrestrial television platform in Australia intended to bring all of free-to-air broadcasters onto a consistent marketing platform, to compete against subscription television, in particular Foxtel.",
-            "source": "AdGuard"
-        },
         "fresh_8_gaming": {
             "name": "Fresh 8 gaming",
             "websiteUrl": "http://fresh8gaming.com/",
@@ -4671,12 +4575,6 @@
             "name": "GoodADVERT",
             "websiteUrl": "http://goodadvert.ru/",
             "description": "\\\"GoodADVERT acts as a major advertising agency that takes all the work associated with finding customers, negotiating, planning, placement of advertising campaigns on the sites of partners, with the subsequent reporting. GoodADVERT allows partners, owners of Internet resources every day to get substantial revenue from advertising impressions of various modules.\\\""
-        },
-        "google": {
-            "name": "Google",
-            "websiteUrl": "http://www.google.com",
-            "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.",
-            "source": "AdGuard"
         },
         "gorilla_nation_media": {
             "name": "Gorilla Nation Media",
@@ -5078,12 +4976,6 @@
             "websiteUrl": "http://idealmedia.com/",
             "description": "\\\"Ideal Media is a content discovery platform that attracts responsive audiences, engages them with unique content and amplifies your message through our interactive channels; allowing you to speak directly to your target market, reaching all audiences.\\\""
         },
-        "identrust": {
-            "name": "IdenTrust, Inc.",
-            "websiteUrl": "https://identrust.com/",
-            "description": "IdenTrust, part of HID Global and headquartered in Salt Lake City, Utah, is a public key certificate authority that provides digital certificates to financial institutions, healthcare providers, government agencies and enterprises. As a certificate authority (CA), IdenTrust provides public key infrastructure (PKI) and validation for digital certificates, including TLS/SSL certificates, email security via S/MIME certificates, digital signature certificates, code signing certificates and x.509 certificates for protecting network and IoT devices.",
-            "source": "AdGuard"
-        },
         "ideoclick": {
             "name": "IdeoClick",
             "websiteUrl": "http://ideoclick.com",
@@ -5454,12 +5346,6 @@
             "websiteUrl": "http://www.ipromote.com/",
             "description": "iPromote offers an automated self-serve platform that helps SMBs access the benefits of local display advertising."
         },
-        "iqiyi": {
-            "name": "iQiyi",
-            "websiteUrl": "https://www.iqiyi.com/",
-            "description": "iQiyi is a Chinese ad-supported television and movie portal providing fully-licensed, high-definition, professionally produced content",
-            "source": "AdGuard"
-        },
         "ironsource": {
             "name": "ironSource",
             "websiteUrl": "https://www.ironsrc.com/",
@@ -5630,12 +5516,6 @@
             "websiteUrl": "http://www.kanoodle.com",
             "description": "Kanoodle is a pay-per-click search engine that provides search targeted sponsored links. Kanoodle  maps the table of contents of partner sites to build categories and match appropriate ads. Kanoodle is Seevast company and partner of Pulse 360."
         },
-        "karambasecurity": {
-            "name": "Karamba Security",
-            "websiteUrl": "https://karambasecurity.com/",
-            "description": "Karamba Security provides industry-leading, award winning, end-to-end cybersecurity solutions for vehicles and connected systems.",
-            "source": "AdGuard"
-        },
         "kargo": {
             "name": "Kargo",
             "websiteUrl": "http://www.kargo.com/",
@@ -5710,12 +5590,6 @@
             "name": "Kickfire",
             "websiteUrl": "http://id.kickfire.com/",
             "description": "VisiStat is a web analytics provider and visitor tracking tool."
-        },
-        "kik": {
-            "name": "Kik",
-            "websiteUrl": "https://kik.com/",
-            "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems.",
-            "source": "AdGuard"
         },
         "king.com": {
             "name": "King.com",
@@ -5952,12 +5826,6 @@
             "websiteUrl": "https://letreach.com/",
             "description": null
         },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "websiteUrl": "https://letsencrypt.org/",
-            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
-            "source": "AdGuard"
-        },
         "letv": {
             "name": "LeTv",
             "websiteUrl": "http://www.le.com/",
@@ -5967,12 +5835,6 @@
             "name": "Level 3 Communications, Inc.",
             "websiteUrl": "http://www.level3.com/en/",
             "description": "\\\"Level 3 Communications is an international communications company...We deliver premier data, video and voice services — for open IP Tone capabilities to businesses and carriers.\\\""
-        },
-        "lgcorp": {
-            "name": "LG Group",
-            "websiteUrl": "https://www.lgcorp.com/",
-            "description": "LG is a leading manufacturer of consumer and commercial products ranging from TVs, home appliances, air solutions, monitors, service robots, automotive components and its premium LG SIGNATURE and intelligent LG ThinQ brands are familiar names world over.",
-            "source": "AdGuard"
         },
         "lifestreet_media": {
             "name": "LifeStreet Media",
@@ -6359,12 +6221,6 @@
             "websiteUrl": "http://www.markitondemand.com/#overview",
             "description": "\\\"Markit On Demand, is a design driven technology company based in Boulder, Colorado. We’re part of Markit, a global financial information company that’s headquartered in London. Here in Boulder...we have a team of 400+ professionals dedicated to the presentation of financial content and data for our clients in the Financial Services, Media and Healthcare industries.\\\""
         },
-        "markmonitor": {
-            "name": "MarkMonitor",
-            "websiteUrl": "https://www.markmonitor.com/",
-            "description": "\\\"When the world's leading brands rely on you to protect their revenue and reputation in the digital world, you develop powerful insights and unrivalled methodologies to help combat sophisticated, evolving online threats. MarkMonitor clients look to our unique combination of industry-leading expertise, advanced technologies and extensive industry relationships to preserve marketing investments, revenues and customer trust.\\\"",
-            "source": "AdGuard"
-        },
         "marktest_group": {
             "name": "Marktest Group",
             "websiteUrl": "http://www.marktest.com/",
@@ -6424,12 +6280,6 @@
             "name": "Matomy Media",
             "websiteUrl": "http://www.matomy.com/",
             "description": "Matomy Media (formerly known as XTEND) is a global display advertising company that covers the digital marketplace from all angles – display media, mobile, and social, as well as search marketing, and provides high-performing media to meet wide-ranging marketing objectives for advertisers and optimized monetization for publishers. Matomy Media is a division of Matomy Media Group."
-        },
-        "matrix": {
-            "name": "Matrix",
-            "websiteUrl": "https://matrix.org/",
-            "description": "Matrix is an open source project that publishes the Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations.",
-            "source": "AdGuard"
         },
         "maxbounty": {
             "name": "MaxBounty",
@@ -6526,12 +6376,6 @@
             "websiteUrl": "http://www.mediahub.com/",
             "description": "\\\"Create your ad campaign with the help of our 'serve yourself' platform around the clock.\\r\\nTake control of your budget with our affordable bidding and budgeting solutions.\\r\\nGet the most out of your ad campaign with real-time information at your fingertips.\\\"\\r\\n"
         },
-        "medialab": {
-            "name": "MediaLab.AI Inc.",
-            "websiteUrl": "https://medialab.la/",
-            "description": "MediaLab is a media & technology company focused on acquiring and growing properties and global brands.",
-            "source": "AdGuard"
-        },
         "medialand": {
             "name": "Medialand",
             "websiteUrl": "http://medialand.ru",
@@ -6622,12 +6466,6 @@
             "websiteUrl": "http://www.megaindex.ru",
             "description": "Innovations to improve the efficiency \\r\\nof online marketing"
         },
-        "meganz": {
-            "name": "Mega Ltd.",
-            "websiteUrl": "https://mega.io/",
-            "description": "MEGA was the first to introduce fully featured, end-to-end encrypted cloud storage and communications, accessed through web browsers and mobile devices.",
-            "source": "AdGuard"
-        },
         "melissa_global_intelligence": {
             "name": "Melissa Global Intelligence",
             "websiteUrl": "https://www.melissa.com/",
@@ -6673,12 +6511,6 @@
             "websiteUrl": "http://www.mercurymedia.com/",
             "description": "TrackingSoft is a tracking and analytics software company. They provide a variety of platforms to measure online ad campaign performance, provide email campaign statistics, and website analytics."
         },
-        "meta": {
-            "name": "Meta",
-            "websiteUrl": "https://www.meta.com/",
-            "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
-            "source": "AdGuard"
-        },
         "meta_network": {
             "name": "Meta Network",
             "websiteUrl": "http://www.metanetwork.com/",
@@ -6713,12 +6545,6 @@
             "name": "MicroAd",
             "websiteUrl": "http://www.microad.jp",
             "description": "MicroAd is a Japanese behavioral targeting ad delivery service. They offer contextual advertising services as well as retargeting and other ad delivery services."
-        },
-        "microsoft": {
-            "name": "Microsoft",
-            "websiteUrl": "https://www.microsoft.com/",
-            "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
-            "source": "AdGuard"
         },
         "millward_brown": {
             "name": "Millward Brown",
@@ -6900,12 +6726,6 @@
             "websiteUrl": "http://www.movablemedia.com/",
             "description": "\\\"Movable Media is made up of thousands of editors, writers and influencers who believe in the content they’re creating and who bring an active audience with them. We are the first custom content company to compensate, and be compensated primarily on the audience our writers bring.  By reconnecting quality thought with a qualified audience, we not only enable brands to reach their intended audience, but also help content creators get paid for the value they create.\\\""
         },
-        "mozilla": {
-            "name": "Mozilla Foundation",
-            "websiteUrl": "https://www.mozilla.org/",
-            "description": "Mozilla is a global nonprofit dedicated to keeping the Internet a global public resource that is open and accessible to all.",
-            "source": "AdGuard"
-        },
         "mozoo": {
             "name": "Mozoo",
             "websiteUrl": "http://mozoo.com/",
@@ -6960,12 +6780,6 @@
             "name": "Mytop-in",
             "websiteUrl": "http://mytop-in.net/",
             "description": null
-        },
-        "nab": {
-            "name": "National Australia Bank",
-            "websiteUrl": "https://www.nab.com.au/",
-            "description": "National Australia Bank is one of the four largest financial institutions in Australia in terms of market capitalisation, earnings and customers.",
-            "source": "AdGuard"
         },
         "nanigans": {
             "name": "Nanigans",
@@ -7101,18 +6915,6 @@
             "name": "netFactor",
             "websiteUrl": "http://www.netfactor.com/",
             "description": "\\\"netFactor Corporation provides a suite of products to drive new levels of sales performance from Internet marketing for the business-to-business market. The company’s core VisitorTrack® technology platform integrates search engine marketing, marketing automation, and Web analytics into a powerful application for lead generation from website visitor tracking – it’s like “Caller ID for Your Website.” netFactor is privileged to serve customers across multiple industries including software, telecom, healthcare, technology, financial, professional services, manufacturing, and transportation.\\\""
-        },
-        "netflix": {
-            "name": "Netflix",
-            "websiteUrl": "https://www.netflix.com/",
-            "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-            "source": "AdGuard"
-        },
-        "netify": {
-            "name": "Netify",
-            "websiteUrl": "https://www.netify.ai/",
-            "description": "Netify provides network intelligence and visibility.",
-            "source": "AdGuard"
         },
         "netline": {
             "name": "Netline",
@@ -7259,12 +7061,6 @@
             "websiteUrl": "https://notifyfox.com/",
             "description": null
         },
-        "notion": {
-            "name": "Notion Labs Inc.",
-            "websiteUrl": "https://www.notion.so/",
-            "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate.",
-            "source": "AdGuard"
-        },
         "now_interact": {
             "name": "Now Interact",
             "websiteUrl": "http://nowinteract.com/",
@@ -7289,12 +7085,6 @@
             "name": "NTENT",
             "websiteUrl": "http://www.ntent.com/",
             "description": "\\\"NTENT enhances cross-channel digital experiences by matching content to consumers’ passions and interests. NTENT leverages its proprietary semantic search and natural language technology to provide relevant experiences for consumers, as well as enhanced monetization opportunities for marketers, content providers, carriers, app developers and distribution partners.\\\""
-        },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "websiteUrl": "https://www.ntp.org/",
-            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software.",
-            "source": "AdGuard"
         },
         "nttcom_online_marketing_solutions": {
             "name": "NTTCom Online Marketing Solutions",
@@ -7491,12 +7281,6 @@
             "websiteUrl": "http://www.oplytic.com",
             "description": "We help enterprises run smarter mobile marketing and sales"
         },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company.",
-            "source": "AdGuard"
-        },
         "opta_sports": {
             "name": "Opta Sports",
             "websiteUrl": "https://www.optasports.com/",
@@ -7621,12 +7405,6 @@
             "name": "OxaMedia",
             "websiteUrl": "http://www.oxamedia.com/",
             "description": "OxaMedia operates the AdConneXa Advertising Platform.  Their technology provides advertisers, agencies, publishers and networks with ad management and digital marketing solutions. Using AdConneXa, clients can use any of several targeting tools (contextual, channel, behavioral, re-targeting, demographic or geographic) that are most relevant to their advertising objectives. "
-        },
-        "oztam": {
-            "name": "OzTAM",
-            "websiteUrl": "https://oztam.com.au/",
-            "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television.",
-            "source": "AdGuard"
         },
         "pagescience": {
             "name": "PageScience",
@@ -8298,12 +8076,6 @@
             "websiteUrl": "http://www.qq.com/",
             "description": null
         },
-        "qualcomm": {
-            "name": "Qualcomm",
-            "websiteUrl": "https://www.qualcomm.com/",
-            "description": "Qualcomm is an American multinational corporation that creates semiconductors, software, and services related to wireless technology.",
-            "source": "AdGuard"
-        },
         "qualia": {
             "name": "Qualia",
             "websiteUrl": "https://bluecava.com/",
@@ -8493,12 +8265,6 @@
             "name": "Red Ventures",
             "websiteUrl": "https://www.redventures.com/",
             "description": "We create touch points throughout the consumer buying cycle. Through our digital expertise, proprietary assets, and deeply integrated partnerships, we close the loop between consumers and the brands or services they need."
-        },
-        "reddit": {
-            "name": "Reddit, Inc.",
-            "websiteUrl": "https://www.reddit.com",
-            "description": "\\\"reddit is a source for what's new and popular on the web. Users like you provide all of the content and decide, through voting, what's good and what's junk.\\\"",
-            "source": "AdGuard"
         },
         "redhelper": {
             "name": "RedHelper",
@@ -8905,12 +8671,6 @@
             "websiteUrl": "https://samba.tv/",
             "description": null
         },
-        "samsung": {
-            "name": "Samsung",
-            "websiteUrl": "https://www.samsung.com/",
-            "description": "Samsung Electronics Co., Ltd. is a South Korean multinational electronics corporation headquartered in Yeongtong-gu, Suwon, South Korea.",
-            "source": "AdGuard"
-        },
         "samurai_factory": {
             "name": "Samurai Factory",
             "websiteUrl": "http://www.samurai-factory.jp/",
@@ -9015,12 +8775,6 @@
             "name": "Second Media",
             "websiteUrl": "http://www.secondmedia.com/",
             "description": "\\\"We simplify digital marketing by helping brands engage and target consumers through high quality ad inventory, real-time reporting and professional campaign optimization.\\\""
-        },
-        "sectigo": {
-            "name": "Sectigo Limited",
-            "websiteUrl": "https://sectigo.com/",
-            "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security.",
-            "source": "AdGuard"
         },
         "securedvisit": {
             "name": "SecuredVisit",
@@ -9217,12 +8971,6 @@
             "websiteUrl": "http://www.shopzilla.com/",
             "description": "Shopzilla, Inc. manages a premier portfolio of online shopping brands in the US and Europe, consisting of Bizrate, Beso, Shopzilla, TaDa, PrixMoinsCher, and SparDeinGeld. Shopzilla connects shoppers with over 100 million products from tens of thousands of retailers with its unique portfolio of engaging and informative websites. Shopzilla is a leading source of sales and consumer feedback for online merchants and retail advertisers. Shopzilla, Inc. is owned by Symphony Technology Group (STG)."
         },
-        "showrss": {
-            "name": "showRSS",
-            "websiteUrl": "https://showrss.info/",
-            "description": "showRSS is an internet tool that lets you keep track of your favorite TV shows.",
-            "source": "AdGuard"
-        },
         "shrink.in": {
             "name": "Shrink.in",
             "websiteUrl": "http://shink.in/",
@@ -9262,12 +9010,6 @@
             "name": "Silktide",
             "websiteUrl": "https://silktide.com/",
             "description": "Silktide is a software company based in the UK.  We’ve been building web applications since 2001, and testing websites since 2006.\\r\\n\\r\\nWe make Insites, Haystack and Sitebeam, which analyse the online presence of millions of businesses every year. Our clients include household names and over a thousand small business.\\r\\n\\r\\nWe’re in the process of transitioning into the Insites name. Learn more about our company and team."
-        },
-        "similarweb": {
-            "name": "SimilarWeb Ltd.",
-            "websiteUrl": "https://www.similarweb.com/",
-            "description": "SimilarWeb offers an AI-based market intelligence platform that helps monitor web and mobile app traffic.",
-            "source": "AdGuard"
         },
         "simpli.fi": {
             "name": "Simplifi Holdings Inc.",
@@ -9499,12 +9241,6 @@
             "websiteUrl": "https://snapengage.com",
             "description": "SnapEngage is a live, in-browser chat solution. Their product allows websites to quickly and proactively engage prospective customers."
         },
-        "snap_technologies": {
-            "name": "Snap Inc.",
-            "websiteUrl": "https://www.snapchat.com/",
-            "description": "Snap Inc. is a camera company.\\n\\nWe believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.\\nOur products empower people to express themselves, live in the moment, learn about the world, and have fun together.",
-            "source": "AdGuard"
-        },
         "snigelweb_inc": {
             "name": "SnigelWeb, Inc.",
             "websiteUrl": "http://www.snigelweb.com/",
@@ -9575,12 +9311,6 @@
             "websiteUrl": "https://sokrati.com/",
             "description": "\\\"We are a software and services company which has developed industry's only end-to-end Digital Marketing Software that can synchronize ever-changing website content with Online Paid Search Campaigns in a real-time fashion.\\\""
         },
-        "solaredge": {
-            "name": "SolarEdge Technologies, Inc.",
-            "websiteUrl": "https://www.solaredge.com/",
-            "description": "SolarEdge offers optimizers, inverters, monitoring equipment, tools, and accessories for power harvesting, conversion, and efficiency.",
-            "source": "AdGuard"
-        },
         "solidopinion": {
             "name": "SolidOpinion",
             "websiteUrl": "https://solidopinion.com/",
@@ -9605,12 +9335,6 @@
             "name": "Sonobi, Inc",
             "websiteUrl": "http://sonobi.com/",
             "description": "\\\"We're a digital display advertising company Sonobi Media. We bring web publishers and advertisers together via a single buying and selling solution tuned to enable publishers to maximize ad revenue and advertisers to buy quality impressions.\\\""
-        },
-        "sonos": {
-            "name": "Sonos, Inc.",
-            "websiteUrl": "https://www.sonos.com/",
-            "description": "Sonos, Inc. is an American developer and manufacturer of audio products best known for its multi-room audio products.",
-            "source": "AdGuard"
         },
         "sophus3": {
             "name": "Sophus3",
@@ -9922,12 +9646,6 @@
             "websiteUrl": "http://www.switchconcepts.com",
             "description": "\\\"Switch Concepts is a unique digital marketing network that looks to connect advertisers who want to speak to social businesses with websites who target social entrepreneurs.\\\""
         },
-        "switchtv": {
-            "name": "Switch Media",
-            "websiteUrl": "https://www.switch.tv/",
-            "description": "Switch Media has successfully delivered complex, multi-award-winning online video solutions for major brands and global live streaming events.",
-            "source": "AdGuard"
-        },
         "swoop": {
             "name": "Swoop",
             "websiteUrl": "http://www.swoop.com/",
@@ -10072,12 +9790,6 @@
             "name": "Telfie",
             "websiteUrl": "https://telfie.com/",
             "description": "AdaptiveBlue develops Web browsing technologies. Its product, Glue is a semantic recognition technology that identifies books, music, movies, wines, stocks, movie stars, and recording artists. This technology enables users to connect with their friends on the web around the things visit online.\\r\\n"
-        },
-        "telstra": {
-            "name": "Telstra",
-            "websiteUrl": "https://www.telstra.com.au/",
-            "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets.",
-            "source": "AdGuard"
         },
         "tender": {
             "name": "Tender",
@@ -10529,12 +10241,6 @@
             "websiteUrl": "http://www.tzetze.it/",
             "description": "\\\"The objective of TzeTze is to promote independent information on the Net by freeing itself from the mainstream media, publishing news based on importance attributed by users.\\\"\\r\\n\\r\\nTranslated by Google Translate"
         },
-        "ubuntu": {
-            "name": "Ubuntu",
-            "websiteUrl": "https://ubuntu.com",
-            "description": "Ubuntu is an ancient African word meaning ‘humanity to others’. It is often described as reminding us that ‘I am what I am because of who we all are’. We bring the spirit of Ubuntu to the world of computers and software. The Ubuntu distribution represents the best of what the world’s software community has shared with the world.",
-            "source": "AdGuard"
-        },
         "ucfunnel": {
             "name": "ucfunnel",
             "websiteUrl": "https://www.ucfunnel.com/",
@@ -10815,12 +10521,6 @@
             "websiteUrl": "http://www.veoxa.com/index.php",
             "description": "Veoxa is a French network and technology platform for integrated e-marketing."
         },
-        "verizon": {
-            "name": "Verizon",
-            "websiteUrl": "https://www.verizon.com/",
-            "description": "Verizon (short for Verizon Communications Inc.), is an American multinational telecommunications conglomerate and a corporate component of the Dow Jones Industrial Average. In 2015, Verizon expanded its business into content ownership by acquiring AOL, and two years later it acquired Yahoo!. AOL and Yahoo were amalgamated into a new division named Oath Inc.",
-            "source": "AdGuard"
-        },
         "vero": {
             "name": "Vero",
             "websiteUrl": "http://www.getvero.com/",
@@ -11035,12 +10735,6 @@
             "name": "Vizzit",
             "websiteUrl": "http://www.vizzit.se/h/",
             "description": "\\\"We offer web analysis tools that are suitable for everything from basic gathering of statistics to advanced analysis of what the visitors do on your website.\\\""
-        },
-        "vk": {
-            "name": "VK",
-            "websiteUrl": "https://vk.company",
-            "description": "VK is a Russian technology company. It started in 1998 as an e-mail service and went on to become a major corporate figure in the Russian-speaking segment of the Internet.",
-            "source": "AdGuard"
         },
         "volusion": {
             "name": "Volusion",
@@ -11426,12 +11120,6 @@
             "name": "Yahoo! Japan",
             "websiteUrl": "https://www.yahoo.co.jp/",
             "description": "Yahoo! Japan Corporation is a Japanese internet company originally formed as a joint venture between the American internet company Yahoo! and the Japanese company SoftBank."
-        },
-        "yandex": {
-            "name": "Yandex",
-            "websiteUrl": "https://www.yandex.com/",
-            "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network.",
-            "source": "AdGuard"
         },
         "ybrant_media": {
             "name": "Ybrant Media",
