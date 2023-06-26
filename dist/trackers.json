@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-26T10:46:05.515Z",
+    "timeUpdated": "2023-06-26T13:46:24.414Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -17795,11 +17795,18 @@
             "url": "https://www.united-internet.de/",
             "companyId": "united_internet"
         },
+        "unity": {
+            "name": "Unity",
+            "categoryId": 8,
+            "url": "https://unity.com/",
+            "companyId": "unity",
+            "source": "AdGuard"
+        },
         "unity_ads": {
             "name": "Unity Ads",
             "categoryId": 4,
-            "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
-            "companyId": null,
+            "url": "https://unity.com/products/unity-ads",
+            "companyId": "unity",
             "source": "AdGuard"
         },
         "univide": {
@@ -23961,6 +23968,9 @@
         "tifbs.net": "united_internet_media_gmbh",
         "ui-portal.de": "united_internet_media_gmbh",
         "uimserv.net": "united_internet_media_gmbh",
+        "unity.com": "unity",
+        "unity3d.com": "unity",
+        "unity3dusercontent.com": "unity",
         "unityads.unity3d.com": "unity_ads",
         "univide.com": "univide",
         "unpkg.com": "unpkg.com",
