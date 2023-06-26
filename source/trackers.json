@@ -536,6 +536,12 @@
             "url": "https://unity.com/",
             "companyId": "unity"
         },
+        "unity_ads": {
+            "name": "Unity Ads",
+            "categoryId": 4,
+            "url": "https://unity.com/products/unity-ads",
+            "companyId": "unity"
+        },
         "vk.com": {
             "name": "Vk.com",
             "categoryId": 7,
@@ -940,7 +946,7 @@
         "unity.com": "unity",
         "unity3d.com": "unity",
         "unity3dusercontent.com": "unity",
-        "unityads.unity3d.com": "unity",
+        "unityads.unity3d.com": "unity_ads",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",
         "v0cdn.net": "vscode",
