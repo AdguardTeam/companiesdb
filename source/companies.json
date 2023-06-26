@@ -81,6 +81,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "identrust": {
+            "name": "IdenTrust, Inc.",
+            "websiteUrl": "https://identrust.com/",
+            "description": "IdenTrust, part of HID Global and headquartered in Salt Lake City, Utah, is a public key certificate authority that provides digital certificates to financial institutions, healthcare providers, government agencies and enterprises. As a certificate authority (CA), IdenTrust provides public key infrastructure (PKI) and validation for digital certificates, including TLS/SSL certificates, email security via S/MIME certificates, digital signature certificates, code signing certificates and x.509 certificates for protecting network and IoT devices."
+        },
         "iqiyi": {
             "name": "iQiyi",
             "websiteUrl": "https://www.iqiyi.com/",
@@ -220,6 +225,11 @@
             "name": "Sonos, Inc.",
             "websiteUrl": "https://www.sonos.com/",
             "description": "Sonos, Inc. is an American developer and manufacturer of audio products best known for its multi-room audio products."
+        },
+        "sungrow": {
+            "name": "Sungrow Power Supply Company Limited",
+            "websiteUrl": "https://sungrowpower.com/",
+            "description": "Sungrow Power Supply Company Limited develops, produces, sells and provides services for solar PV inverters, wind power converters and other power supply. The Company also provides system solutions to renewable energy industry users."
         },
         "switchtv": {
             "name": "Switch Media",
