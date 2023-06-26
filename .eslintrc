@@ -1,16 +1,20 @@
 {
-    "extends": "airbnb-base",
+    "extends": [
+        "airbnb-base",
+        "airbnb-typescript/base"
+    ],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
     "env": {
         "browser": false,
         "node": true,
         "jest": true
     },
     "rules": {
-        "indent": [
+        "@typescript-eslint/indent": [
             "error",
             4
-        ],
-        "import/no-extraneous-dependencies": 0
-    },
-    "parser": "babel-eslint"
+        ]
+    }
 }
