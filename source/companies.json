@@ -243,7 +243,7 @@
         },     
         "unity": {
             "name": "Unity Technologies",
-            "url": "https://unity.com/",
+            "websiteUrl": "https://unity.com/",
             "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development."
         },
         "verizon": {
