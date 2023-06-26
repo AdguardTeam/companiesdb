@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-26T10:42:04.603Z",
+    "timeUpdated": "2023-06-26T10:46:05.515Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -22441,6 +22441,7 @@
         "s-microsoft.com": "microsoft",
         "trouter.io": "microsoft",
         "windows.net": "microsoft",
+        "msidentity.com": "microsoft",
         "analytics.live.com": "microsoft_analytics",
         "a.clarity.ms": "microsoft_clarity",
         "b.clarity.ms": "microsoft_clarity",
