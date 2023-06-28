@@ -46,6 +46,11 @@
             "websiteUrl": "https://branch.io/",
             "description": "Branch provides free deep linking technology for mobile app developers to gain and retain users. We're on a mission to help solve mobile discovery by connecting users to relevant app content through deep links."
         },
+        "button": {
+            "name": "Button",
+            "websiteUrl": "https://www.usebutton.com/",
+            "description": "Button is the mobile commerce technology company that is powering a commerce-driven internet."
+        },
         "domainglass": {
             "name": "Domain Glass",
             "websiteUrl": "https://domain.glass/",
@@ -105,6 +110,11 @@
             "name": "LG Group",
             "websiteUrl": "https://www.lgcorp.com/",
             "description": "LG is a leading manufacturer of consumer and commercial products ranging from TVs, home appliances, air solutions, monitors, service robots, automotive components and its premium LG SIGNATURE and intelligent LG ThinQ brands are familiar names world over."
+        },
+        "livinglymedia": {
+            "name": "Livingly Media",
+            "websiteUrl": "https://www.livinglymedia.com/",
+            "description": "Livingly Media is an online publisher owning lifestyle and entertainment news sites."
         },
         "markmonitor": {
             "name": "MarkMonitor",
@@ -261,15 +271,95 @@
             "websiteUrl": "https://www.yandex.com/",
             "description": "Yandex is a Russian search engine and Internet services firm. They also offer a variety of other online services including: news, weather, traffic, maps, personal email, and a web analytics platform. Yandex also operates an ad network."
         },
+        "ibexa": {
+            "name": "Ibexa Personalizaton Software",
+            "websiteUrl": "https://www.ibexa.co.net/",
+            "description": "Ibexa centers on digital transformation, content management, consultation and training to help B2B companies in digital sales strategies."
+        },
+        "xenmedia": {
+            "name": "Xen Media",
+            "websiteUrl": "https://www.xenmedia.net/",
+            "description": "Xen Media offers media planning, video production, digital marketing, SEO, social media marketing, website and app development services."
+        },
+        "xhamster": {
+            "name": "xHamster",
+            "websiteUrl": "https://xhamster.com/",
+            "description": "xHamster is a Cypriot pornographic media and social networking site headquartered in Limassol, Cyprus."
+        },
+        "xnxx": {
+            "name": "XNXX",
+            "websiteUrl": "https://www.xnxx.com",
+            "description": "XNXX is a French website for sharing and viewing pornographic videos."
+        },
+        "xvideos": {
+            "name": "Xvideos",
+            "websiteUrl": "https://www.xvideos.com",
+            "description": "XVideos serves as a pornographic media aggregator."
+        },
+        "xxxlshop.de": {
+            "name": "XXXLutz",
+            "websiteUrl": "https://www.xxxlutz.de/",
+            "description": "XXXLutz is a leading furniture dealer in Europe, founded in 1945."
+        },
+        "yabbi": {
+            "name": "Yabbi",
+            "websiteUrl": "https://yabbi.me/",
+            "description": "A Russian technology company engaged in the development of software systems for advertisers and publishers specializing in mobile applications."
+        },
+        "youporn": {
+            "name": "YouPorn",
+            "websiteUrl": "https://www.youporn.com/",
+            "description": "YouPorn is a free pornographic video sharing website that launched in August of 2006."
+        },
+        "zeusclicks": {
+            "name": "ZeusClicks",
+            "websiteUrl": "http://zeusclicks.com/",
+            "description": "ZeusClicks is a leading digital advertising firm with high impact direct response marketing."
+        },
+        "1822direkt": {
+            "name": "1822direkt",
+            "websiteUrl": "https://www.1822direkt.de/",
+            "description": "1822direkt provides online banking and financial services."
+        },
+        "1und1": {
+            "name": "1&1 IONOS",
+            "websiteUrl": "http://www.ionos.com/",
+            "description": "1&1 IONOS provides web hosting solutions for private users, as well as high-end products for small-and medium-sized businesses."
+        },
+        "24-ads.com": {
+            "name": "24-ADS",
+            "websiteUrl": "http://www.24-ads.com/",
+            "description": "24 - Ads is a consulting agency that offers publishing and advertising services."
+        },
+        "24smi": {
+            "name": "24SMI",
+            "websiteUrl": "https://24smi.org/",
+            "description": "A news portal about show business and gossip, the latest events in Russia and the world, exclusive interviews, news from the world of cinema and television, interesting facts and much more."
+        },
         "3gpp": {
             "name": "3GPP Network",
             "websiteUrl": "https://www.3gpp.org/",
             "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling."
         },
+        "4chan": {
+            "name": "4Chan",
+            "websiteUrl": "https://www.4chan.org/",
+            "description": "4chan is an image-based bulletin board where users can post comments and share images."
+        },
+        "4finance": {
+            "name": "4finance.com",
+            "websiteUrl": "https://4finance.com/",
+            "description": "4Europe’s largest online and mobile consumer lending group, providing convenient and responsible access to credit across 11 countries."
+        },
         "7plus": {
             "name": "7plus",
             "websiteUrl": "https://7plus.com.au/",
             "description": "7plus is a video on demand, catch-up TV service run by the Seven Network."
+        },
+        "7tv": {
+            "name": "7tv.app",
+            "websiteUrl": "https://www.7tv.app/",
+            "description": "The Emote Platform for All. Manage hundreds of emotes for your Twitch or YouTube channels with ease."
         }
     }
 }

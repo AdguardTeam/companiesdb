@@ -60,7 +60,7 @@
             "name": "Microsoft App Center",
             "categoryId": 5,
             "url": "https://appcenter.ms/",
-            "companyId": null
+            "companyId": "microsoft"
         },
         "alibaba_cloud": {
             "name": "Alibaba Cloud",
@@ -120,13 +120,13 @@
             "name": "Button",
             "categoryId": 4,
             "url": "https://www.usebutton.com/",
-            "companyId": null
+            "companyId": "button"
         },
         "crashlytics": {
             "name": "Crashlytics",
             "categoryId": 101,
             "url": "https://crashlytics.com/",
-            "companyId": null
+            "companyId": "google"
         },
         "domainglass": {
             "name": "Domain Glass",
@@ -246,7 +246,7 @@
             "name": "HockeyApp",
             "categoryId": 101,
             "url": "https://hockeyapp.net/",
-            "companyId": null
+            "companyId": "microsoft"
         },
         "identrust": {
             "name": "IdenTrust, Inc.",
@@ -596,11 +596,95 @@
             "url": "https://support.microsoft.com/en-us/windows/windows-update-faq-8a903416-6f45-0718-f5c7-375e92dddeb2",
             "companyId": "microsoft"
         },
+        "xen-media.com": {
+            "name": "Xen Media",
+            "categoryId": 11,
+            "url": "https://www.xenmedia.net/",
+            "companyId": "xenmedia"
+        },
+        "xhamster": {
+            "name": "xHamster",
+            "categoryId": 3,
+            "url": "https://xhamster.com/",
+            "companyId": "xhamster"
+        },
+        "xnxx_cdn": {
+            "name": "XNXX",
+            "categoryId": 9,
+            "url": "https://www.xnxx.com",
+            "companyId": "xnxx"
+        },
+        "xvideos_com": {
+            "name": "Xvideos",
+            "categoryId": 8,
+            "url": "https://www.xvideos.com",
+            "companyId": "xvideos"
+        },
+        "xxxlshop.de": {
+            "name": "XXXLutz",
+            "categoryId": 8,
+            "url": "https://www.xxxlutz.de/",
+            "companyId": "xxxlutz"
+        },
+        "yabbi": {
+            "name": "Yabbi",
+            "categoryId": 4,
+            "url": "https://yabbi.me/",
+            "companyId": "yabbi"
+        },
         "yandex_appmetrica": {
             "name": "Yandex AppMetrica",
             "categoryId": 101,
             "url": "https://appmetrica.yandex.com/",
             "companyId": "yandex"
+        },
+        "yoochoose.net": {
+            "name": "Ibexa Personalizaton Software",
+            "categoryId": 4,
+            "url": "https://yoochoose.net/",
+            "companyId": "ibexa"
+        },
+        "youporn": {
+            "name": "YouPorn",
+            "categoryId": 3,
+            "url": "https://www.youporn.com/",
+            "companyId": "youporn"
+        },
+        "zeusclicks": {
+            "name": "ZeusClicks",
+            "categoryId": 4,
+            "url": "http://zeusclicks.com/",
+            "companyId": "zeusclicks"
+        },
+        "zimbio.com": {
+            "name": "Zimbio",
+            "categoryId": 8,
+            "url": "http://www.zimbio.com/",
+            "companyId": "livinglymedia"
+        },
+        "1822direkt.de": {
+            "name": "1822direkt.de",
+            "categoryId": 8,
+            "url": "https://www.1822direkt.de/",
+            "companyId": "1822direkt"
+        },
+        "1und1": {
+            "name": "1&1 IONOS",
+            "categoryId": 8,
+            "url": "http://www.ionos.com/",
+            "companyId": "1und1"
+        },
+        "24-ads.com": {
+            "name": "24-ADS",
+            "categoryId": 4,
+            "url": "http://www.24-ads.com/",
+            "companyId": "24-ads.com"
+        },
+        "24smi": {
+            "name": "24SMI",
+            "categoryId": 8,
+            "url": "https://24smi.org/",
+            "companyId": "24smi"
         },
         "3gpp": {
             "name": "3GPP Network",
@@ -608,11 +692,29 @@
             "url": "https://www.3gpp.org/",
             "companyId": "3gpp"
         },
+        "4chan": {
+            "name": "4Chan",
+            "categoryId": 8,
+            "url": "https://www.4chan.org/",
+            "companyId": "4chan"
+        },
+        "4finance_com": {
+            "name": "4finance",
+            "categoryId": 2,
+            "url": "https://4finance.com/",
+            "companyId": "4finance"
+        },
         "7plus": {
             "name": "7plus",
             "categoryId": 0,
             "url": "https://7plus.com.au/",
             "companyId": "7plus"
+        },
+        "7tv.de": {
+            "name": "7tv.app",
+            "categoryId": 0,
+            "url": "https://www.7tv.app/",
+            "companyId": "7tv"
         }
     },
     "trackerDomains": {
