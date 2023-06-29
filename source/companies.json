@@ -176,6 +176,11 @@
             "websiteUrl": "https://oztam.com.au/",
             "description": "OzTAM is the official source of television audience measurement (TAM) covering Australia’s five mainland metropolitan markets and nationally for subscription television."
         },
+        "perfops": {
+            "name": "PerfOps",
+            "websiteUrl": "https://perfops.net/",
+            "description": "Distributed infrastructure monitoring, smart traffic load-balancing and routing."
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "websiteUrl": "https://www.qualcomm.com/",

@@ -398,6 +398,12 @@
             "url": "https://oztam.com.au/",
             "companyId": "oztam"
         },
+        "perfops": {
+            "name": "PerfOps",
+            "categoryId": 6,
+            "url": "https://perfops.net/",
+            "companyId": "perfops"
+        },
         "plex": {
             "name": "Plex",
             "categoryId": 0,
@@ -830,6 +836,7 @@
         "hotmail.com": "outlook",
         "outlook.com": "outlook",
         "oztam.com.au": "oztam",
+        "perfops.io": "perfops",
         "plex.tv": "plex",
         "plex.direct": "plex",
         "qualcomm.com": "qualcomm",
