@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-30T11:01:59.247Z",
+    "timeUpdated": "2023-06-30T11:40:07.104Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -13128,6 +13128,13 @@
             "url": "http://perfectmarket.com/",
             "companyId": "perfect_market"
         },
+        "perfops": {
+            "name": "PerfOps",
+            "categoryId": 6,
+            "url": "https://perfops.net/",
+            "companyId": "perfops",
+            "source": "AdGuard"
+        },
         "perform_group": {
             "name": "Perform Group",
             "categoryId": 5,
@@ -22894,6 +22901,7 @@
         "perfectaudience.com": "perfect_audience",
         "prfct.co": "perfect_audience",
         "perfectmarket.com": "perfect_market",
+        "perfops.io": "perfops",
         "performgroup.com": "perform_group",
         "analytics.performable.com": "performable",
         "performancing.com": "performancing_metrics",

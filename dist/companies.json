@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-30T11:01:59.247Z",
+    "timeUpdated": "2023-06-30T11:40:07.104Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7733,6 +7733,12 @@
             "name": "Perfect Market",
             "websiteUrl": "http://perfectmarket.com/",
             "description": "\\\"Perfect Market, Inc. is [a] provider of digital publishing software solutions for driving traffic, engagement and revenue.\\\""
+        },
+        "perfops": {
+            "name": "PerfOps",
+            "websiteUrl": "https://perfops.net/",
+            "description": "Distributed infrastructure monitoring, smart traffic load-balancing and routing.",
+            "source": "AdGuard"
         },
         "perform_group": {
             "name": "Perform Media Services Ltd",
