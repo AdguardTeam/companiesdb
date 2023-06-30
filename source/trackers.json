@@ -104,6 +104,12 @@
             "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
             "companyId": "microsoft"
         },
+        "binge": {
+            "name": "Binge",
+            "categoryId": 0,
+            "url": "https://binge.com.au/",
+            "companyId": "foxtel"
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -212,6 +218,12 @@
             "url": "https://firebase.google.com/",
             "companyId": "google"
         },
+        "flash": {
+            "name": "Flash",
+            "categoryId": 0,
+            "url": "https://flashnews.com.au/",
+            "companyId": "foxtel"
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -223,6 +235,18 @@
             "categoryId": 0,
             "url": "https://freeview.com.au/",
             "companyId": "freeview"
+        },
+        "fox_sports": {
+            "name": "Fox Sports",
+            "categoryId": 0,
+            "url": "https://foxsports.com.au/",
+            "companyId": "foxtel"
+        },
+        "foxtel": {
+            "name": "Foxtel",
+            "categoryId": 0,
+            "url": "https://foxtel.com.au/",
+            "companyId": "foxtel"
         },
         "gmail": {
             "name": "Gmail",
@@ -271,6 +295,12 @@
             "categoryId": 8,
             "url": "https://karambasecurity.com/",
             "companyId": "karambasecurity"
+        },
+        "kayo_sports": {
+            "name": "Kayo Sports",
+            "categoryId": 0,
+            "url": "https://kayosports.com.au/",
+            "companyId": "foxtel"
         },
         "kik": {
             "name": "Kik",
@@ -512,6 +542,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "streamotion": {
+            "name": "Streamotion",
+            "categoryId": 0,
+            "url": "https://streamotion.com.au/",
+            "companyId": "foxtel"
+        },
         "switchtv": {
             "name": "Switch Media",
             "categoryId": 8,
@@ -701,6 +737,7 @@
         "blob.core.windows.net": "azure_blob_storage",
         "azure.com": "azure",
         "trafficmanager.net": "azure",
+        "binge.com.au": "binge",
         "bitwarden.com": "bitwarden",
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
@@ -733,8 +770,11 @@
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
         "app-measurement.com": "firebase",
+        "flashnews.com.au": "flash",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "foxsports.com.au": "fox_sports",
+        "foxtel.com.au": "foxtel",
         "freeviewaustralia.tv": "freeview",
         "freeview.com.au": "freeview",
         "freeview.com": "freeview",
@@ -759,6 +799,7 @@
         "isolarcloud.com.w.cdngslb.com": "isolarcloud",
         "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
+        "kayosports.com.au": "kayo_sports",
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
@@ -934,6 +975,7 @@
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
+        "streamotion.com.au": "streamotion",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
