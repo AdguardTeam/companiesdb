@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-29T00:11:23.794Z",
+    "timeUpdated": "2023-06-30T11:01:59.247Z",
     "companies": {
         "163": {
             "name": "163",
@@ -4380,6 +4380,12 @@
             "name": "FoxPush",
             "websiteUrl": "https://www.foxpush.com/",
             "description": "Our platform was designed with two goals in mind: to simplify the process of creating and sending push notifications and to provide the most sophisticated audience-targeting capacity possible. We’ve taken all of the design work out of your hands, so all you have to do is copy and paste one line onto your website to start signing up subscribers and sending push notifications. \\r\\n\\r\\nAs a technology firm, we recognize the importance of keeping up with the changing environment. We are the leaders in our field, committed to providing our clients with the most nuanced data and targeting abilities. We’re constantly adding new features, so check back often to see what’s new."
+        },
+        "foxtel": {
+            "name": "Foxtel",
+            "websiteUrl": "https://www.foxtel.com.au/",
+            "description": "Foxtel is an Australian pay television company—operating in cable television, direct broadcast satellite television, and IPTV streaming services.",
+            "source": "AdGuard"
         },
         "freakout": {
             "name": "FreakOut",
