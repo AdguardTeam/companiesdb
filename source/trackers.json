@@ -104,6 +104,12 @@
             "url": "https://azure.microsoft.com/en-us/products/storage/blobs",
             "companyId": "microsoft"
         },
+        "binge": {
+            "name": "Binge",
+            "categoryId": 0,
+            "url": "https://binge.com.au/",
+            "companyId": "foxtel"
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "categoryId": 8,
@@ -212,6 +218,12 @@
             "url": "https://firebase.google.com/",
             "companyId": "google"
         },
+        "flash": {
+            "name": "Flash",
+            "categoryId": 0,
+            "url": "https://flashnews.com.au/",
+            "companyId": "foxtel"
+        },
         "flurry": {
             "name": "Flurry",
             "categoryId": 101,
@@ -223,6 +235,18 @@
             "categoryId": 0,
             "url": "https://freeview.com.au/",
             "companyId": "freeview"
+        },
+        "fox_sports": {
+            "name": "Fox Sports",
+            "categoryId": 0,
+            "url": "https://foxsports.com.au/",
+            "companyId": "foxtel"
+        },
+        "foxtel": {
+            "name": "Foxtel",
+            "categoryId": 0,
+            "url": "https://foxtel.com.au/",
+            "companyId": "foxtel"
         },
         "gmail": {
             "name": "Gmail",
@@ -362,6 +386,12 @@
             "url": "https://karambasecurity.com/",
             "companyId": "karambasecurity"
         },
+        "kayo_sports": {
+            "name": "Kayo Sports",
+            "categoryId": 0,
+            "url": "https://kayosports.com.au/",
+            "companyId": "foxtel"
+        },
         "kik": {
             "name": "Kik",
             "categoryId": 7,
@@ -488,6 +518,12 @@
             "url": "https://oztam.com.au/",
             "companyId": "oztam"
         },
+        "perfops": {
+            "name": "PerfOps",
+            "categoryId": 6,
+            "url": "https://perfops.net/",
+            "companyId": "perfops"
+        },
         "plex": {
             "name": "Plex",
             "categoryId": 0,
@@ -602,6 +638,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "streamotion": {
+            "name": "Streamotion",
+            "categoryId": 0,
+            "url": "https://streamotion.com.au/",
+            "companyId": "foxtel"
+        },
         "switchtv": {
             "name": "Switch Media",
             "categoryId": 8,
@@ -620,11 +662,17 @@
             "url": "https://ubuntu.com/",
             "companyId": "ubuntu"
         },
+        "unity": {
+            "name": "Unity",
+            "categoryId": 8,
+            "url": "https://unity.com/",
+            "companyId": "unity"
+        },
         "unity_ads": {
             "name": "Unity Ads",
             "categoryId": 4,
-            "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
-            "companyId": null
+            "url": "https://unity.com/products/unity-ads",
+            "companyId": "unity"
         },
         "vk.com": {
             "name": "Vk.com",
@@ -785,6 +833,7 @@
         "blob.core.windows.net": "azure_blob_storage",
         "azure.com": "azure",
         "trafficmanager.net": "azure",
+        "binge.com.au": "binge",
         "bitwarden.com": "bitwarden",
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
@@ -833,8 +882,11 @@
         "firebaselogging-pa.googleapis.com": "firebase",
         "firebaseperusertopics-pa.googleapis.com": "firebase",
         "firebaseremoteconfig.googleapis.com": "firebase",
+        "flashnews.com.au": "flash",
         "flipboard.com": "flipboard",
         "flurry.com": "flurry",
+        "foxsports.com.au": "fox_sports",
+        "foxtel.com.au": "foxtel",
         "freeviewaustralia.tv": "freeview",
         "freeview.com.au": "freeview",
         "freeview.com": "freeview",
@@ -1147,6 +1199,7 @@
         "isolarcloud.com.w.cdngslb.com": "isolarcloud",
         "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
+        "kayosports.com.au": "kayo_sports",
         "kik.com": "kik",
         "apikik.com": "kik",
         "kik-live.com": "kik",
@@ -1169,6 +1222,7 @@
         "mega.co.nz": "meganz",
         "mega.io": "meganz",
         "mega.nz": "meganz",
+        "msidentity.com": "microsoft",
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
         "firefox.com": "mozilla",
@@ -1217,6 +1271,7 @@
         "hotmail.com": "outlook",
         "outlook.com": "outlook",
         "oztam.com.au": "oztam",
+        "perfops.io": "perfops",
         "plex.tv": "plex",
         "plex.direct": "plex",
         "qualcomm.com": "qualcomm",
@@ -1321,6 +1376,7 @@
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
+        "streamotion.com.au": "streamotion",
         "telstra.com.au": "telstra",
         "telstra.com": "telstra",
         "usertrust.com": "trustlogo",
@@ -1331,6 +1387,9 @@
         "snapcraftcontent.com": "ubuntu",
         "ubuntu.com": "ubuntu",
         "ubuntucompanyservices.co.za": "ubuntu",
+        "unity.com": "unity",
+        "unity3d.com": "unity",
+        "unity3dusercontent.com": "unity",
         "unityads.unity3d.com": "unity_ads",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",

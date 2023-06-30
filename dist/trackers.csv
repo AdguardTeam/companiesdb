@@ -844,6 +844,7 @@ bat.r.msn.com;bing_ads;4
 bing.com;bing_ads;4
 bing.net;bing_ads;4
 virtualearth.net;bing_maps;2
+binge.com.au;binge;0
 view.binlayer.com;binlayer;4
 widgets.binotel.com;binotel;4
 esendra.fi;bisnode;4
@@ -1687,6 +1688,7 @@ fitanalytics.com;fit_analytics;6
 fivetran.com;fivetran;6
 flagads.net;flag_ads;4
 flagcounter.com;flag_counter;4
+flashnews.com.au;flash;0
 flashtalking.com;flashtalking;4
 flattr.com;flattr_button;7
 flexlinks.com;flexoffers;4
@@ -1732,9 +1734,11 @@ fortlachanhecksof.info;fortlachanhecksof.info;11
 platform.foursquare.com;foursquare_widget;4
 fout.jp;fout.jp;4
 fimserve.com;fox_audience_network;4
+foxsports.com.au;fox_sports;0
 fncstatic.com;foxnews_static;9
 cdn.foxpush.net;foxpush;4
 foxpush.com;foxpush;4
+foxtel.com.au;foxtel;0
 foxydeal.com;foxydeal_com;12
 yabidos.com;fraudlogix;4
 besucherstatistiken.com;free_counter;6
@@ -2283,6 +2287,7 @@ kataweb.it;kataweb.it;4
 cen.katchup.fr;katchup;4
 kau.li;kauli;4
 kavanga.ru;kavanga;4
+kayosports.com.au;kayo_sports;0
 dc8na2hxrj29i.cloudfront.net;keen_io;6
 keen.io;keen_io;6
 widget.kelkoo.com;kelkoo;4
@@ -2694,6 +2699,7 @@ onestore.ms;microsoft;8
 s-microsoft.com;microsoft;8
 trouter.io;microsoft;8
 windows.net;microsoft;8
+msidentity.com;microsoft;8
 analytics.live.com;microsoft_analytics;4
 a.clarity.ms;microsoft_clarity;6
 b.clarity.ms;microsoft_clarity;6
@@ -3092,6 +3098,7 @@ perfdrive.com;perfdrive.com;11
 perfectaudience.com;perfect_audience;4
 prfct.co;perfect_audience;4
 perfectmarket.com;perfect_market;4
+perfops.io;perfops;6
 performgroup.com;perform_group;5
 analytics.performable.com;performable;6
 performancing.com;performancing_metrics;6
@@ -3897,6 +3904,7 @@ storygize.net;storygize;4
 bizsolutions.strands.com;strands_recommender;4
 strava.com;strava;6
 mailfoogae.appspot.com;streak;2
+streamotion.com.au;streamotion;0
 streamrail.com;streamrail.com;4
 streamrail.net;streamrail.com;4
 stridespark.com;stride;6
@@ -4213,6 +4221,9 @@ nonstoppartner.net;united_digital_group;4
 tifbs.net;united_internet_media_gmbh;4
 ui-portal.de;united_internet_media_gmbh;4
 uimserv.net;united_internet_media_gmbh;4
+unity.com;unity;8
+unity3d.com;unity;8
+unity3dusercontent.com;unity;8
 unityads.unity3d.com;unity_ads;4
 univide.com;univide;4
 unpkg.com;unpkg.com;9

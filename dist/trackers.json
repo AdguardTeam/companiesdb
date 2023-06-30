@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-06-26T10:42:04.603Z",
+    "timeUpdated": "2023-06-30T11:40:07.104Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -3347,6 +3347,13 @@
             "categoryId": 2,
             "url": "https://www.microsoft.com/",
             "companyId": "microsoft"
+        },
+        "binge": {
+            "name": "Binge",
+            "categoryId": 0,
+            "url": "https://binge.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
         },
         "binlayer": {
             "name": "BinLayer",
@@ -7164,6 +7171,13 @@
             "url": "http://flagcounter.com/",
             "companyId": "flag_counter"
         },
+        "flash": {
+            "name": "Flash",
+            "categoryId": 0,
+            "url": "https://flashnews.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
+        },
         "flashtalking": {
             "name": "Flashtalking",
             "categoryId": 4,
@@ -7369,6 +7383,13 @@
             "url": "https://publishers.foxaudiencenetwork.com/",
             "companyId": "fox_audience_network"
         },
+        "fox_sports": {
+            "name": "Fox Sports",
+            "categoryId": 0,
+            "url": "https://foxsports.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
+        },
         "foxnews_static": {
             "name": "Fox News CDN",
             "categoryId": 9,
@@ -7380,6 +7401,13 @@
             "categoryId": 4,
             "url": "https://www.foxpush.com/",
             "companyId": "foxpush"
+        },
+        "foxtel": {
+            "name": "Foxtel",
+            "categoryId": 0,
+            "url": "https://foxtel.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
         },
         "foxydeal_com": {
             "name": "foxydeal.com",
@@ -9765,6 +9793,13 @@
             "categoryId": 4,
             "url": "http://kavanga.ru/",
             "companyId": "kavanga"
+        },
+        "kayo_sports": {
+            "name": "Kayo Sports",
+            "categoryId": 0,
+            "url": "https://kayosports.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
         },
         "keen_io": {
             "name": "Keen IO",
@@ -13092,6 +13127,13 @@
             "categoryId": 4,
             "url": "http://perfectmarket.com/",
             "companyId": "perfect_market"
+        },
+        "perfops": {
+            "name": "PerfOps",
+            "categoryId": 6,
+            "url": "https://perfops.net/",
+            "companyId": "perfops",
+            "source": "AdGuard"
         },
         "perform_group": {
             "name": "Perform Group",
@@ -16484,6 +16526,13 @@
             "url": "http://www.streak.com/",
             "companyId": "streak"
         },
+        "streamotion": {
+            "name": "Streamotion",
+            "categoryId": 0,
+            "url": "https://streamotion.com.au/",
+            "companyId": "foxtel",
+            "source": "AdGuard"
+        },
         "streamrail.com": {
             "name": "StreamRail",
             "categoryId": 4,
@@ -17795,11 +17844,18 @@
             "url": "https://www.united-internet.de/",
             "companyId": "united_internet"
         },
+        "unity": {
+            "name": "Unity",
+            "categoryId": 8,
+            "url": "https://unity.com/",
+            "companyId": "unity",
+            "source": "AdGuard"
+        },
         "unity_ads": {
             "name": "Unity Ads",
             "categoryId": 4,
-            "url": "https://unity.com/solutions/mobile-business/monetize-your-game",
-            "companyId": null,
+            "url": "https://unity.com/products/unity-ads",
+            "companyId": "unity",
             "source": "AdGuard"
         },
         "univide": {
@@ -20591,6 +20647,7 @@
         "bing.com": "bing_ads",
         "bing.net": "bing_ads",
         "virtualearth.net": "bing_maps",
+        "binge.com.au": "binge",
         "view.binlayer.com": "binlayer",
         "widgets.binotel.com": "binotel",
         "esendra.fi": "bisnode",
@@ -21434,6 +21491,7 @@
         "fivetran.com": "fivetran",
         "flagads.net": "flag_ads",
         "flagcounter.com": "flag_counter",
+        "flashnews.com.au": "flash",
         "flashtalking.com": "flashtalking",
         "flattr.com": "flattr_button",
         "flexlinks.com": "flexoffers",
@@ -21479,9 +21537,11 @@
         "platform.foursquare.com": "foursquare_widget",
         "fout.jp": "fout.jp",
         "fimserve.com": "fox_audience_network",
+        "foxsports.com.au": "fox_sports",
         "fncstatic.com": "foxnews_static",
         "cdn.foxpush.net": "foxpush",
         "foxpush.com": "foxpush",
+        "foxtel.com.au": "foxtel",
         "foxydeal.com": "foxydeal_com",
         "yabidos.com": "fraudlogix",
         "besucherstatistiken.com": "free_counter",
@@ -22030,6 +22090,7 @@
         "cen.katchup.fr": "katchup",
         "kau.li": "kauli",
         "kavanga.ru": "kavanga",
+        "kayosports.com.au": "kayo_sports",
         "dc8na2hxrj29i.cloudfront.net": "keen_io",
         "keen.io": "keen_io",
         "widget.kelkoo.com": "kelkoo",
@@ -22441,6 +22502,7 @@
         "s-microsoft.com": "microsoft",
         "trouter.io": "microsoft",
         "windows.net": "microsoft",
+        "msidentity.com": "microsoft",
         "analytics.live.com": "microsoft_analytics",
         "a.clarity.ms": "microsoft_clarity",
         "b.clarity.ms": "microsoft_clarity",
@@ -22839,6 +22901,7 @@
         "perfectaudience.com": "perfect_audience",
         "prfct.co": "perfect_audience",
         "perfectmarket.com": "perfect_market",
+        "perfops.io": "perfops",
         "performgroup.com": "perform_group",
         "analytics.performable.com": "performable",
         "performancing.com": "performancing_metrics",
@@ -23644,6 +23707,7 @@
         "bizsolutions.strands.com": "strands_recommender",
         "strava.com": "strava",
         "mailfoogae.appspot.com": "streak",
+        "streamotion.com.au": "streamotion",
         "streamrail.com": "streamrail.com",
         "streamrail.net": "streamrail.com",
         "stridespark.com": "stride",
@@ -23960,6 +24024,9 @@
         "tifbs.net": "united_internet_media_gmbh",
         "ui-portal.de": "united_internet_media_gmbh",
         "uimserv.net": "united_internet_media_gmbh",
+        "unity.com": "unity",
+        "unity3d.com": "unity",
+        "unity3dusercontent.com": "unity",
         "unityads.unity3d.com": "unity_ads",
         "univide.com": "univide",
         "unpkg.com": "unpkg.com",
