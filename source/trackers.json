@@ -212,6 +212,12 @@
             "url": "https://developers.facebook.com/plugins",
             "companyId": "meta"
         },
+        "farlight_pte_ltd": {
+            "name": "Farlight Pte Ltd.",
+            "categoryId": 8,
+            "url": "https://farlightgames.com/",
+            "companyId": "farlight"
+        },
         "firebase": {
             "name": "Firebase",
             "categoryId": 101,
@@ -866,6 +872,7 @@
         "element.io": "element",
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
+        "farlightgames.com": "farlight_pte_ltd",
         "app-measurement.com": "firebase",
         "fcm.googleapis.com": "firebase",
         "firebaseappcheck.googleapis.com": "firebase",
