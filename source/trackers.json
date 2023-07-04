@@ -530,7 +530,7 @@
             "url": "https://www.plex.tv/",
             "companyId": "plex"
         },
-        "qq_international": {
+        "qq.com": {
             "name": "QQ International",
             "categoryId": 2,
             "url": "https://www.qq.com/",
@@ -1280,7 +1280,6 @@
         "perfops.io": "perfops",
         "plex.tv": "plex",
         "plex.direct": "plex",
-        "qq.com": "qq_international",
         "qualcomm.com": "qualcomm",
         "gpsonextra.net":"qualcomm_location_service",
         "izatcloud.net":"qualcomm_location_service",
