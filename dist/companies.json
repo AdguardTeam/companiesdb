@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-13T15:47:08.009Z",
+    "timeUpdated": "2023-07-13T15:48:51.087Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10095,6 +10095,12 @@
             "name": "Telstra",
             "websiteUrl": "https://www.telstra.com.au/",
             "description": "Telstra is Australia's leading telecommunications and technology company, offering a full range of communications services and competing in all telecommunications markets.",
+            "source": "AdGuard"
+        },
+        "tencent": {
+            "name": "Tencent",
+            "websiteUrl": "https://www.tencent.com/",
+            "description": "Tencent is an internet service portal offering value-added internet, mobile, telecom, and online advertising services.",
             "source": "AdGuard"
         },
         "tender": {

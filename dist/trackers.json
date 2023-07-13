@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-13T15:47:08.009Z",
+    "timeUpdated": "2023-07-13T15:48:51.087Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -14088,10 +14088,11 @@
             "companyId": "qihoo_360_technology"
         },
         "qq.com": {
-            "name": "qq.com",
-            "categoryId": 8,
-            "url": "http://www.qq.com/",
-            "companyId": "qq.com"
+            "name": "QQ International",
+            "categoryId": 2,
+            "url": "https://www.qq.com/",
+            "companyId": "tencent",
+            "source": "AdGuard"
         },
         "qrius": {
             "name": "Qrius",
