@@ -530,6 +530,12 @@
             "url": "https://www.plex.tv/",
             "companyId": "plex"
         },
+        "qq.com": {
+            "name": "QQ International",
+            "categoryId": 2,
+            "url": "https://www.qq.com/",
+            "companyId": "tencent"
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "categoryId": 8,
