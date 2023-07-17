@@ -61,6 +61,11 @@
             "websiteUrl": "https://edg.io/",
             "description": "Edgio is a content delivery network (CDN) service provider that enables organizations to deliver faster websites, more responsive applications, and quality video."
         },
+        "electronic_arts": {
+            "name": "Electronic Arts",
+            "websiteUrl": "https://www.ea.com/",
+            "description": "Electronic Arts delivers games, content, and online services for internet-connected consoles, PCs, mobile phones, and tablets."
+        },
         "facebook": {
             "name": "Facebook",
             "websiteUrl": "https://www.facebook.com/",
