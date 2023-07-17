@@ -644,6 +644,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "supercell": {
+            "name": "Supercell",
+            "categoryId": 2,
+            "url": "https://supercell.com/",
+            "companyId": "supercell"
+        },
         "streamotion": {
             "name": "Streamotion",
             "categoryId": 0,
@@ -1381,6 +1387,8 @@
         "snap-dev.net": "snap",
         "snapads.com": "snap",
         "snapkit.com": "snap",
+        "supercell.com": "supercell",
+        "supercellsupport.com": "supercell",
         "switch.tv": "switchtv",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
