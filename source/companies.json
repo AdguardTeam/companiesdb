@@ -91,6 +91,11 @@
             "websiteUrl": "https://www.iqiyi.com/",
             "description": "iQiyi is a Chinese ad-supported television and movie portal providing fully-licensed, high-definition, professionally produced content"
         },
+        "ironsource": {
+            "name": "ironSource",
+            "websiteUrl": "https://www.is.com/",
+            "description": "ironSource is a business platform enabling mobile content creators to prosper in the app economy."
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "websiteUrl": "https://karambasecurity.com/",

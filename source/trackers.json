@@ -374,6 +374,12 @@
             "url": "https://www.facebook.com/",
             "companyId": "meta"
         },
+        "ironsource": {
+            "name": "ironSource",
+            "categoryId": 4,
+            "url": "https://www.is.com/",
+            "companyId": "ironsource"
+        },
         "isolarcloud": {
             "name": "iSolarCloud",
             "categoryId": 6,
@@ -643,6 +649,12 @@
             "categoryId": 8,
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
+        },
+        "soomla": {
+            "name": "Soomla",
+            "categoryId": 4,
+            "url": "https://www.is.com/AdQuality",
+            "companyId": "ironsource"
         },
         "streamotion": {
             "name": "Streamotion",
@@ -1200,6 +1212,7 @@
         "iq.com": "iqiyi",
         "ironsrc.com": "ironsource",
         "ironsrc.net": "ironsource",
+        "soom.la": "ironsource",
         "supersonicads.com": "ironsource",
         "isolarcloud.com": "isolarcloud",
         "isolarcloud.com.a.lahuashanbx.com": "isolarcloud",
