@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-22T00:09:11.012Z",
+    "timeUpdated": "2023-07-26T11:41:46.073Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -6426,6 +6426,13 @@
             "categoryId": 6,
             "url": "http://www.amazon.com/",
             "companyId": "amazon_associates"
+        },
+        "electronic_arts": {
+            "name": "Electronic Arts",
+            "categoryId": 2,
+            "url": "https://www.ea.com/",
+            "companyId": "electronic_arts",
+            "source": "AdGuard"
         },
         "element": {
             "name": "Element",
@@ -21450,6 +21457,9 @@
         "ekomi.de": "ekomi",
         "elasticad.net": "elastic_ad",
         "elasticbeanstalk.com": "elastic_beanstalk",
+        "cloudcell.com": "electronic_arts",
+        "ea.com": "electronic_arts",
+        "eamobile.com": "electronic_arts",
         "element.io": "element",
         "riot.im": "element",
         "elicitapp.com": "elicit",
