@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-26T11:41:46.073Z",
+    "timeUpdated": "2023-07-26T12:21:16.099Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10,6 +10,12 @@
             "name": "1000mercis",
             "websiteUrl": "http://www.1000mercis.com/",
             "description": "\\\"1000mercis Group, a pioneer in interactive advertising and marketing, provides innovative solutions for companies willing to optimise their customer acquisition and retention through interactive media (Internet, mobile phones and tablets).\\\""
+        },
+        "1822direkt": {
+            "name": "1822direkt",
+            "websiteUrl": "https://www.1822direkt.de/",
+            "description": "1822direkt provides online banking and financial services.",
+            "source": "AdGuard"
         },
         "1dmp": {
             "name": "1DMP",
@@ -25,6 +31,18 @@
             "name": "1Sponsor",
             "websiteUrl": "http://fr.1sponsor.com/",
             "description": "\\\"Webmasters, earn money by monetizing traffic to your website and increase its visibility by spreading your advertising campaigns via 1Sponsor.com. Repayments of our campaigns micro-sponsorship are the highest in the sector.\\\""
+        },
+        "1und1": {
+            "name": "1&1 IONOS",
+            "websiteUrl": "http://www.ionos.com/",
+            "description": "1&1 IONOS provides web hosting solutions for private users, as well as high-end products for small-and medium-sized businesses.",
+            "source": "AdGuard"
+        },
+        "24-ads.com": {
+            "name": "24-ADS",
+            "websiteUrl": "http://www.24-ads.com/",
+            "description": "24 - Ads is a consulting agency that offers publishing and advertising services.",
+            "source": "AdGuard"
         },
         "24_7": {
             "name": "[24]7",
@@ -45,6 +63,12 @@
             "name": "24metrics",
             "websiteUrl": "https://24metrics.com/",
             "description": null
+        },
+        "24smi": {
+            "name": "24msi.org",
+            "websiteUrl": "https://24smi.org/",
+            "description": "A news portal about show business and gossip, the latest events in Russia and the world, exclusive interviews, news from the world of cinema and television, interesting facts and much more.",
+            "source": "AdGuard"
         },
         "2leep": {
             "name": "2leep",
@@ -70,6 +94,18 @@
             "name": "3GPP Network",
             "websiteUrl": "https://www.3gpp.org/",
             "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling.",
+            "source": "AdGuard"
+        },
+        "4chan": {
+            "name": "4Chan",
+            "websiteUrl": "https://www.4chan.org/",
+            "description": "4chan is an image-based bulletin board where users can post comments and share images.",
+            "source": "AdGuard"
+        },
+        "4finance": {
+            "name": "4finance.com",
+            "websiteUrl": "https://4finance.com/",
+            "description": "4Europe’s largest online and mobile consumer lending group, providing convenient and responsible access to credit across 11 countries.",
             "source": "AdGuard"
         },
         "4w_marketplace": {
@@ -111,6 +147,12 @@
             "name": "7plus",
             "websiteUrl": "https://7plus.com.au/",
             "description": "7plus is a video on demand, catch-up TV service run by the Seven Network.",
+            "source": "AdGuard"
+        },
+        "7tv": {
+            "name": "7tv.app",
+            "websiteUrl": "https://www.7tv.app/",
+            "description": "The Emote Platform for All. Manage hundreds of emotes for your Twitch or YouTube channels with ease.",
             "source": "AdGuard"
         },
         "888_media": {
@@ -2296,6 +2338,12 @@
             "name": "BusinessOnline",
             "websiteUrl": "http://www.businessol.com/",
             "description": "BusinessOnline is an interactive marketing company.  Their focus is on developing an understanding of user needs and generating insights that can be leveraged to achieve clients' online marketing goals. Their solutions include web analytics and social media optimization."
+        },
+        "button": {
+            "name": "Button",
+            "websiteUrl": "https://www.usebutton.com/",
+            "description": "Button is the mobile commerce technology company that is powering a commerce-driven internet.",
+            "source": "AdGuard"
         },
         "buysellads.com": {
             "name": "BuySellAds.com",
@@ -5065,6 +5113,12 @@
             "websiteUrl": "http://www.iadvize.com/",
             "description": "\\\"Reassure visitors and help e-merchants reduce their dropout rates.\\r\\n\\r\\niAdvize is displayed as a chat bar at the bottom of the browser window and remains visible throughout the navigation session. At any time, visitors can contact a site representative for advice about a product or for help in navigation if they are confused.\\\""
         },
+        "ibexa": {
+            "name": "Ibexa Personalizaton Software",
+            "websiteUrl": "https://www.ibexa.co.net/",
+            "description": "Ibexa centers on digital transformation, content management, consultation and training to help B2B companies in digital sales strategies.",
+            "source": "AdGuard"
+        },
         "ibm": {
             "name": "IBM",
             "websiteUrl": "https://www.ibm.com/us-en/marketplace/analytics-for-your-digital-properties",
@@ -6155,6 +6209,12 @@
             "name": "LiveTex",
             "websiteUrl": "http://livetex.ru/",
             "description": "\\\"LiveTex - the first company in the Russian market, offering not just a service online counseling and a range of solutions for communication with visitors to the site: online consultant, \\\"Lead Generator\\\", a call from the site, an intelligent system of involving visitors in a dialogue that allows to offer assistance in the most appropriate time, increasing the quality of service and sales.\\\"\\r\\n\\r\\nTranslated by Google Translate"
+        },
+        "livinglymedia": {
+            "name": "Livingly Media",
+            "websiteUrl": "https://www.livinglymedia.com/",
+            "description": "Livingly Media is an online publisher owning lifestyle and entertainment news sites.",
+            "source": "AdGuard"
         },
         "localytics": {
             "name": "Localytics",
@@ -9911,6 +9971,12 @@
             "description": "Sungrow Power Supply Company Limited develops, produces, sells and provides services for solar PV inverters, wind power converters and other power supply. The Company also provides system solutions to renewable energy industry users.",
             "source": "AdGuard"
         },
+        "supercell": {
+            "name": "Supercell",
+            "websiteUrl": "https://supercell.com/",
+            "description": "Supercell is a video game development company for tablets and smart phones.",
+            "source": "AdGuard"
+        },
         "supercounters": {
             "name": "SuperCounters",
             "websiteUrl": "http://www.supercounters.com/",
@@ -11438,20 +11504,56 @@
             "websiteUrl": "https://www.xcaliber.com/",
             "description": null
         },
+        "xenmedia": {
+            "name": "Xen Media",
+            "websiteUrl": "https://www.xenmedia.net/",
+            "description": "Xen Media offers media planning, video production, digital marketing, SEO, social media marketing, website and app development services.",
+            "source": "AdGuard"
+        },
+        "xhamster": {
+            "name": "xHamster",
+            "websiteUrl": "https://xhamster.com/",
+            "description": "xHamster is a Cypriot pornographic media and social networking site headquartered in Limassol, Cyprus.",
+            "source": "AdGuard"
+        },
         "xing": {
             "name": "XING",
             "websiteUrl": "http://www.xing.com/",
             "description": "\\\"XING is the social network for business professionals.\\\"\\r\\n\\r\\n\\\"XING is the social network for business contacts. XING has close to 11 million users in its core German-speaking market (September 2016).\\\"\\r\\n\\r\\n\\\"XING is a platform where professionals from all kinds of different industries can meet up, find jobs, colleagues, new assignments, cooperation partners, experts and generate business ideas.\\\""
+        },
+        "xnxx": {
+            "name": "XNXX",
+            "websiteUrl": "https://www.xnxx.com",
+            "description": "XNXX is a French website for sharing and viewing pornographic videos.",
+            "source": "AdGuard"
         },
         "xplosion_interactive": {
             "name": "xplosion interactive",
             "websiteUrl": "http://www.xplosion.de/en/home.html?no_cache=1",
             "description": "\\\"The intelligent retargeting mix developed by xplosion interactive under the name of xretarget unites brand-strategic applicability with user-sensitivity.\\\""
         },
+        "xvideos": {
+            "name": "Xvideos",
+            "websiteUrl": "https://www.xvideos.com",
+            "description": "XVideos serves as a pornographic media aggregator.",
+            "source": "AdGuard"
+        },
+        "xxxlshop.de": {
+            "name": "XXXLutz",
+            "websiteUrl": "https://www.xxxlutz.de/",
+            "description": "XXXLutz is a leading furniture dealer in Europe, founded in 1945.",
+            "source": "AdGuard"
+        },
         "xxxlutz": {
             "name": "XXXLutz KG",
             "websiteUrl": "https://www.xxxlutz.de/",
             "description": null
+        },
+        "yabbi": {
+            "name": "Yabbi",
+            "websiteUrl": "https://yabbi.me/",
+            "description": "A Russian technology company engaged in the development of software systems for advertisers and publishers specializing in mobile applications.",
+            "source": "AdGuard"
         },
         "yabuka": {
             "name": "Yabuka",
@@ -11599,6 +11701,12 @@
             "websiteUrl": "http://www.youku.com/",
             "description": "于2006年12月21日正式推出。优酷以 \\\"快者为王\\\"为产品理念，凭借\\\"快速播放，快速发布，快速搜索\\\"的产品特性，充分满足用户日益增长的互动需求及多元化视频体验，现已成为中国互联网领域知名度较高并受用户喜爱的网络应用和视频平台。\\n\\n优酷坚持打造“阳光、真实、主流、有梦想”的品牌形象，以\\\"合计划\\\"为导向，联手众多合作伙伴展开资源整合和内容拓展，利用视频媒体独特的属性开创“台网联动”传播模式，不断响应行业及网民诉求，推动网络视频行业主流化进程。现已成为正版影视节目发行、传播和营销的合法平台。\\n优酷不断实践\\\"三网合一\\\"的使命，现已覆盖PC、电视、移动三大终端，兼具影视、综艺、资讯三大内容形态，贯通视频内容制作、播出、发行三大环节，成为真正意义的互联网电视媒体，引领视频行业格局及全媒时代的大格局。"
         },
+        "youporn": {
+            "name": "YouPorn",
+            "websiteUrl": "https://www.youporn.com/",
+            "description": "YouPorn is a free pornographic video sharing website that launched in August of 2006.",
+            "source": "AdGuard"
+        },
         "ysance": {
             "name": "Ysance",
             "websiteUrl": "http://www.ysance.com/en/index.html",
@@ -11678,6 +11786,12 @@
             "name": "Zeta Global",
             "websiteUrl": "https://zetaglobal.com/",
             "description": "Zeta Interactive is a provider of integrated interactive services. They help marketers leverage the Internet to build brands, increase sales, improve processes, and reduce costs. Zeta Interactive's focus is in crafting strategies and solutions for their clients to help them acquire, retain, up-sell, cross-sell and win back their customers."
+        },
+        "zeusclicks": {
+            "name": "ZeusClicks",
+            "websiteUrl": "http://zeusclicks.com/",
+            "description": "ZeusClicks is a leading digital advertising firm with high impact direct response marketing.",
+            "source": "AdGuard"
         },
         "ziff_davis": {
             "name": "Ziff Davis LLC",
