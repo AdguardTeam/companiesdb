@@ -146,6 +146,12 @@
             "url": "https://edg.io/",
             "companyId": "edgio"
         },
+        "electronic_arts": {
+            "name": "Electronic Arts",
+            "categoryId": 2,
+            "url": "https://www.ea.com/",
+            "companyId": "electronic_arts"
+        },
         "element": {
             "name": "Element",
             "categoryId": 7,
@@ -870,6 +876,9 @@
         "edgecastcdn.net": "edgio",
         "edgecastdns.net": "edgio",
         "sigmacdn.net": "edgio",
+        "cloudcell.com": "electronic_arts",
+        "ea.com": "electronic_arts",
+        "eamobile.com": "electronic_arts",
         "element.io": "element",
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
