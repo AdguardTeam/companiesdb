@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-29T00:08:55.261Z",
+    "timeUpdated": "2023-07-31T08:54:13.580Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -7027,6 +7027,13 @@
             "categoryId": 8,
             "url": null,
             "companyId": null
+        },
+        "farlight_pte_ltd": {
+            "name": "Farlight Pte Ltd.",
+            "categoryId": 8,
+            "url": "https://farlightgames.com/",
+            "companyId": "farlight",
+            "source": "AdGuard"
         },
         "fastly_insights": {
             "name": "Fastly Insights",
@@ -21604,6 +21611,7 @@
         "thefancy.com": "fancy_widget",
         "d1q7pknmpq2wkm.cloudfront.net": "fanplayr",
         "fap.to": "fap.to",
+        "farlightgames.com": "farlight_pte_ltd",
         "fastly-insights.com": "fastly_insights",
         "fastly.net": "fastlylb.net",
         "fastlylb.net": "fastlylb.net",

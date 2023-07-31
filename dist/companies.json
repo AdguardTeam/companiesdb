@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-07-29T00:08:55.261Z",
+    "timeUpdated": "2023-07-31T08:54:13.580Z",
     "companies": {
         "163": {
             "name": "163",
@@ -4204,6 +4204,12 @@
             "name": "Fanplayr",
             "websiteUrl": "http://www.fanplayr.com/",
             "description": "\\\"Fanplayr is the leader in targeted real-time ecommerce offers. By harnessing the power of Big Data, Fanplayr’s ‘Smart & Targeted Conversions’ enables marketers to identify, profile and target visitors with customized offers in real-time during the shopping experience. Fanplayr has headquarters in Palo Alto, California.ta\\\""
+        },
+        "farlight": {
+            "name": "Farlight Pte Ltd.",
+            "websiteUrl": "https://farlightgames.com/",
+            "description": "Farlight Games is a publishing company and the global publishing brand of Lilith Games.",
+            "source": "AdGuard"
         },
         "fastly": {
             "name": "Fastly",
