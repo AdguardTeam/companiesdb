@@ -680,6 +680,12 @@
             "url": "https://www.telstra.com.au/",
             "companyId": "telstra"
         },
+        "twitter": {
+            "name": "X (formerly Twitter)",
+            "categoryId": 7,
+            "url": "https://twitter.com",
+            "companyId": "twitter"
+        },
         "ubuntu": {
             "name": "Ubuntu",
             "categoryId": 8,
