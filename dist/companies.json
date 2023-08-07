@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-01T00:10:42.759Z",
+    "timeUpdated": "2023-08-07T10:50:20.842Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10602,9 +10602,10 @@
             "description": null
         },
         "twitter": {
-            "name": "Twitter",
+            "name": "X (formerly Twitter)",
             "websiteUrl": "https://twitter.com/",
-            "description": "Twitter is a service used to communicate and stay connected through the exchange of quick, frequent online and mobile messages. People write short updates, often called \\\"Tweets\\\" of 140 characters or fewer. These messages are dynamically posted to a Twitter profile or a blog and sent to your followers "
+            "description": "X is an online social network and social media service operated by the American company X Corp. which was re-branded from Twitter, Inc.",
+            "source": "AdGuard"
         },
         "twitter_counter": {
             "name": "Twitter Counter",
