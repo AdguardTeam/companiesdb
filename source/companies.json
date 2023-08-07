@@ -280,7 +280,12 @@
             "name": "Ubuntu",
             "websiteUrl": "https://ubuntu.com/",
             "description": "Ubuntu is an ancient African word meaning ‘humanity to others’. It is often described as reminding us that ‘I am what I am because of who we all are’. We bring the spirit of Ubuntu to the world of computers and software. The Ubuntu distribution represents the best of what the world’s software community has shared with the world."
-        },     
+        },
+        "twitter": {
+            "name": "X (formerly Twitter)",
+            "websiteUrl": "https://twitter.com/",
+            "description": "X is an online social network and social media service operated by the American company X Corp. which was re-branded from Twitter, Inc."
+        },
         "unity": {
             "name": "Unity Technologies",
             "websiteUrl": "https://unity.com/",
