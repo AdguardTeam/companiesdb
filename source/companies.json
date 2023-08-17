@@ -41,6 +41,11 @@
             "websiteUrl": "https://bitwarden.com/",
             "description": "Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations."
         },
+        "blackstone": {
+            "name": "Blackstone, Inc.",
+            "websiteUrl": "https://www.blackstone.com/",
+            "description": "Blackstone Group is a private equity firm that invests in buyouts, debt, mergers and acquisitions, mezzanine, and growth capital."
+        },
         "branch_metrics_inc": {
             "name": "Branch Metrics",
             "websiteUrl": "https://branch.io/",
