@@ -611,7 +611,7 @@
         "sectigo": {
             "name": "Sectigo Limited",
             "categoryId": 5,
-            "url": "https://www.solaredge.com/",
+            "url": "https://www.sectigo.com",
             "companyId": "sectigo"
         },
         "shopify": {
@@ -870,7 +870,7 @@
             "name": "7plus",
             "categoryId": 0,
             "url": "https://7plus.com.au/",
-            "companyId": "7plus"
+            "companyId": "seven_group_holdings"
         },
         "7tv.de": {
             "name": "7tv.app",
