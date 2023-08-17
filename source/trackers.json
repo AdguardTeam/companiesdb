@@ -108,7 +108,7 @@
             "name": "Binge",
             "categoryId": 0,
             "url": "https://binge.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "bitwarden": {
             "name": "Bitwarden",
@@ -234,7 +234,7 @@
             "name": "Flash",
             "categoryId": 0,
             "url": "https://flashnews.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "flurry": {
             "name": "Flurry",
@@ -252,13 +252,13 @@
             "name": "Fox Sports",
             "categoryId": 0,
             "url": "https://foxsports.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "foxtel": {
             "name": "Foxtel",
             "categoryId": 0,
             "url": "https://foxtel.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "gmail": {
             "name": "Gmail",
@@ -402,7 +402,7 @@
             "name": "Kayo Sports",
             "categoryId": 0,
             "url": "https://kayosports.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "kik": {
             "name": "Kik",
@@ -560,6 +560,18 @@
             "url": "https://www.qualcomm.com/site/privacy/services",
             "companyId": "qualcomm"
         },
+        "rea_group": {
+            "name": "REA Group Ltd.",
+            "categoryId": 4,
+            "url": "https://www.rea-group.com/",
+            "companyId": "news_corp"
+        },
+        "realestate.com.au": {
+            "name": "realestate.com.au Pty Limited",
+            "categoryId": 4,
+            "url": "https://www.realestate.com.au/",
+            "companyId": "news_corp"
+        },
         "recaptcha": {
             "name": "reCAPTCHA",
             "categoryId": 8,
@@ -666,7 +678,7 @@
             "name": "Streamotion",
             "categoryId": 0,
             "url": "https://streamotion.com.au/",
-            "companyId": "foxtel"
+            "companyId": "news_corp"
         },
         "switchtv": {
             "name": "Switch Media",
@@ -1416,6 +1428,8 @@
         "gpsonextra.net":"qualcomm_location_service",
         "izatcloud.net":"qualcomm_location_service",
         "xtracloud.net": "qualcomm_location_service",
+        "rea-group.com": "rea_group",
+        "realestate.com.au": "realestate.com.au",
         "recaptcha.net": "recaptcha",
         "adgear.com": "samsungads",
         "adgrx.com": "samsungads",

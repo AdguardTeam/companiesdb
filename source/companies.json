@@ -81,11 +81,6 @@
             "websiteUrl": "https://farlightgames.com/",
             "description": "Farlight Games is a publishing company and the global publishing brand of Lilith Games."
         },
-        "foxtel": {
-            "name": "Foxtel",
-            "websiteUrl": "https://www.foxtel.com.au/",
-            "description": "Foxtel is an Australian pay television company—operating in cable television, direct broadcast satellite television, and IPTV streaming services."
-        },
         "freeview": {
             "name": "Freeview",
             "websiteUrl": "https://freeview.com.au/",
