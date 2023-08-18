@@ -56,10 +56,22 @@
             "url": "https://www.akamai.com/",
             "companyId": "akamai"
         },
+        "alenty": {
+            "name": "Alenty",
+            "categoryId": 4,
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
             "url": "https://appcenter.ms/",
+            "companyId": "microsoft"
+        },
+        "appnexus": {
+            "name": "AppNexus",
+            "categoryId": 4,
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
             "companyId": "microsoft"
         },
         "alibaba_cloud": {
@@ -458,6 +470,12 @@
             "url": "https://matrix.org/",
             "companyId": "matrix"
         },
+        "mediaglu": {
+            "name": "MediaGlu",
+            "categoryId": 4,
+            "url": "https://www.mediaglu.com/",
+            "companyId": "microsoft"
+        },
         "medialab": {
             "name": "MediaLab.AI Inc.",
             "categoryId": 8,
@@ -511,6 +529,12 @@
             "categoryId": 5,
             "url": "https://ntp.org/",
             "companyId": "ntppool"
+        },
+        "open_adstream": {
+            "name": "Open Adstream",
+            "categoryId": 4,
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft"
         },
         "oppo": {
             "name": "OPPO",
