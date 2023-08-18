@@ -260,6 +260,12 @@
             "url": "https://foxtel.com.au/",
             "companyId": "foxtel"
         },
+        "github": {
+            "name": "GitHub, Inc.",
+            "categoryId": 2,
+            "url": "https://github.com/",
+            "companyId": "microsoft"
+        },
         "gmail": {
             "name": "Gmail",
             "categoryId": 13,
