@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-22T00:08:29.646Z",
+    "timeUpdated": "2023-08-22T13:35:47.279Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -24350,6 +24350,9 @@
         "trafmag.com": "trafmag.com",
         "api.transcend.io": "transcend",
         "cdn.transcend.io": "transcend",
+        "sync-transcend-cdn.com": "transcend",
+        "transcend-cdn.com": "transcend",
+        "transcend.io": "transcend",
         "telemetry.transcend.io": "transcend_telemetry",
         "backoffice.transmatico.com": "transmatic",
         "travelaudience.com": "travel_audience",

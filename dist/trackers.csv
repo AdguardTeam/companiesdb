@@ -4402,6 +4402,9 @@ storage.trafic.ro;trafic;6
 trafmag.com;trafmag.com;4
 api.transcend.io;transcend;14
 cdn.transcend.io;transcend;14
+sync-transcend-cdn.com;transcend;14
+transcend-cdn.com;transcend;14
+transcend.io;transcend;14
 telemetry.transcend.io;transcend_telemetry;6
 backoffice.transmatico.com;transmatic;6
 travelaudience.com;travel_audience;6
