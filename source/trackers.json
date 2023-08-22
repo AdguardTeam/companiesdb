@@ -728,6 +728,12 @@
             "url": "https://code.visualstudio.com/",
             "companyId": "microsoft"
         },
+        "vungle": {
+            "name": "Vungle",
+            "categoryId": 4,
+            "url": "https://vungle.com/",
+            "companyId": "blackstone"
+        },
         "whatsapp": {
             "name": "WhatsApp",
             "categoryId": 8,
@@ -1538,6 +1544,8 @@
         "vscode-unpkg.net": "vscode",
         "v0cdn.net": "vscode",
         "vscode-cdn.net": "vscode",
+        "liftoff.io": "vungle",
+        "vungle.com": "vungle",
         "whatsapp.net": "whatsapp",
         "whatsapp.com": "whatsapp",
         "maps.windows.com": "windows_maps",
