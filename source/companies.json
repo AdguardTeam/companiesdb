@@ -226,6 +226,11 @@
             "websiteUrl": "https://sectigo.com/",
             "description": "Sectigo is a leading cybersecurity provider of digital identity solutions, including TLS / SSL certificates, DevOps, IoT, and enterprise-grade PKI management, as well as multi-layered web security."
         },
+        "seven_group_holdings": {
+            "name": "Seven Group Holdings Limited",
+            "websiteUrl": "https://sevengroup.com.au",
+            "description": "Seven Group Holdings Limited (SGH) is a leading Australian diversified operating and investment group with market leading businesses and investments in industrial services, media and energy."
+        },
         "showrss": {
             "name": "showRSS",
             "websiteUrl": "https://showrss.info/",
@@ -385,11 +390,6 @@
             "name": "4finance.com",
             "websiteUrl": "https://4finance.com/",
             "description": "4Europe’s largest online and mobile consumer lending group, providing convenient and responsible access to credit across 11 countries."
-        },
-        "7plus": {
-            "name": "7plus",
-            "websiteUrl": "https://7plus.com.au/",
-            "description": "7plus is a video on demand, catch-up TV service run by the Seven Network."
         },
         "7tv": {
             "name": "7tv.app",
