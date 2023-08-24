@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-24T13:31:31.556Z",
+    "timeUpdated": "2023-08-24T13:33:49.399Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -3359,7 +3359,7 @@
             "name": "Binge",
             "categoryId": 0,
             "url": "https://binge.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "binlayer": {
@@ -7196,7 +7196,7 @@
             "name": "Flash",
             "categoryId": 0,
             "url": "https://flashnews.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "flashtalking": {
@@ -7408,7 +7408,7 @@
             "name": "Fox Sports",
             "categoryId": 0,
             "url": "https://foxsports.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "foxnews_static": {
@@ -7427,7 +7427,7 @@
             "name": "Foxtel",
             "categoryId": 0,
             "url": "https://foxtel.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "foxydeal_com": {
@@ -9925,7 +9925,7 @@
             "name": "Kayo Sports",
             "categoryId": 0,
             "url": "https://kayosports.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "keen_io": {
@@ -14346,6 +14346,13 @@
             "url": "http://www.rdstation.com/en/",
             "companyId": "rd_station"
         },
+        "rea_group": {
+            "name": "REA Group Ltd.",
+            "categoryId": 4,
+            "url": "https://www.rea-group.com/",
+            "companyId": "news_corp",
+            "source": "AdGuard"
+        },
         "reachforce": {
             "name": "ReachForce",
             "categoryId": 6,
@@ -14405,6 +14412,13 @@
             "categoryId": 4,
             "url": "http://www.realclick.co.kr/",
             "companyId": "realclick"
+        },
+        "realestate.com.au": {
+            "name": "realestate.com.au Pty Limited",
+            "categoryId": 4,
+            "url": "https://www.realestate.com.au/",
+            "companyId": "news_corp",
+            "source": "AdGuard"
         },
         "realperson.de": {
             "name": "Realperson Chat",
@@ -16658,7 +16672,7 @@
             "name": "Streamotion",
             "categoryId": 0,
             "url": "https://streamotion.com.au/",
-            "companyId": "foxtel",
+            "companyId": "news_corp",
             "source": "AdGuard"
         },
         "streamrail.com": {
@@ -23583,6 +23597,7 @@
         "rcs.it": "rcs.it",
         "rcsmediagroup.it": "rcs.it",
         "d335luupugsy2.cloudfront.net": "rd_station",
+        "rea-group.com": "rea_group",
         "d12ulf131zb0yj.cloudfront.net": "reachforce",
         "reachforce.com": "reachforce",
         "reachjunction.com": "reachjunction",
@@ -23598,6 +23613,7 @@
         "readme.io": "readme",
         "readspeaker.com": "readspeaker.com",
         "realclick.co.kr": "realclick",
+        "realestate.com.au": "realestate.com.au",
         "realperson.de": "realperson.de",
         "powermarketing.com": "realtime",
         "realtime.co": "realtime",
