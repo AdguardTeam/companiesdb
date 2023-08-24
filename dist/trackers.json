@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-24T13:33:49.399Z",
+    "timeUpdated": "2023-08-24T13:37:12.501Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -7834,10 +7834,11 @@
             "companyId": null
         },
         "github": {
-            "name": "GitHub",
+            "name": "GitHub, Inc.",
             "categoryId": 2,
             "url": "https://github.com/",
-            "companyId": "github"
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "github_apps": {
             "name": "GitHub Apps",
