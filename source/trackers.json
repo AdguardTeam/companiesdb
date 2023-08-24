@@ -380,6 +380,12 @@
             "url": "https://identrust.com/",
             "companyId": "identrust"
         },
+        "ironsource": {
+            "name": "ironSource Ltd.",
+            "categoryId": 4,
+            "url": "https://www.is.com",
+            "companyId": "unity"
+        },
         "instagram_com": {
             "name": "Instagram",
             "categoryId": 8,
@@ -1336,7 +1342,10 @@
         "iq.com": "iqiyi",
         "ironsrc.com": "ironsource",
         "ironsrc.net": "ironsource",
+        "is.com": "ironsource",
+        "soom.la": "ironsource",
         "supersonicads.com": "ironsource",
+        "tapjoy.com": "ironsource",
         "isolarcloud.com": "isolarcloud",
         "isolarcloud.com.a.lahuashanbx.com": "isolarcloud",
         "isolarcloud.com.w.cdngslb.com": "isolarcloud",
