@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-24T13:29:15.299Z",
+    "timeUpdated": "2023-08-24T13:31:31.556Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -994,10 +994,10 @@
             "companyId": "adjug"
         },
         "adjust": {
-            "name": "Adjust",
+            "name": "Adjust GmbH",
             "categoryId": 101,
             "url": "https://www.adjust.com/",
-            "companyId": "adjust",
+            "companyId": "applovin",
             "source": "AdGuard"
         },
         "adk2": {

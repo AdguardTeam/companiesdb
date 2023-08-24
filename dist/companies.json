@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-24T13:29:15.299Z",
+    "timeUpdated": "2023-08-24T13:31:31.556Z",
     "companies": {
         "163": {
             "name": "163",
@@ -640,12 +640,6 @@
             "name": "AdJug",
             "websiteUrl": "http://www.adjug.com/",
             "description": "AdJug is a UK-based online advertising exchange.  The marketplace connects buyers and sellers of online advertising.  They allow publishers to set the price and worth of their inventory while advertisers have transparency on where their campaigns are allowed to run."
-        },
-        "adjust": {
-            "name": "Adjust GmbH",
-            "websiteUrl": "https://www.adjust.com/",
-            "description": "Adjust is the industry leader in mobile measurement and fraud prevention.",
-            "source": "AdGuard"
         },
         "adk2_plymedia": {
             "name": "PLYmedia",
