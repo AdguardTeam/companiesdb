@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-22T14:37:56.630Z",
+    "timeUpdated": "2023-08-24T13:29:15.299Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -9529,10 +9529,11 @@
             "source": "AdGuard"
         },
         "ironsource": {
-            "name": "ironSource",
+            "name": "ironSource Ltd.",
             "categoryId": 4,
-            "url": "https://www.ironsrc.com/",
-            "companyId": "ironsource"
+            "url": "https://www.is.com",
+            "companyId": "unity",
+            "source": "AdGuard"
         },
         "isocket": {
             "name": "isocket",
@@ -22465,7 +22466,10 @@
         "delivery47.com": "ironsource",
         "ironsrc.com": "ironsource",
         "ironsrc.net": "ironsource",
+        "is.com": "ironsource",
+        "soom.la": "ironsource",
         "supersonicads.com": "ironsource",
+        "tapjoy.com": "ironsource",
         "adsbyisocket.com": "isocket",
         "isocket.com": "isocket",
         "isolarcloud.com": "isolarcloud",
