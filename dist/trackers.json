@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-08-24T13:37:12.501Z",
+    "timeUpdated": "2023-08-24T13:38:46.800Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -2234,8 +2234,9 @@
         "alenty": {
             "name": "Alenty",
             "categoryId": 4,
-            "url": "http://www.alenty.com/",
-            "companyId": "appnexus"
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "alephd.com": {
             "name": "alephd",
@@ -2617,8 +2618,9 @@
         "appnexus": {
             "name": "AppNexus",
             "categoryId": 4,
-            "url": "http://www.appnexus.com/",
-            "companyId": "appnexus"
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "appsflyer": {
             "name": "AppsFlyer",
@@ -11253,10 +11255,11 @@
             "companyId": "mediaad"
         },
         "mediaglu": {
-            "name": "Mediaglu",
+            "name": "MediaGlu",
             "categoryId": 4,
-            "url": "http://mlnadvertising.com/",
-            "companyId": "appnexus"
+            "url": "https://www.mediaglu.com/",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "mediahub": {
             "name": "MediaHub",
@@ -12764,8 +12767,9 @@
         "open_adstream": {
             "name": "Open Adstream",
             "categoryId": 4,
-            "url": "https://www.appnexus.com/en",
-            "companyId": "appnexus"
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "open_share_count": {
             "name": "Open Share Count",
