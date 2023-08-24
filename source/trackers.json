@@ -380,6 +380,12 @@
             "url": "https://workspace.google.com/",
             "companyId": "google"
         },
+        "imgur": {
+            "name": "Imgur",
+            "categoryId": 8,
+            "url": "https://imgur.com/",
+            "companyId": "medialab"
+        },
         "iqiyi": {
             "name": "iQiyi",
             "categoryId": 0,
@@ -432,7 +438,7 @@
             "name": "Kik",
             "categoryId": 7,
             "url": "https://kik.com/",
-            "companyId": "kik"
+            "companyId": "medialab"
         },
         "lets_encrypt": {
             "name": "Let's Encrypt",
@@ -787,6 +793,12 @@
             "categoryId": 8,
             "url": "https://www.whatsapp.com/",
             "companyId": "meta"
+        },
+        "whisper": {
+            "name": "Whisper",
+            "categoryId": 7,
+            "url": "https://whisper.sh/",
+            "companyId": "medialab"
         },
         "windows_maps": {
             "name": "Windows Maps",
@@ -1394,9 +1406,11 @@
         "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
         "kayosports.com.au": "kayo_sports",
-        "kik.com": "kik",
         "apikik.com": "kik",
+        "kik-gateway-use1.meetme.com": "kik",
         "kik-live.com": "kik",
+        "kik-stream.meetme.com": "kik",
+        "kik.com": "kik",
         "klaviyo.com": "klaviyo",
         "launchdarkly.com": "launch_darkly",
         "slatic.net": "lazada",
@@ -1601,6 +1615,8 @@
         "vungle.com": "vungle",
         "whatsapp.net": "whatsapp",
         "whatsapp.com": "whatsapp",
+        "whisper.onelink.me": "whisper",
+        "whisper.sh": "whisper",
         "maps.windows.com": "windows_maps",
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
