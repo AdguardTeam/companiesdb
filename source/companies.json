@@ -191,6 +191,11 @@
             "websiteUrl": "https://www.oppo.com/",
             "description": "OPPO is a Chinese consumer electronics and mobile communications company."
         },
+        "oracle": {
+            "name": "Oracle Corporation",
+            "websiteUrl": "http://www.oracle.com/",
+            "description": "Oracle is an integrated cloud applications and platform services firm that offers complete SaaS application suites for ERP, HCM and CX."
+        },
         "oztam": {
             "name": "OzTAM",
             "websiteUrl": "https://oztam.com.au/",
