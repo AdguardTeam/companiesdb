@@ -557,14 +557,14 @@
         "oracle_infinity": {
             "name": "Oracle Infinity Behavioral Intelligence",
             "categoryId": 6,
-            "url": "https://www.oppo.com/",
-            "companyId": "oppo"
+            "url": "https://www.oracle.com/au/cx/marketing/digital-intelligence/",
+            "companyId": "oracle"
         },
         "outlook": {
             "name": "Microsoft Outlook",
             "categoryId": 13,
-            "url": "https://www.oracle.com/au/cx/marketing/digital-intelligence/",
-            "companyId": "oracle"
+            "url": "https://outlook.live.com/",
+            "companyId": "microsoft"
         },
         "oztam": {
             "name": "OzTAM",
