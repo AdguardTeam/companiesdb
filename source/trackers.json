@@ -614,6 +614,12 @@
             "url": "https://www.google.com/recaptcha/about/",
             "companyId": "google"
         },
+        "reddit": {
+            "name": "Reddit",
+            "categoryId": 7,
+            "url": "https://www.reddit.com",
+            "companyId": "advance"
+        },
         "samsung": {
             "name": "Samsung",
             "categoryId": 8,
