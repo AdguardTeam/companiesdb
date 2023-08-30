@@ -51,6 +51,11 @@
             "websiteUrl": "https://www.usebutton.com/",
             "description": "Button is the mobile commerce technology company that is powering a commerce-driven internet."
         },
+        "bytedance_inc": {
+            "name": "ByteDance Ltd.",
+            "websiteUrl": "https://www.bytedance.com/",
+            "description": "ByteDance, a Chinese multinational internet technology company headquartered in Beijing and legally domiciled in the Cayman Islands. Its main product is TikTok, known in China as Douyin, a video-focused social networking service."
+        },
         "domainglass": {
             "name": "Domain Glass",
             "websiteUrl": "https://domain.glass/",
