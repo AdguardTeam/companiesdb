@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:44:30.412Z",
+    "timeUpdated": "2023-09-19T14:49:04.133Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -12942,6 +12942,13 @@
             "url": "http://www.ora.tv/",
             "companyId": "ora.tv"
         },
+        "oracle_infinity": {
+            "name": "Oracle Infinity Behavioral Intelligence",
+            "categoryId": 6,
+            "url": "https://www.oracle.com/au/cx/marketing/digital-intelligence/",
+            "companyId": "oracle",
+            "source": "AdGuard"
+        },
         "oracle_live_help": {
             "name": "Oracle Live Help",
             "categoryId": 2,
@@ -23334,6 +23341,7 @@
         "optincollect.com": "optinproject.com",
         "volvelle.tech": "optomaton",
         "ora.tv": "ora.tv",
+        "oracleinfinity.io": "oracle_infinity",
         "instantservice.com": "oracle_live_help",
         "ts.istrack.com": "oracle_live_help",
         "rightnowtech.com": "oracle_rightnow",

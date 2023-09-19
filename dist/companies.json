@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:44:30.412Z",
+    "timeUpdated": "2023-09-19T14:49:04.133Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7636,9 +7636,10 @@
             "description": null
         },
         "oracle": {
-            "name": "Oracle",
+            "name": "Oracle Corporation",
             "websiteUrl": "http://www.oracle.com/",
-            "description": "Oracle is an integrated cloud applications and platform services firm that offers complete SaaS application suites for ERP, HCM and CX."
+            "description": "Oracle is an integrated cloud applications and platform services firm that offers complete SaaS application suites for ERP, HCM and CX.",
+            "source": "AdGuard"
         },
         "orange142": {
             "name": "Orange142",
