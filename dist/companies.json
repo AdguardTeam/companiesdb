@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:42:26.553Z",
+    "timeUpdated": "2023-09-19T14:44:30.412Z",
     "companies": {
         "163": {
             "name": "163",
@@ -6856,6 +6856,12 @@
             "name": "Mobify",
             "websiteUrl": "http://www.mobify.com/",
             "description": "\\\"Mobify products power the adaptive web experiences of the leading brands in the world. We help businesses who want to connect with their customers in all the ways their customers want to connect with them.\\\""
+        },
+        "mobvista": {
+            "name": "Mobvista",
+            "websiteUrl": "https://www.mobvista.com/",
+            "description": "Mobvista is a technology platform dedicated to driving global business growth in the digital age using big data & AI.",
+            "source": "AdGuard"
         },
         "mochapp": {
             "name": "MoChapp",

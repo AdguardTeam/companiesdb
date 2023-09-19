@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:42:26.553Z",
+    "timeUpdated": "2023-09-19T14:44:30.412Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -7582,6 +7582,13 @@
             "categoryId": 4,
             "url": "http://www.game-advertising-online.com/",
             "companyId": "game_advertising_online"
+        },
+        "gameanalytics": {
+            "name": "GameAnalytics",
+            "categoryId": 101,
+            "url": "https://gameanalytics.com/",
+            "companyId": "mobvista",
+            "source": "AdGuard"
         },
         "gamedistribution.com": {
             "name": "Gamedistribution.com",
@@ -21793,6 +21800,7 @@
         "angsrvr.com": "fyber",
         "fyber.com": "fyber",
         "game-advertising-online.com": "game_advertising_online",
+        "gameanalytics.com": "gameanalytics",
         "gamedistribution.com": "gamedistribution.com",
         "gamerdna.com": "gamerdna",
         "gannett-cdn.com": "gannett",
