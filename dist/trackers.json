@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:39:18.294Z",
+    "timeUpdated": "2023-09-19T14:42:26.553Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -14502,8 +14502,9 @@
         "reddit": {
             "name": "Reddit",
             "categoryId": 7,
-            "url": "http://reddit.com",
-            "companyId": "reddit"
+            "url": "https://www.reddit.com",
+            "companyId": "advance",
+            "source": "AdGuard"
         },
         "redhelper": {
             "name": "RedHelper",
