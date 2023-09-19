@@ -2614,9 +2614,11 @@ ping.kickfactory.com;kickfactory;4
 sa-as.com;kickfire;4
 sniff.visistat.com;kickfire;4
 stats.visistat.com;kickfire;4
-kik.com;kik;7
 apikik.com;kik;7
+kik-gateway-use1.meetme.com;kik;7
 kik-live.com;kik;7
+kik-stream.meetme.com;kik;7
+kik.com;kik;7
 king.com;king.com;4
 midasplayer.com;king_com;8
 kinja-img.com;kinja.com;6
@@ -4770,6 +4772,8 @@ wettercomassets.com;wetter_com;8
 whatsbroadcast.com;whatbroadcast;2
 whatsapp.net;whatsapp;8
 whatsapp.com;whatsapp;8
+whisper.onelink.me;whisper;7
+whisper.sh;whisper;7
 amung.us;whos.amung.us;6
 whoson.com;whoson;6
 api.wibbitz.com;wibbitz;0

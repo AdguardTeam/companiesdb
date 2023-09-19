@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-15T00:08:32.993Z",
+    "timeUpdated": "2023-09-19T14:39:18.294Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -9065,7 +9065,8 @@
             "name": "Imgur",
             "categoryId": 8,
             "url": "https://imgur.com/",
-            "companyId": "imgur"
+            "companyId": "medialab",
+            "source": "AdGuard"
         },
         "imho_vi": {
             "name": "imho vi",
@@ -10001,7 +10002,7 @@
             "name": "Kik",
             "categoryId": 7,
             "url": "https://kik.com/",
-            "companyId": "kik",
+            "companyId": "medialab",
             "source": "AdGuard"
         },
         "king.com": {
@@ -19081,6 +19082,13 @@
             "companyId": "meta",
             "source": "AdGuard"
         },
+        "whisper": {
+            "name": "Whisper",
+            "categoryId": 7,
+            "url": "https://whisper.sh/",
+            "companyId": "medialab",
+            "source": "AdGuard"
+        },
         "whos.amung.us": {
             "name": "Whos.amung.us",
             "categoryId": 6,
@@ -22589,9 +22597,11 @@
         "sa-as.com": "kickfire",
         "sniff.visistat.com": "kickfire",
         "stats.visistat.com": "kickfire",
-        "kik.com": "kik",
         "apikik.com": "kik",
+        "kik-gateway-use1.meetme.com": "kik",
         "kik-live.com": "kik",
+        "kik-stream.meetme.com": "kik",
+        "kik.com": "kik",
         "king.com": "king.com",
         "midasplayer.com": "king_com",
         "kinja-img.com": "kinja.com",
@@ -24745,6 +24755,8 @@
         "whatsbroadcast.com": "whatbroadcast",
         "whatsapp.net": "whatsapp",
         "whatsapp.com": "whatsapp",
+        "whisper.onelink.me": "whisper",
+        "whisper.sh": "whisper",
         "amung.us": "whos.amung.us",
         "whoson.com": "whoson",
         "api.wibbitz.com": "wibbitz",
