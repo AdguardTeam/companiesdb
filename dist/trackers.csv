@@ -215,6 +215,7 @@ adguard.com;adguard;8
 adtidy.org;adguard;8
 agrd.io;adguard;8
 adguard.app;adguard;8
+adguard.info;adguard;8
 adguard.io;adguard;8
 adguard.org;adguard;8
 adguard-dns.com;adguard_dns;8
@@ -1809,6 +1810,7 @@ track.funnelytics.io;funnelytics;6
 angsrvr.com;fyber;4
 fyber.com;fyber;4
 game-advertising-online.com;game_advertising_online;4
+gameanalytics.com;gameanalytics;101
 gamedistribution.com;gamedistribution.com;8
 gamerdna.com;gamerdna;7
 gannett-cdn.com;gannett;0
@@ -2614,9 +2616,11 @@ ping.kickfactory.com;kickfactory;4
 sa-as.com;kickfire;4
 sniff.visistat.com;kickfire;4
 stats.visistat.com;kickfire;4
-kik.com;kik;7
 apikik.com;kik;7
+kik-gateway-use1.meetme.com;kik;7
 kik-live.com;kik;7
+kik-stream.meetme.com;kik;7
+kik.com;kik;7
 king.com;king.com;4
 midasplayer.com;king_com;8
 kinja-img.com;kinja.com;6
@@ -3098,6 +3102,7 @@ mrskincash.com;mrskincash;3
 e-msedge.net;msedge;8
 l-msedge.net;msedge;8
 s-msedge.net;msedge;8
+t-msedge.net;msedge;8
 msn.com;msn;8
 s-msn.com;msn;8
 musculahq.appspot.com;muscula;4
@@ -3196,6 +3201,7 @@ adadvisor.net;neustar_adadvisor;4
 d1ros97qkrwjf5.cloudfront.net;new_relic;6
 newrelic.com;new_relic;6
 nr-data.net;new_relic;6
+codestream.com;new_relic;6
 newscgp.com;newscgp.com;4
 nmcdn.us;newsmax;4
 newstogram.com;newstogram;4
@@ -3340,6 +3346,7 @@ optnmstr.com;optinmonster;2
 optincollect.com;optinproject.com;4
 volvelle.tech;optomaton;4
 ora.tv;ora.tv;4
+oracleinfinity.io;oracle_infinity;6
 instantservice.com;oracle_live_help;2
 ts.istrack.com;oracle_live_help;2
 rightnowtech.com;oracle_rightnow;8
@@ -3628,6 +3635,7 @@ rcs.it;rcs.it;4
 rcsmediagroup.it;rcs.it;4
 d335luupugsy2.cloudfront.net;rd_station;6
 rea-group.com;rea_group;4
+reastatic.net;rea_group;4
 d12ulf131zb0yj.cloudfront.net;reachforce;6
 reachforce.com;reachforce;6
 reachjunction.com;reachjunction;4
@@ -4692,6 +4700,7 @@ embed.voxus.tv;voxus;4
 voxus-targeting-voxusmidia.netdna-ssl.com;voxus;4
 c-dsp.vpadn.com;vpon;4
 tools.vpscash.nl;vpscash;4
+vsassets.io;vs;8
 exp-tas.com;vscode;8
 vscode-unpkg.net;vscode;8
 v0cdn.net;vscode;8
@@ -4770,6 +4779,8 @@ wettercomassets.com;wetter_com;8
 whatsbroadcast.com;whatbroadcast;2
 whatsapp.net;whatsapp;8
 whatsapp.com;whatsapp;8
+whisper.onelink.me;whisper;7
+whisper.sh;whisper;7
 amung.us;whos.amung.us;6
 whoson.com;whoson;6
 api.wibbitz.com;wibbitz;0

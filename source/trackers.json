@@ -278,6 +278,12 @@
             "url": "https://foxtel.com.au/",
             "companyId": "news_corp"
         },
+        "gameanalytics": {
+            "name": "GameAnalytics",
+            "categoryId": 101,
+            "url": "https://gameanalytics.com/",
+            "companyId": "mobvista"
+        },
         "github": {
             "name": "GitHub, Inc.",
             "categoryId": 2,
@@ -386,6 +392,12 @@
             "url": "https://workspace.google.com/",
             "companyId": "google"
         },
+        "imgur": {
+            "name": "Imgur",
+            "categoryId": 8,
+            "url": "https://imgur.com/",
+            "companyId": "medialab"
+        },
         "iqiyi": {
             "name": "iQiyi",
             "categoryId": 0,
@@ -438,7 +450,7 @@
             "name": "Kik",
             "categoryId": 7,
             "url": "https://kik.com/",
-            "companyId": "kik"
+            "companyId": "medialab"
         },
         "launchpad": {
             "name": "Launchpad",
@@ -566,6 +578,12 @@
             "url": "https://www.oppo.com/",
             "companyId": "oppo"
         },
+        "oracle_infinity": {
+            "name": "Oracle Infinity Behavioral Intelligence",
+            "categoryId": 6,
+            "url": "https://www.oracle.com/au/cx/marketing/digital-intelligence/",
+            "companyId": "oracle"
+        },
         "outlook": {
             "name": "Microsoft Outlook",
             "categoryId": 13,
@@ -625,6 +643,12 @@
             "categoryId": 8,
             "url": "https://www.google.com/recaptcha/about/",
             "companyId": "google"
+        },
+        "reddit": {
+            "name": "Reddit",
+            "categoryId": 7,
+            "url": "https://www.reddit.com",
+            "companyId": "advance"
         },
         "samsung": {
             "name": "Samsung",
@@ -788,6 +812,12 @@
             "url": "https://dev.vk.com/",
             "companyId": "vk"
         },
+        "vs": {
+            "name": "Visual Studio",
+            "categoryId": 8,
+            "url": "https://visualstudio.microsoft.com",
+            "companyId": "microsoft"
+        },
         "vscode": {
             "name": "Visual Studio Code",
             "categoryId": 8,
@@ -805,6 +835,12 @@
             "categoryId": 8,
             "url": "https://www.whatsapp.com/",
             "companyId": "meta"
+        },
+        "whisper": {
+            "name": "Whisper",
+            "categoryId": 7,
+            "url": "https://whisper.sh/",
+            "companyId": "medialab"
         },
         "windows_maps": {
             "name": "Windows Maps",
@@ -965,6 +1001,7 @@
         "adtidy.org": "adguard",
         "agrd.io": "adguard",
         "adguard.app": "adguard",
+        "adguard.info": "adguard",
         "adguard.io": "adguard",
         "adguard.org": "adguard",
         "adguard-dns.com": "adguard_dns",
@@ -1099,6 +1136,7 @@
         "freeviewaustralia.tv": "freeview",
         "freeview.com.au": "freeview",
         "freeview.com": "freeview",
+        "gameanalytics.com": "gameanalytics",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
@@ -1412,9 +1450,11 @@
         "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
         "karambasecurity.com": "karambasecurity",
         "kayosports.com.au": "kayo_sports",
-        "kik.com": "kik",
         "apikik.com": "kik",
+        "kik-gateway-use1.meetme.com": "kik",
         "kik-live.com": "kik",
+        "kik-stream.meetme.com": "kik",
+        "kik.com": "kik",
         "klaviyo.com": "klaviyo",
         "launchdarkly.com": "launch_darkly",
         "slatic.net": "lazada",
@@ -1438,12 +1478,20 @@
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
         "s-msedge.net": "msedge",
+        "t-msedge.net": "msedge",
         "firefox.com": "mozilla",
         "mozaws.net": "mozilla",
         "mozgcp.net": "mozilla",
         "mozilla.com": "mozilla",
         "mozilla.net": "mozilla",
         "mozilla.org": "mozilla",
+        "nab.com": "nab",
+        "nab.com.au": "nab",
+        "nab.net": "nab",
+        "nabgroup.com": "nab",
+        "national.com.au": "nab",
+        "nationalaustraliabank.com.au": "nab",
+        "nationalbank.com.au": "nab",
         "flxvpn.net": "netflix",
         "netflix.ca": "netflix",
         "netflix.com.au": "netflix",
@@ -1463,13 +1511,7 @@
         "netflixtechblog.com": "netflix",
         "nflximg.com": "netflix",
         "netify.ai": "netify",
-        "nab.com": "nab",
-        "nab.com.au": "nab",
-        "nab.net": "nab",
-        "nabgroup.com": "nab",
-        "national.com.au": "nab",
-        "nationalaustraliabank.com.au": "nab",
-        "nationalbank.com.au": "nab",
+        "codestream.com": "new_relic",
         "notion.so": "notion",
         "ntp.org": "ntppool",
         "ntppool.org": "ntppool",
@@ -1479,6 +1521,7 @@
         "heytapdl.com": "oppo",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
+        "oracleinfinity.io": "oracle_infinity",
         "episerver.net": "optimizely",
         "live.com": "outlook",
         "hotmail.com": "outlook",
@@ -1492,6 +1535,7 @@
         "izatcloud.net":"qualcomm_location_service",
         "xtracloud.net": "qualcomm_location_service",
         "rea-group.com": "rea_group",
+        "reastatic.net": "rea_group",
         "realestate.com.au": "realestate.com.au",
         "recaptcha.net": "recaptcha",
         "adgear.com": "samsungads",
@@ -1611,6 +1655,7 @@
         "unity3d.com": "unity",
         "unity3dusercontent.com": "unity",
         "unityads.unity3d.com": "unity_ads",
+        "vsassets.io": "vs",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",
         "v0cdn.net": "vscode",
@@ -1619,6 +1664,8 @@
         "vungle.com": "vungle",
         "whatsapp.net": "whatsapp",
         "whatsapp.com": "whatsapp",
+        "whisper.onelink.me": "whisper",
+        "whisper.sh": "whisper",
         "maps.windows.com": "windows_maps",
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
