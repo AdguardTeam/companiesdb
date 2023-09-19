@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:58:27.266Z",
+    "timeUpdated": "2023-09-19T15:02:28.205Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -4068,6 +4068,13 @@
             "categoryId": 6,
             "url": "https://www.canddi.com/",
             "companyId": "canddi"
+        },
+        "canonical": {
+            "name": "Canonical",
+            "categoryId": 8,
+            "url": "https://canonical.com/",
+            "companyId": "canonical",
+            "source": "AdGuard"
         },
         "canvas": {
             "name": "Canvas",
@@ -10192,6 +10199,13 @@
             "url": "https://www.launchbit.com/",
             "companyId": "launchbit"
         },
+        "launchpad": {
+            "name": "Launchpad",
+            "categoryId": 8,
+            "url": "https://launchpad.net/",
+            "companyId": "canonical",
+            "source": "AdGuard"
+        },
         "layer-ad.org": {
             "name": "Layer-ADS.net",
             "categoryId": 4,
@@ -16129,6 +16143,13 @@
             "url": "https://www.snapchat.com/",
             "companyId": "snap_technologies"
         },
+        "snapcraft": {
+            "name": "Snapcraft",
+            "categoryId": 8,
+            "url": "https://snapcraft.io",
+            "companyId": "canonical",
+            "source": "AdGuard"
+        },
         "snigelweb": {
             "name": "SnigelWeb, Inc.",
             "categoryId": 4,
@@ -17910,7 +17931,7 @@
             "name": "Ubuntu",
             "categoryId": 8,
             "url": "https://ubuntu.com/",
-            "companyId": "ubuntu",
+            "companyId": "canonical",
             "source": "AdGuard"
         },
         "ucfunnel": {
@@ -21000,6 +21021,7 @@
         "camakaroda.com": "camakaroda.com",
         "s.edkay.com": "campus_explorer",
         "canddi.com": "canddi",
+        "canonical.com": "canonical",
         "canvas.net": "canvas",
         "canvasnetwork.com": "canvas",
         "du11hjcvx0uqb.cloudfront.net": "canvas",
@@ -22667,6 +22689,8 @@
         "events.launchdarkly.com": "launch_darkly",
         "launchdarkly.com": "launch_darkly",
         "launchbit.com": "launchbit",
+        "launchpad.net": "launchpad",
+        "launchpadcontent.net": "launchpad",
         "layer-ad.org": "layer-ad.org",
         "ph-live.slatic.net": "lazada",
         "slatic.net": "lazada",
@@ -24117,6 +24141,8 @@
         "snapengage.com": "snap_engage",
         "sc-static.net": "snapchat",
         "snapchat.com": "snapchat",
+        "snapcraft.io": "snapcraft",
+        "snapcraftcontent.com": "snapcraft",
         "h-bid.com": "snigelweb",
         "eu2.snoobi.eu": "snoobi",
         "snoobi.com": "snoobi_analytics",
@@ -24520,11 +24546,6 @@
         "tyroodr.com": "tyroo",
         "tzetze.it": "tzetze",
         "ubersetzung-app.com": "ubersetzung-app.com",
-        "canonical.com": "ubuntu",
-        "launchpad.net": "ubuntu",
-        "launchpadcontent.net": "ubuntu",
-        "snapcraft.io": "ubuntu",
-        "snapcraftcontent.com": "ubuntu",
         "ubuntu.com": "ubuntu",
         "ubuntucompanyservices.co.za": "ubuntu",
         "aralego.net": "ucfunnel",

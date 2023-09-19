@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:58:27.266Z",
+    "timeUpdated": "2023-09-19T15:02:28.205Z",
     "companies": {
         "163": {
             "name": "163",
@@ -2430,6 +2430,12 @@
             "name": "CANDDi",
             "websiteUrl": "https://www.canddi.com/",
             "description": "\\\"CANDDi is the Global #1 Visitor Identification software. On average 20-25% of website visitors are identified to Name, Email and Social Profiles by adding the CANDDi tracking code to your website and integrating the technology into your outbound marketing.\\\"\\r\\n"
+        },
+        "canonical": {
+            "name": "Canonical",
+            "websiteUrl": "https://canonical.com/",
+            "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies.",
+            "source": "AdGuard"
         },
         "captify": {
             "name": "Captify",
@@ -10633,12 +10639,6 @@
             "name": "TzeTze",
             "websiteUrl": "http://www.tzetze.it/",
             "description": "\\\"The objective of TzeTze is to promote independent information on the Net by freeing itself from the mainstream media, publishing news based on importance attributed by users.\\\"\\r\\n\\r\\nTranslated by Google Translate"
-        },
-        "ubuntu": {
-            "name": "Ubuntu",
-            "websiteUrl": "https://ubuntu.com/",
-            "description": "Ubuntu is an ancient African word meaning ‘humanity to others’. It is often described as reminding us that ‘I am what I am because of who we all are’. We bring the spirit of Ubuntu to the world of computers and software. The Ubuntu distribution represents the best of what the world’s software community has shared with the world.",
-            "source": "AdGuard"
         },
         "ucfunnel": {
             "name": "ucfunnel",
