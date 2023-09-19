@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:57:47.154Z",
+    "timeUpdated": "2023-09-19T14:58:27.266Z",
     "companies": {
         "163": {
             "name": "163",
@@ -2361,9 +2361,10 @@
             "description": "\\\"BuzzFeed is the leading social news organization, intensely focused on delivering high-quality original reporting, insight, and viral content across a rapidly expanding array of subject areas.\\\""
         },
         "bytedance_inc": {
-            "name": "ByteDance Inc",
+            "name": "ByteDance Ltd.",
             "websiteUrl": "https://www.bytedance.com/",
-            "description": "ByteDance, a Chinese multinational internet technology company headquartered in Beijing and legally domiciled in the Cayman Islands. Its main product is TikTok, known in China as Douyin, a video-focused social networking service."
+            "description": "ByteDance, a Chinese multinational internet technology company headquartered in Beijing and legally domiciled in the Cayman Islands. Its main product is TikTok, known in China as Douyin, a video-focused social networking service.",
+            "source": "AdGuard"
         },
         "c1_exchange": {
             "name": "C1 Exchange ",
