@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-09-19T14:50:54.156Z",
+    "timeUpdated": "2023-09-19T14:55:41.289Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -18770,6 +18770,13 @@
             "url": "http://vpscash.nl/home",
             "companyId": "vps_cash"
         },
+        "vs": {
+            "name": "Visual Studio",
+            "categoryId": 8,
+            "url": "https://visualstudio.microsoft.com",
+            "companyId": "microsoft",
+            "source": "AdGuard"
+        },
         "vscode": {
             "name": "Visual Studio Code",
             "categoryId": 8,
@@ -23100,6 +23107,7 @@
         "e-msedge.net": "msedge",
         "l-msedge.net": "msedge",
         "s-msedge.net": "msedge",
+        "t-msedge.net": "msedge",
         "msn.com": "msn",
         "s-msn.com": "msn",
         "musculahq.appspot.com": "muscula",
@@ -24695,6 +24703,7 @@
         "voxus-targeting-voxusmidia.netdna-ssl.com": "voxus",
         "c-dsp.vpadn.com": "vpon",
         "tools.vpscash.nl": "vpscash",
+        "vsassets.io": "vs",
         "exp-tas.com": "vscode",
         "vscode-unpkg.net": "vscode",
         "v0cdn.net": "vscode",
