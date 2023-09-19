@@ -566,6 +566,12 @@
             "url": "https://www.oppo.com/",
             "companyId": "oppo"
         },
+        "oracle_infinity": {
+            "name": "Oracle Infinity Behavioral Intelligence",
+            "categoryId": 6,
+            "url": "https://www.oracle.com/au/cx/marketing/digital-intelligence/",
+            "companyId": "oracle"
+        },
         "outlook": {
             "name": "Microsoft Outlook",
             "categoryId": 13,
@@ -1488,6 +1494,7 @@
         "heytapdl.com": "oppo",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
+        "oracleinfinity.io": "oracle_infinity",
         "episerver.net": "optimizely",
         "live.com": "outlook",
         "hotmail.com": "outlook",
