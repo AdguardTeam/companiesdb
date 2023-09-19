@@ -140,6 +140,12 @@
             "url": "https://www.usebutton.com/",
             "companyId": "button"
         },
+        "canonical": {
+            "name": "Canonical",
+            "categoryId": 8,
+            "url": "https://canonical.com/",
+            "companyId": "canonical"
+        },
         "crashlytics": {
             "name": "Crashlytics",
             "categoryId": 101,
@@ -446,6 +452,12 @@
             "url": "https://kik.com/",
             "companyId": "medialab"
         },
+        "launchpad": {
+            "name": "Launchpad",
+            "categoryId": 8,
+            "url": "https://launchpad.net/",
+            "companyId": "canonical"
+        },
         "lets_encrypt": {
             "name": "Let's Encrypt",
             "categoryId": 5,
@@ -716,6 +728,12 @@
             "url": "https://www.slack.com/",
             "companyId": "salesforce"
         },
+        "snapcraft": {
+            "name": "Snapcraft",
+            "categoryId": 8,
+            "url": "https://snapcraft.io",
+            "companyId": "canonical"
+        },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
             "categoryId": 8,
@@ -762,7 +780,7 @@
             "name": "Ubuntu",
             "categoryId": 8,
             "url": "https://ubuntu.com/",
-            "companyId": "ubuntu"
+            "companyId": "canonical"
         },
         "unity": {
             "name": "Unity",
@@ -1626,11 +1644,11 @@
         "transcend-cdn.com": "transcend",
         "transcend.io": "transcend",
         "usertrust.com": "trustlogo",
-        "canonical.com": "ubuntu",
-        "launchpad.net": "ubuntu",
-        "launchpadcontent.net": "ubuntu",
-        "snapcraft.io": "ubuntu",
-        "snapcraftcontent.com": "ubuntu",
+        "canonical.com": "canonical",
+        "launchpad.net": "launchpad",
+        "launchpadcontent.net": "launchpad",
+        "snapcraft.io": "snapcraft",
+        "snapcraftcontent.com": "snapcraft",
         "ubuntu.com": "ubuntu",
         "ubuntucompanyservices.co.za": "ubuntu",
         "unity.com": "unity",
