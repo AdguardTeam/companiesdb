@@ -272,6 +272,12 @@
             "url": "https://foxtel.com.au/",
             "companyId": "news_corp"
         },
+        "gameanalytics": {
+            "name": "GameAnalytics",
+            "categoryId": 101,
+            "url": "https://gameanalytics.com/",
+            "companyId": "mobvista"
+        },
         "github": {
             "name": "GitHub, Inc.",
             "categoryId": 2,
@@ -1099,6 +1105,7 @@
         "freeviewaustralia.tv": "freeview",
         "freeview.com.au": "freeview",
         "freeview.com": "freeview",
+        "gameanalytics.com": "gameanalytics",
         "ghcr.io": "github",
         "github.dev": "github",
         "gmail.com": "gmail",
