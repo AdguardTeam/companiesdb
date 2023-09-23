@@ -211,11 +211,6 @@
             "websiteUrl": "https://www.ntp.org/",
             "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
         },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
-        },
         "oracle": {
             "name": "Oracle Corporation",
             "websiteUrl": "http://www.oracle.com/",
