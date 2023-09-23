@@ -56,15 +56,15 @@
             "websiteUrl": "https://www.usebutton.com/",
             "description": "Button is the mobile commerce technology company that is powering a commerce-driven internet."
         },
-        "canonical": {
-            "name": "Canonical",
-            "websiteUrl": "https://canonical.com/",
-            "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
-        },
         "bytedance_inc": {
             "name": "ByteDance Ltd.",
             "websiteUrl": "https://www.bytedance.com/",
             "description": "ByteDance, a Chinese multinational internet technology company headquartered in Beijing and legally domiciled in the Cayman Islands. Its main product is TikTok, known in China as Douyin, a video-focused social networking service."
+        },
+        "canonical": {
+            "name": "Canonical",
+            "websiteUrl": "https://canonical.com/",
+            "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
         },
         "domainglass": {
             "name": "Domain Glass",
