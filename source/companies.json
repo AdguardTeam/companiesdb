@@ -21,6 +21,11 @@
             "websiteUrl": "https://www.akamai.com/",
             "description": "Akamai is a cloud based content delivery network. They offer application performance services, solutions for digital media and software distribution and storage, online advertising services and other specialized/ Internet-based offerings."
         },
+        "alphabet": {
+            "name": "Alphabet Inc.",
+            "websiteUrl": "https://abc.xyz",
+            "description": "Alphabet is a holding company that provides projects with resources, freedom, and focus to make their ideas happen."
+        },
         "apple": {
             "name": "Apple",
             "websiteUrl": "http://www.apple.com/",
