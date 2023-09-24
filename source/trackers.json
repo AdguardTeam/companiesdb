@@ -150,7 +150,7 @@
             "name": "Crashlytics",
             "categoryId": 101,
             "url": "https://crashlytics.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "domainglass": {
             "name": "Domain Glass",
@@ -246,7 +246,7 @@
             "name": "Firebase",
             "categoryId": 101,
             "url": "https://firebase.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "flash": {
             "name": "Flash",
@@ -294,103 +294,103 @@
             "name": "Gmail",
             "categoryId": 13,
             "url": "https://mail.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_auth": {
             "name": "Google Auth",
             "categoryId": 2,
             "url": "https://myaccount.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_chat": {
             "name": "Google Chat",
             "categoryId": 7,
             "url": "https://mail.google.com/chat/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_cloud_platform": {
             "name": "Google Cloud Platform",
             "categoryId": 10,
             "url": "https://cloud.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_cloud_storage": {
             "name": "Google Cloud Storage",
             "categoryId": 10,
             "url": "https://cloud.google.com/storage/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_dns": {
             "name": "Google DNS",
             "categoryId": 10,
             "url": "hhttps://dns.google/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_domains": {
             "name": "Google Domains",
             "categoryId": 10,
             "url": "https://domains.google/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_edge": {
             "name": "Google Edge CDN",
             "categoryId": 9,
             "url": "https://peering.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_hosted": {
             "name": "Google Hosted",
             "categoryId": 10,
             "url": "https://workspace.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_location": {
             "name": "Google Location",
             "categoryId": 8,
             "url": "https://patents.google.com/patent/WO2007025143A1/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_maps": {
             "name": "Google Maps",
             "categoryId": 2,
             "url": "https://www.google.com/maps/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_marketing": {
             "name": "Google Marketing",
             "categoryId": 6,
             "url": "https://marketingplatform.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_meet": {
             "name": "Google Meet",
             "categoryId": 2,
             "url": "https://meet.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_play": {
             "name": "Google Play",
             "categoryId": 8,
             "url": "https://play.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_trust_services": {
             "name": "Google Trust Services",
             "categoryId": 5,
             "url": "https://pki.goog/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_voice": {
             "name": "Google Voice",
             "categoryId": 2,
             "url": "https://voice.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "google_workspace": {
             "name": "Google Workspace",
             "categoryId": 2,
             "url": "https://workspace.google.com/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "imgur": {
             "name": "Imgur",
@@ -642,7 +642,7 @@
             "name": "reCAPTCHA",
             "categoryId": 8,
             "url": "https://www.google.com/recaptcha/about/",
-            "companyId": "google"
+            "companyId": "alphabet"
         },
         "reddit": {
             "name": "Reddit",
