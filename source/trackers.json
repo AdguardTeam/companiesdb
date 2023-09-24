@@ -50,6 +50,24 @@
             "url": "https://www.adjust.com/",
             "companyId": "applovin"
         },
+        "admeld": {
+            "name": "AdMeld",
+            "categoryId": 4,
+            "url": "http://www.admeld.com",
+            "companyId": "alphabet"
+        },
+        "admob": {
+            "name": "AdMob",
+            "categoryId": 4,
+            "url": "http://www.admob.com/",
+            "companyId": "alphabet"
+        },
+        "adometry": {
+            "name": "Adometry",
+            "categoryId": 4,
+            "url": "http://www.adometry.com/",
+            "companyId": "alphabet"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -86,6 +104,18 @@
             "url": "https://ucweb.com/",
             "companyId": "alibaba"
         },
+        "ampproject.org": {
+            "name": "AMP Project",
+            "categoryId": 8,
+            "url": "https://www.ampproject.org/",
+            "companyId": "alphabet"
+        },
+        "anvato": {
+            "name": "Anvato",
+            "categoryId": 0,
+            "url": "https://www.anvato.com/",
+            "companyId": "alphabet"
+        },
         "apple": {
             "name": "Apple",
             "categoryId": 8,
@@ -104,6 +134,12 @@
             "url": "https://www.appsflyer.com/",
             "companyId": "appsflyer"
         },
+        "apture": {
+            "name": "Apture",
+            "categoryId": 2,
+            "url": "http://www.apture.com/",
+            "companyId": "alphabet"
+        },
         "azure": {
             "name": "Microsoft Azure",
             "categoryId": 10,
@@ -121,6 +157,12 @@
             "categoryId": 0,
             "url": "https://binge.com.au/",
             "companyId": "news_corp"
+        },
+        "blogspot_com": {
+            "name": "blogspot.com",
+            "categoryId": 8,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
         },
         "bitwarden": {
             "name": "Bitwarden",
@@ -146,6 +188,12 @@
             "url": "https://canonical.com/",
             "companyId": "canonical"
         },
+        "channel_intelligence": {
+            "name": "Channel Intelligence",
+            "categoryId": 4,
+            "url": "http://www.channelintelligence.com/",
+            "companyId": "alphabet"
+        },
         "crashlytics": {
             "name": "Crashlytics",
             "categoryId": 101,
@@ -157,6 +205,42 @@
             "categoryId": 8,
             "url": "https://domain.glass/",
             "companyId": "domainglass"
+        },
+        "doubleclick": {
+            "name": "DoubleClick",
+            "categoryId": 4,
+            "url": "http://www.doubleclick.com",
+            "companyId": "alphabet"
+        },
+        "doubleclick_ad_buyer": {
+            "name": "DoubleClick Ad Exchange-Buyer",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "doubleclick_bid_manager": {
+            "name": "DoubleClick Bid Manager",
+            "categoryId": 4,
+            "url": "http://www.invitemedia.com",
+            "companyId": "alphabet"
+        },
+        "doubleclick_floodlight": {
+            "name": "DoubleClick Floodlight",
+            "categoryId": 4,
+            "url": "http://www.google.com/support/dfa/partner/bin/topic.py?topic=23943",
+            "companyId": "alphabet"
+        },
+        "doubleclick_spotlight": {
+            "name": "DoubleClick Spotlight",
+            "categoryId": 4,
+            "url": "http://www.doubleclick.com/products/richmedia",
+            "companyId": "alphabet"
+        },
+        "doubleclick_video_stats": {
+            "name": "Doubleclick Video Stats",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
         },
         "edgio": {
             "name": "Edgio",
@@ -242,9 +326,21 @@
             "url": "https://farlightgames.com/",
             "companyId": "farlight"
         },
+        "feedburner.com": {
+            "name": "FeedBurner",
+            "categoryId": 4,
+            "url": "https://feedburner.com",
+            "companyId": "alphabet"
+        },
         "firebase": {
             "name": "Firebase",
             "categoryId": 101,
+            "url": "https://firebase.google.com/",
+            "companyId": "alphabet"
+        },
+        "firebaseio.com": {
+            "name": "Firebase",
+            "categoryId": 8,
             "url": "https://firebase.google.com/",
             "companyId": "alphabet"
         },
@@ -278,6 +374,12 @@
             "url": "https://foxtel.com.au/",
             "companyId": "news_corp"
         },
+        "ga_audiences": {
+            "name": "GA Audiences",
+            "categoryId": 6,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
         "gameanalytics": {
             "name": "GameAnalytics",
             "categoryId": 101,
@@ -296,10 +398,64 @@
             "url": "https://mail.google.com/",
             "companyId": "alphabet"
         },
+        "google": {
+            "name": "Google",
+            "categoryId": 4,
+            "url": "https://www.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_ads_measurement": {
+            "name": "Google Ads Measurement",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_adsense": {
+            "name": "Google Adsense",
+            "categoryId": 4,
+            "url": "https://www.google.com/adsense/",
+            "companyId": "alphabet"
+        },
+        "google_adservices": {
+            "name": "Google AdServices",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_adwords_conversion": {
+            "name": "Google AdWords Conversion",
+            "categoryId": 4,
+            "url": "https://adwords.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_adwords_user_lists": {
+            "name": "Google Adwords User Lists",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_analytics": {
+            "name": "Google Analytics",
+            "categoryId": 6,
+            "url": "http://www.google.com/analytics/",
+            "companyId": "alphabet"
+        },
+        "google_appspot": {
+            "name": "Google Appspot",
+            "categoryId": 10,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
         "google_auth": {
             "name": "Google Auth",
             "categoryId": 2,
             "url": "https://myaccount.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_beacons": {
+            "name": "Google Beacons",
+            "categoryId": 6,
+            "url": "https://google.xyz",
             "companyId": "alphabet"
         },
         "google_chat": {
@@ -320,6 +476,18 @@
             "url": "https://cloud.google.com/storage/",
             "companyId": "alphabet"
         },
+        "google_custom_search": {
+            "name": "Google Custom Search Ads",
+            "categoryId": 4,
+            "url": "https://developers.google.com/custom-search-ads/",
+            "companyId": "alphabet"
+        },
+        "google_custom_search_engine": {
+            "name": "Google Programmable Search Engine",
+            "categoryId": 5,
+            "url": "https://programmablesearchengine.google.com/about/",
+            "companyId": "alphabet"
+        },
         "google_dns": {
             "name": "Google DNS",
             "categoryId": 10,
@@ -338,10 +506,28 @@
             "url": "https://peering.google.com/",
             "companyId": "alphabet"
         },
+        "google_email": {
+            "name": "Google Email",
+            "categoryId": 13,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_fonts": {
+            "name": "Google Fonts",
+            "categoryId": 9,
+            "url": "https://fonts.google.com/",
+            "companyId": "alphabet"
+        },
         "google_hosted": {
             "name": "Google Hosted",
             "categoryId": 10,
             "url": "https://workspace.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_ima": {
+            "name": "Google IMA",
+            "categoryId": 4,
+            "url": "http://www.google.com",
             "companyId": "alphabet"
         },
         "google_location": {
@@ -368,10 +554,82 @@
             "url": "https://meet.google.com/",
             "companyId": "alphabet"
         },
+        "google_photos": {
+            "name": "Google Photos",
+            "categoryId": 9,
+            "url": "https://photos.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_pingback": {
+            "name": "Google Pingback",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
         "google_play": {
             "name": "Google Play",
             "categoryId": 8,
             "url": "https://play.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_plus": {
+            "name": "Google+ Platform",
+            "categoryId": 7,
+            "url": "http://www.google.com/+1/button/",
+            "companyId": "alphabet"
+        },
+        "google_publisher_tags": {
+            "name": "Google Publisher Tags",
+            "categoryId": 6,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_remarketing": {
+            "name": "Google Dynamic Remarketing",
+            "categoryId": 4,
+            "url": "http://adwords.google.com/",
+            "companyId": "alphabet"
+        },
+        "google_safeframe": {
+            "name": "Google Safeframe",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_servers": {
+            "name": "Google Servers",
+            "categoryId": 8,
+            "url": "https://support.google.com/faqs/answer/174717?hl=en",
+            "companyId": "alphabet"
+        },
+        "google_shopping_reviews": {
+            "name": "Google Shopping Reviews",
+            "categoryId": 2,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_syndication": {
+            "name": "Google Syndication",
+            "categoryId": 4,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_tag_manager": {
+            "name": "Google Tag Manager",
+            "categoryId": 5,
+            "url": "https://marketingplatform.google.com/about/tag-manager/",
+            "companyId": "alphabet"
+        },
+        "google_translate": {
+            "name": "Google Translate",
+            "categoryId": 2,
+            "url": "https://translate.google.com/manager",
+            "companyId": "alphabet"
+        },
+        "google_travel_adds": {
+            "name": "Google Travel Adds",
+            "categoryId": 4,
+            "url": "http://www.google.com",
             "companyId": "alphabet"
         },
         "google_trust_services": {
@@ -380,16 +638,52 @@
             "url": "https://pki.goog/",
             "companyId": "alphabet"
         },
+        "google_trusted_stores": {
+            "name": "Google Trusted Stores",
+            "categoryId": 6,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
+        "google_users": {
+            "name": "Google User Content",
+            "categoryId": 9,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
         "google_voice": {
             "name": "Google Voice",
             "categoryId": 2,
             "url": "https://voice.google.com/",
             "companyId": "alphabet"
         },
+        "google_website_optimizer": {
+            "name": "Google Website Optimizer",
+            "categoryId": 6,
+            "url": "https://www.google.com/analytics/siteopt/prev",
+            "companyId": "alphabet"
+        },
+        "google_widgets": {
+            "name": "Google Widgets",
+            "categoryId": 2,
+            "url": "http://www.google.com",
+            "companyId": "alphabet"
+        },
         "google_workspace": {
             "name": "Google Workspace",
             "categoryId": 2,
             "url": "https://workspace.google.com/",
+            "companyId": "alphabet"
+        },
+        "googleapis.com": {
+            "name": "Google APIs",
+            "categoryId": 9,
+            "url": "https://www.googleapis.com/",
+            "companyId": "alphabet"
+        },
+        "gstatic": {
+            "name": "Google Static",
+            "categoryId": 9,
+            "url": "http://www.google.com",
             "companyId": "alphabet"
         },
         "imgur": {
@@ -523,6 +817,18 @@
             "categoryId": 8,
             "url": "https://mega.io/",
             "companyId": "meganz"
+        },
+        "meebo_bar": {
+            "name": "Meebo Bar",
+            "categoryId": 7,
+            "url": "http://bar.meebo.com/",
+            "companyId": "alphabet"
+        },
+        "mindset_media": {
+            "name": "Mindset Media",
+            "categoryId": 4,
+            "url": "http://www.mindset-media.com/",
+            "companyId": "alphabet"
         },
         "msedge": {
             "name": "Microsoft Edge",
@@ -919,6 +1225,18 @@
             "categoryId": 3,
             "url": "https://www.youporn.com/",
             "companyId": "youporn"
+        },
+        "youtube": {
+            "name": "YouTube",
+            "categoryId": 0,
+            "url": "https://www.youtube.com/",
+            "companyId": "alphabet"
+        },
+        "youtube_subscription": {
+            "name": "YouTube Subscription",
+            "categoryId": 2,
+            "url": "http://www.youtube.com/",
+            "companyId": "alphabet"
         },
         "zeusclicks": {
             "name": "ZeusClicks",
