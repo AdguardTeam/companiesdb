@@ -6,6 +6,9 @@ on:
   pull_request:
   schedule:
     - cron: "0 0 */7 * *" # Every week
+    
+env:
+  NODE_VERSION: 18.x
 
 jobs:
   lint:
@@ -16,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Lint
         run: |
@@ -31,7 +34,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18.x
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Run conversion
         run: |
