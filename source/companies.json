@@ -36,6 +36,11 @@
             "websiteUrl": "https://www.atlassian.com/",
             "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
         },
+        "bbk": {
+            "name": "BBK Electronics",
+            "websiteUrl": "https://www.bbk-electronics.com",
+            "description": "BBK Electronics Corporation is a company specializing in developing consumer electronics products."
+        },
         "bitwarden": {
             "name": "Bitwarden",
             "websiteUrl": "https://bitwarden.com/",
@@ -56,15 +61,15 @@
             "websiteUrl": "https://www.usebutton.com/",
             "description": "Button is the mobile commerce technology company that is powering a commerce-driven internet."
         },
-        "canonical": {
-            "name": "Canonical",
-            "websiteUrl": "https://canonical.com/",
-            "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
-        },
         "bytedance_inc": {
             "name": "ByteDance Ltd.",
             "websiteUrl": "https://www.bytedance.com/",
             "description": "ByteDance, a Chinese multinational internet technology company headquartered in Beijing and legally domiciled in the Cayman Islands. Its main product is TikTok, known in China as Douyin, a video-focused social networking service."
+        },
+        "canonical": {
+            "name": "Canonical",
+            "websiteUrl": "https://canonical.com/",
+            "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
         },
         "domainglass": {
             "name": "Domain Glass",
@@ -205,11 +210,6 @@
             "name": "Network Time Protocol",
             "websiteUrl": "https://www.ntp.org/",
             "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
-        },
-        "oppo": {
-            "name": "OPPO",
-            "websiteUrl": "https://www.oppo.com/",
-            "description": "OPPO is a Chinese consumer electronics and mobile communications company."
         },
         "oracle": {
             "name": "Oracle Corporation",
