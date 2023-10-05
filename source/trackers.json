@@ -152,6 +152,18 @@
             "url": "https://crashlytics.com/",
             "companyId": "google"
         },
+        "disney": {
+            "name": "Disney",
+            "categoryId": 8,
+            "url": "https://www.disney.com/",
+            "companyId": "disney"
+        },
+        "disneyplus": {
+            "name": "Disney+",
+            "categoryId": 0,
+            "url": "https://www.disneyplus.com/",
+            "companyId": "disney"
+        },
         "domainglass": {
             "name": "Domain Glass",
             "categoryId": 8,
@@ -1097,6 +1109,10 @@
         "sn-cloudflare.com": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
+        "bamgrid.com": "disney",
+        "disneyplus.com": "disneyplus",
+        "dssedge.com": "disneyplus",
+        "dssott.com": "disneyplus",
         "domain.glass": "domainglass",
         "doubleclick.com": "doubleclick",
         "alphacdn.net": "edgio",
