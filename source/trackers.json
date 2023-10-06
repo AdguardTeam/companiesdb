@@ -24,7 +24,7 @@
             "name": "Australian Broadcasting Corporation",
             "categoryId": 8,
             "url": "https://www.abc.net.au/",
-            "companyId": "abc"
+            "companyId": "australian_government"
         },
         "adguard": {
             "name": "AdGuard",
@@ -127,6 +127,12 @@
             "categoryId": 8,
             "url": "https://bitwarden.com/",
             "companyId": "bitwarden"
+        },
+        "bom": {
+            "name": "Bureau of Meteorology",
+            "categoryId": 9,
+            "url": "http://bom.gov.au/",
+            "companyId": "australian_government"
         },
         "branch": {
             "name": "Branch.io",
@@ -1077,6 +1083,7 @@
         "trafficmanager.net": "azure",
         "binge.com.au": "binge",
         "bitwarden.com": "bitwarden",
+        "bom.gov.au": "bom",
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
         "cloudflare-dns.com": "cloudflare",
