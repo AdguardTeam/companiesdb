@@ -71,6 +71,11 @@
             "websiteUrl": "https://canonical.com/",
             "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
         },
+        "disney": {
+            "name": "The Walt Disney Company",
+            "websiteUrl": "https://thewaltdisneycompany.com/",
+            "description": "The Walt Disney Company started as a cartoon studio and evolves into sports coverage and television shows."
+        },
         "domainglass": {
             "name": "Domain Glass",
             "websiteUrl": "https://domain.glass/",
