@@ -1096,6 +1096,7 @@
         "cloudflarestream.com": "cloudflare",
         "pacloudflare.com": "cloudflare",
         "sn-cloudflare.com": "cloudflare",
+        "videodelivery.net": "cloudflare",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
         "domain.glass": "domainglass",
