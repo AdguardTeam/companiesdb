@@ -154,7 +154,7 @@
         },
         "disneystreaming": {
             "name": "Disney Streaming",
-            "categoryId": 8,
+            "categoryId": 0,
             "url": "https://press.disneyplus.com",
             "companyId": "disney"
         },
