@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an idea for AdGuard Filters
+description: Suggest an idea for Companies DB
 labels: ["Feature Request"]
 body:
   - type: checkboxes
