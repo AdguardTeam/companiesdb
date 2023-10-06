@@ -71,6 +71,11 @@
             "websiteUrl": "https://canonical.com/",
             "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
         },
+        "cloudflare": {
+            "name": "Cloudflare, Inc.",
+            "websiteUrl": "https://www.cloudflare.com/",
+            "description": "Cloudflare is a web performance and security company that provides online services to protect and accelerate websites online. "
+        },
         "domainglass": {
             "name": "Domain Glass",
             "websiteUrl": "https://domain.glass/",
