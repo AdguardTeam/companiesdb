@@ -462,7 +462,7 @@
             "name": "Let's Encrypt",
             "categoryId": 5,
             "url": "https://letsencrypt.org/",
-            "companyId": "lets_encrypt"
+            "companyId": "isrg"
         },
         "lgads": {
             "name": "LG Ad Solutions",
