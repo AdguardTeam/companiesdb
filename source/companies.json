@@ -1,10 +1,10 @@
 {
     "timeUpdated": "2022-04-13T08:24:53.623Z",
     "companies": {
-        "abc": {
-            "name": "Australian Broadcasting Corporation",
-            "websiteUrl": "https://www.abc.net.au/",
-            "description": "The Australian Broadcasting Corporation is the national broadcaster of Australia. It is principally funded by direct grants from the Australian Government and is administered by a government-appointed board."
+        "australian_government": {
+            "name": "Australian Government",
+            "websiteUrl": "https://www.australia.gov.au",
+            "description": "The Australian Government, also known as the Commonwealth Government, is the national government of Australia."
         },
         "adguard": {
             "name": "AdGuard",
