@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-08T00:09:45.691Z",
+    "timeUpdated": "2023-10-10T10:30:20.049Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -20717,6 +20717,7 @@
         "adnxs.com": "appnexus",
         "adnxs.net": "appnexus",
         "appsflyer.com": "appsflyer",
+        "appsflyersdk.com": "appsflyer",
         "adne.tv": "apptv",
         "readserver.net": "apptv",
         "www.apture.com": "apture",
@@ -23896,6 +23897,7 @@
         "samsungsds.com": "samsungsds",
         "internetat.tv": "samsungtv",
         "samsungcloud.tv": "samsungtv",
+        "tizenservice.com": "samsungtv",
         "ilsemedia.nl": "sanoma.fi",
         "sanoma.fi": "sanoma.fi",
         "d13im3ek7neeqp.cloudfront.net": "sap_crm",
