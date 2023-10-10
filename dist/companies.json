@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-10T10:30:20.049Z",
+    "timeUpdated": "2023-10-10T17:14:09.362Z",
     "companies": {
         "163": {
             "name": "163",
@@ -178,12 +178,6 @@
             "name": "AB Tasty",
             "websiteUrl": "https://www.abtasty.com/us/",
             "description": "Our mission\\r\\nTo provide the most simple, intuitive and effective solutions, so that you can bring your own optimisation ideas to life and measure their impact, before mobilising technical resources for their final implementation.\\r\\n\\r\\nTo offer cross-device, open testing and personalisation solutions to provide your users with a seamless browsing experience, whatever kind of screen they are using, for effortless integration of third party solutions (e.g. web analytics solutions, tag management systems, data management platforms, etc.)\\r\\n\\r\\nTo offer local support so that you get the most from our solution throughout our collaboration, by providing you with testing ideas, by planning your roadmap, by ensuring its compliance and assisting you technically, if needed"
-        },
-        "abc": {
-            "name": "Australian Broadcasting Corporation",
-            "websiteUrl": "https://www.abc.net.au/",
-            "description": "The Australian Broadcasting Corporation is the national broadcaster of Australia. It is principally funded by direct grants from the Australian Government and is administered by a government-appointed board.",
-            "source": "AdGuard"
         },
         "accelia": {
             "name": "Accelia",
@@ -1743,8 +1737,9 @@
         },
         "australian_government": {
             "name": "Australian Government",
-            "websiteUrl": "http://www.australia.gov.au/",
-            "description": null
+            "websiteUrl": "https://www.australia.gov.au",
+            "description": "The Australian Government, also known as the Commonwealth Government, is the national government of Australia.",
+            "source": "AdGuard"
         },
         "auth0": {
             "name": "Auth0 Inc.",

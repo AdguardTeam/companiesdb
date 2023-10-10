@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-10T10:30:20.049Z",
+    "timeUpdated": "2023-10-10T17:14:09.362Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -243,7 +243,7 @@
             "name": "Australian Broadcasting Corporation",
             "categoryId": 8,
             "url": "https://www.abc.net.au/",
-            "companyId": "abc",
+            "companyId": "australian_government",
             "source": "AdGuard"
         },
         "ablida": {
@@ -3592,6 +3592,13 @@
             "categoryId": 11,
             "url": null,
             "companyId": null
+        },
+        "bom": {
+            "name": "Bureau of Meteorology",
+            "categoryId": 9,
+            "url": "http://bom.gov.au/",
+            "companyId": "australian_government",
+            "source": "AdGuard"
         },
         "bombora": {
             "name": "Bombora",
@@ -20927,6 +20934,7 @@
         "secure.apps.shappify.com": "bold",
         "boldchat.com": "boldchat",
         "boltdns.net": "boltdns.net",
+        "bom.gov.au": "bom",
         "ml314.com": "bombora",
         "bongacams.com": "bongacams.com",
         "bonial.com": "bonial",
