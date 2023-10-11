@@ -131,6 +131,11 @@
             "websiteUrl": "https://www.iqiyi.com/",
             "description": "iQiyi is a Chinese ad-supported television and movie portal providing fully-licensed, high-definition, professionally produced content"
         },
+        "isrg": {
+            "name": "Internet Security Research Group",
+            "websiteUrl": "https://www.abetterinternet.org",
+            "description": "Digital infrastructure for a more secure and privacy-respecting world."
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "websiteUrl": "https://karambasecurity.com/",
@@ -140,11 +145,6 @@
             "name": "Kik",
             "websiteUrl": "https://kik.com/",
             "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems."
-        },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "websiteUrl": "https://letsencrypt.org/",
-            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
         },
         "lgcorp": {
             "name": "LG Group",
