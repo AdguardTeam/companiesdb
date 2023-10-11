@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T15:10:03.282Z",
+    "timeUpdated": "2023-10-11T15:12:01.474Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7191,7 +7191,7 @@
             "description": "\\\"netFactor Corporation provides a suite of products to drive new levels of sales performance from Internet marketing for the business-to-business market. The company’s core VisitorTrack® technology platform integrates search engine marketing, marketing automation, and Web analytics into a powerful application for lead generation from website visitor tracking – it’s like “Caller ID for Your Website.” netFactor is privileged to serve customers across multiple industries including software, telecom, healthcare, technology, financial, professional services, manufacturing, and transportation.\\\""
         },
         "netflix": {
-            "name": "Netflix",
+            "name": "Netflix, Inc.",
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
             "source": "AdGuard"
