@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T15:15:37.010Z",
+    "timeUpdated": "2023-10-11T15:22:07.160Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -10386,7 +10386,7 @@
             "name": "Let's Encrypt",
             "categoryId": 5,
             "url": "https://letsencrypt.org/",
-            "companyId": "lets_encrypt",
+            "companyId": "isrg",
             "source": "AdGuard"
         },
         "letv": {

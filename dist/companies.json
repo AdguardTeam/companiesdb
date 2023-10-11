@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T15:15:37.010Z",
+    "timeUpdated": "2023-10-11T15:22:07.160Z",
     "companies": {
         "163": {
             "name": "163",
@@ -5541,6 +5541,12 @@
             "websiteUrl": "https://www.ironsrc.com/",
             "description": "\\\"ironSource is the leader in online and mobile software distribution, offering a complete ecosystem for downloadable applications including all aspects of user acquisition, conversion, monetization, integrated analytics and optimization.\\\""
         },
+        "isrg": {
+            "name": "Internet Security Research Group",
+            "websiteUrl": "https://www.abetterinternet.org",
+            "description": "Digital infrastructure for a more secure and privacy-respecting world.",
+            "source": "AdGuard"
+        },
         "ity.im": {
             "name": "ity.im",
             "websiteUrl": "http://ity.im/",
@@ -6027,12 +6033,6 @@
             "name": "Let Reach",
             "websiteUrl": "https://letreach.com/",
             "description": null
-        },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "websiteUrl": "https://letsencrypt.org/",
-            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge.",
-            "source": "AdGuard"
         },
         "letv": {
             "name": "LeTv",
