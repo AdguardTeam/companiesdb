@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T14:25:21.469Z",
+    "timeUpdated": "2023-10-11T15:08:05.730Z",
     "companies": {
         "163": {
             "name": "163",
@@ -826,9 +826,10 @@
             "description": "\\\"We are young, dynamic and in Munich!\\r\\nAdnymics is a start-up based in Munich, Germany. We offer a unique, innovative and uncomplicated one-to-one customer retention system, that allows online-shops and fulfillment service providers to print personalized product brochures, that are put in their packages.\\r\\nWe love print and believe in the power of trust!\\r\\nAdvertisers trust print-media, because it creates credibility and trust and it's viewed and perceived more than other media. We are fascinated by the combinability of online and print!\\\"\\r\\n"
         },
         "adobe": {
-            "name": "Adobe",
+            "name": "Adobe Inc.",
             "websiteUrl": "http://www.adobe.com/",
-            "description": "Adobe provides digital media and digital marketing solutions."
+            "description": "Adobe provides digital media and digital marketing solutions.",
+            "source": "AdGuard"
         },
         "adocean": {
             "name": "AdOcean",
