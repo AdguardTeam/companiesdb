@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T12:16:05.591Z",
+    "timeUpdated": "2023-10-11T14:25:21.469Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -6166,6 +6166,13 @@
             "categoryId": 4,
             "url": "http://www.drawbrid.ge/",
             "companyId": "drawbridge"
+        },
+        "dreame_tech": {
+            "name": "Dreame Technology",
+            "categoryId": 8,
+            "url": "https://www.dreame.tech/",
+            "companyId": "xiaomi",
+            "source": "AdGuard"
         },
         "dreamlab.pl": {
             "name": "DreamLab.pl",
@@ -21513,6 +21520,8 @@
         "doubleverify.com": "doubleverify",
         "wrating.com": "dratio",
         "adsymptotic.com": "drawbridge",
+        "dreame.tech": "dreame_tech",
+        "dreametech.com": "dreame_tech",
         "dreamlab.pl": "dreamlab.pl",
         "drift.com": "drift",
         "js.driftt.com": "drift",
