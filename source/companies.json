@@ -11,6 +11,11 @@
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
         },
+        "adobe": {
+            "name": "Adobe Inc.",
+            "websiteUrl": "http://www.adobe.com/",
+            "description": "Adobe provides digital media and digital marketing solutions."
+        },
         "advance": {
             "name": "Advance Publications, Inc.",
             "websiteUrl": "https://www.advance.com/",
