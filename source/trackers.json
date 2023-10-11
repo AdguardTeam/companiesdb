@@ -24,7 +24,7 @@
             "name": "Australian Broadcasting Corporation",
             "categoryId": 8,
             "url": "https://www.abc.net.au/",
-            "companyId": "abc"
+            "companyId": "australian_government"
         },
         "adguard": {
             "name": "AdGuard",
@@ -128,6 +128,12 @@
             "url": "https://bitwarden.com/",
             "companyId": "bitwarden"
         },
+        "bom": {
+            "name": "Bureau of Meteorology",
+            "categoryId": 9,
+            "url": "http://bom.gov.au/",
+            "companyId": "australian_government"
+        },
         "branch": {
             "name": "Branch.io",
             "categoryId": 101,
@@ -169,6 +175,12 @@
             "categoryId": 8,
             "url": "https://domain.glass/",
             "companyId": "domainglass"
+        },
+        "dreame_tech": {
+            "name": "Dreame Technology",
+            "categoryId": 8,
+            "url": "https://www.dreame.tech/",
+            "companyId": "xiaomi"
         },
         "edgio": {
             "name": "Edgio",
@@ -474,7 +486,7 @@
             "name": "Let's Encrypt",
             "categoryId": 5,
             "url": "https://letsencrypt.org/",
-            "companyId": "lets_encrypt"
+            "companyId": "isrg"
         },
         "lgads": {
             "name": "LG Ad Solutions",
@@ -884,6 +896,12 @@
             "url": "https://www.xenmedia.net/",
             "companyId": "xenmedia"
         },
+        "xiaomi": {
+            "name": "Xiaomi",
+            "categoryId": 8,
+            "url": "https://www.mi.com/",
+            "companyId": "xiaomi"
+        },
         "xhamster": {
             "name": "xHamster",
             "categoryId": 3,
@@ -1080,6 +1098,7 @@
         "applvn.com": "applovin",
         "applovin.com": "applovin",
         "appsflyer.com": "appsflyer",
+        "appsflyersdk.com": "appsflyer",
         "bitbucket.org": "atlassian.net",
         "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
@@ -1089,6 +1108,7 @@
         "trafficmanager.net": "azure",
         "binge.com.au": "binge",
         "bitwarden.com": "bitwarden",
+        "bom.gov.au": "bom",
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
         "cloudflare-dns.com": "cloudflare",
@@ -1105,8 +1125,10 @@
         "cloudflareresolve.com": "cloudflare",
         "cloudflaressl.com": "cloudflare",
         "cloudflarestatus.com": "cloudflare",
+        "cloudflarestream.com": "cloudflare",
         "pacloudflare.com": "cloudflare",
         "sn-cloudflare.com": "cloudflare",
+        "videodelivery.net": "cloudflare",
         "crashlytics.com": "crashlytics",
         "disneyplus.com": "disneyplus",
         "bamgrid.com": "disneystreaming",
@@ -1115,6 +1137,8 @@
         "phicdn.net": "digicert_trust_seal",
         "domain.glass": "domainglass",
         "doubleclick.com": "doubleclick",
+        "dreame.tech": "dreame_tech",
+        "dreametech.com": "dreame_tech",
         "alphacdn.net": "edgio",
         "edg.io": "edgio",
         "edgecast.com": "edgio",
@@ -1544,8 +1568,9 @@
         "outlook.com": "outlook",
         "oztam.com.au": "oztam",
         "perfops.io": "perfops",
-        "plex.tv": "plex",
+        "plex.bz": "plex",
         "plex.direct": "plex",
+        "plex.tv": "plex",
         "qualcomm.com": "qualcomm",
         "gpsonextra.net":"qualcomm_location_service",
         "izatcloud.net":"qualcomm_location_service",
@@ -1597,6 +1622,7 @@
         "secmobilesvc.com": "samsungmobile",
         "internetat.tv": "samsungtv",
         "samsungcloud.tv": "samsungtv",
+        "tizenservice.com": "samsungtv",
         "samsungsds.com": "samsungsds",
         "push.samsungosp.com": "samsungpush",
         "pushmessage.samsung.com": "samsungpush",
@@ -1686,6 +1712,13 @@
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
         "windowsupdate.com": "windowsupdate",
+        "huami.com": "xiaomi",
+		"mi-img.com": "xiaomi",
+		"mi.com": "xiaomi",
+		"miui.com": "xiaomi",
+		"xiaomi.com": "xiaomi",
+		"xiaomi.net": "xiaomi",
+		"xiaomiyoupin.com": "xiaomi",
         "ya.ru": "yandex",
         "yandex.by": "yandex",
         "yandex.com": "yandex",

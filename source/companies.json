@@ -1,15 +1,20 @@
 {
     "timeUpdated": "2022-04-13T08:24:53.623Z",
     "companies": {
-        "abc": {
-            "name": "Australian Broadcasting Corporation",
-            "websiteUrl": "https://www.abc.net.au/",
-            "description": "The Australian Broadcasting Corporation is the national broadcaster of Australia. It is principally funded by direct grants from the Australian Government and is administered by a government-appointed board."
+        "australian_government": {
+            "name": "Australian Government",
+            "websiteUrl": "https://www.australia.gov.au",
+            "description": "The Australian Government, also known as the Commonwealth Government, is the national government of Australia."
         },
         "adguard": {
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",
             "description": "AdGuard offers apps for Android, iOS, Windows, and Mac. With them, you can block ads in browsers and apps, prevent websites and companies from tracking you, and protect yourself from phishing and malware."
+        },
+        "adobe": {
+            "name": "Adobe Inc.",
+            "websiteUrl": "http://www.adobe.com/",
+            "description": "Adobe provides digital media and digital marketing solutions."
         },
         "advance": {
             "name": "Advance Publications, Inc.",
@@ -76,6 +81,11 @@
             "websiteUrl": "https://thewaltdisneycompany.com/",
             "description": "The Walt Disney Company started as a cartoon studio and evolves into sports coverage and television shows."
         },
+        "cloudflare": {
+            "name": "Cloudflare, Inc.",
+            "websiteUrl": "https://www.cloudflare.com/",
+            "description": "Cloudflare is a web performance and security company that provides online services to protect and accelerate websites online. "
+        },
         "domainglass": {
             "name": "Domain Glass",
             "websiteUrl": "https://domain.glass/",
@@ -126,6 +136,11 @@
             "websiteUrl": "https://www.iqiyi.com/",
             "description": "iQiyi is a Chinese ad-supported television and movie portal providing fully-licensed, high-definition, professionally produced content"
         },
+        "isrg": {
+            "name": "Internet Security Research Group",
+            "websiteUrl": "https://www.abetterinternet.org",
+            "description": "Digital infrastructure for a more secure and privacy-respecting world."
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "websiteUrl": "https://karambasecurity.com/",
@@ -135,11 +150,6 @@
             "name": "Kik",
             "websiteUrl": "https://kik.com/",
             "description": "Kik Messenger, commonly called Kik, is a freeware instant messaging mobile app from the Canadian company Kik Interactive, available on iOS and Android operating systems."
-        },
-        "lets_encrypt": {
-            "name": "Let's Encrypt",
-            "websiteUrl": "https://letsencrypt.org/",
-            "description": "Let's Encrypt is a non-profit certificate authority run by Internet Security Research Group that provides X.509 certificates for Transport Layer Security encryption at no charge."
         },
         "lgcorp": {
             "name": "LG Group",
@@ -197,7 +207,7 @@
             "description": "National Australia Bank is one of the four largest financial institutions in Australia in terms of market capitalisation, earnings and customers."
         },
         "netflix": {
-            "name": "Netflix",
+            "name": "Netflix, Inc.",
             "websiteUrl": "https://www.netflix.com/",
             "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices."
         },
@@ -335,6 +345,11 @@
             "name": "Xen Media",
             "websiteUrl": "https://www.xenmedia.net/",
             "description": "Xen Media offers media planning, video production, digital marketing, SEO, social media marketing, website and app development services."
+        },
+        "xiaomi": {
+            "name": "Xiaomi Inc.",
+            "websiteUrl": "https://www.mi.com/",
+            "description": "Xiaomi is a Chinese designer and manufacturer of consumer electronics and related software, home appliances, and household hardware. "
         },
         "xhamster": {
             "name": "xHamster",

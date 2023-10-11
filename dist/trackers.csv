@@ -691,6 +691,7 @@ appmetrx.com;appmetrx;4
 adnxs.com;appnexus;4
 adnxs.net;appnexus;4
 appsflyer.com;appsflyer;101
+appsflyersdk.com;appsflyer;101
 adne.tv;apptv;4
 readserver.net;apptv;4
 www.apture.com;apture;2
@@ -900,6 +901,7 @@ qb.boldapps.net;bold;4
 secure.apps.shappify.com;bold;4
 boldchat.com;boldchat;2
 boltdns.net;boltdns.net;11
+bom.gov.au;bom;9
 ml314.com;bombora;6
 bongacams.com;bongacams.com;3
 bonial.com;bonial;2
@@ -1158,8 +1160,10 @@ cloudflareportal.com;cloudflare;9
 cloudflareresolve.com;cloudflare;9
 cloudflaressl.com;cloudflare;9
 cloudflarestatus.com;cloudflare;9
+cloudflarestream.com;cloudflare;9
 pacloudflare.com;cloudflare;9
 sn-cloudflare.com;cloudflare;9
+videodelivery.net;cloudflare;9
 cloudimg.io;cloudimage.io;9
 cloudinary.com;cloudinary;9
 clovenetwork.com;clove_network;4
@@ -1471,6 +1475,8 @@ zerezas.com;doublepimp;3
 doubleverify.com;doubleverify;4
 wrating.com;dratio;6
 adsymptotic.com;drawbridge;4
+dreame.tech;dreame_tech;8
+dreametech.com;dreame_tech;8
 dreamlab.pl;dreamlab.pl;4
 drift.com;drift;2
 js.driftt.com;drift;2
@@ -3458,8 +3464,9 @@ impact-ad.jp;platformone;4
 loveadvert.ru;play_by_mamba;4
 playbuzz.com;playbuzz.com;2
 pof.com;plenty_of_fish;6
-plex.tv;plex;0
+plex.bz;plex;0
 plex.direct;plex;0
+plex.tv;plex;0
 analytics.plex.tv;plex_metrics;6
 metrics.plex.tv;plex_metrics;6
 plista.com;plista;4
@@ -3870,6 +3877,7 @@ ssp.samsung.com;samsungpush;8
 samsungsds.com;samsungsds;10
 internetat.tv;samsungtv;15
 samsungcloud.tv;samsungtv;15
+tizenservice.com;samsungtv;15
 ilsemedia.nl;sanoma.fi;4
 sanoma.fi;sanoma.fi;4
 d13im3ek7neeqp.cloudfront.net;sap_crm;6
@@ -4850,6 +4858,13 @@ xhamster.com;xhamster;3
 xhamsterlive.com;xhamster;3
 xhamsterpremium.com;xhamster;3
 xhcdn.com;xhamster;3
+huami.com;xiaomi;8
+mi-img.com;xiaomi;8
+mi.com;xiaomi;8
+miui.com;xiaomi;8
+xiaomi.com;xiaomi;8
+xiaomi.net;xiaomi;8
+xiaomiyoupin.com;xiaomi;8
 xing-share.com;xing;6
 xing.com;xing;6
 xmediaclicks.com;xmediaclicks;3

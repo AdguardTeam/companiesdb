@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-01T00:10:03.063Z",
+    "timeUpdated": "2023-10-11T15:22:07.160Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -243,7 +243,7 @@
             "name": "Australian Broadcasting Corporation",
             "categoryId": 8,
             "url": "https://www.abc.net.au/",
-            "companyId": "abc",
+            "companyId": "australian_government",
             "source": "AdGuard"
         },
         "ablida": {
@@ -3593,6 +3593,13 @@
             "url": null,
             "companyId": null
         },
+        "bom": {
+            "name": "Bureau of Meteorology",
+            "categoryId": 9,
+            "url": "http://bom.gov.au/",
+            "companyId": "australian_government",
+            "source": "AdGuard"
+        },
         "bombora": {
             "name": "Bombora",
             "categoryId": 6,
@@ -6159,6 +6166,13 @@
             "categoryId": 4,
             "url": "http://www.drawbrid.ge/",
             "companyId": "drawbridge"
+        },
+        "dreame_tech": {
+            "name": "Dreame Technology",
+            "categoryId": 8,
+            "url": "https://www.dreame.tech/",
+            "companyId": "xiaomi",
+            "source": "AdGuard"
         },
         "dreamlab.pl": {
             "name": "DreamLab.pl",
@@ -10372,7 +10386,7 @@
             "name": "Let's Encrypt",
             "categoryId": 5,
             "url": "https://letsencrypt.org/",
-            "companyId": "lets_encrypt",
+            "companyId": "isrg",
             "source": "AdGuard"
         },
         "letv": {
@@ -19444,6 +19458,13 @@
             "companyId": "xhamster",
             "source": "AdGuard"
         },
+        "xiaomi": {
+            "name": "Xiaomi",
+            "categoryId": 8,
+            "url": "https://www.mi.com/",
+            "companyId": "xiaomi",
+            "source": "AdGuard"
+        },
         "xing": {
             "name": "Xing",
             "categoryId": 6,
@@ -20717,6 +20738,7 @@
         "adnxs.com": "appnexus",
         "adnxs.net": "appnexus",
         "appsflyer.com": "appsflyer",
+        "appsflyersdk.com": "appsflyer",
         "adne.tv": "apptv",
         "readserver.net": "apptv",
         "www.apture.com": "apture",
@@ -20926,6 +20948,7 @@
         "secure.apps.shappify.com": "bold",
         "boldchat.com": "boldchat",
         "boltdns.net": "boltdns.net",
+        "bom.gov.au": "bom",
         "ml314.com": "bombora",
         "bongacams.com": "bongacams.com",
         "bonial.com": "bonial",
@@ -21184,8 +21207,10 @@
         "cloudflareresolve.com": "cloudflare",
         "cloudflaressl.com": "cloudflare",
         "cloudflarestatus.com": "cloudflare",
+        "cloudflarestream.com": "cloudflare",
         "pacloudflare.com": "cloudflare",
         "sn-cloudflare.com": "cloudflare",
+        "videodelivery.net": "cloudflare",
         "cloudimg.io": "cloudimage.io",
         "cloudinary.com": "cloudinary",
         "clovenetwork.com": "clove_network",
@@ -21497,6 +21522,8 @@
         "doubleverify.com": "doubleverify",
         "wrating.com": "dratio",
         "adsymptotic.com": "drawbridge",
+        "dreame.tech": "dreame_tech",
+        "dreametech.com": "dreame_tech",
         "dreamlab.pl": "dreamlab.pl",
         "drift.com": "drift",
         "js.driftt.com": "drift",
@@ -23484,8 +23511,9 @@
         "loveadvert.ru": "play_by_mamba",
         "playbuzz.com": "playbuzz.com",
         "pof.com": "plenty_of_fish",
-        "plex.tv": "plex",
+        "plex.bz": "plex",
         "plex.direct": "plex",
+        "plex.tv": "plex",
         "analytics.plex.tv": "plex_metrics",
         "metrics.plex.tv": "plex_metrics",
         "plista.com": "plista",
@@ -23896,6 +23924,7 @@
         "samsungsds.com": "samsungsds",
         "internetat.tv": "samsungtv",
         "samsungcloud.tv": "samsungtv",
+        "tizenservice.com": "samsungtv",
         "ilsemedia.nl": "sanoma.fi",
         "sanoma.fi": "sanoma.fi",
         "d13im3ek7neeqp.cloudfront.net": "sap_crm",
@@ -24876,6 +24905,13 @@
         "xhamsterlive.com": "xhamster",
         "xhamsterpremium.com": "xhamster",
         "xhcdn.com": "xhamster",
+        "huami.com": "xiaomi",
+        "mi-img.com": "xiaomi",
+        "mi.com": "xiaomi",
+        "miui.com": "xiaomi",
+        "xiaomi.com": "xiaomi",
+        "xiaomi.net": "xiaomi",
+        "xiaomiyoupin.com": "xiaomi",
         "xing-share.com": "xing",
         "xing.com": "xing",
         "xmediaclicks.com": "xmediaclicks",
