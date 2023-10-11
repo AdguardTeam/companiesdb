@@ -158,6 +158,18 @@
             "url": "https://crashlytics.com/",
             "companyId": "google"
         },
+        "disneystreaming": {
+            "name": "Disney Streaming",
+            "categoryId": 0,
+            "url": "https://press.disneyplus.com",
+            "companyId": "disney"
+        },
+        "disneyplus": {
+            "name": "Disney+",
+            "categoryId": 0,
+            "url": "https://www.disneyplus.com/",
+            "companyId": "disney"
+        },
         "domainglass": {
             "name": "Domain Glass",
             "categoryId": 8,
@@ -1118,6 +1130,10 @@
         "sn-cloudflare.com": "cloudflare",
         "videodelivery.net": "cloudflare",
         "crashlytics.com": "crashlytics",
+        "disneyplus.com": "disneyplus",
+        "bamgrid.com": "disneystreaming",
+        "dssedge.com": "disneystreaming",
+        "dssott.com": "disneystreaming",
         "phicdn.net": "digicert_trust_seal",
         "domain.glass": "domainglass",
         "doubleclick.com": "doubleclick",
