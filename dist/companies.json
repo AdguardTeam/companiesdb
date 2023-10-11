@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T15:22:07.160Z",
+    "timeUpdated": "2023-10-11T15:32:25.828Z",
     "companies": {
         "163": {
             "name": "163",
@@ -3572,8 +3572,9 @@
         },
         "disney": {
             "name": "The Walt Disney Company",
-            "websiteUrl": "http://www.disney.com/",
-            "description": "\\\"ESPN, Inc., The Worldwide Leader in Sports, is the leading multinational, multimedia sports entertainment company featuring the broadest portfolio of multimedia sports assets with over 50 business entities.\\\""
+            "websiteUrl": "https://thewaltdisneycompany.com/",
+            "description": "The Walt Disney Company started as a cartoon studio and evolves into sports coverage and television shows.",
+            "source": "AdGuard"
         },
         "display_block": {
             "name": "display block",

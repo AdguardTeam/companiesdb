@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-11T15:22:07.160Z",
+    "timeUpdated": "2023-10-11T15:32:25.828Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -5949,6 +5949,20 @@
             "categoryId": 2,
             "url": "https://discordapp.com/",
             "companyId": null
+        },
+        "disneyplus": {
+            "name": "Disney+",
+            "categoryId": 0,
+            "url": "https://www.disneyplus.com/",
+            "companyId": "disney",
+            "source": "AdGuard"
+        },
+        "disneystreaming": {
+            "name": "Disney Streaming",
+            "categoryId": 0,
+            "url": "https://press.disneyplus.com",
+            "companyId": "disney",
+            "source": "AdGuard"
         },
         "display_block": {
             "name": "display block",
@@ -21479,6 +21493,10 @@
         "directadvert.ru": "directadvert",
         "directrev.com": "directrev",
         "discordapp.com": "discord",
+        "disneyplus.com": "disneyplus",
+        "bamgrid.com": "disneystreaming",
+        "dssedge.com": "disneystreaming",
+        "dssott.com": "disneystreaming",
         "d81mfvml8p5ml.cloudfront.net": "display_block",
         "disqus.com": "disqus",
         "disquscdn.com": "disqus",
