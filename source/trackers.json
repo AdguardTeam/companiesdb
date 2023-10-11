@@ -878,6 +878,12 @@
             "url": "https://www.xenmedia.net/",
             "companyId": "xenmedia"
         },
+        "xiaomi": {
+            "name": "Xiaomi",
+            "categoryId": 8,
+            "url": "https://www.mi.com/",
+            "companyId": "xiaomi"
+        },
         "xhamster": {
             "name": "xHamster",
             "categoryId": 3,
@@ -1679,6 +1685,13 @@
         "client.wns.windows.com": "windows_notifications",
         "time.windows.com": "windows_time",
         "windowsupdate.com": "windowsupdate",
+        "huami.com": "xiaomi",
+		"mi-img.com": "xiaomi",
+		"mi.com": "xiaomi",
+		"miui.com": "xiaomi",
+		"xiaomi.com": "xiaomi",
+		"xiaomi.net": "xiaomi",
+		"xiaomiyoupin.com": "xiaomi",
         "ya.ru": "yandex",
         "yandex.by": "yandex",
         "yandex.com": "yandex",

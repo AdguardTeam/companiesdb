@@ -331,6 +331,11 @@
             "websiteUrl": "https://www.xenmedia.net/",
             "description": "Xen Media offers media planning, video production, digital marketing, SEO, social media marketing, website and app development services."
         },
+        "xiaomi": {
+            "name": "Xiaomi Inc.",
+            "websiteUrl": "https://www.mi.com/",
+            "description": "Xiaomi is a Chinese designer and manufacturer of consumer electronics and related software, home appliances, and household hardware. "
+        },
         "xhamster": {
             "name": "xHamster",
             "websiteUrl": "https://xhamster.com/",
