@@ -164,6 +164,12 @@
             "url": "https://domain.glass/",
             "companyId": "domainglass"
         },
+        "dreame_tech": {
+            "name": "Dreame Technology",
+            "categoryId": 8,
+            "url": "https://www.dreame.tech/",
+            "companyId": "xiaomi"
+        },
         "edgio": {
             "name": "Edgio",
             "categoryId": 9,
@@ -1113,6 +1119,8 @@
         "phicdn.net": "digicert_trust_seal",
         "domain.glass": "domainglass",
         "doubleclick.com": "doubleclick",
+        "dreame.tech": "dreame_tech",
+        "dreametech.com": "dreame_tech",
         "alphacdn.net": "edgio",
         "edg.io": "edgio",
         "edgecast.com": "edgio",
