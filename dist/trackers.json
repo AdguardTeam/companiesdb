@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-10T17:14:09.362Z",
+    "timeUpdated": "2023-10-11T12:16:05.591Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -19451,6 +19451,13 @@
             "companyId": "xhamster",
             "source": "AdGuard"
         },
+        "xiaomi": {
+            "name": "Xiaomi",
+            "categoryId": 8,
+            "url": "https://www.mi.com/",
+            "companyId": "xiaomi",
+            "source": "AdGuard"
+        },
         "xing": {
             "name": "Xing",
             "categoryId": 6,
@@ -24886,6 +24893,13 @@
         "xhamsterlive.com": "xhamster",
         "xhamsterpremium.com": "xhamster",
         "xhcdn.com": "xhamster",
+        "huami.com": "xiaomi",
+        "mi-img.com": "xiaomi",
+        "mi.com": "xiaomi",
+        "miui.com": "xiaomi",
+        "xiaomi.com": "xiaomi",
+        "xiaomi.net": "xiaomi",
+        "xiaomiyoupin.com": "xiaomi",
         "xing-share.com": "xing",
         "xing.com": "xing",
         "xmediaclicks.com": "xmediaclicks",

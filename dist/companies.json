@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-10T17:14:09.362Z",
+    "timeUpdated": "2023-10-11T12:16:05.591Z",
     "companies": {
         "163": {
             "name": "163",
@@ -11518,6 +11518,12 @@
             "name": "xHamster",
             "websiteUrl": "https://xhamster.com/",
             "description": "xHamster is a Cypriot pornographic media and social networking site headquartered in Limassol, Cyprus.",
+            "source": "AdGuard"
+        },
+        "xiaomi": {
+            "name": "Xiaomi Inc.",
+            "websiteUrl": "https://www.mi.com/",
+            "description": "Xiaomi is a Chinese designer and manufacturer of consumer electronics and related software, home appliances, and household hardware. ",
             "source": "AdGuard"
         },
         "xing": {
