@@ -578,6 +578,12 @@
             "url": "https://www.netify.ai/",
             "companyId": "netify"
         },
+        "nine_direct_digital": {
+            "name": "Nine Digital Direct",
+            "categoryId": 4,
+            "url": "https://ninedigitaldirect.com.au/",
+            "companyId": "nine_entertainment"
+        },
         "notion": {
             "name": "Notion",
             "categoryId": 8,
@@ -1556,6 +1562,7 @@
         "nflximg.com": "netflix",
         "netify.ai": "netify",
         "codestream.com": "new_relic",
+        "nineanalytics.io": "nine_direct_digital",
         "notion.so": "notion",
         "ntp.org": "ntppool",
         "ntppool.org": "ntppool",

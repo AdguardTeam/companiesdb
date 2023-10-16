@@ -216,6 +216,11 @@
             "websiteUrl": "https://www.netify.ai/",
             "description": "Netify provides network intelligence and visibility."
         },
+        "nine_entertainment": {
+            "name": "Nine Entertainment Co.",
+            "websiteUrl": "https://www.nineforbrands.com.au/",
+            "description": "Nine Entertainment is an Australian publicly listed media company with holdings in radio and television broadcasting, newspaper publications and digital media."
+        },
         "notion": {
             "name": "Notion Labs Inc.",
             "websiteUrl": "https://www.notion.so/",
