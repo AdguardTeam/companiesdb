@@ -81,6 +81,11 @@
             "websiteUrl": "https://www.cloudflare.com/",
             "description": "Cloudflare is a web performance and security company that provides online services to protect and accelerate websites online. "
         },
+        "comodo": {
+            "name": "Comodo Security Solutions, Inc.",
+            "websiteUrl": "http://www.comodo.com/",
+            "description": "Comodo is a global leader in cyber security solutions including antivirus, internet security, firewall, endpoint security, cloud based solutions and other PC security software for enterprises and consumers."
+        },
         "disney": {
             "name": "The Walt Disney Company",
             "websiteUrl": "https://thewaltdisneycompany.com/",
