@@ -1,11 +1,6 @@
 {
     "timeUpdated": "2022-04-13T08:24:53.623Z",
     "companies": {
-        "australian_government": {
-            "name": "Australian Government",
-            "websiteUrl": "https://www.australia.gov.au",
-            "description": "The Australian Government, also known as the Commonwealth Government, is the national government of Australia."
-        },
         "adguard": {
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",
@@ -31,6 +26,11 @@
             "websiteUrl": "http://www.apple.com/",
             "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers."
         },
+        "apollo_global_management": {
+            "name": "Apollo Global Management, Inc.",
+            "websiteUrl": "https://www.apollo.com/",
+            "description": "Apollo Global Management, Inc. is an American private equity firm. It provides investment management and invests in credit, private equity, and real assets."
+        },
         "appsflyer": {
             "name": "AppsFlyer",
             "websiteUrl": "https://www.appsflyer.com/",
@@ -40,6 +40,11 @@
             "name": "Atlassian",
             "websiteUrl": "https://www.atlassian.com/",
             "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
+        },
+        "australian_government": {
+            "name": "Australian Government",
+            "websiteUrl": "https://www.australia.gov.au",
+            "description": "The Australian Government, also known as the Commonwealth Government, is the national government of Australia."
         },
         "bbk": {
             "name": "BBK Electronics",
