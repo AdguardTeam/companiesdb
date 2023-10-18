@@ -986,6 +986,7 @@
     "domains": [
       "ghcr.io",
       "github.com",
+      "github.dev",
       "github.io",
       "githubapp.com",
       "githubassets.com",
