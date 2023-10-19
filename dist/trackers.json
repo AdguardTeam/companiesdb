@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-19T12:57:04.527Z",
+    "timeUpdated": "2023-10-19T13:13:47.277Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -7330,7 +7330,7 @@
             "name": "Flurry",
             "categoryId": 101,
             "url": "http://www.flurry.com/",
-            "companyId": "verizon",
+            "companyId": "apollo_global_management",
             "source": "AdGuard"
         },
         "flxone": {
@@ -19553,8 +19553,9 @@
         "yahoo": {
             "name": "Yahoo!",
             "categoryId": 6,
-            "url": "https://yahoo.com",
-            "companyId": "verizon"
+            "url": "https://yahoo.com/",
+            "companyId": "apollo_global_management",
+            "source": "AdGuard"
         },
         "yahoo_ad_exchange": {
             "name": "Yahoo! Ad Exchange",
@@ -19567,6 +19568,13 @@
             "categoryId": 4,
             "url": "https://developer.yahoo.com/analytics/",
             "companyId": "verizon"
+        },
+        "yahoo_advertising": {
+            "name": "Yahoo! Advertising",
+            "categoryId": 4,
+            "url": "https://www.advertising.yahooinc.com/",
+            "companyId": "apollo_global_management",
+            "source": "AdGuard"
         },
         "yahoo_analytics": {
             "name": "Yahoo! Analytics",
@@ -19597,6 +19605,13 @@
             "categoryId": 4,
             "url": "http://searchmarketing.yahoo.com",
             "companyId": "verizon"
+        },
+        "yahoo_search": {
+            "name": "Yahoo! Search",
+            "categoryId": 4,
+            "url": "https://search.yahooinc.com/",
+            "companyId": "apollo_global_management",
+            "source": "AdGuard"
         },
         "yahoo_small_business": {
             "name": "Yahoo! Small Business",
@@ -24960,10 +24975,15 @@
         "yahoo.com": "yahoo",
         "yahooapis.com": "yahoo",
         "yimg.com": "yahoo",
-        "ads.yahoo.com": "yahoo_ad_exchange",
+        "oath.cloud": "yahoo",
+        "yahoo.net": "yahoo",
+        "yahooinc.com": "yahoo",
+        "yahoodns.net": "yahoo",
         "yads.yahoo.com": "yahoo_ad_exchange",
         "yieldmanager.com": "yahoo_ad_exchange",
         "pr-bh.ybp.yahoo.com": "yahoo_ad_manager",
+        "ads.yahoo.com": "yahoo_advertising",
+        "adtech.yahooinc.com": "yahoo_advertising",
         "analytics.yahoo.com": "yahoo_analytics",
         "np.lexity.com": "yahoo_commerce_central",
         "storage-yahoo.jp": "yahoo_japan_retargeting",
@@ -24973,6 +24993,7 @@
         "yjtag.jp": "yahoo_japan_retargeting",
         "ov.yahoo.co.jp": "yahoo_overture",
         "overture.com": "yahoo_overture",
+        "search.yahooinc.com": "yahoo_search",
         "luminate.com": "yahoo_small_business",
         "pixazza.com": "yahoo_small_business",
         "awaps.yandex.ru": "yandex",
