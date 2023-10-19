@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-19T12:52:18.050Z",
+    "timeUpdated": "2023-10-19T12:57:04.527Z",
     "companies": {
         "163": {
             "name": "163",
@@ -2976,9 +2976,10 @@
             "description": "\\\"WOW Analytics Version 2.0 is a powerful web analytics and lead generation tool. The platform offers real time data feeding and powerful lead scoring capabilities, allowing you to get more from your online investments, and ensure that you never lose another online prospect.\\\""
         },
         "comodo": {
-            "name": "Comodo",
+            "name": "Comodo Security Solutions, Inc.",
             "websiteUrl": "http://www.comodo.com/",
-            "description": "\\\"Comodo is a leading global provider of Digital Security, Identity and Trust Assurance services that include a comprehensive portfolio of High-Assurance Digital Certificates and Managed PKI solutions, eCommerce Acceleration, Authentication (Multi-Factor) and Network Vulnerability Scanning services certified for PCI Compliance reporting.\\\""
+            "description": "Comodo is a global leader in cyber security solutions including antivirus, internet security, firewall, endpoint security, cloud based solutions and other PC security software for enterprises and consumers.",
+            "source": "AdGuard"
         },
         "comscore": {
             "name": "comScore, Inc.",
