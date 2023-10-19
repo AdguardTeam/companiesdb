@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-19T12:40:49.756Z",
+    "timeUpdated": "2023-10-19T12:44:02.894Z",
     "companies": {
         "163": {
             "name": "163",
@@ -91,7 +91,7 @@
             "description": "3DStats.com offers a service that analyzes traffic patterns and profiles visitors at your site. You can see data in real-time and you don't have to install any software. 3Dstats tracks and reports the number of visitors, requests and orders for any online advertising campaign you run. "
         },
         "3gpp": {
-            "name": "3GPP Network",
+            "name": "3GPP",
             "websiteUrl": "https://www.3gpp.org/",
             "description": "The 3GPP Network is a mobile technology standard for bridging core cellular networks with the Internet. Services include enabling WiFi calling, roaming, and signaling.",
             "source": "AdGuard"
@@ -6757,7 +6757,7 @@
             "description": "TrackingSoft is a tracking and analytics software company. They provide a variety of platforms to measure online ad campaign performance, provide email campaign statistics, and website analytics."
         },
         "meta": {
-            "name": "Meta",
+            "name": "Meta Platforms, Inc.",
             "websiteUrl": "https://www.meta.com/",
             "description": "Meta builds technologies that help people connect, find communities and grow businesses.",
             "source": "AdGuard"
