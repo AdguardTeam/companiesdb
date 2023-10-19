@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-18T14:59:51.692Z",
+    "timeUpdated": "2023-10-19T12:40:49.756Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7317,6 +7317,12 @@
             "name": "NimbleCommerce",
             "websiteUrl": "http://www.nimblecommerce.com/",
             "description": "\\\"NimbleCommerce works with global publishers to create compelling online shopping experiences - leveraging audience affinity and content relevance to deliver bottom-line results. Between our comprehensive platform, our vast network of offers and products from leading suppliers, and the most knowledgeable strategic and technical team in the business, we provide our customers with an unbeatable advantage for e-commerce success.\\\""
+        },
+        "nine_entertainment": {
+            "name": "Nine Entertainment Co.",
+            "websiteUrl": "https://www.nineforbrands.com.au/",
+            "description": "Nine Entertainment is an Australian publicly listed media company with holdings in radio and television broadcasting, newspaper publications and digital media.",
+            "source": "AdGuard"
         },
         "nirror": {
             "name": "Nirror",

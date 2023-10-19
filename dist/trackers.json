@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-18T14:59:51.692Z",
+    "timeUpdated": "2023-10-19T12:40:49.756Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -12386,6 +12386,13 @@
             "url": "http://www.nimblecommerce.com/",
             "companyId": "nimblecommerce"
         },
+        "nine_direct_digital": {
+            "name": "Nine Digital Direct",
+            "categoryId": 4,
+            "url": "https://ninedigitaldirect.com.au/",
+            "companyId": "nine_entertainment",
+            "source": "AdGuard"
+        },
         "ninja_access_analysis": {
             "name": "Ninja Access Analysis",
             "categoryId": 6,
@@ -23294,6 +23301,7 @@
         "ads.ngageinc.com": "ngage_inc.",
         "nice264.com": "nice264.com",
         "nimblecommerce.com": "nimblecommerce",
+        "nineanalytics.io": "nine_direct_digital",
         "cho-chin.com": "ninja_access_analysis",
         "donburako.com": "ninja_access_analysis",
         "hishaku.com": "ninja_access_analysis",
