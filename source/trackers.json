@@ -282,7 +282,7 @@
             "name": "Flurry",
             "categoryId": 101,
             "url": "http://www.flurry.com/",
-            "companyId": "verizon"
+            "companyId": "apollo_global_management"
         },
         "freeview": {
             "name": "Freeview",
@@ -937,6 +937,24 @@
             "categoryId": 4,
             "url": "https://yabbi.me/",
             "companyId": "yabbi"
+        },
+        "yahoo": {
+            "name": "Yahoo!",
+            "categoryId": 6,
+            "url": "https://yahoo.com/",
+            "companyId": "apollo_global_management"
+        },
+        "yahoo_advertising": {
+            "name": "Yahoo! Advertising",
+            "categoryId": 4,
+            "url": "https://www.advertising.yahooinc.com/",
+            "companyId": "apollo_global_management"
+        },
+        "yahoo_search": {
+            "name": "Yahoo! Search",
+            "categoryId": 4,
+            "url": "https://search.yahooinc.com/",
+            "companyId": "apollo_global_management"
         },
         "yandex_appmetrica": {
             "name": "Yandex AppMetrica",
@@ -1734,6 +1752,15 @@
         "xiaomi.com": "xiaomi",
         "xiaomi.net": "xiaomi",
         "xiaomiyoupin.com": "xiaomi",
+        "oath.cloud": "yahoo",
+        "yahoo.com": "yahoo",
+        "yahoo.net": "yahoo",
+        "yahooapis.com": "yahoo",
+        "yahooinc.com": "yahoo",
+        "yahoodns.net": "yahoo",
+        "ads.yahoo.com": "yahoo_advertising",
+        "adtech.yahooinc.com": "yahoo_advertising",
+        "search.yahooinc.com": "yahoo_search",
         "ya.ru": "yandex",
         "yandex.by": "yandex",
         "yandex.com": "yandex",
