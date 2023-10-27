@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-10-19T12:57:04.527Z",
+    "timeUpdated": "2023-10-27T15:04:55.305Z",
     "companies": {
         "163": {
             "name": "163",
@@ -1567,6 +1567,12 @@
             "name": "Apester Ltd",
             "websiteUrl": "http://apester.com/",
             "description": null
+        },
+        "apollo_global_management": {
+            "name": "Apollo Global Management, Inc.",
+            "websiteUrl": "https://www.apollo.com/",
+            "description": "Apollo Global Management, Inc. is an American private equity firm. It provides investment management and invests in credit, private equity, and real assets.",
+            "source": "AdGuard"
         },
         "appdynamics": {
             "name": "AppDynamics",

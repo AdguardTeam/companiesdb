@@ -4892,10 +4892,15 @@ tumblr.com;yahoo;6
 yahoo.com;yahoo;6
 yahooapis.com;yahoo;6
 yimg.com;yahoo;6
-ads.yahoo.com;yahoo_ad_exchange;4
+oath.cloud;yahoo;6
+yahoo.net;yahoo;6
+yahooinc.com;yahoo;6
+yahoodns.net;yahoo;6
 yads.yahoo.com;yahoo_ad_exchange;4
 yieldmanager.com;yahoo_ad_exchange;4
 pr-bh.ybp.yahoo.com;yahoo_ad_manager;4
+ads.yahoo.com;yahoo_advertising;4
+adtech.yahooinc.com;yahoo_advertising;4
 analytics.yahoo.com;yahoo_analytics;6
 np.lexity.com;yahoo_commerce_central;4
 storage-yahoo.jp;yahoo_japan_retargeting;4
@@ -4905,6 +4910,7 @@ yimg.jp;yahoo_japan_retargeting;4
 yjtag.jp;yahoo_japan_retargeting;4
 ov.yahoo.co.jp;yahoo_overture;4
 overture.com;yahoo_overture;4
+search.yahooinc.com;yahoo_search;4
 luminate.com;yahoo_small_business;4
 pixazza.com;yahoo_small_business;4
 awaps.yandex.ru;yandex;4
@@ -4984,7 +4990,7 @@ yellowpages.com;yp;4
 prod-js.aws.y-track.com;ysance;4
 y-track.com;ysance;4
 yume.com;yume;4
-yumenetworks.com;yume,_inc.;4
+yumenetworks.com;"yume,_inc.";4
 gravityrd-services.com;yusp;6
 api.zadarma.com;zadarma;2
 zalan.do;zalando_de;8
