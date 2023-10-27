@@ -271,6 +271,18 @@ function buildTrackersDomains(
 }
 
 /**
+ * Escape special characters in a string for CSV format.
+ * @param {string} value - The input string to escape.
+ * @returns {string} - The escaped string.
+ */
+function escapeCSV(value: string): string {
+    if (value.includes(',') || value.includes('"')) {
+        return `"${value}"`;
+    }
+    return value;
+}
+
+/**
  * Builds the trackers CSV file in the following form:
  * domain;tracker_id;category_id
  *
@@ -298,7 +310,7 @@ function buildTrackersCSV(
 
         const { categoryId } = tracker;
         if (typeof categoryId !== 'undefined') {
-            csv += `${domain};${trackerId};${categoryId}\n`;
+            csv += `${escapeCSV(domain)};${escapeCSV(trackerId)};${categoryId}\n`;
         } else {
             consola.warn(`Tracker ${trackerId} has no category ID, consider adding it`);
         }

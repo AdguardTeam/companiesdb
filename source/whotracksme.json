@@ -19015,7 +19015,7 @@
             "url": "http://www.yume.com/",
             "companyId": "yume"
         },
-        "yume_inc": {
+        "yume,_inc.": {
             "name": "YuMe, Inc.",
             "categoryId": 4,
             "url": "http://www.yume.com/",
@@ -23481,7 +23481,7 @@
         "prod-js.aws.y-track.com": "ysance",
         "y-track.com": "ysance",
         "yume.com": "yume",
-        "yumenetworks.com": "yume_inc",
+        "yumenetworks.com": "yume,_inc.",
         "gravityrd-services.com": "yusp",
         "api.zadarma.com": "zadarma",
         "zalan.do": "zalando_de",
