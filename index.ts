@@ -303,7 +303,7 @@ function buildTrackersCSV(
             });
             csv += csvRow;
         } else {
-            console.warn(`Tracker ${trackerId} has no category ID; consider adding it`);
+            consola.warn(`Tracker ${trackerId} has no category ID, consider adding it`);
         }
     });
 
