@@ -26,6 +26,12 @@
             "url": "https://www.abc.net.au/",
             "companyId": "australian_government"
         },
+        "adcolony": {
+            "name": "AdColony",
+            "categoryId": 4,
+            "url": "https://www.adcolony.com/history-of-adcolony/",
+            "companyId": "digital_turbine"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -1055,6 +1061,7 @@
         "abc.net.au": "abc",
         "abcaustralia.net.au": "abc",
         "abcradio.net.au": "abc",
+        "adcolony.com": "adcolony",
         "adguard.app": "adguard",
         "adguard.info": "adguard",
         "adguard.io": "adguard",
