@@ -21,6 +21,11 @@
             "websiteUrl": "https://www.akamai.com/",
             "description": "Akamai is a cloud based content delivery network. They offer application performance services, solutions for digital media and software distribution and storage, online advertising services and other specialized/ Internet-based offerings."
         },
+        "amazon_associates": {
+            "name": "Amazon.com, Inc.",
+            "websiteUrl": "http://www.amazon.com/",
+            "description": "Amazon.com is an online retailer and marketplace for consumer products. It is known for its e-reader the Amazon Kindle, as well as its e-commerce and cloud computing technology platforms. Amazon is a data-solution provider and offers products and services such as self-publishing, online advertising and a co-branded credit card."
+        },
         "apple": {
             "name": "Apple",
             "websiteUrl": "http://www.apple.com/",
