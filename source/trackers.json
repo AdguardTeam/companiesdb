@@ -1100,6 +1100,7 @@
         "firetvcaptiveportal.com": "amazon",
         "amazontrust.com": "amazon_cdn",
         "associates-amazon.com": "amazon_cdn",
+        "ota-cloudfront.net": "amazon_cloudfront",
         "amazonpay.in": "amazon_payments",
         "amazonvideo.com": "amazon_video",
         "appcenter.ms": "appcenter",
