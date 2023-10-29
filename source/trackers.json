@@ -1133,6 +1133,7 @@
         "trafficmanager.net": "azure",
         "blob.core.windows.net": "azure_blob_storage",
         "binge.com.au": "binge",
+        "bingapis.com": "binge",
         "bitwarden.com": "bitwarden",
         "bom.gov.au": "bom",
         "mobileapptracking.com": "branch",
