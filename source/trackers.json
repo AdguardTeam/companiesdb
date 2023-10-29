@@ -140,6 +140,12 @@
             "url": "https://branch.io/",
             "companyId": "branch_metrics_inc"
         },
+        "braze": {
+            "name": "Braze, Inc.",
+            "categoryId": 6,
+            "url": "https://www.braze.com/",
+            "companyId": "braze_inc"
+        },
         "button": {
             "name": "Button",
             "categoryId": 4,
@@ -1136,6 +1142,8 @@
         "bitwarden.com": "bitwarden",
         "bom.gov.au": "bom",
         "mobileapptracking.com": "branch",
+        "appboycdn.com": "braze",
+        "braze.com": "braze",
         "bttn.io": "button",
         "canonical.com": "canonical",
         "cloudflare-dm-cmpimg.com": "cloudflare",
