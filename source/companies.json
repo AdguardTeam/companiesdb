@@ -316,6 +316,11 @@
             "websiteUrl": "https://www.switch.tv/",
             "description": "Switch Media has successfully delivered complex, multi-award-winning online video solutions for major brands and global live streaming events."
         },
+        "take-two": {
+            "name": "Take-Two Interactive Software, Inc.",
+            "websiteUrl": "https://www.take2games.com/",
+            "description": "Take-Two Interactive Software, Inc. is an American video game holding company based in New York City founded by Ryan Brant in September 1993."
+        },
         "telstra": {
             "name": "Telstra",
             "websiteUrl": "https://www.telstra.com.au/",
