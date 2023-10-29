@@ -152,6 +152,12 @@
             "url": "https://canonical.com/",
             "companyId": "canonical"
         },
+        "chartboost": {
+            "name": "Chartboost",
+            "categoryId": 4,
+            "url": "http://chartboost.com/",
+            "companyId": "take-two"
+        },
         "crashlytics": {
             "name": "Crashlytics",
             "categoryId": 101,
@@ -1138,6 +1144,7 @@
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
         "canonical.com": "canonical",
+        "chartboost.com": "chartboost.com",
         "cloudflare-dm-cmpimg.com": "cloudflare",
         "cloudflare-dns.com": "cloudflare",
         "cloudflare-ipfs.com": "cloudflare",
