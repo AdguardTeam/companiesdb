@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as zod from 'zod';
 import { consola } from 'consola';
+import { stringify } from 'csv-stringify/sync';
 
 const WHOTRACKSME_INPUT_PATH = 'source/whotracksme.json';
 const WHOTRACKSME_COMPANIES_INPUT_PATH = 'source/whotracksme_companies.json';
@@ -291,14 +292,16 @@ function buildTrackersCSV(
 
     Object.entries(trackersDomains).forEach(([domain, trackerId]) => {
         const tracker = trackers[trackerId];
-
         if (!tracker) {
             throw new Error(`Tracker domain ${domain} has an invalid tracker ID: ${trackerId}`);
         }
-
         const { categoryId } = tracker;
         if (typeof categoryId !== 'undefined') {
-            csv += `${domain};${trackerId};${categoryId}\n`;
+            const csvRow = stringify([[domain, trackerId, categoryId]], {
+                delimiter: ';',
+                quoted_match: ',',
+            });
+            csv += csvRow;
         } else {
             consola.warn(`Tracker ${trackerId} has no category ID, consider adding it`);
         }
