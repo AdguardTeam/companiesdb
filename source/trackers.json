@@ -26,6 +26,12 @@
             "url": "https://www.abc.net.au/",
             "companyId": "australian_government"
         },
+        "adchina": {
+            "name": "AdChina",
+            "categoryId": 4,
+            "url": "http://www.adchina.com/",
+            "companyId": "softbank"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -74,17 +80,29 @@
             "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
             "companyId": "microsoft"
         },
+        "alibaba.com": {
+            "name": "Alibaba",
+            "categoryId": 8,
+            "url": "http://www.alibaba.com/",
+            "companyId": "softbank"
+        },
         "alibaba_cloud": {
             "name": "Alibaba Cloud",
             "categoryId": 10,
             "url": "https://www.alibabacloud.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank"
         },
         "alibaba_ucbrowser": {
             "name": "UC Browser",
             "categoryId": 8,
             "url": "https://ucweb.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank"
+        },
+        "alipay.com": {
+            "name": "Alipay",
+            "categoryId": 2,
+            "url": "https://www.alipay.com/",
+            "companyId": "softbank"
         },
         "apple": {
             "name": "Apple",
@@ -793,6 +811,12 @@
             "categoryId": 8,
             "url": "https://www.switch.tv/",
             "companyId": "switchtv"
+        },
+        "taobao": {
+            "name": "Taobao",
+            "categoryId": 4,
+            "url": "https://world.taobao.com/",
+            "companyId": "softbank"
         },
         "telstra": {
             "name": "Telstra",
