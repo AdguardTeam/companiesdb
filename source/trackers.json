@@ -50,6 +50,12 @@
             "url": "https://www.adjust.com/",
             "companyId": "applovin"
         },
+        "adobe_audience_manager": {
+            "name": "Adobe Audience Manager",
+            "categoryId": 4,
+            "url": "https://business.adobe.com/products/audience-manager/adobe-audience-manager.html/",
+            "companyId": "adobe"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -1072,7 +1078,7 @@
         "adjust.net.in": "adjust",
         "adjust.world": "adjust",
         "apptrace.com": "adjust",
-        "adobe.net": "adobe_experience_cloud",
+        "adobe.net": "adobe_audience_manager",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
