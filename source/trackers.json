@@ -1129,6 +1129,7 @@
         "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
         "azure.com": "azure",
+        "azure.net": "azure",
         "azurefd.net": "azure",
         "trafficmanager.net": "azure",
         "blob.core.windows.net": "azure_blob_storage",
