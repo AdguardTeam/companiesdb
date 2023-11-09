@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-08T00:08:58.291Z",
+    "timeUpdated": "2023-11-09T13:32:14.057Z",
     "companies": {
         "163": {
             "name": "163",
@@ -6805,7 +6805,7 @@
             "description": "MicroAd is a Japanese behavioral targeting ad delivery service. They offer contextual advertising services as well as retargeting and other ad delivery services."
         },
         "microsoft": {
-            "name": "Microsoft",
+            "name": "Microsoft Corporation",
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
             "source": "AdGuard"
