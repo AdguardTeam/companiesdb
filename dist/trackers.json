@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T13:32:14.057Z",
+    "timeUpdated": "2023-11-09T13:38:42.079Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -20852,6 +20852,7 @@
         "ad.globe7.com": "axill",
         "azadify.com": "azadify",
         "azure.com": "azure",
+        "azure.net": "azure",
         "azurefd.net": "azure",
         "trafficmanager.net": "azure",
         "blob.core.windows.net": "azure_blob_storage",
