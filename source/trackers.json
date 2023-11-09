@@ -50,6 +50,18 @@
             "url": "https://www.adjust.com/",
             "companyId": "applovin"
         },
+        "adobe_developer": {
+            "name": "Adobe Developer",
+            "categoryId": 8,
+            "url": "https://developer.adobe.com/",
+            "companyId": "adobe"
+        },
+        "adobe_experience_cloud": {
+            "name": "Adobe Experience Cloud",
+            "categoryId": 6,
+            "url": "https://business.adobe.com/",
+            "companyId": "adobe"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -1072,7 +1084,7 @@
         "adjust.net.in": "adjust",
         "adjust.world": "adjust",
         "apptrace.com": "adjust",
-        "adobe.io": "adobe_experience_cloud",
+        "adobe.io": "adobe_developer",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
