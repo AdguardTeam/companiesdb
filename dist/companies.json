@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T13:54:49.296Z",
+    "timeUpdated": "2023-11-09T14:02:19.154Z",
     "companies": {
         "163": {
             "name": "163",
@@ -3551,6 +3551,12 @@
             "name": "Digital River",
             "websiteUrl": "http://corporate.digitalriver.com",
             "description": "Digital River is a provider of global e-commerce solutions for building and managing online businesses. The company's platform offers site development and hosting, order management, fraud management, export controls, tax management, physical and digital product fulfillment, multi-lingual customer service, reporting and strategic marketing services. Digital River also acts as an internal interactive agency."
+        },
+        "digital_turbine": {
+            "name": "Digital Turbine, Inc.",
+            "websiteUrl": "http://www.digitalturbine.com/",
+            "description": "Digital Turbine offers a one-stop platform for user acquisition growth and monetization.",
+            "source": "AdGuard"
         },
         "digiteka": {
             "name": "Digiteka",

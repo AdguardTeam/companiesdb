@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T13:54:49.296Z",
+    "timeUpdated": "2023-11-09T14:02:19.154Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -681,8 +681,9 @@
         "adcolony": {
             "name": "AdColony",
             "categoryId": 4,
-            "url": "thttp://www.admarvel.com/",
-            "companyId": "adcolony"
+            "url": "https://www.adcolony.com/history-of-adcolony/",
+            "companyId": "digital_turbine",
+            "source": "AdGuard"
         },
         "adconion": {
             "name": "Adconion",
@@ -20250,6 +20251,7 @@
         "ad-cloud.jp": "adcloud",
         "admarvel.s3.amazonaws.com": "adcolony",
         "ads.admarvel.com": "adcolony",
+        "adcolony.com": "adcolony",
         "adrdgt.com": "adconion",
         "amgdgt.com": "adconion",
         "adcrowd.com": "adcrowd",
