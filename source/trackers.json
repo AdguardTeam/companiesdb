@@ -594,7 +594,7 @@
             "name": "Network Time Protocol",
             "categoryId": 5,
             "url": "https://ntp.org/",
-            "companyId": "ntppool"
+            "companyId": "network_time_foundation"
         },
         "open_adstream": {
             "name": "Open Adstream",
