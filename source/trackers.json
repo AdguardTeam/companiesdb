@@ -30,7 +30,7 @@
             "name": "AdChina",
             "categoryId": 4,
             "url": "http://www.adchina.com/",
-            "companyId": "null"
+            "companyId": null
         },
         "adguard": {
             "name": "AdGuard",
