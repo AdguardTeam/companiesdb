@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T13:44:47.025Z",
+    "timeUpdated": "2023-11-09T13:47:14.873Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -20707,6 +20707,7 @@
         "aiv-cdn.net": "amazon_video",
         "aiv-delivery.net": "amazon_video",
         "amazonvideo.com": "amazon_video",
+        "pv-cdn.net": "amazon_video",
         "primevideo.com": "amazon_video",
         "amazonaws.com": "amazon_web_services",
         "amazonwebservices.com": "amazon_web_services",
