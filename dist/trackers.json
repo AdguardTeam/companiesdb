@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T13:50:49.666Z",
+    "timeUpdated": "2023-11-09T13:52:50.437Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -21956,6 +21956,7 @@
         "githubassets.com": "github",
         "githubusercontent.com": "github",
         "ghcr.io": "github",
+        "github.blog": "github",
         "github.dev": "github",
         "githubapp.com": "github_apps",
         "github.io": "github_pages",
