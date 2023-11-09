@@ -622,7 +622,9 @@ amazonpay.com;amazon_payments;2
 payments-amazon.com;amazon_payments;2
 amazonpay.in;amazon_payments;2
 aiv-cdn.net;amazon_video;0
+aiv-delivery.net;amazon_video;0
 amazonvideo.com;amazon_video;0
+primevideo.com;amazon_video;0
 amazonaws.com;amazon_web_services;10
 amazonwebservices.com;amazon_web_services;10
 awsstatic.com;amazon_web_services;10
@@ -769,6 +771,7 @@ perfb.com;awin;4
 ad.globe7.com;axill;4
 azadify.com;azadify;4
 azure.com;azure;10
+azure.net;azure;10
 azurefd.net;azure;10
 trafficmanager.net;azure;10
 blob.core.windows.net;azure_blob_storage;8
@@ -4990,7 +4993,7 @@ yellowpages.com;yp;4
 prod-js.aws.y-track.com;ysance;4
 y-track.com;ysance;4
 yume.com;yume;4
-yumenetworks.com;yume,_inc.;4
+yumenetworks.com;"yume,_inc.";4
 gravityrd-services.com;yusp;6
 api.zadarma.com;zadarma;2
 zalan.do;zalando_de;8
