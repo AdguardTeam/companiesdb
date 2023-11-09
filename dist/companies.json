@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T14:02:19.154Z",
+    "timeUpdated": "2023-11-09T14:06:52.672Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10123,6 +10123,12 @@
             "name": "Tailsweep",
             "websiteUrl": "http://www.tailsweep.se/",
             "description": "Tailsweep is a provider of digital marketing services. Their product  offerings include planning and executing clients' advertising campaigns and they specialize in viral and social media efforts."
+        },
+        "take-two": {
+            "name": "Take-Two Interactive Software, Inc.",
+            "websiteUrl": "https://www.take2games.com/",
+            "description": "Take-Two Interactive Software, Inc. is an American video game holding company based in New York City founded by Ryan Brant in September 1993.",
+            "source": "AdGuard"
         },
         "tanx": {
             "name": "Tanx",

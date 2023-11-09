@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T14:02:19.154Z",
+    "timeUpdated": "2023-11-09T14:06:52.672Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -4353,6 +4353,13 @@
             "categoryId": 6,
             "url": "http://chartbeat.com/",
             "companyId": "chartbeat"
+        },
+        "chartboost": {
+            "name": "Chartboost",
+            "categoryId": 4,
+            "url": "http://chartboost.com/",
+            "companyId": "take-two",
+            "source": "AdGuard"
         },
         "chaser": {
             "name": "Chaser",
@@ -21150,6 +21157,7 @@
         "chaordicsystems.com": "chaordic",
         "chartbeat.com": "chartbeat",
         "chartbeat.net": "chartbeat",
+        "chartboost.com": "chartboost",
         "chaser.ru": "chaser",
         "cloud.chatbeacon.io": "chat_beacon",
         "chatango.com": "chatango",
