@@ -68,6 +68,12 @@
             "url": "https://business.adobe.com/",
             "companyId": "adobe"
         },
+        "adobe_experience_league": {
+            "name": "Adobe Experience League",
+            "categoryId": 6,
+            "url": "https://experienceleague.adobe.com/",
+            "companyId": "adobe"
+        },
         "akamai_technologies": {
             "name": "Akamai Technologies",
             "categoryId": 9,
@@ -1098,6 +1104,7 @@
         "adjust.world": "adjust",
         "apptrace.com": "adjust",
         "adobe.io": "adobe_developer",
+        "adobedc.net": "adobe_experience_league",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
