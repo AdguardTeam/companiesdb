@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-09T14:20:56.339Z",
+    "timeUpdated": "2023-11-10T12:39:01.411Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -21969,6 +21969,7 @@
         "ghcr.io": "github",
         "github.blog": "github",
         "github.dev": "github",
+        "octocaptcha.com": "github",
         "githubapp.com": "github_apps",
         "github.io": "github_pages",
         "aff3.gittigidiyor.com": "gittigidiyor_affiliate_program",
