@@ -1116,6 +1116,7 @@
         "ntp-fireos.com": "amazon",
         "amazontrust.com": "amazon_cdn",
         "associates-amazon.com": "amazon_cdn",
+        "ota-cloudfront.net": "amazon_cloudfront",
         "amazonpay.in": "amazon_payments",
         "aiv-delivery.net": "amazon_video",
         "amazonvideo.com": "amazon_video",
