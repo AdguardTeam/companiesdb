@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-10T12:44:00.420Z",
+    "timeUpdated": "2023-11-10T12:55:56.663Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -1295,6 +1295,13 @@
             "url": "http://www.demdex.com/",
             "companyId": "adobe"
         },
+        "adobe_developer": {
+            "name": "Adobe Developer",
+            "categoryId": 8,
+            "url": "https://developer.adobe.com/",
+            "companyId": "adobe",
+            "source": "AdGuard"
+        },
         "adobe_dynamic_media": {
             "name": "Adobe Dynamic Media",
             "categoryId": 4,
@@ -1310,8 +1317,9 @@
         "adobe_experience_cloud": {
             "name": "Adobe Experience Cloud",
             "categoryId": 6,
-            "url": "https://www.adobe.com/experience-cloud.html",
-            "companyId": "adobe"
+            "url": "https://business.adobe.com/",
+            "companyId": "adobe",
+            "source": "AdGuard"
         },
         "adobe_login": {
             "name": "Adobe Login",
@@ -20413,6 +20421,7 @@
         "demdex.net": "adobe_audience_manager",
         "everestjs.net": "adobe_audience_manager",
         "everesttech.net": "adobe_audience_manager",
+        "adobe.io": "adobe_developer",
         "scene7.com": "adobe_dynamic_media",
         "adobedtm.com": "adobe_dynamic_tag_management",
         "2o7.net": "adobe_experience_cloud",
