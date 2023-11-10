@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-10T12:39:41.689Z",
+    "timeUpdated": "2023-11-10T12:40:32.325Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -23128,6 +23128,7 @@
         "s-microsoft.com": "microsoft",
         "trouter.io": "microsoft",
         "windows.net": "microsoft",
+        "bingapis.com": "microsoft",
         "msauth.net": "microsoft",
         "msftauth.net": "microsoft",
         "msftstatic.com": "microsoft",
