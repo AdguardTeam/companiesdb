@@ -621,6 +621,7 @@ ssl-images-amazon.com;amazon_cdn;9
 amazontrust.com;amazon_cdn;9
 associates-amazon.com;amazon_cdn;9
 cloudfront.net;amazon_cloudfront;10
+ota-cloudfront.net;amazon_cloudfront;10
 axx-eu.amazon-adsystem.com;amazon_mobile_ads;4
 amazonpay.com;amazon_payments;2
 payments-amazon.com;amazon_payments;2
