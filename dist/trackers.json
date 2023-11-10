@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-10T12:43:32.525Z",
+    "timeUpdated": "2023-11-10T12:44:00.420Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -23136,6 +23136,7 @@
         "msftauth.net": "microsoft",
         "msftstatic.com": "microsoft",
         "msidentity.com": "microsoft",
+        "nelreports.net": "microsoft",
         "windowscentral.com": "microsoft",
         "analytics.live.com": "microsoft_analytics",
         "a.clarity.ms": "microsoft_clarity",
