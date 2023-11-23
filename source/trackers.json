@@ -662,6 +662,12 @@
             "url": "https://www.plex.tv/",
             "companyId": "plex"
         },
+        "porntube": {
+            "name": "PornTube",
+            "categoryId": 3,
+            "url": "https://www.porntube.com/",
+            "companyId": null
+        },
         "qq.com": {
             "name": "QQ International",
             "categoryId": 2,
@@ -703,6 +709,12 @@
             "categoryId": 7,
             "url": "https://www.reddit.com",
             "companyId": "advance"
+        },
+        "redtube": {
+            "name": "redtube.com",
+            "categoryId": 3,
+            "url": "https://www.redtube.com",
+            "companyId": null
         },
         "samsung": {
             "name": "Samsung",
@@ -946,7 +958,7 @@
         },
         "xvideos_com": {
             "name": "Xvideos",
-            "categoryId": 8,
+            "categoryId": 3,
             "url": "https://www.xvideos.com",
             "companyId": "xvideos"
         },
