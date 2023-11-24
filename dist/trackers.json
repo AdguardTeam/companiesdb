@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-24T12:45:42.402Z",
+    "timeUpdated": "2023-11-24T12:59:53.957Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -640,7 +640,8 @@
             "name": "AdChina",
             "categoryId": 4,
             "url": "http://www.adchina.com/",
-            "companyId": "alibaba"
+            "companyId": null,
+            "source": "AdGuard"
         },
         "adcito": {
             "name": "Adcito",
@@ -2281,27 +2282,29 @@
             "name": "Alibaba",
             "categoryId": 8,
             "url": "http://www.alibaba.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "alibaba_cloud": {
             "name": "Alibaba Cloud",
             "categoryId": 10,
             "url": "https://www.alibabacloud.com/",
-            "companyId": "alibaba",
+            "companyId": "softbank",
             "source": "AdGuard"
         },
         "alibaba_ucbrowser": {
             "name": "UC Browser",
             "categoryId": 8,
             "url": "https://ucweb.com/",
-            "companyId": "alibaba",
+            "companyId": "softbank",
             "source": "AdGuard"
         },
         "alipay.com": {
             "name": "Alipay",
             "categoryId": 2,
-            "url": "https://www.alipay.com/",
-            "companyId": "alibaba"
+            "url": "https://global.alipay.com/",
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "alivechat": {
             "name": "AliveChat",
@@ -17062,7 +17065,8 @@
             "name": "Taobao",
             "categoryId": 4,
             "url": "https://world.taobao.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "tapad": {
             "name": "Tapad",

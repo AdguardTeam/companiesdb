@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-24T12:45:42.402Z",
+    "timeUpdated": "2023-11-24T12:59:53.957Z",
     "companies": {
         "163": {
             "name": "163",
@@ -9668,6 +9668,12 @@
             "name": "Sociomantic Labs GmbH",
             "websiteUrl": "https://www.sociomantic.com",
             "description": "Sociomantic labs provide social targeting and related online display advertising technologies. Their cloud-based targeting service combines behavioral network analysis with data used in more traditional ad targeting methods to connect advertisers to the consumers who are most primed to convert."
+        },
+        "softbank": {
+            "name": "SoftBank Group Corp.",
+            "websiteUrl": "https://group.softbank/",
+            "description": "SoftBank Group Corp. is a Japanese multinational investment holding company headquartered in Minato, Tokyo which focuses on investment management.",
+            "source": "AdGuard"
         },
         "sohu": {
             "name": "Sohu",
