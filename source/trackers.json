@@ -32,6 +32,12 @@
             "url": "http://www.adchina.com/",
             "companyId": null
         },
+        "adcolony": {
+            "name": "AdColony",
+            "categoryId": 4,
+            "url": "https://www.adcolony.com/history-of-adcolony/",
+            "companyId": "digital_turbine"
+        },
         "adguard": {
             "name": "AdGuard",
             "categoryId": 8,
@@ -55,6 +61,18 @@
             "categoryId": 101,
             "url": "https://www.adjust.com/",
             "companyId": "applovin"
+        },
+        "adobe_developer": {
+            "name": "Adobe Developer",
+            "categoryId": 8,
+            "url": "https://developer.adobe.com/",
+            "companyId": "adobe"
+        },
+        "adobe_experience_cloud": {
+            "name": "Adobe Experience Cloud",
+            "categoryId": 6,
+            "url": "https://business.adobe.com/",
+            "companyId": "adobe"
         },
         "akamai_technologies": {
             "name": "Akamai Technologies",
@@ -169,6 +187,12 @@
             "categoryId": 8,
             "url": "https://canonical.com/",
             "companyId": "canonical"
+        },
+        "chartboost": {
+            "name": "Chartboost",
+            "categoryId": 4,
+            "url": "http://chartboost.com/",
+            "companyId": "take-two"
         },
         "crashlytics": {
             "name": "Crashlytics",
@@ -612,7 +636,7 @@
             "name": "Network Time Protocol",
             "categoryId": 5,
             "url": "https://ntp.org/",
-            "companyId": "ntppool"
+            "companyId": "network_time_foundation"
         },
         "open_adstream": {
             "name": "Open Adstream",
@@ -1079,6 +1103,7 @@
         "abc.net.au": "abc",
         "abcaustralia.net.au": "abc",
         "abcradio.net.au": "abc",
+        "adcolony.com": "adcolony",
         "adguard.app": "adguard",
         "adguard.info": "adguard",
         "adguard.io": "adguard",
@@ -1096,6 +1121,7 @@
         "adjust.net.in": "adjust",
         "adjust.world": "adjust",
         "apptrace.com": "adjust",
+        "adobe.io": "adobe_developer",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
@@ -1113,8 +1139,10 @@
         "a2z.com": "amazon",
         "aamazoncognito.com": "amazon",
         "amazon-corp.com": "amazon",
+        "amazon-dss.com": "amazon",
         "amazon.com.au": "amazon",
         "amazon.com.mx": "amazon",
+        "amazon.dev": "amazon",
         "amazon.in": "amazon",
         "amazon.nl": "amazon",
         "amazon.sa": "amazon",
@@ -1122,10 +1150,15 @@
         "amazonbrowserapp.es": "amazon",
         "amazoncrl.com": "amazon",
         "firetvcaptiveportal.com": "amazon",
+        "ntp-fireos.com": "amazon",
         "amazontrust.com": "amazon_cdn",
         "associates-amazon.com": "amazon_cdn",
+        "ota-cloudfront.net": "amazon_cloudfront",
         "amazonpay.in": "amazon_payments",
+        "aiv-delivery.net": "amazon_video",
         "amazonvideo.com": "amazon_video",
+        "pv-cdn.net": "amazon_video",
+        "primevideo.com": "amazon_video",
         "appcenter.ms": "appcenter",
         "aaplimg.com": "apple",
         "apple-cloudkit.com": "apple",
@@ -1153,6 +1186,7 @@
         "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
         "azure.com": "azure",
+        "azure.net": "azure",
         "azurefd.net": "azure",
         "trafficmanager.net": "azure",
         "blob.core.windows.net": "azure_blob_storage",
@@ -1162,6 +1196,7 @@
         "mobileapptracking.com": "branch",
         "bttn.io": "button",
         "canonical.com": "canonical",
+        "chartboost.com": "chartboost",
         "cloudflare-dm-cmpimg.com": "cloudflare",
         "cloudflare-dns.com": "cloudflare",
         "cloudflare-ipfs.com": "cloudflare",
@@ -1229,7 +1264,9 @@
         "freeviewaustralia.tv": "freeview",
         "gameanalytics.com": "gameanalytics",
         "ghcr.io": "github",
+        "github.blog": "github",
         "github.dev": "github",
+        "octocaptcha.com": "github",
         "gmail.com": "gmail",
         "1e100.net": "google",
         "agnss.goog": "google",
@@ -1567,9 +1604,12 @@
         "mega.co.nz": "meganz",
         "mega.io": "meganz",
         "mega.nz": "meganz",
+        "bingapis.com": "microsoft",
         "msauth.net": "microsoft",
         "msftauth.net": "microsoft",
+        "msftstatic.com": "microsoft",
         "msidentity.com": "microsoft",
+        "nelreports.net": "microsoft",
         "windowscentral.com": "microsoft",
         "firefox.com": "mozilla",
         "mozaws.net": "mozilla",

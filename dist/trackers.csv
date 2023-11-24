@@ -167,6 +167,7 @@ adclickzone.go2cloud.org;adclickzone;4
 ad-cloud.jp;adcloud;4
 admarvel.s3.amazonaws.com;adcolony;4
 ads.admarvel.com;adcolony;4
+adcolony.com;adcolony;4
 adrdgt.com;adconion;4
 amgdgt.com;adconion;4
 adcrowd.com;adcrowd;4
@@ -321,6 +322,7 @@ adobe.com;adobe_audience_manager;4
 demdex.net;adobe_audience_manager;4
 everestjs.net;adobe_audience_manager;4
 everesttech.net;adobe_audience_manager;4
+adobe.io;adobe_developer;8
 scene7.com;adobe_dynamic_media;4
 adobedtm.com;adobe_dynamic_tag_management;5
 2o7.net;adobe_experience_cloud;6
@@ -593,8 +595,10 @@ d3io1k5o0zdpqr.cloudfront.net;amazon;8
 a2z.com;amazon;8
 aamazoncognito.com;amazon;8
 amazon-corp.com;amazon;8
+amazon-dss.com;amazon;8
 amazon.com.au;amazon;8
 amazon.com.mx;amazon;8
+amazon.dev;amazon;8
 amazon.in;amazon;8
 amazon.nl;amazon;8
 amazon.sa;amazon;8
@@ -602,6 +606,7 @@ amazonbrowserapp.co.uk;amazon;8
 amazonbrowserapp.es;amazon;8
 amazoncrl.com;amazon;8
 firetvcaptiveportal.com;amazon;8
+ntp-fireos.com;amazon;8
 amazon-adsystem.com;amazon_adsystem;4
 serving-sys.com;amazon_adsystem;4
 sizmek.com;amazon_adsystem;4
@@ -617,12 +622,16 @@ ssl-images-amazon.com;amazon_cdn;9
 amazontrust.com;amazon_cdn;9
 associates-amazon.com;amazon_cdn;9
 cloudfront.net;amazon_cloudfront;10
+ota-cloudfront.net;amazon_cloudfront;10
 axx-eu.amazon-adsystem.com;amazon_mobile_ads;4
 amazonpay.com;amazon_payments;2
 payments-amazon.com;amazon_payments;2
 amazonpay.in;amazon_payments;2
 aiv-cdn.net;amazon_video;0
+aiv-delivery.net;amazon_video;0
 amazonvideo.com;amazon_video;0
+pv-cdn.net;amazon_video;0
+primevideo.com;amazon_video;0
 amazonaws.com;amazon_web_services;10
 amazonwebservices.com;amazon_web_services;10
 awsstatic.com;amazon_web_services;10
@@ -769,6 +778,7 @@ perfb.com;awin;4
 ad.globe7.com;axill;4
 azadify.com;azadify;4
 azure.com;azure;10
+azure.net;azure;10
 azurefd.net;azure;10
 trafficmanager.net;azure;10
 blob.core.windows.net;azure_blob_storage;8
@@ -1060,6 +1070,7 @@ channelfinder.net;channelfinder;4
 chaordicsystems.com;chaordic;4
 chartbeat.com;chartbeat;6
 chartbeat.net;chartbeat;6
+chartboost.com;chartboost;4
 chaser.ru;chaser;2
 cloud.chatbeacon.io;chat_beacon;2
 chatango.com;chatango;2
@@ -1869,7 +1880,9 @@ github.com;github;2
 githubassets.com;github;2
 githubusercontent.com;github;2
 ghcr.io;github;2
+github.blog;github;2
 github.dev;github;2
+octocaptcha.com;github;2
 githubapp.com;github_apps;2
 github.io;github_pages;10
 aff3.gittigidiyor.com;gittigidiyor_affiliate_program;4
@@ -3028,9 +3041,12 @@ onestore.ms;microsoft;8
 s-microsoft.com;microsoft;8
 trouter.io;microsoft;8
 windows.net;microsoft;8
+bingapis.com;microsoft;8
 msauth.net;microsoft;8
 msftauth.net;microsoft;8
+msftstatic.com;microsoft;8
 msidentity.com;microsoft;8
+nelreports.net;microsoft;8
 windowscentral.com;microsoft;8
 analytics.live.com;microsoft_analytics;4
 a.clarity.ms;microsoft_clarity;6
