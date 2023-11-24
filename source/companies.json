@@ -241,10 +241,10 @@
             "websiteUrl": "https://www.notion.so/",
             "description": "Notion Labs, Inc. provides technology solutions. The Company offers an all-in-one workspace for teams and companies to share documents and knowledge, manage projects, and collaborate."
         },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "websiteUrl": "https://www.ntp.org/",
-            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software."
+        "network_time_foundation": {
+            "name": "Network Time Foundation",
+            "websiteUrl": "https://www.nwtime.org/",
+            "description": "Network Time Foundation provides direct services and support to improve the state of accurate computer network timekeeping."
         },
         "oracle": {
             "name": "Oracle Corporation",
