@@ -296,6 +296,11 @@
             "websiteUrl": "https://www.snapchat.com/",
             "description": "Snap Inc. is a camera company.\\n\\nWe believe that reinventing the camera represents our greatest opportunity to improve the way people live and communicate.\\nOur products empower people to express themselves, live in the moment, learn about the world, and have fun together."
         },
+        "softbank": {
+            "name": "SoftBank Group Corp.",
+            "websiteUrl": "https://group.softbank/",
+            "description": "SoftBank Group Corp. is a Japanese multinational investment holding company headquartered in Minato, Tokyo which focuses on investment management."
+        },
         "solaredge": {
             "name": "SolarEdge Technologies, Inc.",
             "websiteUrl": "https://www.solaredge.com/",
