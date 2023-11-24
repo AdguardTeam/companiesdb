@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-22T00:09:36.042Z",
+    "timeUpdated": "2023-11-24T12:45:42.402Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7246,6 +7246,12 @@
             "websiteUrl": "http://netsprint.eu/",
             "description": "Netsprint SA co-creates Polish advertising ecosystem in the areas of: contextual advertising: Adkontekst - Poland's largest advertising network kontekstowowo-behavioral therapy. Content marketing: ContentStream - Poland's largest network of content marketing\\r\\naudience targeting: DMP platform Netsprint Audience. personalization: recommendation engine Netsprint Adserver module and Related Content\\r\\ne-commerce: to reach new clients and dynamic retargeting Adkontekst eCommerce (including RTB Adfocus ) and search for e-shops Netsprint Search. e-mailings: mailings profiled in using profiles, interests, purchase intentions and demographic information ( LeadR )."
         },
+        "network_time_foundation": {
+            "name": "Network Time Foundation",
+            "websiteUrl": "https://www.nwtime.org/",
+            "description": "Network Time Foundation provides direct services and support to improve the state of accurate computer network timekeeping.",
+            "source": "AdGuard"
+        },
         "networkedblogs": {
             "name": "NetworkedBlogs",
             "websiteUrl": "http://www.networkedblogs.com/",
@@ -7397,12 +7403,6 @@
             "name": "NTENT",
             "websiteUrl": "http://www.ntent.com/",
             "description": "\\\"NTENT enhances cross-channel digital experiences by matching content to consumers’ passions and interests. NTENT leverages its proprietary semantic search and natural language technology to provide relevant experiences for consumers, as well as enhanced monetization opportunities for marketers, content providers, carriers, app developers and distribution partners.\\\""
-        },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "websiteUrl": "https://www.ntp.org/",
-            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software.",
-            "source": "AdGuard"
         },
         "nttcom_online_marketing_solutions": {
             "name": "NTTCom Online Marketing Solutions",

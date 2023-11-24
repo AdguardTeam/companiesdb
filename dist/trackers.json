@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-22T00:09:36.042Z",
+    "timeUpdated": "2023-11-24T12:45:42.402Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -12534,7 +12534,7 @@
             "name": "Network Time Protocol",
             "categoryId": 5,
             "url": "https://ntp.org/",
-            "companyId": "ntppool",
+            "companyId": "network_time_foundation",
             "source": "AdGuard"
         },
         "nttcom_online_marketing_solutions": {
