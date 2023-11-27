@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-24T12:59:53.957Z",
+    "timeUpdated": "2023-11-27T19:33:48.177Z",
     "companies": {
         "163": {
             "name": "163",
@@ -2251,6 +2251,12 @@
             "name": "Branica",
             "websiteUrl": "http://www.branica.com/",
             "description": "\\\"Branica is a website analytics platform for bloggers and other website owners.\\\""
+        },
+        "braze": {
+            "name": "Braze, Inc.",
+            "websiteUrl": "https://www.braze.com/",
+            "description": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love. Context underpins every Braze interaction, helping brands foster human connection with consumers.",
+            "source": "AdGuard"
         },
         "braze_inc": {
             "name": "Braze",

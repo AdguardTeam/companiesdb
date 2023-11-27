@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-24T12:59:53.957Z",
+    "timeUpdated": "2023-11-27T19:33:48.177Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -3770,10 +3770,11 @@
             "companyId": "branica"
         },
         "braze": {
-            "name": "Braze",
+            "name": "Braze, Inc.",
             "categoryId": 6,
             "url": "https://www.braze.com/",
-            "companyId": "braze_inc"
+            "companyId": "braze",
+            "source": "AdGuard"
         },
         "brealtime": {
             "name": "EMX Digital",
@@ -21050,6 +21051,7 @@
         "brandwire.tv": "brandwire.tv",
         "branica.com": "branica",
         "appboycdn.com": "braze",
+        "braze.com": "braze",
         "brealtime.com": "brealtime",
         "bridgetrack.com": "bridgetrack",
         "brightcove.com": "brightcove",
