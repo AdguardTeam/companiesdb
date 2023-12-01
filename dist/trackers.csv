@@ -3043,8 +3043,11 @@ onestore.ms;microsoft;8
 s-microsoft.com;microsoft;8
 trouter.io;microsoft;8
 windows.net;microsoft;8
+aka.ms;microsoft;8
+microsoftazuread-sso.com;microsoft;8
 bingapis.com;microsoft;8
 msauth.net;microsoft;8
+msauthimages.net;microsoft;8
 msftauth.net;microsoft;8
 msftstatic.com;microsoft;8
 msidentity.com;microsoft;8
@@ -3135,10 +3138,13 @@ mrpdata.com;mrpdata;6
 mrpdata.net;mrpdata;6
 mrskincash.com;mrskincash;3
 a-msedge.net;msedge;8
+b-msedge.net;msedge;8
 e-msedge.net;msedge;8
+k-msedge.net;msedge;8
 l-msedge.net;msedge;8
 s-msedge.net;msedge;8
 t-msedge.net;msedge;8
+wac-msedge.net;msedge;8
 msn.com;msn;8
 s-msn.com;msn;8
 musculahq.appspot.com;muscula;4
