@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-08T00:08:58.291Z",
+    "timeUpdated": "2023-12-01T13:54:28.608Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -640,7 +640,8 @@
             "name": "AdChina",
             "categoryId": 4,
             "url": "http://www.adchina.com/",
-            "companyId": "alibaba"
+            "companyId": null,
+            "source": "AdGuard"
         },
         "adcito": {
             "name": "Adcito",
@@ -681,8 +682,9 @@
         "adcolony": {
             "name": "AdColony",
             "categoryId": 4,
-            "url": "thttp://www.admarvel.com/",
-            "companyId": "adcolony"
+            "url": "https://www.adcolony.com/history-of-adcolony/",
+            "companyId": "digital_turbine",
+            "source": "AdGuard"
         },
         "adconion": {
             "name": "Adconion",
@@ -1294,6 +1296,13 @@
             "url": "http://www.demdex.com/",
             "companyId": "adobe"
         },
+        "adobe_developer": {
+            "name": "Adobe Developer",
+            "categoryId": 8,
+            "url": "https://developer.adobe.com/",
+            "companyId": "adobe",
+            "source": "AdGuard"
+        },
         "adobe_dynamic_media": {
             "name": "Adobe Dynamic Media",
             "categoryId": 4,
@@ -1309,8 +1318,16 @@
         "adobe_experience_cloud": {
             "name": "Adobe Experience Cloud",
             "categoryId": 6,
-            "url": "https://www.adobe.com/experience-cloud.html",
-            "companyId": "adobe"
+            "url": "https://business.adobe.com/",
+            "companyId": "adobe",
+            "source": "AdGuard"
+        },
+        "adobe_experience_league": {
+            "name": "Adobe Experience League",
+            "categoryId": 6,
+            "url": "https://experienceleague.adobe.com/",
+            "companyId": "adobe",
+            "source": "AdGuard"
         },
         "adobe_login": {
             "name": "Adobe Login",
@@ -2272,27 +2289,29 @@
             "name": "Alibaba",
             "categoryId": 8,
             "url": "http://www.alibaba.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "alibaba_cloud": {
             "name": "Alibaba Cloud",
             "categoryId": 10,
             "url": "https://www.alibabacloud.com/",
-            "companyId": "alibaba",
+            "companyId": "softbank",
             "source": "AdGuard"
         },
         "alibaba_ucbrowser": {
             "name": "UC Browser",
             "categoryId": 8,
             "url": "https://ucweb.com/",
-            "companyId": "alibaba",
+            "companyId": "softbank",
             "source": "AdGuard"
         },
         "alipay.com": {
             "name": "Alipay",
             "categoryId": 2,
-            "url": "https://www.alipay.com/",
-            "companyId": "alibaba"
+            "url": "https://global.alipay.com/",
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "alivechat": {
             "name": "AliveChat",
@@ -3758,10 +3777,11 @@
             "companyId": "branica"
         },
         "braze": {
-            "name": "Braze",
+            "name": "Braze, Inc.",
             "categoryId": 6,
             "url": "https://www.braze.com/",
-            "companyId": "braze_inc"
+            "companyId": "braze",
+            "source": "AdGuard"
         },
         "brealtime": {
             "name": "EMX Digital",
@@ -4352,6 +4372,13 @@
             "categoryId": 6,
             "url": "http://chartbeat.com/",
             "companyId": "chartbeat"
+        },
+        "chartboost": {
+            "name": "Chartboost",
+            "categoryId": 4,
+            "url": "http://chartboost.com/",
+            "companyId": "take-two",
+            "source": "AdGuard"
         },
         "chaser": {
             "name": "Chaser",
@@ -12518,7 +12545,7 @@
             "name": "Network Time Protocol",
             "categoryId": 5,
             "url": "https://ntp.org/",
-            "companyId": "ntppool",
+            "companyId": "network_time_foundation",
             "source": "AdGuard"
         },
         "nttcom_online_marketing_solutions": {
@@ -17046,7 +17073,8 @@
             "name": "Taobao",
             "categoryId": 4,
             "url": "https://world.taobao.com/",
-            "companyId": "alibaba"
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "tapad": {
             "name": "Tapad",
@@ -20250,6 +20278,7 @@
         "ad-cloud.jp": "adcloud",
         "admarvel.s3.amazonaws.com": "adcolony",
         "ads.admarvel.com": "adcolony",
+        "adcolony.com": "adcolony",
         "adrdgt.com": "adconion",
         "amgdgt.com": "adconion",
         "adcrowd.com": "adcrowd",
@@ -20404,6 +20433,7 @@
         "demdex.net": "adobe_audience_manager",
         "everestjs.net": "adobe_audience_manager",
         "everesttech.net": "adobe_audience_manager",
+        "adobe.io": "adobe_developer",
         "scene7.com": "adobe_dynamic_media",
         "adobedtm.com": "adobe_dynamic_tag_management",
         "2o7.net": "adobe_experience_cloud",
@@ -20413,6 +20443,7 @@
         "nedstat.com": "adobe_experience_cloud",
         "omtrdc.net": "adobe_experience_cloud",
         "sitestat.com": "adobe_experience_cloud",
+        "adobedc.net": "adobe_experience_league",
         "adobelogin.com": "adobe_login",
         "adobetag.com": "adobe_tagmanager",
         "typekit.com": "adobe_typekit",
@@ -20676,8 +20707,10 @@
         "a2z.com": "amazon",
         "aamazoncognito.com": "amazon",
         "amazon-corp.com": "amazon",
+        "amazon-dss.com": "amazon",
         "amazon.com.au": "amazon",
         "amazon.com.mx": "amazon",
+        "amazon.dev": "amazon",
         "amazon.in": "amazon",
         "amazon.nl": "amazon",
         "amazon.sa": "amazon",
@@ -20685,6 +20718,7 @@
         "amazonbrowserapp.es": "amazon",
         "amazoncrl.com": "amazon",
         "firetvcaptiveportal.com": "amazon",
+        "ntp-fireos.com": "amazon",
         "amazon-adsystem.com": "amazon_adsystem",
         "serving-sys.com": "amazon_adsystem",
         "sizmek.com": "amazon_adsystem",
@@ -20700,12 +20734,16 @@
         "amazontrust.com": "amazon_cdn",
         "associates-amazon.com": "amazon_cdn",
         "cloudfront.net": "amazon_cloudfront",
+        "ota-cloudfront.net": "amazon_cloudfront",
         "axx-eu.amazon-adsystem.com": "amazon_mobile_ads",
         "amazonpay.com": "amazon_payments",
         "payments-amazon.com": "amazon_payments",
         "amazonpay.in": "amazon_payments",
         "aiv-cdn.net": "amazon_video",
+        "aiv-delivery.net": "amazon_video",
         "amazonvideo.com": "amazon_video",
+        "pv-cdn.net": "amazon_video",
+        "primevideo.com": "amazon_video",
         "amazonaws.com": "amazon_web_services",
         "amazonwebservices.com": "amazon_web_services",
         "awsstatic.com": "amazon_web_services",
@@ -20852,6 +20890,7 @@
         "ad.globe7.com": "axill",
         "azadify.com": "azadify",
         "azure.com": "azure",
+        "azure.net": "azure",
         "azurefd.net": "azure",
         "trafficmanager.net": "azure",
         "blob.core.windows.net": "azure_blob_storage",
@@ -21020,6 +21059,7 @@
         "brandwire.tv": "brandwire.tv",
         "branica.com": "branica",
         "appboycdn.com": "braze",
+        "braze.com": "braze",
         "brealtime.com": "brealtime",
         "bridgetrack.com": "bridgetrack",
         "brightcove.com": "brightcove",
@@ -21143,6 +21183,7 @@
         "chaordicsystems.com": "chaordic",
         "chartbeat.com": "chartbeat",
         "chartbeat.net": "chartbeat",
+        "chartboost.com": "chartboost",
         "chaser.ru": "chaser",
         "cloud.chatbeacon.io": "chat_beacon",
         "chatango.com": "chatango",
@@ -21952,7 +21993,9 @@
         "githubassets.com": "github",
         "githubusercontent.com": "github",
         "ghcr.io": "github",
+        "github.blog": "github",
         "github.dev": "github",
+        "octocaptcha.com": "github",
         "githubapp.com": "github_apps",
         "github.io": "github_pages",
         "aff3.gittigidiyor.com": "gittigidiyor_affiliate_program",
@@ -23111,9 +23154,12 @@
         "s-microsoft.com": "microsoft",
         "trouter.io": "microsoft",
         "windows.net": "microsoft",
+        "bingapis.com": "microsoft",
         "msauth.net": "microsoft",
         "msftauth.net": "microsoft",
+        "msftstatic.com": "microsoft",
         "msidentity.com": "microsoft",
+        "nelreports.net": "microsoft",
         "windowscentral.com": "microsoft",
         "analytics.live.com": "microsoft_analytics",
         "a.clarity.ms": "microsoft_clarity",

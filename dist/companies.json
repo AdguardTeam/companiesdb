@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-11-08T00:08:58.291Z",
+    "timeUpdated": "2023-12-01T13:54:28.608Z",
     "companies": {
         "163": {
             "name": "163",
@@ -1585,7 +1585,7 @@
             "description": "Appier is a technology company that makes it easy for businesses to use artificial intelligence to grow and succeed in a cross screen era. The fact is, we are living in a post-mobile world, where cross screen is no longer optional.Businesses trying to reach customers online face mounting complexity as the number and types of screens multiply. We believe artificial intelligence is the best approach to resolve this complexity as the number and types of screens multiply, making it easy for clients to reach across screens."
         },
         "apple": {
-            "name": "Apple",
+            "name": "Apple Inc.",
             "websiteUrl": "http://www.apple.com/",
             "description": "Apple is an American multinational corporation that designs and markets consumer electronics, computer software, and personal computers.",
             "source": "AdGuard"
@@ -2251,6 +2251,12 @@
             "name": "Branica",
             "websiteUrl": "http://www.branica.com/",
             "description": "\\\"Branica is a website analytics platform for bloggers and other website owners.\\\""
+        },
+        "braze": {
+            "name": "Braze, Inc.",
+            "websiteUrl": "https://www.braze.com/",
+            "description": "Braze is a comprehensive customer engagement platform that powers relevant and memorable experiences between consumers and the brands they love. Context underpins every Braze interaction, helping brands foster human connection with consumers.",
+            "source": "AdGuard"
         },
         "braze_inc": {
             "name": "Braze",
@@ -3551,6 +3557,12 @@
             "name": "Digital River",
             "websiteUrl": "http://corporate.digitalriver.com",
             "description": "Digital River is a provider of global e-commerce solutions for building and managing online businesses. The company's platform offers site development and hosting, order management, fraud management, export controls, tax management, physical and digital product fulfillment, multi-lingual customer service, reporting and strategic marketing services. Digital River also acts as an internal interactive agency."
+        },
+        "digital_turbine": {
+            "name": "Digital Turbine, Inc.",
+            "websiteUrl": "http://www.digitalturbine.com/",
+            "description": "Digital Turbine offers a one-stop platform for user acquisition growth and monetization.",
+            "source": "AdGuard"
         },
         "digiteka": {
             "name": "Digiteka",
@@ -6805,7 +6817,7 @@
             "description": "MicroAd is a Japanese behavioral targeting ad delivery service. They offer contextual advertising services as well as retargeting and other ad delivery services."
         },
         "microsoft": {
-            "name": "Microsoft",
+            "name": "Microsoft Corporation",
             "websiteUrl": "https://www.microsoft.com/",
             "description": "Microsoft is an American multinational corporation that develops, manufactures, licenses, supports, and sells a range of software products and services.",
             "source": "AdGuard"
@@ -7240,6 +7252,12 @@
             "websiteUrl": "http://netsprint.eu/",
             "description": "Netsprint SA co-creates Polish advertising ecosystem in the areas of: contextual advertising: Adkontekst - Poland's largest advertising network kontekstowowo-behavioral therapy. Content marketing: ContentStream - Poland's largest network of content marketing\\r\\naudience targeting: DMP platform Netsprint Audience. personalization: recommendation engine Netsprint Adserver module and Related Content\\r\\ne-commerce: to reach new clients and dynamic retargeting Adkontekst eCommerce (including RTB Adfocus ) and search for e-shops Netsprint Search. e-mailings: mailings profiled in using profiles, interests, purchase intentions and demographic information ( LeadR )."
         },
+        "network_time_foundation": {
+            "name": "Network Time Foundation",
+            "websiteUrl": "https://www.nwtime.org/",
+            "description": "Network Time Foundation provides direct services and support to improve the state of accurate computer network timekeeping.",
+            "source": "AdGuard"
+        },
         "networkedblogs": {
             "name": "NetworkedBlogs",
             "websiteUrl": "http://www.networkedblogs.com/",
@@ -7391,12 +7409,6 @@
             "name": "NTENT",
             "websiteUrl": "http://www.ntent.com/",
             "description": "\\\"NTENT enhances cross-channel digital experiences by matching content to consumers’ passions and interests. NTENT leverages its proprietary semantic search and natural language technology to provide relevant experiences for consumers, as well as enhanced monetization opportunities for marketers, content providers, carriers, app developers and distribution partners.\\\""
-        },
-        "ntppool": {
-            "name": "Network Time Protocol",
-            "websiteUrl": "https://www.ntp.org/",
-            "description": "Network Time Protocol a public benefit organization, develops, produces and maintains the most widely-used open-source precision time software.",
-            "source": "AdGuard"
         },
         "nttcom_online_marketing_solutions": {
             "name": "NTTCom Online Marketing Solutions",
@@ -9663,6 +9675,12 @@
             "websiteUrl": "https://www.sociomantic.com",
             "description": "Sociomantic labs provide social targeting and related online display advertising technologies. Their cloud-based targeting service combines behavioral network analysis with data used in more traditional ad targeting methods to connect advertisers to the consumers who are most primed to convert."
         },
+        "softbank": {
+            "name": "SoftBank Group Corp.",
+            "websiteUrl": "https://group.softbank/",
+            "description": "SoftBank Group Corp. is a Japanese multinational investment holding company headquartered in Minato, Tokyo which focuses on investment management.",
+            "source": "AdGuard"
+        },
         "sohu": {
             "name": "Sohu",
             "websiteUrl": "http://www.sohu.com",
@@ -10117,6 +10135,12 @@
             "name": "Tailsweep",
             "websiteUrl": "http://www.tailsweep.se/",
             "description": "Tailsweep is a provider of digital marketing services. Their product  offerings include planning and executing clients' advertising campaigns and they specialize in viral and social media efforts."
+        },
+        "take-two": {
+            "name": "Take-Two Interactive Software, Inc.",
+            "websiteUrl": "https://www.take2games.com/",
+            "description": "Take-Two Interactive Software, Inc. is an American video game holding company based in New York City founded by Ryan Brant in September 1993.",
+            "source": "AdGuard"
         },
         "tanx": {
             "name": "Tanx",
