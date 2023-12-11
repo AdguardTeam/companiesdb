@@ -830,6 +830,12 @@
             "url": "https://www.sonos.com/",
             "companyId": "sonos"
         },
+        "sonos_radio": {
+            "name": "Sonos Radio",
+            "categoryId": 8,
+            "url": "https://www.sonos.com/en-au/sonos-radio/",
+            "companyId": "sonos"
+        },
         "supercell": {
             "name": "Supercell",
             "categoryId": 2,
@@ -1796,6 +1802,7 @@
         "snapcraftcontent.com": "snapcraft",
         "solaredge.com": "solaredge",
         "sonos.com": "sonos",
+        "sonos.radio": "sonos_radio",
         "stspg-customer.com": "statuspage.io",
         "streamotion.com.au": "streamotion",
         "supercell.com": "supercell",
