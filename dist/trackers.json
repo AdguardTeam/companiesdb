@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2023-12-15T00:09:31.378Z",
+    "timeUpdated": "2023-12-15T15:06:24.799Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -23523,6 +23523,7 @@
         "live.com": "outlook",
         "hotmail.com": "outlook",
         "outlook.com": "outlook",
+        "svc.ms": "outlook",
         "overheat.it": "overheat.it",
         "oewabox.at": "owa",
         "owneriq.net": "owneriq",
