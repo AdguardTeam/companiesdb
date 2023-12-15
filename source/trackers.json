@@ -1684,6 +1684,7 @@
         "hotmail.com": "outlook",
         "live.com": "outlook",
         "outlook.com": "outlook",
+        "svc.ms": "outlook",
         "oztam.com.au": "oztam",
         "perfops.io": "perfops",
         "plex.bz": "plex",
