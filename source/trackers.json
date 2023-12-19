@@ -554,6 +554,12 @@
             "url": "https://www.lg.com/",
             "companyId": "lgcorp"
         },
+        "localytics": {
+            "name": "Localytics",
+            "categoryId": 101,
+            "url": "https://uplandsoftware.com/localytics/",
+            "companyId": "upland"
+        },
         "mail.ru_banner": {
             "name": "Mail.Ru Banner Network",
             "categoryId": 4,
@@ -1611,6 +1617,7 @@
         "lgsmartad.com": "lgtv",
         "lgtvcommon.com": "lgtv",
         "lgtvsdp.com": "lgtv",
+        "localytics.com": "localytics",
         "markmonitor.com": "markmonitor",
         "matrix.org": "matrix",
         "media-lab.ai": "medialab",
