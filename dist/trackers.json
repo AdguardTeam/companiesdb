@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-01-15T16:04:13.759Z",
+    "timeUpdated": "2024-01-15T16:41:14.041Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -15613,10 +15613,11 @@
             "companyId": "sharecompany"
         },
         "sharepoint": {
-            "name": "Microsoft SharePoint",
-            "categoryId": 2,
-            "url": "https://products.office.com/en-us/sharepoint/sharepoint-online-collaboration-software",
-            "companyId": "microsoft"
+            "name": "SharePoint",
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/collaboration",
+            "companyId": "microsoft",
+            "source": "AdGuard"
         },
         "sharethis": {
             "name": "ShareThis",
@@ -24112,6 +24113,8 @@
         "quintrics.nl": "sharecompany",
         "sharecompany.nl": "sharecompany",
         "sharepointonline.com": "sharepoint",
+        "onmicrosoft.com": "sharepoint",
+        "sharepoint.com": "sharepoint",
         "sharethis.com": "sharethis",
         "shareth.ru": "sharethrough",
         "sharethrough.com": "sharethrough",
