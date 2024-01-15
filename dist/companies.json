@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-01-15T17:39:52.245Z",
+    "timeUpdated": "2024-01-15T17:47:01.495Z",
     "companies": {
         "163": {
             "name": "163",
@@ -10760,6 +10760,12 @@
             "name": "Untriel",
             "websiteUrl": "https://www.untriel.nl/",
             "description": null
+        },
+        "upland": {
+            "name": "Upland Software, Inc.",
+            "websiteUrl": "https://uplandsoftware.com/",
+            "description": "Upland Software provides mobile app, marketing, and analytics services.",
+            "source": "AdGuard"
         },
         "upland_software": {
             "name": "Upland Software",

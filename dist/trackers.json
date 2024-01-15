@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-01-15T17:39:52.245Z",
+    "timeUpdated": "2024-01-15T17:47:01.495Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -10758,9 +10758,10 @@
         },
         "localytics": {
             "name": "Localytics",
-            "categoryId": 6,
-            "url": "http://www.localytics.com/",
-            "companyId": "localytics"
+            "categoryId": 101,
+            "url": "https://uplandsoftware.com/localytics/",
+            "companyId": "upland",
+            "source": "AdGuard"
         },
         "lockerdome": {
             "name": "LockerDome",
@@ -22959,6 +22960,7 @@
         "loadercdn.com": "loadercdn.com",
         "loadsource.org": "loadsource.org",
         "web.localytics.com": "localytics",
+        "localytics.com": "localytics",
         "cdn2.lockerdome.com": "lockerdome",
         "addtoany.com": "lockerz_share",
         "pixel.loganmedia.mobi": "logan_media",
