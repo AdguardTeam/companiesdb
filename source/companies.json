@@ -356,6 +356,11 @@
             "websiteUrl": "https://unity.com/",
             "description": "Unity is a cross-platform game engine developed by Unity Technologies, first announced and released in June 2005 at Apple Worldwide Developers Conference as a Mac OS X game engine. The engine has since been gradually extended to support a variety of desktop, mobile, console and virtual reality platforms. It is particularly popular for iOS and Android mobile game development, is considered easy to use for beginner developers, and is popular for indie game development."
         },
+        "upland": {
+            "name": "Upland Software, Inc.",
+            "websiteUrl": "https://uplandsoftware.com/",
+            "description": "Upland Software provides mobile app, marketing, and analytics services."
+        },
         "verizon": {
             "name": "Verizon",
             "websiteUrl": "https://www.verizon.com/",
