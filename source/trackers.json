@@ -782,6 +782,12 @@
             "url": "https://www.sectigo.com",
             "companyId": "sectigo"
         },
+        "sharepoint": {
+            "name": "SharePoint",
+            "categoryId": 8,
+            "url": "https://www.microsoft.com/microsoft-365/sharepoint/collaboration",
+            "companyId": "microsoft"
+        },
         "shopify": {
             "name": "Shopify Inc.",
             "categoryId": 2,
@@ -1762,6 +1768,8 @@
         "samsungcloud.tv": "samsungtv",
         "tizenservice.com": "samsungtv",
         "sectigo.com": "sectigo",
+        "onmicrosoft.com": "sharepoint",
+        "sharepoint.com": "sharepoint",
         "cdn.shopify.com": "shopify",
         "myshopify.com": "shopify",
         "shop.app": "shopify",
