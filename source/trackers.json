@@ -146,6 +146,12 @@
             "url": "https://www.appsflyer.com/",
             "companyId": "appsflyer"
         },
+        "assemblyexchange": {
+            "name": "Assembly Exchange",
+            "categoryId": 4,
+            "url": "https://www.medialab.la/",
+            "companyId": "medialab"
+        },
         "azure": {
             "name": "Microsoft Azure",
             "categoryId": 10,
@@ -1207,6 +1213,7 @@
         "applvn.com": "applovin",
         "appsflyer.com": "appsflyer",
         "appsflyersdk.com": "appsflyer",
+        "ads.assemblyexchange.com": "assemblyexchange",
         "bitbucket.org": "atlassian.net",
         "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
