@@ -922,7 +922,7 @@
     ],
     "icon_domain": "openai.com",
     "modified_time": "2024-03-15 12:40"
-},
+  },
   {
     "service_id": "yahoo",
     "service_name": "Yahoo",
