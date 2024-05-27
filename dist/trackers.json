@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-05-27T11:56:20.810Z",
+    "timeUpdated": "2024-05-27T12:08:27.431Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -24690,6 +24690,8 @@
         "t.co": "twitter",
         "twimg.com": "twitter",
         "twitter.com": "twitter",
+        "twttr.com": "twitter",
+        "x.com": "twitter",
         "ads-twitter.com": "twitter_ads",
         "analytics.twitter.com": "twitter_analytics",
         "tellapart.com": "twitter_for_business",
