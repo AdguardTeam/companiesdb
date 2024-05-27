@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-05-27T11:30:39.950Z",
+    "timeUpdated": "2024-05-27T11:35:52.363Z",
     "companies": {
         "163": {
             "name": "163",
@@ -7574,6 +7574,12 @@
             "name": "Open Web Analytics",
             "websiteUrl": "http://www.openwebanalytics.com/",
             "description": "\\\"Open Web Analytics (OWA) is open source web analytics software that you can use to track and analyze how people use your websites and applications.\\\""
+        },
+        "openai": {
+            "name": "OpenAI",
+            "websiteUrl": "https://www.openai.com/",
+            "description": "OpenAI is an AI research and deployment company that conducts research and implements machine learning.",
+            "source": "AdGuard"
         },
         "openstat": {
             "name": "Openstat",

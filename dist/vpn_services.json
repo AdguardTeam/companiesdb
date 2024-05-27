@@ -918,7 +918,8 @@
         "domains": [
             "oaistatic.com",
             "oaiusercontent.com",
-            "openai.com"
+            "openai.com",
+            "chatgpt.com"
         ],
         "icon_domain": "openai.com",
         "modified_time": "2024-03-15 12:40"

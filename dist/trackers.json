@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-05-27T11:30:39.950Z",
+    "timeUpdated": "2024-05-27T11:35:52.363Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -12869,6 +12869,13 @@
             "url": "http://opensharecount.com/",
             "companyId": "open_share_count"
         },
+        "openai": {
+            "name": "OpenAI",
+            "categoryId": 8,
+            "url": "https://openai.com/",
+            "companyId": "openai",
+            "source": "AdGuard"
+        },
         "openload": {
             "name": "Openload",
             "categoryId": 9,
@@ -23473,6 +23480,10 @@
         "realmedia.com": "open_adstream",
         "realmediadigital.com": "open_adstream",
         "opensharecount.com": "open_share_count",
+        "chatgpt.com": "openai",
+        "oaistatic.com": "openai",
+        "oaiusercontent.com": "openai",
+        "openai.com": "openai",
         "oloadcdn.net": "openload",
         "openload.co": "openload",
         "openstat.net": "openstat",
