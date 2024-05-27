@@ -662,6 +662,12 @@
             "url": "https://ntp.org/",
             "companyId": "network_time_foundation"
         },
+        "openai": {
+            "name": "OpenAI",
+            "categoryId": 8,
+            "url": "https://openai.com/",
+            "companyId": "openai"
+        },
         "open_adstream": {
             "name": "Open Adstream",
             "categoryId": 4,
@@ -1694,6 +1700,10 @@
         "notion.so": "notion",
         "ntp.org": "ntppool",
         "ntppool.org": "ntppool",
+        "chatgpt.com": "openai",
+        "oaistatic.com": "openai",
+        "oaiusercontent.com": "openai",
+        "openai.com": "openai",
         "allawnos.com": "oppo",
         "allawntech.com": "oppo",
         "heytapdl.com": "oppo",
