@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-05-22T00:09:18.819Z",
+    "timeUpdated": "2024-05-27T11:30:39.950Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -24356,6 +24356,10 @@
         "spoteffects.net": "spoteffect",
         "scdn.co": "spotify",
         "spotify.com": "spotify",
+        "pscdn.co": "spotify",
+        "spotifycdn.com": "spotify",
+        "spotifycdn.net": "spotify",
+        "spotilocal.com": "spotify",
         "embed.spotify.com": "spotify_embed",
         "spotscenered.info": "spotscenered.info",
         "spotx.tv": "spotxchange",
