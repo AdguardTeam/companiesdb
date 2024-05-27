@@ -251,6 +251,11 @@
             "websiteUrl": "https://www.nwtime.org/",
             "description": "Network Time Foundation provides direct services and support to improve the state of accurate computer network timekeeping."
         },
+        "openai": {
+            "name": "OpenAI",
+            "websiteUrl": "https://www.openai.com/",
+            "description": "OpenAI is an AI research and deployment company that conducts research and implements machine learning."
+        },
         "oracle": {
             "name": "Oracle Corporation",
             "websiteUrl": "http://www.oracle.com/",
