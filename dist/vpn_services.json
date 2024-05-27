@@ -213,11 +213,11 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
+            "mycdn.me",
             "userapi.com",
             "vk-portal.net",
             "vk.com",
-            "vkuservideo.net",
-            "mycdn.me"
+            "vkuservideo.net"
         ],
         "icon_domain": "vk.com",
         "modified_time": "2021-09-14 10:23"
