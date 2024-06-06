@@ -11,10 +11,25 @@
             "websiteUrl": "http://www.adobe.com/",
             "description": "Adobe provides digital media and digital marketing solutions."
         },
+        "admixer": {
+            "name": "Admixer",
+            "websiteUrl": "https://admixer.com/",
+            "description": "A supply-side platform that connects publishers with global advertisers and agencies, supporting all ad formats and offering real-time revenue optimization."
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "websiteUrl": "https://adprofex.com/",
+            "description": "AdProfex is a new type of advertising network for news websites and blogs that makes generating revenue a snap."
+        },
         "advance": {
             "name": "Advance Publications, Inc.",
             "websiteUrl": "https://www.advance.com/",
             "description": "Advance Publications is a holding company whose media properties include newspapers, Conde Nast Publications (Vogue, Vanity Fair, GQ, Architectural Digest and other magazines), Parade Publications, Fairchild Publications and American City Business Journals."
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "websiteUrl": "https://affilbox.com/",
+            "description": "AffilBox is an affiliate software."
         },
         "akamai": {
             "name": "Akamai Technologies",
@@ -85,6 +100,11 @@
             "name": "Canonical",
             "websiteUrl": "https://canonical.com/",
             "description": "Canonical makes open source secure, reliable and easy to use, providing support for Ubuntu and a portfolio of enterprise-grade technologies."
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "websiteUrl": "https://clickaine.com/",
+            "description": "Clickaine is a digital advertising network that provides a wide range of advertising solutions for publishers and advertisers."
         },
         "cloudflare": {
             "name": "Cloudflare, Inc.",
@@ -240,6 +260,11 @@
             "name": "Nine Entertainment Co.",
             "websiteUrl": "https://www.nineforbrands.com.au/",
             "description": "Nine Entertainment is an Australian publicly listed media company with holdings in radio and television broadcasting, newspaper publications and digital media."
+        },
+        "nonli": {
+            "name": "Nonli",
+            "websiteUrl": "https://www.nonli.com/",
+            "description": "Nonli is focused on increasing and monetizing social media traffic."
         },
         "notion": {
             "name": "Notion Labs Inc.",

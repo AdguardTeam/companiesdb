@@ -62,6 +62,12 @@
             "url": "https://www.adjust.com/",
             "companyId": "applovin"
         },
+        "admixer": {
+            "name": "Admixer",
+            "categoryId": 4,
+            "url": "https://admixer.com/",
+            "companyId": "admixer"
+        },
         "adobe_developer": {
             "name": "Adobe Developer",
             "categoryId": 8,
@@ -79,6 +85,18 @@
             "categoryId": 6,
             "url": "https://experienceleague.adobe.com/",
             "companyId": "adobe"
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "categoryId": 4,
+            "url": "https://adprofex.com/",
+            "companyId": "adprofex"
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "categoryId": 4,
+            "url": "https://affilbox.com/",
+            "companyId": "affilbox"
         },
         "akamai_technologies": {
             "name": "Akamai Technologies",
@@ -211,6 +229,12 @@
             "categoryId": 4,
             "url": "http://chartboost.com/",
             "companyId": "take-two"
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "categoryId": 4,
+            "url": "https://clickaine.com/",
+            "companyId": "clickaine"
         },
         "crashlytics": {
             "name": "Crashlytics",
@@ -649,6 +673,12 @@
             "categoryId": 4,
             "url": "https://ninedigitaldirect.com.au/",
             "companyId": "nine_entertainment"
+        },
+        "nonli": {
+            "name": "Nonli",
+            "categoryId": 4,
+            "url": "https://www.nonli.com/",
+            "companyId": "nonli"
         },
         "notion": {
             "name": "Notion",
@@ -1157,8 +1187,14 @@
         "adjust.net.in": "adjust",
         "adjust.world": "adjust",
         "apptrace.com": "adjust",
+        "admixer.com": "admixer",
+        "admixer.net": "admixer",
         "adobe.io": "adobe_developer",
         "adobedc.net": "adobe_experience_league",
+        "adprofex.com" : "adprofex",
+        "ads2.bid" : "adprofex",
+        "affilbox.com": "affilbox",
+        "affilbox.cz": "affilbox",
         "akadns.net": "akamai_technologies",
         "akamaiedge.net": "akamai_technologies",
         "akaquill.net": "akamai_technologies",
@@ -1236,6 +1272,7 @@
         "bttn.io": "button",
         "canonical.com": "canonical",
         "chartboost.com": "chartboost",
+        "clickaine.com": "clickaine",
         "cloudflare-dm-cmpimg.com": "cloudflare",
         "cloudflare-dns.com": "cloudflare",
         "cloudflare-ipfs.com": "cloudflare",
@@ -1697,6 +1734,8 @@
         "netify.ai": "netify",
         "codestream.com": "new_relic",
         "nineanalytics.io": "nine_direct_digital",
+        "nonli.com": "nonli",
+        "non.li": "nonli",
         "notion.so": "notion",
         "ntp.org": "ntppool",
         "ntppool.org": "ntppool",
@@ -1719,6 +1758,7 @@
         "svc.ms": "outlook",
         "oztam.com.au": "oztam",
         "perfops.io": "perfops",
+        "popcashjs.b-cdn.net": "popcash",
         "plex.bz": "plex",
         "plex.direct": "plex",
         "plex.tv": "plex",
