@@ -110,18 +110,6 @@
             "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
             "companyId": "microsoft"
         },
-        "appcenter": {
-            "name": "Microsoft App Center",
-            "categoryId": 5,
-            "url": "https://appcenter.ms/",
-            "companyId": "microsoft"
-        },
-        "appnexus": {
-            "name": "AppNexus",
-            "categoryId": 4,
-            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
-            "companyId": "microsoft"
-        },
         "alibaba.com": {
             "name": "Alibaba",
             "categoryId": 8,
@@ -146,6 +134,18 @@
             "url": "https://global.alipay.com/",
             "companyId": "softbank"
         },
+        "amap": {
+            "name": "Amap",
+            "categoryId": 2,
+            "url": "https://www.amap.com/",
+            "companyId": "softbank"
+        },
+        "appcenter": {
+            "name": "Microsoft App Center",
+            "categoryId": 5,
+            "url": "https://appcenter.ms/",
+            "companyId": "microsoft"
+        },
         "apple": {
             "name": "Apple",
             "categoryId": 8,
@@ -157,6 +157,12 @@
             "categoryId": 4,
             "url": "https://searchads.apple.com/",
             "companyId": "apple"
+        },
+        "appnexus": {
+            "name": "AppNexus",
+            "categoryId": 4,
+            "url": "https://about.ads.microsoft.com/en-us/solutions/xandr/xandr-premium-programmatic-advertising",
+            "companyId": "microsoft"
         },
         "appsflyer": {
             "name": "AppsFlyer",
@@ -1209,6 +1215,7 @@
         "aliyun.com": "alibaba_cloud",
         "ucweb.com": "alibaba_ucbrowser",
         "alipayobjects.com": "alipay.com",
+        "amap.com": "amap",
         "a2z.com": "amazon",
         "aamazoncognito.com": "amazon",
         "amazon-corp.com": "amazon",
