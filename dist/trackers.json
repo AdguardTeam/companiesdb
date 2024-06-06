@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-06-06T17:18:14.053Z",
+    "timeUpdated": "2024-06-06T17:40:10.592Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -2393,6 +2393,13 @@
             "categoryId": 4,
             "url": "http://www.amadesa.com/",
             "companyId": "amadesa"
+        },
+        "amap": {
+            "name": "Amap",
+            "categoryId": 2,
+            "url": "https://www.amap.com/",
+            "companyId": "softbank",
+            "source": "AdGuard"
         },
         "amazon": {
             "name": "Amazon.com",
@@ -20751,6 +20758,7 @@
         "inputs.alooma.com": "alooma",
         "arena.altitude-arena.com": "altitude_digital",
         "amadesa.com": "amadesa",
+        "amap.com": "amap",
         "amazon.ca": "amazon",
         "amazon.co.jp": "amazon",
         "amazon.co.uk": "amazon",
