@@ -1,6 +1,31 @@
 {
     "timeUpdated": "2022-04-13T08:24:53.623Z",
     "companies": {
+        "nonli": {
+            "name": "Nonli",
+            "websiteUrl": "https://www.nonli.com/",
+            "description": "Nonli is focused on increasing and monetizing social media traffic."
+        },
+        "admixer": {
+            "name": "Admixer",
+            "websiteUrl": "https://admixer.com/",
+            "description": "A supply-side platform that connects publishers with global advertisers and agencies, supporting all ad formats and offering real-time revenue optimization."
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "websiteUrl": "https://clickaine.com/",
+            "description": "Clickaine is a digital advertising network that provides a wide range of advertising solutions for publishers and advertisers."
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "websiteUrl": "https://affilbox.com/",
+            "description": "AffilBox is a affiliate software."
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "websiteUrl": "https://adprofex.com/",
+            "description": "AdProfex is a new type of advertising network for news websites and blogs that makes generating revenue a snap."
+        },
         "adguard": {
             "name": "AdGuard",
             "websiteUrl": "https://adguard.com/",

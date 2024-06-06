@@ -20,6 +20,36 @@
         "101": "mobile_analytics"
     },
     "trackers": {
+        "nonli": {
+            "name": "Nonli",
+            "categoryId": 4,
+            "url": "https://www.nonli.com/",
+            "companyId": "nonli"
+        },
+        "admixer": {
+            "name": "Admixer",
+            "categoryId": 4,
+            "url": "https://admixer.com/",
+            "companyId": "admixer"
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "categoryId": 4,
+            "url": "https://clickaine.com/",
+            "companyId": "clickaine"
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "categoryId": 4,
+            "url": "https://affilbox.com/",
+            "companyId": "affilbox"
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "categoryId": 4,
+            "url": "https://adprofex.com/",
+            "companyId": "adprofex"
+        },
         "abc": {
             "name": "Australian Broadcasting Corporation",
             "categoryId": 8,
@@ -1126,6 +1156,16 @@
         }
     },
     "trackerDomains": {
+        "nonli.com": "nonli",
+        "non.li": "nonli",
+        "admixer.com": "admixer",
+        "admixer.net": "admixer",
+        "popcashjs.b-cdn.net": "popcash",
+        "clickaine.com": "clickaine",
+        "adprofex.com" : "adprofex",
+        "ads2.bid" : "adprofex",
+        "cz.affilbox.cz": "affilbox",
+        "affilbox.com": "affilbox",
         "3gpp.org": "3gpp",
         "3gppnetwork.org": "3gpp",
         "swm.digital": "7plus",
