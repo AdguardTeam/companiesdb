@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-06-01T00:10:27.412Z",
+    "timeUpdated": "2024-06-06T17:18:14.053Z",
     "companies": {
         "163": {
             "name": "163",
@@ -756,9 +756,10 @@
             "description": "\\\"admitad – a next-generation affiliate network\\\""
         },
         "admixer": {
-            "name": "ADMIXER",
-            "websiteUrl": "http://www.admixer.net/",
-            "description": "\\\"ADMIXER - it's [a] multi-format advertising network that combines the best of websites for the purpose of commercial advertising campaigns targeting any segments of Ukrainian Internet users. Network capabilities provide a wide audience and flexible targeting.\\\"\\r\\n\\r\\nTranslated by Google Translate"
+            "name": "Admixer",
+            "websiteUrl": "https://admixer.com/",
+            "description": "A supply-side platform that connects publishers with global advertisers and agencies, supporting all ad formats and offering real-time revenue optimization.",
+            "source": "AdGuard"
         },
         "admo.tv": {
             "name": "Admo.TV",
@@ -905,6 +906,12 @@
             "name": "ADPLUS",
             "websiteUrl": "http://www.adplus.co.id/",
             "description": "\\\"AdPlus is a digital media advertising company, our services include digital ads placement using various form of banners, Search Engine Marketing, Social Media Advertising and also Search Engine Optimization.\\\""
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "websiteUrl": "https://adprofex.com/",
+            "description": "AdProfex is a new type of advertising network for news websites and blogs that makes generating revenue a snap.",
+            "source": "AdGuard"
         },
         "adprofy": {
             "name": "AdProfy",
@@ -1276,6 +1283,12 @@
             "name": "Hybrid Theory",
             "websiteUrl": "https://hybridtheory.com/",
             "description": "Hybrid Theory makes the complex simple by delivering business growth for brands and agencies as a trusted digital services partner, that powers smarter data-driven advertising through the best combinations of technology and talent.\\n\\nHybrid Theory is a global company that powers data-driven advertising to serve consumers relevant digital advertising who are browsing the Internet. We aim to ensure that online advertising brings the best value to individuals and our clients, whilst ensuring that this is performed in a privacy friendly and non-intrusive manner."
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "websiteUrl": "https://affilbox.com/",
+            "description": "AffilBox is an affiliate software.",
+            "source": "AdGuard"
         },
         "affiliate_b": {
             "name": "Affiliate B",
@@ -2720,6 +2733,12 @@
             "name": "ClickAider",
             "websiteUrl": "http://clickaider.com/",
             "description": "\\\"ClickAider is an analysis tool that helps publishers maximize revenues from Pay-Per-Click Advertisements.\\\""
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "websiteUrl": "https://clickaine.com/",
+            "description": "Clickaine is a digital advertising network that provides a wide range of advertising solutions for publishers and advertisers.",
+            "source": "AdGuard"
         },
         "clickandchat": {
             "name": "ClickAndChat",
@@ -7368,6 +7387,12 @@
             "name": "Nolix",
             "websiteUrl": "http://nolix.ru/",
             "description": "\\\"The system Nolix offers webmasters (website owners) to automate their sites [to] work [directly with] advertisers and arrange a convenient means for receiving promotional lines or contextual ads.\\\"\\r\\n\\r\\nTranslated by Google Translate"
+        },
+        "nonli": {
+            "name": "Nonli",
+            "websiteUrl": "https://www.nonli.com/",
+            "description": "Nonli is focused on increasing and monetizing social media traffic.",
+            "source": "AdGuard"
         },
         "noosphere": {
             "name": "Noosphere",

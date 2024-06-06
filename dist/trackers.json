@@ -1,5 +1,5 @@
 {
-    "timeUpdated": "2024-06-01T00:10:27.412Z",
+    "timeUpdated": "2024-06-06T17:18:14.053Z",
     "categories": {
         "0": "audio_video_player",
         "1": "comments",
@@ -1182,6 +1182,13 @@
             "url": "https://www.admitad.com/en/#",
             "companyId": "admitad"
         },
+        "admixer": {
+            "name": "Admixer",
+            "categoryId": 4,
+            "url": "https://admixer.com/",
+            "companyId": "admixer",
+            "source": "AdGuard"
+        },
         "admixer.net": {
             "name": "Admixer",
             "categoryId": 4,
@@ -1472,6 +1479,13 @@
             "categoryId": 4,
             "url": "http://www.adplus.co.id/",
             "companyId": "adplus"
+        },
+        "adprofex": {
+            "name": "AdProfex",
+            "categoryId": 4,
+            "url": "https://adprofex.com/",
+            "companyId": "adprofex",
+            "source": "AdGuard"
         },
         "adprofy": {
             "name": "AdProfy",
@@ -2018,6 +2032,13 @@
             "categoryId": 4,
             "url": "https://hybridtheory.com/",
             "companyId": "affectv"
+        },
+        "affilbox": {
+            "name": "Affilbox",
+            "categoryId": 4,
+            "url": "https://affilbox.com/",
+            "companyId": "affilbox",
+            "source": "AdGuard"
         },
         "affiliate-b": {
             "name": "Affiliate-B",
@@ -4590,6 +4611,13 @@
             "categoryId": 4,
             "url": "http://clickaider.com/",
             "companyId": "clickaider"
+        },
+        "clickaine": {
+            "name": "Clickaine",
+            "categoryId": 4,
+            "url": "https://clickaine.com/",
+            "companyId": "clickaine",
+            "source": "AdGuard"
         },
         "clickbank": {
             "name": "ClickBank",
@@ -12469,6 +12497,13 @@
             "categoryId": 4,
             "url": "http://nolix.ru/",
             "companyId": "nolix"
+        },
+        "nonli": {
+            "name": "Nonli",
+            "categoryId": 4,
+            "url": "https://www.nonli.com/",
+            "companyId": "nonli",
+            "source": "AdGuard"
         },
         "nonstop_consulting": {
             "name": "Resolution Media",
@@ -20420,7 +20455,8 @@
         "admicro.vn": "admicro",
         "vcmedia.vn": "admicro",
         "admitad.com": "admitad.com",
-        "admixer.net": "admixer.net",
+        "admixer.net": "admixer",
+        "admixer.com": "admixer",
         "admized.com": "admized",
         "admo.tv": "admo.tv",
         "a.admob.com": "admob",
@@ -20500,6 +20536,8 @@
         "advg.jp": "adplan",
         "c.p-advg.com": "adplan",
         "adplus.co.id": "adplus",
+        "adprofex.com": "adprofex",
+        "ads2.bid": "adprofex",
         "adframesrc.com": "adprofy",
         "adserve.adpulse.ir": "adpulse",
         "ads.adpv.com": "adpv",
@@ -20623,6 +20661,8 @@
         "affectv.com": "affectv",
         "go.affec.tv": "affectv",
         "hybridtheory.com": "affectv",
+        "affilbox.com": "affilbox",
+        "affilbox.cz": "affilbox",
         "track.affiliate-b.com": "affiliate-b",
         "affiliate4you.nl": "affiliate4you",
         "ads.affbuzzads.com": "affiliatebuzz",
@@ -21238,6 +21278,7 @@
         "clickandchat.com": "click_and_chat",
         "software.clickback.com": "click_back",
         "hit.clickaider.com": "clickaider",
+        "clickaine.com": "clickaine",
         "clickbank.net": "clickbank",
         "cbproads.com": "clickbank_proads",
         "adtoll.com": "clickbooth",
@@ -23403,6 +23444,8 @@
         "noaa.gov": "noaa.gov",
         "track.noddus.com": "noddus",
         "contextbar.ru": "nolix",
+        "nonli.com": "nonli",
+        "non.li": "nonli",
         "trkme.net": "nonstop_consulting",
         "noop.style": "noop.style",
         "nosto.com": "nosto.com",
@@ -23660,6 +23703,7 @@
         "popads.net": "popads",
         "popadscdn.net": "popads",
         "popcash.net": "popcash",
+        "popcashjs.b-cdn.net": "popcash",
         "desv383oqqc0.cloudfront.net": "popcorn_metrics",
         "popin.cc": "popin.cc",
         "cdn.popmyads.com": "popmyads",
