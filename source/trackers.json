@@ -1522,6 +1522,7 @@
         "news.google.com": "google",
         "oo.gl": "google",
         "withgoogle.com": "google",
+        "app-analytics-services.com": "google_analytics",
         "ssl-google-analytics.l.google.com": "google_analytics",
         "www-googletagmanager.l.google.com": "google_analytics",
         "googlehosted.com": "google_appspot",
