@@ -45,7 +45,8 @@
         ],
         "domains": [
             "cdninstagram.com",
-            "instagram.com"
+            "instagram.com",
+            "ig.me"
         ],
         "icon_domain": "instagram.com",
         "modified_time": "2021-09-14 10:23"
