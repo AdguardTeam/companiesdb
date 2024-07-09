@@ -1,12 +1,23 @@
 [
   {
+    "service_id": "example",
+    "service_name": "example",
+    "categories": [
+      "SOCIAL_NETWORKS"
+    ],
+    "domains": [
+      "example.com"
+    ],
+    "icon_domain": "example.com",
+    "modified_time": "2021-09-14 10:23"
+  },
+  {
     "service_id": "facebook",
     "service_name": "Facebook",
     "categories": [
       "SOCIAL_NETWORKS"
     ],
     "domains": [
-      "accountkit.com",
       "atdmt.com",
       "atlassolutions.com",
       "facebook.com",

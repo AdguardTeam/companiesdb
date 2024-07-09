@@ -332,7 +332,6 @@ function updateVpnServicesJSONDate(
     Object.keys(updatedMap).forEach((key) => {
         // Check if the key exists in upToDateMap
         if (!upToDateMap[key]) {
-            consola.info(updatedMap[key]);
             updatedMap[key].modified_time = timeUpdated;
         } else {
             // Check values
