@@ -65,19 +65,22 @@ type TrackersJSON = zod.infer<typeof trackersJSONSchema>;
 /**
  * Schema parser for the VPN services JSON file.
  */
-const vpnServicesJSONSchema = zod.object({
+const vpnServiceSchema = zod.object({
     service_id: zod.string(),
     service_name: zod.string(),
     categories: zod.array(zod.string()),
     domains: zod.array(zod.string()),
     icon_domain: zod.string(),
     modified_time: zod.string(),
-}).strict().array();
+});
+
+const VpnServicesJSONSchema = vpnServiceSchema.array();
 
 /**
-  * Schema type of the VPN services JSON file.
-  */
-type VpnServicesJSON = zod.infer<typeof vpnServicesJSONSchema>;
+ * Schema type of the service vpn object and vpn services JSON file.
+ */
+type VpnService = zod.infer<typeof vpnServiceSchema>;
+type VpnServicesJSON = zod.infer<typeof VpnServicesJSONSchema>;
 
 /**
  * Reads and parse JSON file from source.
@@ -125,6 +128,18 @@ function readTrackersJSON(source: string): TrackersJSON {
     const data = readJSON(source);
 
     return trackersJSONSchema.parse(data);
+}
+
+/**
+ * Reads and parse the vpn services JSON.
+ *
+ * @param source Source JSON path.
+ * @returns parsed services JSON data.
+ */
+function readVpnJSON(source: string): VpnServicesJSON {
+    const data = readJSON(source);
+
+    return VpnServicesJSONSchema.parse(data);
 }
 
 /**
@@ -270,6 +285,81 @@ function buildTrackersDomains(
 
     return sortRecordsAlphabetically(merged, false);
 }
+/**
+ * Formats the current date and time in the format 'YYYY-MM-DD HH:MM'.
+ * @returns The current date and time in the format 'YYYY-MM-DD HH:MM'.
+ */
+function getCurrentDateTime(): string {
+    const now = new Date();
+
+    const day = String(now.getDate()).padStart(2, '0');
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const year = now.getFullYear();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+
+    return `${year}-${month}-${day} ${hours}:${minutes}`;
+}
+
+/**
+ * Updates the modified_time field in the vpn services JSON file.
+ * If a service is not present in the upToDateMap, it will be added with the current date.
+ * If a service is present in the upToDateMap, it will be updated with the current date if
+ * any of its fields have changed.
+ * @param vpnInput The new vpn services JSON file.
+ * @param vpnOutput The up to date vpn services JSON file.
+ * @returns The updated vpn services JSON file.
+*/
+
+function updateVpnServicesJSONDate(
+    vpnInput: VpnServicesJSON,
+    vpnOutput: VpnServicesJSON,
+): VpnServicesJSON {
+    const timeUpdated = getCurrentDateTime();
+
+    // Create maps of services based on their id
+    const upToDateMap: { [key: string]: VpnService } = vpnOutput.reduce((map, obj) => ({
+        ...map,
+        [obj.service_id]: obj,
+    }), {});
+
+    const updatedMap: { [key: string]: VpnService } = vpnInput.reduce((map, obj) => ({
+        ...map,
+        [obj.service_id]: obj,
+    }), {});
+
+    // Iterate over keys in updatedMap
+    Object.keys(updatedMap).forEach((key) => {
+        // Check if the key exists in upToDateMap
+        if (!upToDateMap[key]) {
+            consola.info(updatedMap[key]);
+            updatedMap[key].modified_time = timeUpdated;
+        } else {
+            // Check values
+            Object.keys(updatedMap[key]).forEach((k) => {
+                let shouldUpdateDate = false;
+                // if the value is a string, compare the strings
+                if (typeof updatedMap[key][k as keyof VpnService] === 'string') {
+                    shouldUpdateDate = updatedMap[key][k as keyof VpnService]
+                     !== upToDateMap[key][k as keyof VpnService];
+                }
+                // if the value is an array, compare the arrays
+                if (Array.isArray(updatedMap[key][k as keyof VpnService])) {
+                    const updatedArray = updatedMap[key][k as keyof VpnService] as any[];
+                    const upToDateArray = upToDateMap[key][k as keyof VpnService] as any[];
+                    shouldUpdateDate = !updatedArray.every(
+                        (element, index) => element === upToDateArray[index],
+                    );
+                }
+                if (shouldUpdateDate) {
+                    updatedMap[key].modified_time = timeUpdated;
+                }
+            });
+        }
+    });
+
+    return Object.values(updatedMap);
+}
 
 /**
  * Builds the trackers CSV file in the following form:
@@ -369,11 +459,16 @@ try {
 
     fs.writeFileSync(TRACKERS_CSV_OUTPUT_PATH, csv);
 
-    const vpnServicesJSON = readJSON(VPN_SERVICES_INPUT_PATH);
+    const upToDateVpnServicesJSON = readVpnJSON(VPN_SERVICES_OUTPUT_PATH);
 
-    const parsed = vpnServicesJSONSchema.parse(vpnServicesJSON);
+    const vpnServicesJSON = readVpnJSON(VPN_SERVICES_INPUT_PATH);
 
-    writeJSON<VpnServicesJSON>(VPN_SERVICES_OUTPUT_PATH, parsed);
+    const updatedVpnServicesJSON = updateVpnServicesJSONDate(
+        vpnServicesJSON,
+        upToDateVpnServicesJSON,
+    );
+
+    writeJSON<VpnServicesJSON>(VPN_SERVICES_OUTPUT_PATH, updatedVpnServicesJSON);
 
     consola.info('Finished building the companies DB');
 } catch (ex) {
