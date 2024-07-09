@@ -63,7 +63,7 @@ const trackersJSONSchema = zod.object({
 type TrackersJSON = zod.infer<typeof trackersJSONSchema>;
 
 /**
- * Schema parser for the VPN services JSON file.
+ * Schema parser for the VPN service.
  */
 const vpnServiceSchema = zod.object({
     service_id: zod.string(),
@@ -74,13 +74,20 @@ const vpnServiceSchema = zod.object({
     modified_time: zod.string(),
 });
 
-const VpnServicesJSONSchema = vpnServiceSchema.array();
-
 /**
- * Schema type of the service vpn object and vpn services JSON file.
+ * Schema type of the VPN service.
  */
 type VpnService = zod.infer<typeof vpnServiceSchema>;
-type VpnServicesJSON = zod.infer<typeof VpnServicesJSONSchema>;
+
+/**
+ * Schema parser for the VPN services JSON file.
+ */
+const vpnServicesJSONSchema = vpnServiceSchema.array();
+
+/**
+ * Schema type of the VPN services JSON file.
+ */
+type VpnServicesJSON = zod.infer<typeof vpnServicesJSONSchema>;
 
 /**
  * Reads and parse JSON file from source.
@@ -136,10 +143,10 @@ function readTrackersJSON(source: string): TrackersJSON {
  * @param source Source JSON path.
  * @returns parsed services JSON data.
  */
-function readVpnJSON(source: string): VpnServicesJSON {
+function readVpnServicesJSON(source: string): VpnServicesJSON {
     const data = readJSON(source);
 
-    return VpnServicesJSONSchema.parse(data);
+    return vpnServicesJSONSchema.parse(data);
 }
 
 /**
@@ -304,11 +311,10 @@ function getCurrentDateTime(): string {
 /**
  * Updates the modified_time field in the vpn services JSON file.
  * If a service is not present in the upToDateMap, it will be added with the current date.
- * If a service is present in the upToDateMap, it will be updated with the current date if
- * any of its fields have changed.
- * @param vpnInput The new vpn services JSON file.
- * @param vpnOutput The up to date vpn services JSON file.
- * @returns The updated vpn services JSON file.
+ * If service was changed, the modified_time field will be updated to the current date.
+ * @param vpnInput The updated vpn services JSON file.
+ * @param vpnOutput The previously recorded vpn services JSON file.
+ * @returns The updated vpn services JSON file with the modified_time field updated, if necessary.
 */
 
 function updateVpnServicesJSONDate(
@@ -458,10 +464,12 @@ try {
 
     fs.writeFileSync(TRACKERS_CSV_OUTPUT_PATH, csv);
 
-    const upToDateVpnServicesJSON = readVpnJSON(VPN_SERVICES_OUTPUT_PATH);
-
-    const vpnServicesJSON = readVpnJSON(VPN_SERVICES_INPUT_PATH);
-
+    // previously recorded VPN services JSON
+    const upToDateVpnServicesJSON = readVpnServicesJSON(VPN_SERVICES_OUTPUT_PATH);
+    // VPN services JSON with new records/updates
+    const vpnServicesJSON = readVpnServicesJSON(VPN_SERVICES_INPUT_PATH);
+    // modified VPN services JSON with updated modified_time field
+    // if service was updated or added
     const updatedVpnServicesJSON = updateVpnServicesJSONDate(
         vpnServicesJSON,
         upToDateVpnServicesJSON,
