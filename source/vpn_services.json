@@ -16,28 +16,7 @@
       "fb.gg",
       "fb.watch",
       "fbcdn.net",
-      "fbwat.ch",
-      "parse.com"
-    ],
-    "icon_domain": "facebook.com"
-  },
-  {
-    "service_id": "facebook",
-    "service_name": "Facebook",
-    "categories": [
-      "SOCIAL_NETWORKS"
-    ],
-    "domains": [
-      "accountkit.com",
-      "atdmt.com",
-      "atlassolutions.com",
-      "facebook.com",
-      "facebook.net",
-      "facebookmail.com",
-      "fb.com",
-      "fb.gg",
-      "fb.watch",
-      "fbcdn.net",
+      "fbsbx.com",
       "fbwat.ch",
       "parse.com"
     ],
