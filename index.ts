@@ -371,7 +371,7 @@ function updateVpnServicesJSONDate(
         }
     });
 
-    return Object.values(upToDateMap);
+    return Object.values(sortRecordsAlphabetically(upToDateMap));
 }
 
 /**
