@@ -16,12 +16,32 @@
       "fb.gg",
       "fb.watch",
       "fbcdn.net",
-      "fbsbx.com",
       "fbwat.ch",
       "parse.com"
     ],
-    "icon_domain": "facebook.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "facebook.com"
+  },
+  {
+    "service_id": "facebook",
+    "service_name": "Facebook",
+    "categories": [
+      "SOCIAL_NETWORKS"
+    ],
+    "domains": [
+      "accountkit.com",
+      "atdmt.com",
+      "atlassolutions.com",
+      "facebook.com",
+      "facebook.net",
+      "facebookmail.com",
+      "fb.com",
+      "fb.gg",
+      "fb.watch",
+      "fbcdn.net",
+      "fbwat.ch",
+      "parse.com"
+    ],
+    "icon_domain": "facebook.com"
   },
   {
     "service_id": "flickr",
@@ -34,8 +54,7 @@
       "flickrprints.com",
       "staticflickr.com"
     ],
-    "icon_domain": "flickr.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "flickr.com"
   },
   {
     "service_id": "instagram",
@@ -48,8 +67,7 @@
       "instagram.com",
       "ig.me"
     ],
-    "icon_domain": "instagram.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "instagram.com"
   },
   {
     "service_id": "linkedin",
@@ -63,8 +81,7 @@
       "linkedin.at",
       "linkedin.com"
     ],
-    "icon_domain": "linkedin.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "linkedin.com"
   },
   {
     "service_id": "pinterest",
@@ -90,8 +107,7 @@
       "pinterest.ru",
       "pinterest.se"
     ],
-    "icon_domain": "pinterest.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "pinterest.com"
   },
   {
     "service_id": "reddit",
@@ -108,8 +124,7 @@
       "redditstatic.com",
       "redditstatus.com"
     ],
-    "icon_domain": "reddit.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "reddit.com"
   },
   {
     "service_id": "snapchat",
@@ -131,8 +146,7 @@
       "snapchat.com",
       "snapkit.com"
     ],
-    "icon_domain": "snapchat.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "snapchat.com"
   },
   {
     "service_id": "tiktok",
@@ -161,8 +175,7 @@
       "tiktokv.com",
       "ttoversea.net"
     ],
-    "icon_domain": "tiktok.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "tiktok.com"
   },
   {
     "service_id": "tinder",
@@ -175,8 +188,7 @@
       "tinder.com",
       "tindersparks.com"
     ],
-    "icon_domain": "tinder.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "tinder.com"
   },
   {
     "service_id": "tumblr",
@@ -187,8 +199,7 @@
     "domains": [
       "tumblr.com"
     ],
-    "icon_domain": "tumblr.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "tumblr.com"
   },
   {
     "service_id": "twitter",
@@ -204,8 +215,7 @@
       "twttr.com",
       "x.com"
     ],
-    "icon_domain": "twitter.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "twitter.com"
   },
   {
     "service_id": "vk",
@@ -219,8 +229,7 @@
       "vk.com",
       "vkuservideo.net"
     ],
-    "icon_domain": "vk.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "vk.com"
   },
   {
     "service_id": "discord",
@@ -236,8 +245,7 @@
       "discordapp.net",
       "discordstatus.com"
     ],
-    "icon_domain": "discord.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "discord.com"
   },
   {
     "service_id": "messenger",
@@ -250,8 +258,7 @@
       "messenger.com",
       "msngr.com"
     ],
-    "icon_domain": "messenger.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "messenger.com"
   },
   {
     "service_id": "kakao",
@@ -263,8 +270,7 @@
       "daum.net",
       "kakao.com"
     ],
-    "icon_domain": "kakao.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "kakao.com"
   },
   {
     "service_id": "kik",
@@ -275,8 +281,7 @@
     "domains": [
       "kik.com"
     ],
-    "icon_domain": "kik.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "kik.com"
   },
   {
     "service_id": "signal",
@@ -288,8 +293,7 @@
       "signal.org",
       "whispersystems.org"
     ],
-    "icon_domain": "signal.org",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "signal.org"
   },
   {
     "service_id": "telegram",
@@ -302,8 +306,7 @@
       "telegram.org",
       "telesco.pe"
     ],
-    "icon_domain": "telegram.org",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "telegram.org"
   },
   {
     "service_id": "wechat",
@@ -314,8 +317,7 @@
     "domains": [
       "wechat.com"
     ],
-    "icon_domain": "wechat.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "wechat.com"
   },
   {
     "service_id": "whatsapp",
@@ -327,8 +329,7 @@
       "whatsapp.com",
       "whatsapp.net"
     ],
-    "icon_domain": "whatsapp.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "whatsapp.com"
   },
   {
     "service_id": "disneyplus",
@@ -342,8 +343,7 @@
       "dssott.com",
       "bamgrid.com"
     ],
-    "icon_domain": "disneyplus.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "disneyplus.com"
   },
   {
     "service_id": "hbo",
@@ -362,8 +362,7 @@
       "hbomax.com",
       "hbomaxcdn.com"
     ],
-    "icon_domain": "hbo.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "hbo.com"
   },
   {
     "service_id": "hulu",
@@ -379,8 +378,7 @@
       "huluqa.com",
       "hulustream.com"
     ],
-    "icon_domain": "hulu.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "hulu.com"
   },
   {
     "service_id": "netflix",
@@ -397,8 +395,7 @@
       "nflxso.net",
       "nflxvideo.net"
     ],
-    "icon_domain": "netflix.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "netflix.com"
   },
   {
     "service_id": "vimeo",
@@ -410,8 +407,7 @@
       "vimeo.com",
       "vimeocdn.com"
     ],
-    "icon_domain": "vimeo.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "vimeo.com"
   },
   {
     "service_id": "youtube",
@@ -429,8 +425,7 @@
       "googlevideo.com",
       "ggpht.com"
     ],
-    "icon_domain": "youtube.com",
-    "modified_time": "2022-05-05 10:23"
+    "icon_domain": "youtube.com"
   },
   {
     "service_id": "deezer",
@@ -442,8 +437,7 @@
       "deezer.com",
       "dzcdn.net"
     ],
-    "icon_domain": "deezer.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "deezer.com"
   },
   {
     "service_id": "last",
@@ -454,8 +448,7 @@
     "domains": [
       "last.fm"
     ],
-    "icon_domain": "last.fm",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "last.fm"
   },
   {
     "service_id": "pandora",
@@ -468,8 +461,7 @@
       "p-cdn.us",
       "pandora.com"
     ],
-    "icon_domain": "pandora.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "pandora.com"
   },
   {
     "service_id": "soundcloud",
@@ -481,8 +473,7 @@
       "sndcdn.com",
       "soundcloud.com"
     ],
-    "icon_domain": "soundcloud.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "soundcloud.com"
   },
   {
     "service_id": "spotify",
@@ -498,8 +489,7 @@
       "spotifycdn.net",
       "spotilocal.com"
     ],
-    "icon_domain": "spotify.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "spotify.com"
   },
   {
     "service_id": "epicgames",
@@ -513,8 +503,7 @@
       "epicgames.net",
       "unrealengine.com"
     ],
-    "icon_domain": "epicgames.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "epicgames.com"
   },
   {
     "service_id": "gog",
@@ -528,8 +517,7 @@
       "gogalaxy.com",
       "gogcdn.net"
     ],
-    "icon_domain": "gog.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "gog.com"
   },
   {
     "service_id": "origin",
@@ -540,8 +528,7 @@
     "domains": [
       "origin.com"
     ],
-    "icon_domain": "origin.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "origin.com"
   },
   {
     "service_id": "playstation",
@@ -554,8 +541,7 @@
       "playstation.net",
       "sonyentertainmentnetwork.com"
     ],
-    "icon_domain": "playstation.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "playstation.com"
   },
   {
     "service_id": "rockstargames",
@@ -566,8 +552,7 @@
     "domains": [
       "rockstargames.com"
     ],
-    "icon_domain": "rockstargames.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "rockstargames.com"
   },
   {
     "service_id": "steampowered",
@@ -583,8 +568,7 @@
       "steamusercontent.com",
       "valvesoftware.com"
     ],
-    "icon_domain": "steampowered.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "steampowered.com"
   },
   {
     "service_id": "twitch",
@@ -601,8 +585,7 @@
       "twitchcdn.net",
       "twitchsvc.net"
     ],
-    "icon_domain": "twitch.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "twitch.com"
   },
   {
     "service_id": "ubisoft",
@@ -616,8 +599,7 @@
       "ubisoft.org",
       "ubisoftconnect.com"
     ],
-    "icon_domain": "ubisoft.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "ubisoft.com"
   },
   {
     "service_id": "xbox",
@@ -633,8 +615,7 @@
       "xboxlive.com",
       "xboxservices.com"
     ],
-    "icon_domain": "xbox.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "xbox.com"
   },
   {
     "service_id": "baidu",
@@ -655,8 +636,7 @@
       "shifen.com",
       "wshifen.com"
     ],
-    "icon_domain": "baidu.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "baidu.com"
   },
   {
     "service_id": "bing",
@@ -676,8 +656,7 @@
       "bingapis.com",
       "bingforbusiness.com"
     ],
-    "icon_domain": "bing.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "bing.com"
   },
   {
     "service_id": "duckduckgo",
@@ -688,8 +667,7 @@
     "domains": [
       "duckduckgo.com"
     ],
-    "icon_domain": "duckduckgo.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "duckduckgo.com"
   },
   {
     "service_id": "google",
@@ -907,8 +885,7 @@
       "gvt3.com",
       "withgoogle.com"
     ],
-    "icon_domain": "google.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "google.com"
   },
   {
     "service_id": "openai",
@@ -922,8 +899,7 @@
         "openai.com",
         "chatgpt.com"
     ],
-    "icon_domain": "openai.com",
-    "modified_time": "2024-03-15 12:40"
+    "icon_domain": "openai.com"
   },
   {
     "service_id": "yahoo",
@@ -957,8 +933,7 @@
       "yahoosmallbusiness.com",
       "yimg.com"
     ],
-    "icon_domain": "yahoo.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "yahoo.com"
   },
   {
     "service_id": "yandex",
@@ -977,8 +952,7 @@
       "yandex.by",
       "ya.ru"
     ],
-    "icon_domain": "yandex.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "yandex.com"
   },
   {
     "service_id": "atlassian",
@@ -991,8 +965,7 @@
       "atlassian.net",
       "bitbucket.org"
     ],
-    "icon_domain": "atlassian.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "atlassian.com"
   },
   {
     "service_id": "github",
@@ -1009,8 +982,7 @@
       "githubassets.com",
       "githubusercontent.com"
     ],
-    "icon_domain": "github.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "github.com"
   },
   {
     "service_id": "gitlab",
@@ -1024,8 +996,7 @@
       "gitlab.io",
       "gitlab.net"
     ],
-    "icon_domain": "gitlab.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "gitlab.com"
   },
   {
     "service_id": "office",
@@ -1053,8 +1024,7 @@
       "svc.ms",
       "yammer.com"
     ],
-    "icon_domain": "office.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "office.com"
   },
   {
     "service_id": "skype",
@@ -1070,8 +1040,7 @@
       "skypeassets.com",
       "skypeforbusiness.com"
     ],
-    "icon_domain": "skype.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "skype.com"
   },
   {
     "service_id": "slack",
@@ -1089,8 +1058,7 @@
       "slack.com",
       "slackb.com"
     ],
-    "icon_domain": "slack.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "slack.com"
   },
   {
     "service_id": "zoom",
@@ -1102,8 +1070,7 @@
       "zoom.us",
       "zoomgov.com"
     ],
-    "icon_domain": "zoom.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "zoom.com"
   },
   {
     "service_id": "aliexpress",
@@ -1115,8 +1082,7 @@
       "aliexpress.com",
       "aliexpress.ru"
     ],
-    "icon_domain": "aliexpress.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "aliexpress.com"
   },
   {
     "service_id": "amazon",
@@ -1153,8 +1119,7 @@
       "media-amazon.com",
       "ssl-images-amazon.com"
     ],
-    "icon_domain": "amazon.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "amazon.com"
   },
   {
     "service_id": "craigslist",
@@ -1166,8 +1131,7 @@
       "craigslist.ca",
       "craigslist.org"
     ],
-    "icon_domain": "craigslist.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "craigslist.com"
   },
   {
     "service_id": "ebay",
@@ -1193,8 +1157,7 @@
       "ebaystatic.com",
       "ebaystratus.com"
     ],
-    "icon_domain": "ebay.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "ebay.com"
   },
   {
     "service_id": "etsy",
@@ -1207,7 +1170,6 @@
       "etsy.me",
       "etsystatic.com"
     ],
-    "icon_domain": "etsy.com",
-    "modified_time": "2021-09-14 10:23"
+    "icon_domain": "etsy.com"
   }
 ]
