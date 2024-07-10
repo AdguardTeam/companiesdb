@@ -71,8 +71,8 @@ const vpnServiceSchema = zod.object({
     categories: zod.array(zod.string()),
     domains: zod.array(zod.string()),
     icon_domain: zod.string(),
-    modified_time: zod.string(),
-});
+    modified_time: zod.string().optional(),
+}).strict();
 
 /**
  * Schema type of the VPN service.
@@ -338,32 +338,40 @@ function updateVpnServicesJSONDate(
     Object.keys(updatedMap).forEach((key) => {
         // Check if the key exists in upToDateMap
         if (!upToDateMap[key]) {
-            updatedMap[key].modified_time = timeUpdated;
+            upToDateMap[key] = {
+                ...updatedMap[key],
+                modified_time: timeUpdated,
+            };
         } else {
+            let shouldUpdateDate = false;
             // Check values
             Object.keys(updatedMap[key]).forEach((k) => {
-                let shouldUpdateDate = false;
                 // if the value is a string, compare the strings
                 if (typeof updatedMap[key][k as keyof VpnService] === 'string') {
-                    shouldUpdateDate = updatedMap[key][k as keyof VpnService]
-                     !== upToDateMap[key][k as keyof VpnService];
-                }
-                // if the value is an array, compare the arrays
-                if (Array.isArray(updatedMap[key][k as keyof VpnService])) {
+                    if (
+                        updatedMap[key][k as keyof VpnService]
+                        !== upToDateMap[key][k as keyof VpnService]) {
+                        shouldUpdateDate = true;
+                    }
+                } else if (Array.isArray(updatedMap[key][k as keyof VpnService])) {
+                    // if the value is an array, compare the arrays
                     const updatedArray = updatedMap[key][k as keyof VpnService] as any[];
                     const upToDateArray = upToDateMap[key][k as keyof VpnService] as any[];
-                    shouldUpdateDate = !updatedArray.every(
-                        (element, index) => element === upToDateArray[index],
-                    );
-                }
-                if (shouldUpdateDate) {
-                    updatedMap[key].modified_time = timeUpdated;
+                    if (!updatedArray.every((element, index) => element === upToDateArray[index])) {
+                        shouldUpdateDate = true;
+                    }
                 }
             });
+            if (shouldUpdateDate) {
+                upToDateMap[key] = {
+                    ...updatedMap[key],
+                    modified_time: timeUpdated,
+                };
+            }
         }
     });
 
-    return Object.values(updatedMap);
+    return Object.values(upToDateMap);
 }
 
 /**
