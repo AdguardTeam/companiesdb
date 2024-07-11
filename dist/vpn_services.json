@@ -1,639 +1,67 @@
 [
     {
-        "service_id": "facebook",
-        "service_name": "Facebook",
+        "service_id": "aliexpress",
+        "service_name": "Aliexpress",
         "categories": [
-            "SOCIAL_NETWORKS"
+            "SHOP"
         ],
         "domains": [
-            "accountkit.com",
-            "atdmt.com",
-            "atlassolutions.com",
-            "facebook.com",
-            "facebook.net",
-            "facebookmail.com",
-            "fb.com",
-            "fb.gg",
-            "fb.watch",
-            "fbcdn.net",
-            "fbsbx.com",
-            "fbwat.ch",
-            "parse.com"
+            "aliexpress.com",
+            "aliexpress.ru"
         ],
-        "icon_domain": "facebook.com",
+        "icon_domain": "aliexpress.com",
         "modified_time": "2021-09-14 10:23"
     },
     {
-        "service_id": "flickr",
-        "service_name": "Flickr",
+        "service_id": "amazon",
+        "service_name": "Amazon",
         "categories": [
-            "SOCIAL_NETWORKS"
+            "SHOP"
         ],
         "domains": [
-            "flickr.com",
-            "flickrprints.com",
-            "staticflickr.com"
+            "a2z.com",
+            "amazon-corp.com",
+            "amazon.ca",
+            "amazon.co.jp",
+            "amazon.co.uk",
+            "amazon.com",
+            "amazon.com.au",
+            "amazon.com.mx",
+            "amazon.de",
+            "amazon.es",
+            "amazon.eu",
+            "amazon.fr",
+            "amazon.in",
+            "amazon.it",
+            "amazon.nl",
+            "amazon.sa",
+            "amazonbrowserapp.co.uk",
+            "amazonbrowserapp.es",
+            "amazoncognito.com",
+            "amazoncrl.com",
+            "amazonpay.com",
+            "amazonpay.in",
+            "amazontrust.com",
+            "associates-amazon.com",
+            "images-amazon.com",
+            "media-amazon.com",
+            "ssl-images-amazon.com"
         ],
-        "icon_domain": "flickr.com",
+        "icon_domain": "amazon.com",
         "modified_time": "2021-09-14 10:23"
     },
     {
-        "service_id": "instagram",
-        "service_name": "Instagram",
+        "service_id": "atlassian",
+        "service_name": "Atlassian",
         "categories": [
-            "SOCIAL_NETWORKS"
+            "WORK"
         ],
         "domains": [
-            "cdninstagram.com",
-            "instagram.com",
-            "ig.me"
-        ],
-        "icon_domain": "instagram.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "linkedin",
-        "service_name": "LinkedIn",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "bizographics.com",
-            "licdn.com",
-            "linkedin.at",
-            "linkedin.com"
-        ],
-        "icon_domain": "linkedin.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "pinterest",
-        "service_name": "Pinterest",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "pinimg.com",
-            "pinterest.ca",
-            "pinterest.cl",
-            "pinterest.co.kr",
-            "pinterest.co.uk",
-            "pinterest.com",
-            "pinterest.com.mx",
-            "pinterest.de",
-            "pinterest.dk",
-            "pinterest.es",
-            "pinterest.fr",
-            "pinterest.jp",
-            "pinterest.nz",
-            "pinterest.pt",
-            "pinterest.ru",
-            "pinterest.se"
-        ],
-        "icon_domain": "pinterest.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "reddit",
-        "service_name": "Reddit",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "redd.it",
-            "reddit.com",
-            "redditinc.com",
-            "redditmail.com",
-            "redditmedia.com",
-            "redditstatic.com",
-            "redditstatus.com"
-        ],
-        "icon_domain": "reddit.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "snapchat",
-        "service_name": "Snapchat",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "addlive.io",
-            "feelinsonice.com",
-            "sc-cdn.net",
-            "sc-corp.net",
-            "sc-gw.com",
-            "sc-jpl.com",
-            "sc-prod.net",
-            "sc-static.net",
-            "snap-dev.net",
-            "snapads.com",
-            "snapchat.com",
-            "snapkit.com"
-        ],
-        "icon_domain": "snapchat.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "tiktok",
-        "service_name": "Tiktok",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "byteoversea.com",
-            "bytecdn.cn",
-            "byted.org",
-            "bytedanceapi.com",
-            "byteoversea.net",
-            "ibytedtos.com",
-            "isnssdk.com",
-            "muscdn.com",
-            "musemuse.cn",
-            "musical.ly",
-            "ibyteimg.com",
-            "sgsnssdk.com",
-            "tiktok.com",
-            "tiktokcdn-in.com",
-            "tiktokcdn.com",
-            "worldfcdn.com",
-            "wsdvs.com",
-            "tiktokv.com",
-            "ttoversea.net"
-        ],
-        "icon_domain": "tiktok.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "tinder",
-        "service_name": "Tinder",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "gotinder.com",
-            "tinder.com",
-            "tindersparks.com"
-        ],
-        "icon_domain": "tinder.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "tumblr",
-        "service_name": "Tumblr",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "tumblr.com"
-        ],
-        "icon_domain": "tumblr.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "twitter",
-        "service_name": "Twitter",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "ads-twitter.com",
-            "t.co",
-            "twimg.com",
-            "twitter.com",
-            "twttr.com",
-            "x.com"
-        ],
-        "icon_domain": "twitter.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "vk",
-        "service_name": "VK",
-        "categories": [
-            "SOCIAL_NETWORKS"
-        ],
-        "domains": [
-            "userapi.com",
-            "vk-portal.net",
-            "vk.com",
-            "vkuservideo.net"
-        ],
-        "icon_domain": "vk.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "discord",
-        "service_name": "Discord",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "discord.com",
-            "discord.gg",
-            "discord.media",
-            "discordapp.com",
-            "discordapp.net",
-            "discordstatus.com"
-        ],
-        "icon_domain": "discord.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "messenger",
-        "service_name": "Facebook Messenger",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "m.me",
-            "messenger.com",
-            "msngr.com"
-        ],
-        "icon_domain": "messenger.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "kakao",
-        "service_name": "Kakao Talk",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "daum.net",
-            "kakao.com"
-        ],
-        "icon_domain": "kakao.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "kik",
-        "service_name": "Kik",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "kik.com"
-        ],
-        "icon_domain": "kik.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "signal",
-        "service_name": "Signal",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "signal.org",
-            "whispersystems.org"
-        ],
-        "icon_domain": "signal.org",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "telegram",
-        "service_name": "Telegram",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "t.me",
-            "telegram.org",
-            "telesco.pe"
-        ],
-        "icon_domain": "telegram.org",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "wechat",
-        "service_name": "WeChat",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "wechat.com"
-        ],
-        "icon_domain": "wechat.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "whatsapp",
-        "service_name": "WhatsApp",
-        "categories": [
-            "MESSENGERS"
-        ],
-        "domains": [
-            "whatsapp.com",
-            "whatsapp.net"
-        ],
-        "icon_domain": "whatsapp.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "disneyplus",
-        "service_name": "Disney Plus",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "disney-plus.net",
-            "disneyplus.com",
-            "dssott.com",
-            "bamgrid.com"
-        ],
-        "icon_domain": "disneyplus.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "hbo",
-        "service_name": "HBO",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "hbo.com",
-            "hbogo.co.th",
-            "hbogo.com",
-            "hbogo.eu",
-            "hbogoasia.com",
-            "hbogoasia.id",
-            "hbogoasia.ph",
-            "hbomax.com",
-            "hbomaxcdn.com"
-        ],
-        "icon_domain": "hbo.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "hulu",
-        "service_name": "Hulu",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "hulu.com",
-            "huluad.com",
-            "huluim.com",
-            "hulumail.com",
-            "huluqa.com",
-            "hulustream.com"
-        ],
-        "icon_domain": "hulu.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "netflix",
-        "service_name": "Netflix",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "netflix.com",
-            "netflix.net",
-            "nflxext.com",
-            "nflximg.com",
-            "nflximg.net",
-            "nflxso.net",
-            "nflxvideo.net"
-        ],
-        "icon_domain": "netflix.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "vimeo",
-        "service_name": "Vimeo",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "vimeo.com",
-            "vimeocdn.com"
-        ],
-        "icon_domain": "vimeo.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "youtube",
-        "service_name": "YouTube",
-        "categories": [
-            "VIDEO"
-        ],
-        "domains": [
-            "gvt1.com",
-            "youtu.be",
-            "youtube-nocookie.com",
-            "youtube.com",
-            "youtubeeducation.com",
-            "ytimg.com",
-            "googlevideo.com",
-            "ggpht.com"
-        ],
-        "icon_domain": "youtube.com",
-        "modified_time": "2022-05-05 10:23"
-    },
-    {
-        "service_id": "deezer",
-        "service_name": "Deezer",
-        "categories": [
-            "MUSIC"
-        ],
-        "domains": [
-            "deezer.com",
-            "dzcdn.net"
-        ],
-        "icon_domain": "deezer.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "last",
-        "service_name": "Last.fm",
-        "categories": [
-            "MUSIC"
-        ],
-        "domains": [
-            "last.fm"
-        ],
-        "icon_domain": "last.fm",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "pandora",
-        "service_name": "Pandora",
-        "categories": [
-            "MUSIC"
-        ],
-        "domains": [
-            "p-cdn.com",
-            "p-cdn.us",
-            "pandora.com"
-        ],
-        "icon_domain": "pandora.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "soundcloud",
-        "service_name": "SoundCloud",
-        "categories": [
-            "MUSIC"
-        ],
-        "domains": [
-            "sndcdn.com",
-            "soundcloud.com"
-        ],
-        "icon_domain": "soundcloud.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "spotify",
-        "service_name": "Spotify",
-        "categories": [
-            "MUSIC"
-        ],
-        "domains": [
-            "pscdn.co",
-            "scdn.co",
-            "spotify.com",
-            "spotifycdn.com",
-            "spotifycdn.net",
-            "spotilocal.com"
-        ],
-        "icon_domain": "spotify.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "epicgames",
-        "service_name": "Epic Games",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "epicgames.com",
-            "epicgames.dev",
-            "epicgames.net",
-            "unrealengine.com"
-        ],
-        "icon_domain": "epicgames.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "gog",
-        "service_name": "GOG",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "gog-statics.com",
-            "gog.com",
-            "gogalaxy.com",
-            "gogcdn.net"
-        ],
-        "icon_domain": "gog.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "origin",
-        "service_name": "Origin",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "origin.com"
-        ],
-        "icon_domain": "origin.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "playstation",
-        "service_name": "Playstation",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "playstation.com",
-            "playstation.net",
-            "sonyentertainmentnetwork.com"
-        ],
-        "icon_domain": "playstation.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "rockstargames",
-        "service_name": "Rockstar Games",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "rockstargames.com"
-        ],
-        "icon_domain": "rockstargames.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "steampowered",
-        "service_name": "Steam",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "steamcommunity.com",
-            "steamcontent.com",
-            "steampowered.com",
-            "steamstatic.com",
-            "steamusercontent.com",
-            "valvesoftware.com"
-        ],
-        "icon_domain": "steampowered.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "twitch",
-        "service_name": "Twitch",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "ext-twitch.tv",
-            "jtvnw.net",
-            "live-video.net",
-            "ttvnw.net",
-            "twitch.tv",
-            "twitchcdn.net",
-            "twitchsvc.net"
-        ],
-        "icon_domain": "twitch.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "ubisoft",
-        "service_name": "Ubisoft",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "ubi.com",
-            "ubisoft.com",
-            "ubisoft.org",
-            "ubisoftconnect.com"
-        ],
-        "icon_domain": "ubisoft.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "xbox",
-        "service_name": "Xbox",
-        "categories": [
-            "GAMES"
-        ],
-        "domains": [
-            "gamepass.com",
-            "xbox.com",
-            "xboxab.com",
-            "xboxab.net",
-            "xboxlive.com",
-            "xboxservices.com"
-        ],
-        "icon_domain": "xbox.com",
+            "atlassian.com",
+            "atlassian.net",
+            "bitbucket.org"
+        ],
+        "icon_domain": "atlassian.com",
         "modified_time": "2021-09-14 10:23"
     },
     {
@@ -680,6 +108,64 @@
         "modified_time": "2021-09-14 10:23"
     },
     {
+        "service_id": "craigslist",
+        "service_name": "Craigslist",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "craigslist.ca",
+            "craigslist.org"
+        ],
+        "icon_domain": "craigslist.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "deezer",
+        "service_name": "Deezer",
+        "categories": [
+            "MUSIC"
+        ],
+        "domains": [
+            "deezer.com",
+            "dzcdn.net"
+        ],
+        "icon_domain": "deezer.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "discord",
+        "service_name": "Discord",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "discord.com",
+            "discord.gg",
+            "discord.media",
+            "discordapp.com",
+            "discordapp.net",
+            "discordstatus.com"
+        ],
+        "icon_domain": "discord.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "disneyplus",
+        "service_name": "Disney Plus",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "disney-plus.net",
+            "disneyplus.com",
+            "dssott.com",
+            "bamgrid.com"
+        ],
+        "icon_domain": "disneyplus.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
         "service_id": "duckduckgo",
         "service_name": "DuckDuckGo",
         "categories": [
@@ -689,6 +175,148 @@
             "duckduckgo.com"
         ],
         "icon_domain": "duckduckgo.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "ebay",
+        "service_name": "Ebay",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "ebay-us.com",
+            "ebay.be",
+            "ebay.ca",
+            "ebay.co.jp",
+            "ebay.co.uk",
+            "ebay.com",
+            "ebay.com.au",
+            "ebay.com.my",
+            "ebay.fr",
+            "ebayadservices.com",
+            "ebaycdn.net",
+            "ebaydesc.com",
+            "ebayimg.com",
+            "ebayrtm.com",
+            "ebaystatic.com",
+            "ebaystratus.com"
+        ],
+        "icon_domain": "ebay.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "epicgames",
+        "service_name": "Epic Games",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "epicgames.com",
+            "epicgames.dev",
+            "epicgames.net",
+            "unrealengine.com"
+        ],
+        "icon_domain": "epicgames.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "etsy",
+        "service_name": "Etsy",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "etsy.com",
+            "etsy.me",
+            "etsystatic.com"
+        ],
+        "icon_domain": "etsy.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "facebook",
+        "service_name": "Facebook",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "accountkit.com",
+            "atdmt.com",
+            "atlassolutions.com",
+            "facebook.com",
+            "facebook.net",
+            "facebookmail.com",
+            "fb.com",
+            "fb.gg",
+            "fb.watch",
+            "fbcdn.net",
+            "fbsbx.com",
+            "fbwat.ch",
+            "parse.com"
+        ],
+        "icon_domain": "facebook.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "flickr",
+        "service_name": "Flickr",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "flickr.com",
+            "flickrprints.com",
+            "staticflickr.com"
+        ],
+        "icon_domain": "flickr.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "github",
+        "service_name": "GitHub",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "ghcr.io",
+            "github.com",
+            "github.dev",
+            "github.io",
+            "githubapp.com",
+            "githubassets.com",
+            "githubusercontent.com"
+        ],
+        "icon_domain": "github.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "gitlab",
+        "service_name": "GitLab",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "gitlab-static.net",
+            "gitlab.com",
+            "gitlab.io",
+            "gitlab.net"
+        ],
+        "icon_domain": "gitlab.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "gog",
+        "service_name": "GOG",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "gog-statics.com",
+            "gog.com",
+            "gogalaxy.com",
+            "gogcdn.net"
+        ],
+        "icon_domain": "gog.com",
         "modified_time": "2021-09-14 10:23"
     },
     {
@@ -911,6 +539,170 @@
         "modified_time": "2021-09-14 10:23"
     },
     {
+        "service_id": "hbo",
+        "service_name": "HBO",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "hbo.com",
+            "hbogo.co.th",
+            "hbogo.com",
+            "hbogo.eu",
+            "hbogoasia.com",
+            "hbogoasia.id",
+            "hbogoasia.ph",
+            "hbomax.com",
+            "hbomaxcdn.com"
+        ],
+        "icon_domain": "hbo.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "hulu",
+        "service_name": "Hulu",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "hulu.com",
+            "huluad.com",
+            "huluim.com",
+            "hulumail.com",
+            "huluqa.com",
+            "hulustream.com"
+        ],
+        "icon_domain": "hulu.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "instagram",
+        "service_name": "Instagram",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "cdninstagram.com",
+            "instagram.com",
+            "ig.me"
+        ],
+        "icon_domain": "instagram.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "kakao",
+        "service_name": "Kakao Talk",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "daum.net",
+            "kakao.com"
+        ],
+        "icon_domain": "kakao.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "kik",
+        "service_name": "Kik",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "kik.com"
+        ],
+        "icon_domain": "kik.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "last",
+        "service_name": "Last.fm",
+        "categories": [
+            "MUSIC"
+        ],
+        "domains": [
+            "last.fm"
+        ],
+        "icon_domain": "last.fm",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "linkedin",
+        "service_name": "LinkedIn",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "bizographics.com",
+            "licdn.com",
+            "linkedin.at",
+            "linkedin.com"
+        ],
+        "icon_domain": "linkedin.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "messenger",
+        "service_name": "Facebook Messenger",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "m.me",
+            "messenger.com",
+            "msngr.com"
+        ],
+        "icon_domain": "messenger.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "netflix",
+        "service_name": "Netflix",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "netflix.com",
+            "netflix.net",
+            "nflxext.com",
+            "nflximg.com",
+            "nflximg.net",
+            "nflxso.net",
+            "nflxvideo.net"
+        ],
+        "icon_domain": "netflix.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "office",
+        "service_name": "Microsoft Office",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "assets-yammer.com",
+            "footprintdns.com",
+            "microsoftonline-p.com",
+            "microsoftonline.com",
+            "msocdn.com",
+            "msocsp.com",
+            "o365filtering.com",
+            "office.com",
+            "office.de",
+            "office.microsoft",
+            "office.net",
+            "office365.com",
+            "office365.us",
+            "live.com",
+            "microsoft.com",
+            "onmicrosoft.com",
+            "svc.ms",
+            "yammer.com"
+        ],
+        "icon_domain": "office.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
         "service_id": "openai",
         "service_name": "OpenAI",
         "categories": [
@@ -924,6 +716,412 @@
         ],
         "icon_domain": "openai.com",
         "modified_time": "2024-03-15 12:40"
+    },
+    {
+        "service_id": "origin",
+        "service_name": "Origin",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "origin.com"
+        ],
+        "icon_domain": "origin.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "pandora",
+        "service_name": "Pandora",
+        "categories": [
+            "MUSIC"
+        ],
+        "domains": [
+            "p-cdn.com",
+            "p-cdn.us",
+            "pandora.com"
+        ],
+        "icon_domain": "pandora.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "pinterest",
+        "service_name": "Pinterest",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "pinimg.com",
+            "pinterest.ca",
+            "pinterest.cl",
+            "pinterest.co.kr",
+            "pinterest.co.uk",
+            "pinterest.com",
+            "pinterest.com.mx",
+            "pinterest.de",
+            "pinterest.dk",
+            "pinterest.es",
+            "pinterest.fr",
+            "pinterest.jp",
+            "pinterest.nz",
+            "pinterest.pt",
+            "pinterest.ru",
+            "pinterest.se"
+        ],
+        "icon_domain": "pinterest.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "playstation",
+        "service_name": "Playstation",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "playstation.com",
+            "playstation.net",
+            "sonyentertainmentnetwork.com"
+        ],
+        "icon_domain": "playstation.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "reddit",
+        "service_name": "Reddit",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "redd.it",
+            "reddit.com",
+            "redditinc.com",
+            "redditmail.com",
+            "redditmedia.com",
+            "redditstatic.com",
+            "redditstatus.com"
+        ],
+        "icon_domain": "reddit.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "rockstargames",
+        "service_name": "Rockstar Games",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "rockstargames.com"
+        ],
+        "icon_domain": "rockstargames.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "signal",
+        "service_name": "Signal",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "signal.org",
+            "whispersystems.org"
+        ],
+        "icon_domain": "signal.org",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "skype",
+        "service_name": "Skype",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "lync.com",
+            "sfbassets.com",
+            "cloudapp.net",
+            "skype.com",
+            "skypeassets.com",
+            "skypeforbusiness.com"
+        ],
+        "icon_domain": "skype.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "slack",
+        "service_name": "Slack",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "slack-core.com",
+            "slack-edge.com",
+            "slack-files.com",
+            "slack-imgs.com",
+            "slack-msgs.com",
+            "slack-redir.net",
+            "slack.com",
+            "slackb.com"
+        ],
+        "icon_domain": "slack.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "snapchat",
+        "service_name": "Snapchat",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "addlive.io",
+            "feelinsonice.com",
+            "sc-cdn.net",
+            "sc-corp.net",
+            "sc-gw.com",
+            "sc-jpl.com",
+            "sc-prod.net",
+            "sc-static.net",
+            "snap-dev.net",
+            "snapads.com",
+            "snapchat.com",
+            "snapkit.com"
+        ],
+        "icon_domain": "snapchat.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "soundcloud",
+        "service_name": "SoundCloud",
+        "categories": [
+            "MUSIC"
+        ],
+        "domains": [
+            "sndcdn.com",
+            "soundcloud.com"
+        ],
+        "icon_domain": "soundcloud.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "spotify",
+        "service_name": "Spotify",
+        "categories": [
+            "MUSIC"
+        ],
+        "domains": [
+            "pscdn.co",
+            "scdn.co",
+            "spotify.com",
+            "spotifycdn.com",
+            "spotifycdn.net",
+            "spotilocal.com"
+        ],
+        "icon_domain": "spotify.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "steampowered",
+        "service_name": "Steam",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "steamcommunity.com",
+            "steamcontent.com",
+            "steampowered.com",
+            "steamstatic.com",
+            "steamusercontent.com",
+            "valvesoftware.com"
+        ],
+        "icon_domain": "steampowered.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "telegram",
+        "service_name": "Telegram",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "t.me",
+            "telegram.org",
+            "telesco.pe"
+        ],
+        "icon_domain": "telegram.org",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "tiktok",
+        "service_name": "Tiktok",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "byteoversea.com",
+            "bytecdn.cn",
+            "byted.org",
+            "bytedanceapi.com",
+            "byteoversea.net",
+            "ibytedtos.com",
+            "isnssdk.com",
+            "muscdn.com",
+            "musemuse.cn",
+            "musical.ly",
+            "ibyteimg.com",
+            "sgsnssdk.com",
+            "tiktok.com",
+            "tiktokcdn-in.com",
+            "tiktokcdn.com",
+            "worldfcdn.com",
+            "wsdvs.com",
+            "tiktokv.com",
+            "ttoversea.net"
+        ],
+        "icon_domain": "tiktok.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "tinder",
+        "service_name": "Tinder",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "gotinder.com",
+            "tinder.com",
+            "tindersparks.com"
+        ],
+        "icon_domain": "tinder.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "tumblr",
+        "service_name": "Tumblr",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "tumblr.com"
+        ],
+        "icon_domain": "tumblr.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "twitch",
+        "service_name": "Twitch",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "ext-twitch.tv",
+            "jtvnw.net",
+            "live-video.net",
+            "ttvnw.net",
+            "twitch.tv",
+            "twitchcdn.net",
+            "twitchsvc.net"
+        ],
+        "icon_domain": "twitch.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "twitter",
+        "service_name": "Twitter",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "ads-twitter.com",
+            "t.co",
+            "twimg.com",
+            "twitter.com",
+            "twttr.com",
+            "x.com"
+        ],
+        "icon_domain": "twitter.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "ubisoft",
+        "service_name": "Ubisoft",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "ubi.com",
+            "ubisoft.com",
+            "ubisoft.org",
+            "ubisoftconnect.com"
+        ],
+        "icon_domain": "ubisoft.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "vimeo",
+        "service_name": "Vimeo",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "vimeo.com",
+            "vimeocdn.com"
+        ],
+        "icon_domain": "vimeo.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "vk",
+        "service_name": "VK",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "userapi.com",
+            "vk-portal.net",
+            "vk.com",
+            "vkuservideo.net"
+        ],
+        "icon_domain": "vk.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "wechat",
+        "service_name": "WeChat",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "wechat.com"
+        ],
+        "icon_domain": "wechat.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "whatsapp",
+        "service_name": "WhatsApp",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "whatsapp.com",
+            "whatsapp.net"
+        ],
+        "icon_domain": "whatsapp.com",
+        "modified_time": "2021-09-14 10:23"
+    },
+    {
+        "service_id": "xbox",
+        "service_name": "Xbox",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "gamepass.com",
+            "xbox.com",
+            "xboxab.com",
+            "xboxab.net",
+            "xboxlive.com",
+            "xboxservices.com"
+        ],
+        "icon_domain": "xbox.com",
+        "modified_time": "2021-09-14 10:23"
     },
     {
         "service_id": "yahoo",
@@ -981,116 +1179,23 @@
         "modified_time": "2021-09-14 10:23"
     },
     {
-        "service_id": "atlassian",
-        "service_name": "Atlassian",
+        "service_id": "youtube",
+        "service_name": "YouTube",
         "categories": [
-            "WORK"
+            "VIDEO"
         ],
         "domains": [
-            "atlassian.com",
-            "atlassian.net",
-            "bitbucket.org"
+            "gvt1.com",
+            "youtu.be",
+            "youtube-nocookie.com",
+            "youtube.com",
+            "youtubeeducation.com",
+            "ytimg.com",
+            "googlevideo.com",
+            "ggpht.com"
         ],
-        "icon_domain": "atlassian.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "github",
-        "service_name": "GitHub",
-        "categories": [
-            "WORK"
-        ],
-        "domains": [
-            "ghcr.io",
-            "github.com",
-            "github.dev",
-            "github.io",
-            "githubapp.com",
-            "githubassets.com",
-            "githubusercontent.com"
-        ],
-        "icon_domain": "github.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "gitlab",
-        "service_name": "GitLab",
-        "categories": [
-            "WORK"
-        ],
-        "domains": [
-            "gitlab-static.net",
-            "gitlab.com",
-            "gitlab.io",
-            "gitlab.net"
-        ],
-        "icon_domain": "gitlab.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "office",
-        "service_name": "Microsoft Office",
-        "categories": [
-            "WORK"
-        ],
-        "domains": [
-            "assets-yammer.com",
-            "footprintdns.com",
-            "microsoftonline-p.com",
-            "microsoftonline.com",
-            "msocdn.com",
-            "msocsp.com",
-            "o365filtering.com",
-            "office.com",
-            "office.de",
-            "office.microsoft",
-            "office.net",
-            "office365.com",
-            "office365.us",
-            "live.com",
-            "microsoft.com",
-            "onmicrosoft.com",
-            "svc.ms",
-            "yammer.com"
-        ],
-        "icon_domain": "office.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "skype",
-        "service_name": "Skype",
-        "categories": [
-            "WORK"
-        ],
-        "domains": [
-            "lync.com",
-            "sfbassets.com",
-            "cloudapp.net",
-            "skype.com",
-            "skypeassets.com",
-            "skypeforbusiness.com"
-        ],
-        "icon_domain": "skype.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "slack",
-        "service_name": "Slack",
-        "categories": [
-            "WORK"
-        ],
-        "domains": [
-            "slack-core.com",
-            "slack-edge.com",
-            "slack-files.com",
-            "slack-imgs.com",
-            "slack-msgs.com",
-            "slack-redir.net",
-            "slack.com",
-            "slackb.com"
-        ],
-        "icon_domain": "slack.com",
-        "modified_time": "2021-09-14 10:23"
+        "icon_domain": "youtube.com",
+        "modified_time": "2022-05-05 10:23"
     },
     {
         "service_id": "zoom",
@@ -1103,111 +1208,6 @@
             "zoomgov.com"
         ],
         "icon_domain": "zoom.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "aliexpress",
-        "service_name": "Aliexpress",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "aliexpress.com",
-            "aliexpress.ru"
-        ],
-        "icon_domain": "aliexpress.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "amazon",
-        "service_name": "Amazon",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "a2z.com",
-            "amazon-corp.com",
-            "amazon.ca",
-            "amazon.co.jp",
-            "amazon.co.uk",
-            "amazon.com",
-            "amazon.com.au",
-            "amazon.com.mx",
-            "amazon.de",
-            "amazon.es",
-            "amazon.eu",
-            "amazon.fr",
-            "amazon.in",
-            "amazon.it",
-            "amazon.nl",
-            "amazon.sa",
-            "amazonbrowserapp.co.uk",
-            "amazonbrowserapp.es",
-            "amazoncognito.com",
-            "amazoncrl.com",
-            "amazonpay.com",
-            "amazonpay.in",
-            "amazontrust.com",
-            "associates-amazon.com",
-            "images-amazon.com",
-            "media-amazon.com",
-            "ssl-images-amazon.com"
-        ],
-        "icon_domain": "amazon.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "craigslist",
-        "service_name": "Craigslist",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "craigslist.ca",
-            "craigslist.org"
-        ],
-        "icon_domain": "craigslist.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "ebay",
-        "service_name": "Ebay",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "ebay-us.com",
-            "ebay.be",
-            "ebay.ca",
-            "ebay.co.jp",
-            "ebay.co.uk",
-            "ebay.com",
-            "ebay.com.au",
-            "ebay.com.my",
-            "ebay.fr",
-            "ebayadservices.com",
-            "ebaycdn.net",
-            "ebaydesc.com",
-            "ebayimg.com",
-            "ebayrtm.com",
-            "ebaystatic.com",
-            "ebaystratus.com"
-        ],
-        "icon_domain": "ebay.com",
-        "modified_time": "2021-09-14 10:23"
-    },
-    {
-        "service_id": "etsy",
-        "service_name": "Etsy",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "etsy.com",
-            "etsy.me",
-            "etsystatic.com"
-        ],
-        "icon_domain": "etsy.com",
         "modified_time": "2021-09-14 10:23"
     }
 ]
