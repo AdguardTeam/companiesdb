@@ -680,10 +680,10 @@
             "SEARCH"
         ],
         "domains": [
+            "chatgpt.com",
             "oaistatic.com",
             "oaiusercontent.com",
-            "openai.com",
-            "chatgpt.com"
+            "openai.com"
         ],
         "icon_domain": "openai.com"
     },
