@@ -7,12 +7,24 @@ database converted to a simple JSON format with some additions from us.
 In addition, there's also a file with companies metadata that we use in
 AdGuard VPN.
 
+- [Workflow](#workflow)
+- [Naming of branches and commits](#naming-of-branches-and-commits)
+- [Assignment of files](#assignment-of-files)
+- [How to add new or rewrite whotracks.me data](#how-to-add-new-or-rewrite-whotracksme-data)
+  - [How to add a new company or overwrite whotracks.me data](#how-to-add-a-new-company-or-overwrite-whotracksme-data)
+  - [How to add a new tracker or overwrite whotracks.me data](#how-to-add-a-new-tracker-or-overwrite-whotracksme-data)
+- [Tracker categories](#tracker-categories)
+- [How to build trackers data](#how-to-build-trackers-data)
+- [Company icons](#company-icons)
+- [Policy](#policy)
+- [Acknowledgements](#acknowledgements)
+
 ## Workflow
 
-- create a fork of the repository on GitHub.
-- create a branch from actual main branch.
-- add a tracker.
-- create a Pull Request.
+- Create a fork of the repository on GitHub.
+- Create a branch from the actual main branch.
+- Add a tracker.
+- Create a Pull Request.
 
 ## Naming of branches and commits
 
@@ -20,14 +32,14 @@ AdGuard VPN.
   `fix/issueNumber_domain`
 
 ```markdown
-fix/34_showrss.info
+fix/34_example.info
 ```
 
 - the commit message format:
   `Fix #issueNumber domain`
 
 ```markdown
-Fix #34 showrss.info
+Fix #34 example.info
 ```
 
 ## Assignment of files
@@ -139,7 +151,7 @@ Add tracker domains to the **trackerDomains** section:
 | 13  | email                | Includes webmail and email clients                                                                                     |
 | 14  | consent              | -                                                                                                                      |
 | 15  | telemetry            | -                                                                                                                      |
-| 16  | mobile_analytics     | Collects and analyzes data related to mobile app usage and performance                                                 |
+| 101  | mobile_analytics    | Collects and analyzes data related to mobile app usage and performance                                                 |
 
 ## **How to build trackers data**
 
