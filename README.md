@@ -48,29 +48,29 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 **Trackers**:
 
-- [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json) - just a copy of [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json).
-- [dist/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) - contains information about trackers, obtained by merging the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) with [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
-- [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json) - contains information about trackers, fetched from whotracks.me.
-- [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) - contains information about trackers, which overwrites or supplements [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
+- [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json) — just a copy of [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json).
+- [dist/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) contains information about trackers, obtained by merging the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) with [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
+- [source/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json) — contains information about trackers, fetched from whotracks.me.
+- [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json) contains information about trackers, which overwrites or supplements [dist/whotracksme.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/whotracksme.json).
 
 **Companies**:
 
-- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) - contains information about companies, obtained by merging the [source/whotracksme_companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json) with [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
-- [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) - contains information about companies, which overwrites or supplements information in [source/whotracksme_companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/source/whotracksme_companies.json).
+- [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) contains information about companies, obtained by merging the [source/whotracksme_companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json) with [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json).
+- [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) contains information about companies, which overwrites or supplements information in [source/whotracksme_companies.json](https://github.com/AdguardTeam/companiesdb/blob/main/source/whotracksme_companies.json).
 - [source/whotracksme_companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json) - contains information about companies, fetched from whotracks.me.
 
 **VPN Services**:
 
-- [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - contains a list of "Services" that can be added to exclusions in AdGuard VPN apps. This file is composed manually and not
+- [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) contains a list of "Services" that can be added to exclusions in AdGuard VPN apps. This file is composed manually and not
   built from other sources. New services should be added in alphabetical order.
-- [dist/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) - just a copy of [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) with automatically added update time if the service has been added or modified.
+- [dist/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) — just a copy of [source/vpn_services.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json) with automatically added update time if the service has been added or modified.
 
 ## How to add new or rewrite whotracks.me data
 
 If you need to add new data or to rewrite [whotracks.me](http://whotracks.me/) data:
 
-- **company** - add to [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
-- **tracker** - add in [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json)
+- **company** — add to [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
+- **tracker** — add in [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json)
 
 > **Warning**
 >
@@ -80,9 +80,9 @@ If you need to add new data or to rewrite [whotracks.me](http://whotracks.me/) d
 
 The data about the company is added to the [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json) file into the JSON key with the name that defines **companyId**, which is used when adding trackers:
 
-- **name** - the official name of the company, will be displayed in the filter log.
-- **websiteUrl** [](https://www.notion.so/companiesdb-87733d1e43294ceb9311e6e60c1663b4) - the address of the company website, also used to define the company icon.
-- **description** - company description, not displayed anywhere.
+- **name** — the official name of the company, will be displayed in the filter log.
+- **websiteUrl** — the address of the company website, also used to define the company icon.
+- **description** — company description, not displayed anywhere.
 
 ```json
 "companyincID": {
@@ -96,10 +96,10 @@ The data about the company is added to the [source/companies.json](https://raw.g
 
 The data about the tracker is added to the [source/trackers.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/trackers.json) file into the nested JSON key inside the **trackers** section with the name that defines the **tracker name** of the company, which is used when adding trackers to the **trackerDomains** section:
 
-- **name** - tracker name of the company.
-- **categoryId** - tracker category.
-- **url** - the address of the company tracker.
-- **companyId** - company ID, taken from [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) or [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
+- **name** — tracker name of the company.
+- **categoryId** — tracker category.
+- **url** — the address of the company tracker.
+- **companyId** — company ID, taken from [dist/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/companies.json) or [source/companies.json](https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/companies.json)
 
 ```json
 "trackers": {
@@ -114,8 +114,8 @@ The data about the tracker is added to the [source/trackers.json](https://raw.gi
 
 Add tracker domains to the **trackerDomains** section:
 
-- **key** - tracker domain.
-- **value** - the **tracker name** of the company.
+- **key** — tracker domain.
+- **value** — the **tracker name** of the company.
 
 ```json
 "trackerDomains": {
@@ -125,7 +125,7 @@ Add tracker domains to the **trackerDomains** section:
 
 > **Warning**
 >
-> If **the value does not exist** - enter **null**:
+> If **the value does not exist** — enter **null**:
 
 ```json
 "url": null
@@ -162,8 +162,8 @@ yarn convert
 
 The result is:
 
-- **dist/companies.json** - companies data JSON file. This file contains the companies list from whotracks.me merged with AdGuard companies from **source/companies.json**.
-- **dist/trackers.json** - trackers data JSON file. Combined data from two files:
+- **dist/companies.json** — companies data JSON file. This file contains the companies list from whotracks.me merged with AdGuard companies from **source/companies.json**.
+- **dist/trackers.json** — trackers data JSON file. Combined data from two files:
 
   - **source/trackers.json**
   - **dist/whotracksme.json**.
@@ -171,10 +171,10 @@ The result is:
   An additional key is added to the information from AdGuard files:
   **"source": "AdGuard"**
 
-- **dist/trackers.csv** - trackers data CSV file. This file is used by the ETL process of AdGuard DNS, be very careful
+- **dist/trackers.csv** — trackers data CSV file. This file is used by the ETL process of AdGuard DNS, be very careful
   with changing it's structure.
 
-- **dist/whotrackme.json** - actual **whotrack.me** trackers data json file, compiled from **trackerdb.sql**.
+- **dist/whotrackme.json** — actual **whotrack.me** trackers data json file, compiled from **trackerdb.sql**.
 
 During the build process, a list of warnings and errors is displayed that should be fixed.
 
