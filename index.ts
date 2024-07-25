@@ -106,11 +106,12 @@ function readJSON(source: string): unknown {
  *
  * @param destination Destination file path.
  * @param data JSON data to write.
+ *
  * @throws an error if the JSON file is invalid or destination does not exist.
  */
 function writeJSON<T>(destination: string, data: T): void {
     consola.info(`Writing ${destination} file`);
-    return fs.writeFileSync(destination, `${JSON.stringify(data, null, 4)}\n`);
+    fs.writeFileSync(destination, `${JSON.stringify(data, null, '\t')}\n`);
 }
 
 /**
