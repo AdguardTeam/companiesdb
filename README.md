@@ -140,7 +140,7 @@ Add tracker domains to the **trackerDomains** section:
 
 ## Tracker categories
 
-| #   | Name                 | Purpose                                                                                                                |
+| Id  | Name                 | Purpose                                                                                                                |
 | --- | -------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | 0   | audio_video_player   | Enables websites to publish, distribute, and optimize video and audio content                                          |
 | 1   | comments             | Enables comments sections for articles and product reviews                                                             |
@@ -158,7 +158,7 @@ Add tracker domains to the **trackerDomains** section:
 | 13  | email                | Includes webmail and email clients                                                                                     |
 | 14  | consent              | -                                                                                                                      |
 | 15  | telemetry            | -                                                                                                                      |
-| 101  | mobile_analytics    | Collects and analyzes data related to mobile app usage and performance                                                 |
+| 101 | mobile_analytics    | Collects and analyzes data related to mobile app usage and performance                                                 |
 
 ## **How to build trackers data**
 
