@@ -6,12 +6,24 @@ database converted to a simple JSON format with some additions from us.
 
 In addition, there's also a file with companies metadata that we use in AdGuard VPN.
 
+- [Workflow](#workflow)
+- [Naming of branches and commits](#naming-of-branches-and-commits)
+- [Assignment of files](#assignment-of-files)
+- [How to add new or rewrite whotracks.me data](#how-to-add-new-or-rewrite-whotracksme-data)
+  - [How to add a new company or overwrite whotracks.me data](#how-to-add-a-new-company-or-overwrite-whotracksme-data)
+  - [How to add a new tracker or overwrite whotracks.me data](#how-to-add-a-new-tracker-or-overwrite-whotracksme-data)
+- [Tracker categories](#tracker-categories)
+- [How to build trackers data](#how-to-build-trackers-data)
+- [Company icons](#company-icons)
+- [Policy](#policy)
+- [Acknowledgements](#acknowledgements)
+
 ## Workflow
 
-- create a fork of the repository on GitHub.
-- create a branch from actual main branch.
-- add a tracker.
-- create a Pull Request.
+- Create a fork of the repository on GitHub.
+- Create a branch from the actual main branch.
+- Add a tracker.
+- Create a Pull Request.
 
 ## Naming of branches and commits
 
@@ -42,22 +54,26 @@ The list of trackers and companies is generated from the database [whotracks.me]
 
 **Companies**:
 
-- [dist/companies.json] contains information about companies, obtained by merging the [source/whotracksme_companies.json] with [source/companies.json].
-- [source/companies.json] contains information about companies, which overwrites or supplements information in [source/whotracksme_companies.json].
+- [dist/companies.json] contains information about companies,
+  obtained by merging the [source/whotracksme_companies.json] with [source/companies.json].
+- [source/companies.json] contains information about companies,
+  which overwrites or supplements information in [source/whotracksme_companies.json].
 - [source/whotracksme_companies.json] contains information about companies, fetched from whotracks.me.
 
 **VPN Services**:
 
-- [source/vpn_services.json] contains a list of "Services" that can be added to exclusions in AdGuard VPN apps. This file is composed manually and not
-  built from other sources. New services should be added in alphabetical order.
-- [dist/vpn_services.json] — just a copy of [source/vpn_services.json] with automatically added update time if the service has been added or modified.
+- [source/vpn_services.json] contains a list of "Services" that can be added to exclusions in AdGuard VPN apps.
+  This file is composed manually and not built from other sources.
+  New services should be added in alphabetical order.
+- [dist/vpn_services.json] — just a copy of [source/vpn_services.json] with automatically added update time
+  if the service has been added or modified.
 
 ## How to add new or rewrite whotracks.me data
 
 If you need to add new data or to rewrite [whotracks.me] data:
 
 - **company** — add to [source/companies.json]
-- **tracker** — add in [source/trackers.json]
+- **tracker** — add to [source/trackers.json]
 
 > **Warning**
 >
@@ -142,7 +158,7 @@ Add tracker domains to the **trackerDomains** section:
 | 13  | email                | Includes webmail and email clients                                                                                     |
 | 14  | consent              | -                                                                                                                      |
 | 15  | telemetry            | -                                                                                                                      |
-| 16  | mobile_analytics     | Collects and analyzes data related to mobile app usage and performance                                                 |
+| 101  | mobile_analytics    | Collects and analyzes data related to mobile app usage and performance                                                 |
 
 ## **How to build trackers data**
 
