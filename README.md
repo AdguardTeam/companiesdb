@@ -215,5 +215,5 @@ and updated separately from **whotracks.me**.
 [source/trackers.json]: https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/trackers.json
 [source/vpn_services.json]: https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/dist/vpn_services.json
 [source/whotracksme.json]: https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme.json
-[source/whotracksme_companies.json]: https://github.com/AdguardTeam/companiesdb/blob/main/source/whotracksme_companies.json
+[source/whotracksme_companies.json]: https://raw.githubusercontent.com/AdguardTeam/companiesdb/main/source/whotracksme_companies.json
 [whotracks.me]: http://whotracks.me
