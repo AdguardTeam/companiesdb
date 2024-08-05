@@ -180,7 +180,7 @@ The result is:
   **"source": "AdGuard"**
 
 - **dist/trackers.csv** — trackers data CSV file. This file is used by the ETL process of AdGuard DNS, be very careful
-  with changing it's structure.
+  with changing its structure.
 
 - **dist/whotracksme.json** — actual **whotracks.me** trackers data json file, compiled from **trackerdb.sql**.
 
