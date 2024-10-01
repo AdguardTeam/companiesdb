@@ -1322,6 +1322,7 @@
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
         "farlightgames.com": "farlight_pte_ltd",
+        "fastly-edge.com": "fastlylb.net",
         "fastly-masque.net": "fastlylb.net",
         "app-measurement.com": "firebase",
         "fcm.googleapis.com": "firebase",
