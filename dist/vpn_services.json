@@ -1073,13 +1073,15 @@
 			"SOCIAL_NETWORKS"
 		],
 		"domains": [
+			"mycdn.me",
+			"okcdn.ru",
 			"userapi.com",
 			"vk-portal.net",
 			"vk.com",
 			"vkuservideo.net"
 		],
 		"icon_domain": "vk.com",
-		"modified_time": "2021-09-14 10:23"
+		"modified_time": "2024-10-09 12:54"
 	},
 	{
 		"service_id": "wechat",
