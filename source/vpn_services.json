@@ -1022,6 +1022,8 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
+            "mycdn.me",
+            "okcdn.ru",
             "userapi.com",
             "vk-portal.net",
             "vk.com",
