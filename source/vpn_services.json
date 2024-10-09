@@ -1022,12 +1022,12 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
+            "mycdn.me",
+            "okcdn.ru",
             "userapi.com",
             "vk-portal.net",
             "vk.com",
-            "vkuservideo.net",
-            "mycdn.me",
-            "okcdn.ru"
+            "vkuservideo.net"
         ],
         "icon_domain": "vk.com"
     },
