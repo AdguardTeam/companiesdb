@@ -2,9 +2,10 @@
 import * as fs from 'fs';
 import { consola } from 'consola';
 import { OpenAI } from 'openai';
+import { boolean } from 'zod';
 
-const inputFilePath = 'dist/companies.json';
-const translationsFilePath = 'dist/companies_i18n.json';
+const inputFilePath = '../dist/companies.json';
+const translationsFilePath = '../dist/companies_i18n.json';
 const defaultLanguage = 'en';
 const languages = [
     'ru',
@@ -53,11 +54,13 @@ function initTranslations(companies: Companies): Translations {
     for (const companyId in companies) {
         const company = companies[companyId];
 
-        if (company.description) {
-            const companyTranslations: TranslationResult = {};
-            companyTranslations[defaultLanguage] = company.description;
-            translations[companyId] = companyTranslations;
+        if (!company.description) {
+            continue;
         }
+
+        const companyTranslations: TranslationResult = {};
+        companyTranslations[defaultLanguage] = company.description;
+        translations[companyId] = companyTranslations;
     }
 
     return translations;
@@ -70,15 +73,19 @@ async function syncTranslations(translations: Translations, companies: Companies
     // companies object.
     for (const companyId in translations) {
         const company = companies[companyId];
-        if (!company || !company.description) {
-            consola.info(`Removing translations for company ${companyId} as it doesn't exist anymore`);
-            delete syncedTranslations[companyId];
+        if (company && company.description) {
+            continue;
         }
+
+        consola.info(`Removing translations for company ${companyId} as it doesn't exist anymore`);
+        delete syncedTranslations[companyId];
     }
 
     let translatedCompaniesCount = 0;
     let translationsCount = 0;
+    let previousTranslationsCount = 0;
 
+    consola.info("Start translate company descriptions");
     // Sync translations with the companies object.
     for (const companyId in companies) {
         const company = companies[companyId];
@@ -86,36 +93,24 @@ async function syncTranslations(translations: Translations, companies: Companies
         const companyTranslations = syncedTranslations[companyId] ?? {
             [defaultLanguage]: newDescription,
         };
-
+        
         const baseDescriptionChanged = companyTranslations[defaultLanguage] !== newDescription;
 
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
 
-        // Signals that there were changes in company translations.
-        let dirty = false;
-
-        // If there are no translations for this company, generate them.
-        for (const lang of languages) {
-            // Only translate it if there's a language missing or if the
-            // base description changed.
-            if (baseDescriptionChanged || companyTranslations[lang] === undefined) {
-                try {
-                    consola.debug(`Translating ${companyId} description to ${lang}`);
-
-                    const translatedText = await translateContent(newDescription, lang);
-                    companyTranslations[lang] = translatedText;
-
-                    translationsCount += 1;
-                    dirty = true;
-                } catch (ex) {
-                    consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
-                }
-            }
+        if(isDescriptionNeedToTranslate(company.description)) {
+            copyBaseDescriptionToAllLang(companyTranslations, company.description)
+        }
+        else {
+            translationsCount += await generateTranslations(companyTranslations, 
+                baseDescriptionChanged, companyId, newDescription);
         }
 
-        if (dirty) {
+        // Signals that there were changes in company translations.
+        if (translationsCount != previousTranslationsCount) {
             translatedCompaniesCount += 1;
+            previousTranslationsCount = translationsCount;
         }
 
         // Update translations for this company.
@@ -126,11 +121,59 @@ async function syncTranslations(translations: Translations, companies: Companies
         // result.
         if (translatedCompaniesCount > 0 && translatedCompaniesCount % 10 === 0) {
             consola.info(`Made ${translationsCount} translations in ${translatedCompaniesCount} companies, saving to ${translationsFilePath}`);
-
             fs.writeFileSync(translationsFilePath, JSON.stringify(syncedTranslations, null, 4));
         }
     }
 }
+
+async function generateTranslations(
+    companyTranslations: TranslationResult, 
+    baseDescriptionChanged: boolean,
+    companyId: string,
+    newDescription: string) : Promise<number> {
+
+    let translationsCount = 0;
+    // If there are no translations for this company, generate them.
+    for (const lang of languages) {
+        // Only translate it if there's a language missing or if the
+        // base description changed.
+        if (!baseDescriptionChanged && companyTranslations[lang] !== undefined) {
+            consola.info(`Language description ${companyTranslations[lang]} not updated`);
+            continue;
+        }
+
+        try {
+            consola.debug(`Translating ${companyId} description to ${lang}`);
+            const translatedText = await translateContent(newDescription, lang);
+            companyTranslations[lang] = translatedText;
+            translationsCount++;
+        } catch (ex) {
+            consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
+        }
+    }
+
+    return translationsCount;
+}
+
+function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) {
+    for(const lang of languages) {
+        translations[lang] = description;
+    }
+}
+
+function isDescriptionNeedToTranslate(value: string | null | undefined) : boolean {
+    return isStringNullOrEmpty(value)
+        || isStringNumeric(value)
+}
+
+function isStringNullOrEmpty(value: string | null | undefined) : boolean {
+    return value === null || value === undefined || value.trim() === '';
+}
+
+function isStringNumeric(value: string | null | undefined) : boolean {
+    return !isNaN(Number(value));
+}
+
 
 async function main() {
     consola.info('Start translating companies description');

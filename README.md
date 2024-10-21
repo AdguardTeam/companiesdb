@@ -176,6 +176,7 @@ The favicon of the company website is used as the company icon. It can be checke
 
 Run the following command to translate company descriptions into different
 languages (you need an OpenAI API key for that):
+If the description of the companies has not changed, the update will not occur
 
 ```bash
 OPENAI_API_KEY="YOUR_API_KEY" yarn translate
