@@ -53,16 +53,33 @@ function initTranslations(companies: Companies): Translations {
     for (const companyId in companies) {
         const company = companies[companyId];
 
-        if (!company.description) {
-            continue;
+        if (company.description) {
+            const companyTranslations: TranslationResult = {};
+            companyTranslations[defaultLanguage] = company.description;
+            translations[companyId] = companyTranslations;
         }
-
-        const companyTranslations: TranslationResult = {};
-        companyTranslations[defaultLanguage] = company.description;
-        translations[companyId] = companyTranslations;
     }
 
     return translations;
+}
+
+function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) {
+    for (const lang of languages) {
+        translations[lang] = description;
+    }
+}
+
+function isStringNullOrEmpty(value: string | null | undefined) : boolean {
+    return value === null || value === undefined || value.trim() === '';
+}
+
+function isStringNumeric(value: string | null | undefined) : boolean {
+    return !Number.isNaN(Number(value));
+}
+
+function isDescriptionNeedToTranslate(value: string | null | undefined) : boolean {
+    return !isStringNullOrEmpty(value)
+        && !isStringNumeric(value)
 }
 
 function removeObsoleteCompanyDescriptions(translations: Translations, companies: Companies) {
@@ -72,12 +89,10 @@ function removeObsoleteCompanyDescriptions(translations: Translations, companies
     // companies object.
     for (const companyId in translations) {
         const company = companies[companyId];
-        if (company && company.description) {
-            continue;
+        if (!company || !company.description) {
+            consola.info(`Removing translations for company ${companyId} as it doesn't exist anymore`);
+            delete syncedTranslations[companyId];
         }
-
-        consola.info(`Removing translations for company ${companyId} as it doesn't exist anymore`);
-        delete syncedTranslations[companyId];
     }
 }
 
@@ -87,7 +102,7 @@ async function translateCompanyDescriptions(translations: Translations, companie
     let translationsCount = 0;
     let previousTranslationsCount = 0;
 
-    consola.info(`Start translate company descriptions`);
+    consola.info('Start translate company descriptions');
     // Sync translations with the companies object.
 
     for (const companyId in companies) {
@@ -101,11 +116,12 @@ async function translateCompanyDescriptions(translations: Translations, companie
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
         if (!isDescriptionNeedToTranslate(company.description)) {
-            copyBaseDescriptionToAllLang(companyTranslations, company.description)
+            copyBaseDescriptionToAllLang(companyTranslations, company.description);
         }
         else {
-            translationsCount += await generateTranslations(companyTranslations, 
-                baseDescriptionChanged, companyId, newDescription);
+            translationsCount += await generateTranslations(
+                companyTranslations, baseDescriptionChanged, companyId, newDescription);
+
         }
 
         // Signals that there were changes in company translations.
@@ -152,32 +168,13 @@ async function generateTranslations(
             consola.debug(`Translating ${companyId} description to ${lang}`);
             const translatedText = await translateContent(newDescription, lang);
             companyTranslations[lang] = translatedText;
-            translationsCount++;
+            translationsCount += 1;
         } catch (ex) {
             consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
         }
     }
 
     return translationsCount;
-}
-
-function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) {
-    for(const lang of languages) {
-        translations[lang] = description;
-    }
-}
-
-function isDescriptionNeedToTranslate(value: string | null | undefined) : boolean {
-    return !isStringNullOrEmpty(value)
-        && !isStringNumeric(value)
-}
-
-function isStringNullOrEmpty(value: string | null | undefined) : boolean {
-    return value === null || value === undefined || value.trim() === '';
-}
-
-function isStringNumeric(value: string | null | undefined) : boolean {
-    return !isNaN(Number(value));
 }
 
 async function main() {
