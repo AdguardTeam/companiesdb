@@ -2,7 +2,6 @@
 import * as fs from 'fs';
 import { consola } from 'consola';
 import { OpenAI } from 'openai';
-import { boolean } from 'zod';
 
 const inputFilePath = '../dist/companies.json';
 const translationsFilePath = '../dist/companies_i18n.json';
