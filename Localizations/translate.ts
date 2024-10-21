@@ -65,12 +65,7 @@ function initTranslations(companies: Companies): Translations {
     return translations;
 }
 
-async function syncTranslations(translations: Translations, companies: Companies) {
-    removeObsoleteCompanyDescriptions(translations, companies);
-    await translateCompanyDescriptions(translations, companies)
-}
-
-function removeObsoleteCompanyDescriptions(translations: Translations, companies: Companies){
+function removeObsoleteCompanyDescriptions(translations: Translations, companies: Companies) {
     const syncedTranslations = translations;
 
     // Remove translations of companies that are no more present in the
@@ -86,13 +81,13 @@ function removeObsoleteCompanyDescriptions(translations: Translations, companies
     }
 }
 
-async function translateCompanyDescriptions(translations: Translations, companies: Companies){
+async function translateCompanyDescriptions(translations: Translations, companies: Companies) {
     const syncedTranslations = translations;
     let translatedCompaniesCount = 0;
     let translationsCount = 0;
     let previousTranslationsCount = 0;
 
-    consola.info("Start translate company descriptions");
+    consola.info(`Start translate company descriptions`);
     // Sync translations with the companies object.
 
     for (const companyId in companies) {
@@ -101,12 +96,11 @@ async function translateCompanyDescriptions(translations: Translations, companie
         const companyTranslations = syncedTranslations[companyId] ?? {
             [defaultLanguage]: newDescription,
         };
-        
         const baseDescriptionChanged = companyTranslations[defaultLanguage] !== newDescription;
 
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
-        if(!isDescriptionNeedToTranslate(company.description)) {
+        if (!isDescriptionNeedToTranslate(company.description)) {
             copyBaseDescriptionToAllLang(companyTranslations, company.description)
         }
         else {
@@ -131,6 +125,11 @@ async function translateCompanyDescriptions(translations: Translations, companie
             fs.writeFileSync(translationsFilePath, JSON.stringify(syncedTranslations, null, 4));
         }
     }
+}
+
+async function syncTranslations(translations: Translations, companies: Companies) {
+    removeObsoleteCompanyDescriptions(translations, companies);
+    await translateCompanyDescriptions(translations, companies)
 }
 
 async function generateTranslations(
