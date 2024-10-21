@@ -63,10 +63,13 @@ function initTranslations(companies: Companies): Translations {
     return translations;
 }
 
-function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) {
+function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) : TranslationResult {
+    const newtranslations = {...translations};
     for (const lang of languages) {
         translations[lang] = description;
     }
+
+    return newtranslations;
 }
 
 function isStringNullOrEmpty(value: string | null | undefined) : boolean {
@@ -79,7 +82,7 @@ function isStringNumeric(value: string | null | undefined) : boolean {
 
 function isDescriptionNeedToTranslate(value: string | null | undefined) : boolean {
     return !isStringNullOrEmpty(value)
-        && !isStringNumeric(value)
+        && !isStringNumeric(value);
 }
 
 function removeObsoleteCompanyDescriptions(translations: Translations, companies: Companies) {
@@ -96,6 +99,35 @@ function removeObsoleteCompanyDescriptions(translations: Translations, companies
     }
 }
 
+async function generateTranslations(
+    companyTranslations: TranslationResult,
+    baseDescriptionChanged: boolean,
+    companyId: string,
+    newDescription: string) 
+    : Promise<number> {
+    let translationsCount = 0;
+    // If there are no translations for this company, generate them.
+    for (const lang of languages) {
+        // Only translate it if there's a language missing or if the
+        // base description changed.
+        if (!baseDescriptionChanged && companyTranslations[lang] !== undefined) {
+            consola.info(`Language description ${companyTranslations[lang]} not changed`);
+            continue;
+        }
+
+        try {
+            consola.debug(`Translating ${companyId} description to ${lang}`);
+            const translatedText = await translateContent(newDescription, lang);
+            companyTranslations[lang] = translatedText;
+            translationsCount += 1;
+        } catch (ex) {
+            consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
+        }
+    }
+
+    return translationsCount;
+}
+
 async function translateCompanyDescriptions(translations: Translations, companies: Companies) {
     const syncedTranslations = translations;
     let translatedCompaniesCount = 0;
@@ -108,7 +140,7 @@ async function translateCompanyDescriptions(translations: Translations, companie
     for (const companyId in companies) {
         const company = companies[companyId];
         const newDescription = company.description;
-        const companyTranslations = syncedTranslations[companyId] ?? {
+        let companyTranslations = syncedTranslations[companyId] ?? {
             [defaultLanguage]: newDescription,
         };
         const baseDescriptionChanged = companyTranslations[defaultLanguage] !== newDescription;
@@ -116,12 +148,9 @@ async function translateCompanyDescriptions(translations: Translations, companie
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
         if (!isDescriptionNeedToTranslate(company.description)) {
-            copyBaseDescriptionToAllLang(companyTranslations, company.description);
-        }
-        else {
-            translationsCount += await generateTranslations(
-                companyTranslations, baseDescriptionChanged, companyId, newDescription);
-
+            companyTranslations = copyBaseDescriptionToAllLang(companyTranslations, company.description);
+        } else {
+            translationsCount += await generateTranslations(companyTranslations, baseDescriptionChanged, companyId, newDescription);
         }
 
         // Signals that there were changes in company translations.
@@ -145,36 +174,7 @@ async function translateCompanyDescriptions(translations: Translations, companie
 
 async function syncTranslations(translations: Translations, companies: Companies) {
     removeObsoleteCompanyDescriptions(translations, companies);
-    await translateCompanyDescriptions(translations, companies)
-}
-
-async function generateTranslations(
-    companyTranslations: TranslationResult, 
-    baseDescriptionChanged: boolean,
-    companyId: string,
-    newDescription: string) : Promise<number> {
-
-    let translationsCount = 0;
-    // If there are no translations for this company, generate them.
-    for (const lang of languages) {
-        // Only translate it if there's a language missing or if the
-        // base description changed.
-        if (!baseDescriptionChanged && companyTranslations[lang] !== undefined) {
-            consola.info(`Language description ${companyTranslations[lang]} not changed`);
-            continue;
-        }
-
-        try {
-            consola.debug(`Translating ${companyId} description to ${lang}`);
-            const translatedText = await translateContent(newDescription, lang);
-            companyTranslations[lang] = translatedText;
-            translationsCount += 1;
-        } catch (ex) {
-            consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
-        }
-    }
-
-    return translationsCount;
+    await translateCompanyDescriptions(translations, companies);
 }
 
 async function main() {
