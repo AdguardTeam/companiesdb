@@ -115,7 +115,7 @@ async function translateCompanyDescriptions(translations: Translations, companie
         }
 
         // Signals that there were changes in company translations.
-        if (translationsCount != previousTranslationsCount) {
+        if (translationsCount !== previousTranslationsCount) {
             translatedCompaniesCount += 1;
             previousTranslationsCount = translationsCount;
         }
@@ -144,7 +144,7 @@ async function generateTranslations(
     for (const lang of languages) {
         // Only translate it if there's a language missing or if the
         // base description changed.
-        if (!baseDescriptionChanged && companyTranslations[lang] != undefined) {
+        if (!baseDescriptionChanged && companyTranslations[lang] !== undefined) {
             consola.info(`Language description ${companyTranslations[lang]} not changed`);
             continue;
         }
