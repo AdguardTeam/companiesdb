@@ -65,8 +65,9 @@ function initTranslations(companies: Companies): Translations {
 }
 
 function copyBaseDescriptionToAllLang(
-    translations: TranslationResult, 
-    description: string) : TranslationResult {
+    translations: TranslationResult,
+    description: string
+) : TranslationResult {
     const newtranslations = { ...translations };
     for (const lang of languages) {
         newtranslations[lang] = description;
@@ -106,7 +107,8 @@ async function generateTranslations(
     companyTranslations: TranslationResult,
     baseDescriptionChanged: boolean,
     companyId: string,
-    newDescription: string) : Promise<TranslationResult> {
+    newDescription: string
+) : Promise<TranslationResult> {
     const newCompanyTranslations = { ...companyTranslations };
     // If there are no translations for this company, generate them.
     for (const lang of languages) {
@@ -146,11 +148,13 @@ async function translateCompanyDescriptions(translations: Translations, companie
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
         if (!isDescriptionNeedToTranslate(company.description)) {
-            companyTranslations = copyBaseDescriptionToAllLang(
-                companyTranslations, company.description);
+            companyTranslations = copyBaseDescriptionToAllLang(companyTranslations, 
+                company.description);
         } else {
-            companyTranslations = await generateTranslations(
-                companyTranslations, baseDescriptionChanged, companyId, newDescription);
+            companyTranslations = await generateTranslations(companyTranslations, 
+                baseDescriptionChanged, 
+                companyId, 
+                newDescription);
             translationsCount += Object.keys(companyTranslations).length - defaultLanguageCount;
         }
 
