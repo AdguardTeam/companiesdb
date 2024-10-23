@@ -3,9 +3,10 @@ import * as fs from 'fs';
 import { consola } from 'consola';
 import { OpenAI } from 'openai';
 
-const inputFilePath = '../dist/companies.json';
-const translationsFilePath = '../dist/companies_i18n.json';
+const inputFilePath = 'dist/companies.json';
+const translationsFilePath = 'dist/companies_i18n.json';
 const defaultLanguage = 'en';
+const defaultLanguageCount = 1;
 const languages = [
     'ru',
     'de',
@@ -63,10 +64,12 @@ function initTranslations(companies: Companies): Translations {
     return translations;
 }
 
-function copyBaseDescriptionToAllLang(translations: TranslationResult, description: string) : TranslationResult {
-    const newtranslations = {...translations};
+function copyBaseDescriptionToAllLang(
+    translations: TranslationResult, 
+    description: string) : TranslationResult {
+    const newtranslations = { ...translations };
     for (const lang of languages) {
-        translations[lang] = description;
+        newtranslations[lang] = description;
     }
 
     return newtranslations;
@@ -103,29 +106,24 @@ async function generateTranslations(
     companyTranslations: TranslationResult,
     baseDescriptionChanged: boolean,
     companyId: string,
-    newDescription: string) 
-    : Promise<number> {
-    let translationsCount = 0;
+    newDescription: string) : Promise<TranslationResult> {
+    const newCompanyTranslations = { ...companyTranslations };
     // If there are no translations for this company, generate them.
     for (const lang of languages) {
         // Only translate it if there's a language missing or if the
         // base description changed.
-        if (!baseDescriptionChanged && companyTranslations[lang] !== undefined) {
-            consola.info(`Language description ${companyTranslations[lang]} not changed`);
-            continue;
-        }
-
-        try {
-            consola.debug(`Translating ${companyId} description to ${lang}`);
-            const translatedText = await translateContent(newDescription, lang);
-            companyTranslations[lang] = translatedText;
-            translationsCount += 1;
-        } catch (ex) {
-            consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
+        if (baseDescriptionChanged || newCompanyTranslations[lang] === undefined) {
+            try {
+                consola.debug(`Translating ${companyId} description to ${lang}`);
+                const translatedText = await translateContent(newDescription, lang);
+                newCompanyTranslations[lang] = translatedText;
+            } catch (ex) {
+                consola.error(`Failed to translate ${companyId} description to ${lang}`, ex);
+            }
         }
     }
 
-    return translationsCount;
+    return newCompanyTranslations;
 }
 
 async function translateCompanyDescriptions(translations: Translations, companies: Companies) {
@@ -148,9 +146,12 @@ async function translateCompanyDescriptions(translations: Translations, companie
         // Update the base language now.
         companyTranslations[defaultLanguage] = newDescription;
         if (!isDescriptionNeedToTranslate(company.description)) {
-            companyTranslations = copyBaseDescriptionToAllLang(companyTranslations, company.description);
+            companyTranslations = copyBaseDescriptionToAllLang(
+                companyTranslations, company.description);
         } else {
-            translationsCount += await generateTranslations(companyTranslations, baseDescriptionChanged, companyId, newDescription);
+            companyTranslations = await generateTranslations(
+                companyTranslations, baseDescriptionChanged, companyId, newDescription);
+            translationsCount += Object.keys(companyTranslations).length - defaultLanguageCount;
         }
 
         // Signals that there were changes in company translations.
