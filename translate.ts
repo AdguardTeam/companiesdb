@@ -150,14 +150,14 @@ async function translateCompanyDescriptions(translations: Translations, companie
         if (!isDescriptionNeedToTranslate(company.description)) {
             companyTranslations = copyBaseDescriptionToAllLang(
                 companyTranslations,
-                company.description
+                company.description,
             );
         } else {
             companyTranslations = await generateTranslations(
                 companyTranslations,
                 baseDescriptionChanged,
                 companyId,
-                newDescription
+                newDescription,
             );
             translationsCount += Object.keys(companyTranslations).length - defaultLanguageCount;
         }
