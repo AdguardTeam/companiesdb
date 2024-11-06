@@ -437,7 +437,7 @@
         "google_dns": {
             "name": "Google DNS",
             "categoryId": 10,
-            "url": "hhttps://dns.google/",
+            "url": "https://dns.google/",
             "companyId": "google"
         },
         "google_domains": {
