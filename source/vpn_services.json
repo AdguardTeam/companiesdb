@@ -1,5 +1,40 @@
 [
     {
+        "service_id": "adobe_creative_cloud",
+        "service_name": "Adobe Creative Cloud",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "adobe.com",
+            "adobe.io",
+            "adobecc.com",
+            "adobecces.com",
+            "adobeccstatic.com",
+            "adobedtm.com",
+            "adobeexchange.com",
+            "adobegenuine.com",
+            "adobegov.com",
+            "adobe-identity.com",
+            "adobejanus.com",
+            "adobelogin.com",
+            "adobeoobe.com",
+            "adobeprojectm.com",
+            "adobesc.com",
+            "adobesc.com",
+            "adobe-services.com",
+            "adobess.com",
+            "adobesunbreak.com",
+            "adobetag.com",
+            "behance.net",
+            "ftcdn.net",
+            "typekit.com",
+            "typekit.net",
+            "slp-statics.astockcdn.net"
+        ],
+        "icon_domain": "adobe.com"
+    },
+    {
         "service_id": "aliexpress",
         "service_name": "Aliexpress",
         "categories": [
