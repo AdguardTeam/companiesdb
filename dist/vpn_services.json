@@ -319,10 +319,11 @@
 			"github.io",
 			"githubapp.com",
 			"githubassets.com",
+			"githubcopilot.com",
 			"githubusercontent.com"
 		],
 		"icon_domain": "github.com",
-		"modified_time": "2021-09-14 10:23"
+		"modified_time": "2024-11-15 16:31"
 	},
 	{
 		"service_id": "gitlab",
