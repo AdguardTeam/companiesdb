@@ -1300,7 +1300,6 @@
         "sn-cloudflare.com": "cloudflare",
         "videodelivery.net": "cloudflare",
         "crashlytics.com": "crashlytics",
-        "phicdn.net": "digicert_trust_seal",
         "disneyplus.com": "disneyplus",
         "bamgrid.com": "disneystreaming",
         "dssedge.com": "disneystreaming",
