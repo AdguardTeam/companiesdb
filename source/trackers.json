@@ -140,6 +140,12 @@
             "url": "https://www.amap.com/",
             "companyId": "softbank"
         },
+        "android": {
+            "name": "Android",
+            "categoryId": 101,
+            "url": "https://www.android.com/",
+            "companyId": "google"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -1216,6 +1222,7 @@
         "aliyun.com": "alibaba_cloud",
         "ucweb.com": "alibaba_ucbrowser",
         "alipayobjects.com": "alipay.com",
+        "android.com": "android",
         "amap.com": "amap",
         "a2z.com": "amazon",
         "aamazoncognito.com": "amazon",
