@@ -140,6 +140,12 @@
             "url": "https://www.amap.com/",
             "companyId": "softbank"
         },
+        "android": {
+            "name": "Android",
+            "categoryId": 101,
+            "url": "https://www.android.com/",
+            "companyId": "google"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -1240,6 +1246,7 @@
         "amazonvideo.com": "amazon_video",
         "pv-cdn.net": "amazon_video",
         "primevideo.com": "amazon_video",
+        "android.com": "android",
         "appcenter.ms": "appcenter",
         "aaplimg.com": "apple",
         "apple-cloudkit.com": "apple",
