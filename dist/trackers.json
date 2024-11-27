@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2024-11-25T10:05:10.515Z",
+	"timeUpdated": "2024-11-27T16:57:58.773Z",
 	"categories": {
 		"0": "audio_video_player",
 		"1": "comments",
@@ -2514,6 +2514,13 @@
 			"categoryId": 6,
 			"url": "http://www.ancoramediasolutions.com/",
 			"companyId": "ancora"
+		},
+		"android": {
+			"name": "Android",
+			"categoryId": 101,
+			"url": "https://www.android.com/",
+			"companyId": "google",
+			"source": "AdGuard"
 		},
 		"anetwork": {
 			"name": "Anetwork",
@@ -20827,6 +20834,7 @@
 		"anametrix.net": "anametrix",
 		"ancestrycdn.com": "ancestry_cdn",
 		"ancoraplatform.com": "ancora",
+		"android.com": "android",
 		"anetwork.ir": "anetwork",
 		"aniview.com": "aniview.com",
 		"a-ads.com": "anonymousads",
