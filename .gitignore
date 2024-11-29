@@ -2,3 +2,4 @@
 .vscode
 trackerdb.sql
 node_modules
+out
