@@ -752,6 +752,12 @@
             "url": "https://www.plex.tv/",
             "companyId": "plex"
         },
+        "proton_ag": {
+            "name": "Proton AG",
+            "categoryId": 2,
+            "url": "https://proton.me/",
+            "companyId": "proton_foundation"
+        },
         "qq.com": {
             "name": "QQ International",
             "categoryId": 2,
@@ -1781,6 +1787,7 @@
         "plex.bz": "plex",
         "plex.direct": "plex",
         "plex.tv": "plex",
+        "reports.proton.me": "proton_ag",
         "qualcomm.com": "qualcomm",
         "gpsonextra.net":"qualcomm_location_service",
         "izatcloud.net":"qualcomm_location_service",

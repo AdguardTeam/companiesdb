@@ -296,6 +296,11 @@
             "websiteUrl": "https://perfops.net/",
             "description": "Distributed infrastructure monitoring, smart traffic load-balancing and routing."
         },
+        "proton_foundation": {
+            "name": "Proton Foundation",
+            "websiteUrl": "https://proton.me/foundation/",
+            "description": "The Proton Foundation is a non-profit promoting privacy-focused, encrypted digital services like ProtonMail, advocating for internet privacy, security, and transparency worldwide."
+        },
         "qualcomm": {
             "name": "Qualcomm",
             "websiteUrl": "https://www.qualcomm.com/",
