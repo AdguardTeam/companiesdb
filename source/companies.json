@@ -181,6 +181,11 @@
             "websiteUrl": "https://www.abetterinternet.org",
             "description": "Digital infrastructure for a more secure and privacy-respecting world."
         },
+        "jetbrains": {
+            "name": "JetBrains",
+            "websiteUrl": "https://www.jetbrains.com/",
+            "description": "JetBrains is a Czech software development private limited company which makes tools for software developers and project managers."
+        },
         "karambasecurity": {
             "name": "Karamba Security",
             "websiteUrl": "https://karambasecurity.com/",
