@@ -1627,6 +1627,7 @@
         "adservice.google.pl": "google_marketing",
         "adservice.google.ru": "google_marketing",
         "adservice.google.vg": "google_marketing",
+        "adtrafficquality.google": "google_marketing",
         "dai.google.com": "google_marketing",
         "doubleclickbygoogle.com": "google_marketing",
         "googlesyndication-cn.com": "google_marketing",
