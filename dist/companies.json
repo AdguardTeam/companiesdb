@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-01-13T08:08:46.849Z",
+	"timeUpdated": "2025-01-13T09:45:03.440Z",
 	"companies": {
 		"163": {
 			"name": "163",
@@ -5625,6 +5625,12 @@
 			"name": "Jet Interactive",
 			"websiteUrl": "http://www.jetinteractive.com.au/",
 			"description": "\"Jet Interactive is a call analytics company and specialist telecommunications provider.\""
+		},
+		"jetbrains": {
+			"name": "JetBrains",
+			"websiteUrl": "https://www.jetbrains.com/",
+			"description": "JetBrains is a Czech software development private limited company which makes tools for software developers and project managers.",
+			"source": "AdGuard"
 		},
 		"jetlore": {
 			"name": "Jetlore",
