@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-03-10T13:28:19.030Z",
+	"timeUpdated": "2025-03-10T13:30:16.988Z",
 	"companies": {
 		"163": {
 			"name": "163",
@@ -3557,6 +3557,12 @@
 			"name": "Digilant",
 			"websiteUrl": "https://www.digilant.com/",
 			"description": "Digilant, a global programmatic media pioneer, partners with the world’s leading agencies and brands to provide customized and scalable programmatic media solutions. Powered by insightful and actionable data science, Digilant’s display, video, mobile, and social solutions are delivered through a world-class service offering. The company’s advanced technology platform connects brands with relevant and unique audiences by activating first party, third party and its own proprietary data, empowering marketers with an actionable end-to-end data science solution."
+		},
+		"digioh": {
+			"name": "Digioh",
+			"websiteUrl": "https://digioh.com/",
+			"description": "Digioh is a marketing company that offers lead generation services to its clients.",
+			"source": "AdGuard"
 		},
 		"digital_control_room": {
 			"name": "Digital Control Room",
