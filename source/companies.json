@@ -166,6 +166,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "id5-sync": {
+            "name": "ID5 Sync",
+            "websiteUrl": "https://id5.io/",
+            "description": "ID5 is the leading identity provider powering addressable advertising for brands, publishers, and their technology partners across all media environments."
+        },
         "identrust": {
             "name": "IdenTrust, Inc.",
             "websiteUrl": "https://identrust.com/",

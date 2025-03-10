@@ -530,6 +530,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": "microsoft"
         },
+        "id5-sync": {
+            "name": "ID5 Sync",
+            "categoryId": 4,
+            "url": "https://id5.io/",
+            "companyId": "id5-sync"
+        },
         "identrust": {
             "name": "IdenTrust, Inc.",
             "categoryId": 5,
@@ -1672,6 +1678,9 @@
         "slides.google.com": "google_workspace",
         "spreadsheets.google.com": "google_workspace",
         "hockeyapp.net": "hockeyapp",
+        "eu-1-id5-sync.com": "id5-sync",
+        "id5-sync.com": "id5-sync",
+        "id5.io": "id5-sync",
         "identrust.com": "identrust",
         "iq.com": "iqiyi",
         "iqiyi.com": "iqiyi",
