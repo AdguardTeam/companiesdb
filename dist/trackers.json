@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-03-10T13:15:06.189Z",
+	"timeUpdated": "2025-03-10T13:15:28.201Z",
 	"categories": {
 		"0": "audio_video_player",
 		"1": "comments",
@@ -8261,8 +8261,8 @@
 		},
 		"google_marketing": {
 			"name": "Google Marketing",
-			"categoryId": 6,
-			"url": "https://marketingplatform.google.com/",
+			"categoryId": 4,
+			"url": "https://marketingplatform.google.com/about/enterprise",
 			"companyId": "google",
 			"source": "AdGuard"
 		},
@@ -21682,9 +21682,6 @@
 		"dtmpub.com": "dotomi",
 		"double.net": "double.net",
 		"2mdn.net": "doubleclick",
-		"doubleclick.net": "doubleclick",
-		"invitemedia.com": "doubleclick",
-		"doubleclick.com": "doubleclick",
 		"doublepimp.com": "doublepimp",
 		"doublepimpssl.com": "doublepimp",
 		"redcourtside.com": "doublepimp",
@@ -22390,6 +22387,8 @@
 		"maps.google.es": "google_maps",
 		"maps.google.se": "google_maps",
 		"maps.gstatic.com": "google_maps",
+		"doubleclick.net": "google_marketing",
+		"invitemedia.com": "google_marketing",
 		"adsense.google.com": "google_marketing",
 		"adservice.google.ca": "google_marketing",
 		"adservice.google.co.in": "google_marketing",
@@ -22420,6 +22419,7 @@
 		"adservice.google.vg": "google_marketing",
 		"adtrafficquality.google": "google_marketing",
 		"dai.google.com": "google_marketing",
+		"doubleclick.com": "google_marketing",
 		"doubleclickbygoogle.com": "google_marketing",
 		"googlesyndication-cn.com": "google_marketing",
 		"duo.google.com": "google_meet",
