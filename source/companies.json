@@ -56,6 +56,11 @@
             "websiteUrl": "https://www.atlassian.com/",
             "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
         },
+        "audience_square": {
+			"name": "Audience Square",
+			"websiteUrl": "http://www.audiencesquare.fr/",
+			"description": "Audience Square is a SAS whose shareholders are 10 of the biggest French media groups."
+		},
         "australian_government": {
             "name": "Australian Government",
             "websiteUrl": "https://www.australia.gov.au",
