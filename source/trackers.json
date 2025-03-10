@@ -478,8 +478,8 @@
         },
         "google_marketing": {
             "name": "Google Marketing",
-            "categoryId": 6,
-            "url": "https://marketingplatform.google.com/",
+            "categoryId": 4,
+            "url": "https://marketingplatform.google.com/about/enterprise",
             "companyId": "google"
         },
         "google_meet": {
@@ -1325,7 +1325,6 @@
         "dssedge.com": "disneystreaming",
         "dssott.com": "disneystreaming",
         "domain.glass": "domainglass",
-        "doubleclick.com": "doubleclick",
         "dreame.tech": "dreame_tech",
         "dreametech.com": "dreame_tech",
         "alphacdn.net": "edgio",
@@ -1636,8 +1635,11 @@
         "adservice.google.vg": "google_marketing",
         "adtrafficquality.google": "google_marketing",
         "dai.google.com": "google_marketing",
+        "doubleclick.com": "google_marketing",
+        "doubleclick.net": "google_marketing",
         "doubleclickbygoogle.com": "google_marketing",
         "googlesyndication-cn.com": "google_marketing",
+        "invitemedia.com": "google_marketing",
         "duo.google.com": "google_meet",
         "hangouts.clients6.google.com": "google_meet",
         "hangouts.google.com": "google_meet",
@@ -1984,5 +1986,5 @@
         "yandex.fr": "yandex",
         "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica"
-        }
+    }
 }
