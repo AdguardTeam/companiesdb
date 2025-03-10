@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-03-10T13:15:28.201Z",
+	"timeUpdated": "2025-03-10T13:19:53.107Z",
 	"companies": {
 		"163": {
 			"name": "163",
@@ -5182,6 +5182,12 @@
 			"name": "ICStats",
 			"websiteUrl": "http://www.icstats.nl/",
 			"description": "\"With web analytics is not about collecting as much data as possible, but about providing the right information at the right time. Every marketer knows in a few years what kind of visitor at his site and what information it should be offered. ICStats record[s] and report[s] information about visitor behavior on the Internet in such a way that the Marketing / Sales department of an SME to develop concrete actions to be taken.\"\r\n\r\nTranslated by Google Translate"
+		},
+		"id5-sync": {
+			"name": "ID5 Sync",
+			"websiteUrl": "https://id5.io/",
+			"description": "ID5 is the leading identity provider powering addressable advertising for brands, publishers, and their technology partners across all media environments.",
+			"source": "AdGuard"
 		},
 		"id_services": {
 			"name": "ID Services",

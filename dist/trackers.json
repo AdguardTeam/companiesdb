@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-03-10T13:15:28.201Z",
+	"timeUpdated": "2025-03-10T13:19:53.107Z",
 	"categories": {
 		"0": "audio_video_player",
 		"1": "comments",
@@ -9057,6 +9057,13 @@
 			"categoryId": 4,
 			"url": "https://www.ippen-digital.de/",
 			"companyId": null
+		},
+		"id5-sync": {
+			"name": "ID5 Sync",
+			"categoryId": 4,
+			"url": "https://id5.io/",
+			"companyId": "id5-sync",
+			"source": "AdGuard"
 		},
 		"id_services": {
 			"name": "ID Services",
@@ -22605,6 +22612,9 @@
 		"icuazeczpeoohx.com": "icuazeczpeoohx.com",
 		"id-news.net": "id-news.net",
 		"idcdn.de": "id-news.net",
+		"eu-1-id5-sync.com": "id5-sync",
+		"id5-sync.com": "id5-sync",
+		"id5.io": "id5-sync",
 		"cdn.id.services": "id_services",
 		"e-generator.com": "ideal_media",
 		"idealo.com": "idealo_com",
