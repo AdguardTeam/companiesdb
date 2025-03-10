@@ -254,6 +254,12 @@
             "url": "https://crashlytics.com/",
             "companyId": "google"
         },
+        "digioh": {
+			"name": "Digioh",
+			"categoryId": 4,
+			"url": "https://digioh.com/",
+			"companyId": "digioh"
+		},
         "disneystreaming": {
             "name": "Disney Streaming",
             "categoryId": 0,

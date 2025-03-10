@@ -116,6 +116,11 @@
             "websiteUrl": "http://www.comodo.com/",
             "description": "Comodo is a global leader in cyber security solutions including antivirus, internet security, firewall, endpoint security, cloud based solutions and other PC security software for enterprises and consumers."
         },
+        "digioh": {
+			"name": "Digioh",
+			"websiteUrl": "https://digioh.com/",
+			"description": "Digioh is a marketing company that offers lead generation services to its clients."
+		},
         "digital_turbine": {
             "name": "Digital Turbine, Inc.",
             "websiteUrl": "http://www.digitalturbine.com/",
