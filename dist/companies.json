@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2025-03-10T13:19:53.107Z",
+	"timeUpdated": "2025-03-10T13:28:19.030Z",
 	"companies": {
 		"163": {
 			"name": "163",
@@ -1723,7 +1723,8 @@
 		"audience_square": {
 			"name": "Audience Square",
 			"websiteUrl": "http://www.audiencesquare.fr/",
-			"description": "Audience Square est une SAS dont les actionnaires sont 11 des plus grands groupes media français : Les Echos, le Groupe Express Roularta, Libération, le Groupe M6, le Groupe Le Monde, NextRadioTV, le Groupe Nouvel Observateur, Le Point, le groupe Prisma Média, le Groupe CCM Benchmark et RTL Net.\n\nAvec une offre transparente et innovante ouverte aux tradings desks et DSP du marché, Audience Square propose la vente aux enchères d’espaces publicitaires sur Internet (RTB), couplant emplacements display et ciblage d’audience en temps réel"
+			"description": "Audience Square is a SAS whose shareholders are 10 of the biggest French media groups.",
+			"source": "AdGuard"
 		},
 		"audiencerate": {
 			"name": "AudienceRate",
