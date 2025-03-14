@@ -1333,6 +1333,7 @@
         "pacloudflare.com": "cloudflare",
         "sn-cloudflare.com": "cloudflare",
         "videodelivery.net": "cloudflare",
+        "theplatform.com": "comcast_technology_solutions",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
         "disneyplus.com": "disneyplus",
