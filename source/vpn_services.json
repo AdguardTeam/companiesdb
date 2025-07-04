@@ -603,6 +603,32 @@
         "icon_domain": "instagram.com"
     },
     {
+        "service_id": "jetbrains",
+        "service_name": "JetBrains",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "grazie.ai",
+            "intellij.net",
+            "jb.gg",
+            "jetbrains.ai",
+            "jetbrains.com",
+            "jetbrains.com.cn",
+            "jetbrains.dev",
+            "jetbrains.net",
+            "jetbrains.org",
+            "jetbrains.ru",
+            "jetbrains.space",
+            "kotl.in",
+            "kotlinconf.com",
+            "kotlinlang.org",
+            "myjetbrains.com",
+            "talkingkotlin.com"
+        ],
+        "icon_domain": "jetbrains.com"
+    },
+    {
         "service_id": "kakao",
         "service_name": "Kakao Talk",
         "categories": [
