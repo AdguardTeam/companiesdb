@@ -1017,28 +1017,30 @@
 			"SOCIAL_NETWORKS"
 		],
 		"domains": [
-			"byteoversea.com",
 			"bytecdn.cn",
-			"byted.org",
 			"bytedanceapi.com",
+			"byted.org",
+			"byteoversea.com",
 			"byteoversea.net",
 			"ibytedtos.com",
+			"ibyteimg.com",
 			"isnssdk.com",
 			"muscdn.com",
 			"musemuse.cn",
 			"musical.ly",
-			"ibyteimg.com",
 			"sgsnssdk.com",
-			"tiktok.com",
+			"tiktokcdn-eu.com",
 			"tiktokcdn-in.com",
 			"tiktokcdn.com",
-			"worldfcdn.com",
-			"wsdvs.com",
 			"tiktokv.com",
-			"ttoversea.net"
+			"tiktokv.eu",
+			"tiktok.com",
+			"ttoversea.net",
+			"worldfcdn.com",
+			"wsdvs.com"
 		],
 		"icon_domain": "tiktok.com",
-		"modified_time": "2021-09-14 10:23"
+		"modified_time": "2025-07-04 16:48"
 	},
 	{
 		"service_id": "tinder",
