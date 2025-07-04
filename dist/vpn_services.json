@@ -626,6 +626,33 @@
 		"modified_time": "2021-09-14 10:23"
 	},
 	{
+		"service_id": "jetbrains",
+		"service_name": "JetBrains",
+		"categories": [
+			"WORK"
+		],
+		"domains": [
+			"grazie.ai",
+			"intellij.net",
+			"jb.gg",
+			"jetbrains.ai",
+			"jetbrains.com",
+			"jetbrains.com.cn",
+			"jetbrains.dev",
+			"jetbrains.net",
+			"jetbrains.org",
+			"jetbrains.ru",
+			"jetbrains.space",
+			"kotl.in",
+			"kotlinconf.com",
+			"kotlinlang.org",
+			"myjetbrains.com",
+			"talkingkotlin.com"
+		],
+		"icon_domain": "jetbrains.com",
+		"modified_time": "2025-07-04 16:47"
+	},
+	{
 		"service_id": "kakao",
 		"service_name": "Kakao Talk",
 		"categories": [
