@@ -1143,10 +1143,11 @@
 			"userapi.com",
 			"vk-portal.net",
 			"vk.com",
+			"vk.ru",
 			"vkuservideo.net"
 		],
 		"icon_domain": "vk.com",
-		"modified_time": "2024-10-09 12:54"
+		"modified_time": "2025-07-09 14:19"
 	},
 	{
 		"service_id": "wechat",
