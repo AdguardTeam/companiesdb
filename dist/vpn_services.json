@@ -1144,10 +1144,11 @@
 			"vk-portal.net",
 			"vk.com",
 			"vk.ru",
+			"vkuseraudio.net",
 			"vkuservideo.net"
 		],
 		"icon_domain": "vk.com",
-		"modified_time": "2025-07-09 14:19"
+		"modified_time": "2025-08-07 12:22"
 	},
 	{
 		"service_id": "wechat",
