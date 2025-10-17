@@ -1259,12 +1259,13 @@
 			"youtube-nocookie.com",
 			"youtube.com",
 			"youtubeeducation.com",
+			"youtubei.googleapis.com",
 			"ytimg.com",
 			"googlevideo.com",
 			"ggpht.com"
 		],
 		"icon_domain": "youtube.com",
-		"modified_time": "2022-05-05 10:23"
+		"modified_time": "2025-10-17 15:17"
 	},
 	{
 		"service_id": "zoom",
