@@ -960,7 +960,24 @@
         "domains": [
             "t.me",
             "telegram.org",
-            "telesco.pe"
+            "telesco.pe",
+            "cdn-telegram.org",
+            "comments.app",
+            "contest.com",
+            "fragment.com",
+            "graph.org",
+            "quiz.directory",
+            "tdesktop.com",
+            "telega.one",
+            "telegra.ph",
+            "telegram-cdn.org",
+            "telegram.dog",
+            "telegram.me",
+            "telegram.space",
+            "tg.dev",
+            "tx.me",
+            "usercontent.dev"
+            
         ],
         "icon_domain": "telegram.org"
     },
