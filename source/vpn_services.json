@@ -1038,7 +1038,7 @@
     },
     {
         "service_id": "twitter",
-        "service_name": "Twitter",
+        "service_name": "X (formerly Twitter)",
         "categories": [
             "SOCIAL_NETWORKS"
         ],
@@ -1050,7 +1050,7 @@
             "twttr.com",
             "x.com"
         ],
-        "icon_domain": "twitter.com"
+        "icon_domain": "x.com"
     },
     {
         "service_id": "ubisoft",
