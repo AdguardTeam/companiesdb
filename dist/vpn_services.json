@@ -1005,10 +1005,22 @@
 		"domains": [
 			"t.me",
 			"telegram.org",
-			"telesco.pe"
+			"telesco.pe",
+			"cdn-telegram.org",
+			"comments.app",
+			"tdesktop.com",
+			"telega.one",
+			"telegra.ph",
+			"telegram-cdn.org",
+			"telegram.dog",
+			"telegram.me",
+			"telegram.space",
+			"tg.dev",
+			"tx.me",
+			"usercontent.dev"
 		],
 		"icon_domain": "telegram.org",
-		"modified_time": "2021-09-14 10:23"
+		"modified_time": "2026-04-03 14:42"
 	},
 	{
 		"service_id": "tiktok",
