@@ -56,6 +56,11 @@
             "websiteUrl": "https://www.atlassian.com/",
             "description": "Atlassian Corporation is an American-Australian software company that develops products for software developers, project managers, and other software development teams."
         },
+        "audience_square": {
+			"name": "Audience Square",
+			"websiteUrl": "http://www.audiencesquare.fr/",
+			"description": "Audience Square is a SAS whose shareholders are 10 of the biggest French media groups."
+		},
         "australian_government": {
             "name": "Australian Government",
             "websiteUrl": "https://www.australia.gov.au",
@@ -116,6 +121,11 @@
             "websiteUrl": "http://www.comodo.com/",
             "description": "Comodo is a global leader in cyber security solutions including antivirus, internet security, firewall, endpoint security, cloud based solutions and other PC security software for enterprises and consumers."
         },
+        "digioh": {
+			"name": "Digioh",
+			"websiteUrl": "https://digioh.com/",
+			"description": "Digioh is a marketing company that offers lead generation services to its clients."
+		},
         "digital_turbine": {
             "name": "Digital Turbine, Inc.",
             "websiteUrl": "http://www.digitalturbine.com/",
@@ -166,6 +176,11 @@
             "websiteUrl": "http://www.google.com",
             "description": "Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware."
         },
+        "id5-sync": {
+            "name": "ID5 Sync",
+            "websiteUrl": "https://id5.io/",
+            "description": "ID5 is the leading identity provider powering addressable advertising for brands, publishers, and their technology partners across all media environments."
+        },
         "identrust": {
             "name": "IdenTrust, Inc.",
             "websiteUrl": "https://identrust.com/",
@@ -180,6 +195,11 @@
             "name": "Internet Security Research Group",
             "websiteUrl": "https://www.abetterinternet.org",
             "description": "Digital infrastructure for a more secure and privacy-respecting world."
+        },
+        "jetbrains": {
+            "name": "JetBrains",
+            "websiteUrl": "https://www.jetbrains.com/",
+            "description": "JetBrains is a Czech software development private limited company which makes tools for software developers and project managers."
         },
         "karambasecurity": {
             "name": "Karamba Security",
@@ -295,6 +315,11 @@
             "name": "PerfOps",
             "websiteUrl": "https://perfops.net/",
             "description": "Distributed infrastructure monitoring, smart traffic load-balancing and routing."
+        },
+        "proton_foundation": {
+            "name": "Proton Foundation",
+            "websiteUrl": "https://proton.me/foundation/",
+            "description": "The Proton Foundation is a non-profit promoting privacy-focused, encrypted digital services like ProtonMail, advocating for internet privacy, security, and transparency worldwide."
         },
         "qualcomm": {
             "name": "Qualcomm",

@@ -1,5 +1,39 @@
 [
     {
+        "service_id": "adobe_creative_cloud",
+        "service_name": "Adobe Creative Cloud",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "adobe.com",
+            "adobe.io",
+            "adobecc.com",
+            "adobecces.com",
+            "adobeccstatic.com",
+            "adobedtm.com",
+            "adobeexchange.com",
+            "adobegenuine.com",
+            "adobegov.com",
+            "adobe-identity.com",
+            "adobejanus.com",
+            "adobelogin.com",
+            "adobeoobe.com",
+            "adobeprojectm.com",
+            "adobesc.com",
+            "adobe-services.com",
+            "adobess.com",
+            "adobesunbreak.com",
+            "adobetag.com",
+            "behance.net",
+            "ftcdn.net",
+            "typekit.com",
+            "typekit.net",
+            "slp-statics.astockcdn.net"
+        ],
+        "icon_domain": "adobe.com"
+    },
+    {
         "service_id": "aliexpress",
         "service_name": "Aliexpress",
         "categories": [
@@ -269,6 +303,7 @@
             "github.io",
             "githubapp.com",
             "githubassets.com",
+            "githubcopilot.com",
             "githubusercontent.com"
         ],
         "icon_domain": "github.com"
@@ -566,6 +601,32 @@
             "ig.me"
         ],
         "icon_domain": "instagram.com"
+    },
+    {
+        "service_id": "jetbrains",
+        "service_name": "JetBrains",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "grazie.ai",
+            "intellij.net",
+            "jb.gg",
+            "jetbrains.ai",
+            "jetbrains.com",
+            "jetbrains.com.cn",
+            "jetbrains.dev",
+            "jetbrains.net",
+            "jetbrains.org",
+            "jetbrains.ru",
+            "jetbrains.space",
+            "kotl.in",
+            "kotlinconf.com",
+            "kotlinlang.org",
+            "myjetbrains.com",
+            "talkingkotlin.com"
+        ],
+        "icon_domain": "jetbrains.com"
     },
     {
         "service_id": "kakao",
@@ -899,7 +960,19 @@
         "domains": [
             "t.me",
             "telegram.org",
-            "telesco.pe"
+            "telesco.pe",
+            "cdn-telegram.org",
+            "comments.app",
+            "tdesktop.com",
+            "telega.one",
+            "telegra.ph",
+            "telegram-cdn.org",
+            "telegram.dog",
+            "telegram.me",
+            "telegram.space",
+            "tg.dev",
+            "tx.me",
+            "usercontent.dev"
         ],
         "icon_domain": "telegram.org"
     },
@@ -910,25 +983,27 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
-            "byteoversea.com",
             "bytecdn.cn",
-            "byted.org",
             "bytedanceapi.com",
+            "byted.org",
+            "byteoversea.com",
             "byteoversea.net",
             "ibytedtos.com",
+            "ibyteimg.com",
             "isnssdk.com",
             "muscdn.com",
             "musemuse.cn",
             "musical.ly",
-            "ibyteimg.com",
             "sgsnssdk.com",
-            "tiktok.com",
+            "tiktokcdn-eu.com",
             "tiktokcdn-in.com",
             "tiktokcdn.com",
-            "worldfcdn.com",
-            "wsdvs.com",
             "tiktokv.com",
-            "ttoversea.net"
+            "tiktokv.eu",
+            "tiktok.com",
+            "ttoversea.net",
+            "worldfcdn.com",
+            "wsdvs.com"
         ],
         "icon_domain": "tiktok.com"
     },
@@ -975,7 +1050,7 @@
     },
     {
         "service_id": "twitter",
-        "service_name": "Twitter",
+        "service_name": "X (formerly Twitter)",
         "categories": [
             "SOCIAL_NETWORKS"
         ],
@@ -987,7 +1062,7 @@
             "twttr.com",
             "x.com"
         ],
-        "icon_domain": "twitter.com"
+        "icon_domain": "x.com"
     },
     {
         "service_id": "ubisoft",
@@ -1022,9 +1097,13 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
+            "mycdn.me",
+            "okcdn.ru",
             "userapi.com",
             "vk-portal.net",
             "vk.com",
+            "vk.ru",
+            "vkuseraudio.net",
             "vkuservideo.net"
         ],
         "icon_domain": "vk.com"
@@ -1133,6 +1212,7 @@
             "youtube-nocookie.com",
             "youtube.com",
             "youtubeeducation.com",
+            "youtubei.googleapis.com",
             "ytimg.com",
             "googlevideo.com",
             "ggpht.com"

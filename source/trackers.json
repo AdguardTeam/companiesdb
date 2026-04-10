@@ -140,6 +140,12 @@
             "url": "https://www.amap.com/",
             "companyId": "softbank"
         },
+        "android": {
+            "name": "Android",
+            "categoryId": 101,
+            "url": "https://www.android.com/",
+            "companyId": "google"
+        },
         "appcenter": {
             "name": "Microsoft App Center",
             "categoryId": 5,
@@ -248,6 +254,12 @@
             "url": "https://crashlytics.com/",
             "companyId": "google"
         },
+        "digioh": {
+			"name": "Digioh",
+			"categoryId": 4,
+			"url": "https://digioh.com/",
+			"companyId": "digioh"
+		},
         "disneystreaming": {
             "name": "Disney Streaming",
             "categoryId": 0,
@@ -437,7 +449,7 @@
         "google_dns": {
             "name": "Google DNS",
             "categoryId": 10,
-            "url": "hhttps://dns.google/",
+            "url": "https://dns.google/",
             "companyId": "google"
         },
         "google_domains": {
@@ -472,8 +484,8 @@
         },
         "google_marketing": {
             "name": "Google Marketing",
-            "categoryId": 6,
-            "url": "https://marketingplatform.google.com/",
+            "categoryId": 4,
+            "url": "https://marketingplatform.google.com/about/enterprise",
             "companyId": "google"
         },
         "google_meet": {
@@ -524,6 +536,12 @@
             "url": "https://hockeyapp.net/",
             "companyId": "microsoft"
         },
+        "id5-sync": {
+            "name": "ID5 Sync",
+            "categoryId": 4,
+            "url": "https://id5.io/",
+            "companyId": "id5-sync"
+        },
         "identrust": {
             "name": "IdenTrust, Inc.",
             "categoryId": 5,
@@ -547,6 +565,12 @@
             "categoryId": 6,
             "url": "https://isolarcloud.com/",
             "companyId": "sungrow"
+        },
+        "jetbrains": {
+            "name": "JetBrains",
+            "categoryId": 8,
+            "url": "https://www.jetbrains.com/",
+            "companyId": "jetbrains"
         },
         "karambasecurity": {
             "name": "Karamba Security",
@@ -745,6 +769,12 @@
             "categoryId": 0,
             "url": "https://www.plex.tv/",
             "companyId": "plex"
+        },
+        "proton_ag": {
+            "name": "Proton AG",
+            "categoryId": 2,
+            "url": "https://proton.me/",
+            "companyId": "proton_foundation"
         },
         "qq.com": {
             "name": "QQ International",
@@ -1240,6 +1270,7 @@
         "amazonvideo.com": "amazon_video",
         "pv-cdn.net": "amazon_video",
         "primevideo.com": "amazon_video",
+        "android.com": "android",
         "appcenter.ms": "appcenter",
         "aaplimg.com": "apple",
         "apple-cloudkit.com": "apple",
@@ -1267,6 +1298,9 @@
         "bitbucket.org": "atlassian.net",
         "jira.com": "atlassian.net",
         "ss-inf.net": "atlassian.net",
+        "ad.gt": "audiencesquare.com",
+        "audigent.com": "audiencesquare.com",
+        "hadronid.net": "audiencesquare.com",
         "azure.com": "azure",
         "azure.net": "azure",
         "azurefd.net": "azure",
@@ -1299,6 +1333,7 @@
         "pacloudflare.com": "cloudflare",
         "sn-cloudflare.com": "cloudflare",
         "videodelivery.net": "cloudflare",
+        "theplatform.com": "comcast_technology_solutions",
         "crashlytics.com": "crashlytics",
         "phicdn.net": "digicert_trust_seal",
         "disneyplus.com": "disneyplus",
@@ -1306,7 +1341,6 @@
         "dssedge.com": "disneystreaming",
         "dssott.com": "disneystreaming",
         "domain.glass": "domainglass",
-        "doubleclick.com": "doubleclick",
         "dreame.tech": "dreame_tech",
         "dreametech.com": "dreame_tech",
         "alphacdn.net": "edgio",
@@ -1322,6 +1356,8 @@
         "riot.im": "element",
         "graph.facebook.com": "facebook_audience",
         "farlightgames.com": "farlight_pte_ltd",
+        "fastly-edge.com": "fastlylb.net",
+        "fastly-masque.net": "fastlylb.net",
         "app-measurement.com": "firebase",
         "fcm.googleapis.com": "firebase",
         "firebase.com": "firebase",
@@ -1343,6 +1379,7 @@
         "flurry.com": "flurry",
         "foxsports.com.au": "fox_sports",
         "foxtel.com.au": "foxtel",
+        "foxtelgroupcdn.net.au": "foxtel",
         "freeview.com": "freeview",
         "freeview.com.au": "freeview",
         "freeviewaustralia.tv": "freeview",
@@ -1612,9 +1649,13 @@
         "adservice.google.pl": "google_marketing",
         "adservice.google.ru": "google_marketing",
         "adservice.google.vg": "google_marketing",
+        "adtrafficquality.google": "google_marketing",
         "dai.google.com": "google_marketing",
+        "doubleclick.com": "google_marketing",
+        "doubleclick.net": "google_marketing",
         "doubleclickbygoogle.com": "google_marketing",
         "googlesyndication-cn.com": "google_marketing",
+        "invitemedia.com": "google_marketing",
         "duo.google.com": "google_meet",
         "hangouts.clients6.google.com": "google_meet",
         "hangouts.google.com": "google_meet",
@@ -1647,6 +1688,9 @@
         "slides.google.com": "google_workspace",
         "spreadsheets.google.com": "google_workspace",
         "hockeyapp.net": "hockeyapp",
+        "eu-1-id5-sync.com": "id5-sync",
+        "id5-sync.com": "id5-sync",
+        "id5.io": "id5-sync",
         "identrust.com": "identrust",
         "iq.com": "iqiyi",
         "iqiyi.com": "iqiyi",
@@ -1661,6 +1705,22 @@
         "isolarcloud.com.a.lahuashanbx.com": "isolarcloud",
         "isolarcloud.com.w.cdngslb.com": "isolarcloud",
         "isolarcloud.com.w.kunlunsl.com": "isolarcloud",
+        "grazie.ai": "jetbrains",
+        "intellij.net": "jetbrains",
+        "jb.gg": "jetbrains",
+        "jetbrains.ai": "jetbrains",
+        "jetbrains.com": "jetbrains",
+        "jetbrains.com.cn": "jetbrains",
+        "jetbrains.dev": "jetbrains",
+        "jetbrains.net": "jetbrains",
+        "jetbrains.org": "jetbrains",
+        "jetbrains.ru": "jetbrains",
+        "jetbrains.space": "jetbrains",
+        "kotl.in": "jetbrains",
+        "kotlinconf.com": "jetbrains",
+        "kotlinlang.org": "jetbrains",
+        "myjetbrains.com": "jetbrains",
+        "talkingkotlin.com": "jetbrains",
         "karambasecurity.com": "karambasecurity",
         "kayosports.com.au": "kayo_sports",
         "apikik.com": "kik",
@@ -1708,6 +1768,7 @@
         "mozilla.org": "mozilla",
         "a-msedge.net": "msedge",
         "b-msedge.net": "msedge",
+        "dual-s-msedge.net": "msedge",
         "e-msedge.net": "msedge",
         "k-msedge.net": "msedge",
         "l-msedge.net": "msedge",
@@ -1766,11 +1827,13 @@
         "outlook.com": "outlook",
         "svc.ms": "outlook",
         "oztam.com.au": "oztam",
+        "btloader.com": "pagefair",
         "perfops.io": "perfops",
         "popcashjs.b-cdn.net": "popcash",
         "plex.bz": "plex",
         "plex.direct": "plex",
         "plex.tv": "plex",
+        "reports.proton.me": "proton_ag",
         "qualcomm.com": "qualcomm",
         "gpsonextra.net":"qualcomm_location_service",
         "izatcloud.net":"qualcomm_location_service",
@@ -1943,5 +2006,5 @@
         "yandex.fr": "yandex",
         "yandex.kz": "yandex",
         "appmetrica.yandex.com": "yandex_appmetrica"
-        }
+    }
 }

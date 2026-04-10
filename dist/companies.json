@@ -1,5 +1,5 @@
 {
-	"timeUpdated": "2024-08-01T08:39:43.145Z",
+	"timeUpdated": "2026-04-06T10:26:41.248Z",
 	"companies": {
 		"163": {
 			"name": "163",
@@ -1723,7 +1723,8 @@
 		"audience_square": {
 			"name": "Audience Square",
 			"websiteUrl": "http://www.audiencesquare.fr/",
-			"description": "Audience Square est une SAS dont les actionnaires sont 11 des plus grands groupes media français : Les Echos, le Groupe Express Roularta, Libération, le Groupe M6, le Groupe Le Monde, NextRadioTV, le Groupe Nouvel Observateur, Le Point, le groupe Prisma Média, le Groupe CCM Benchmark et RTL Net.\n\nAvec une offre transparente et innovante ouverte aux tradings desks et DSP du marché, Audience Square propose la vente aux enchères d’espaces publicitaires sur Internet (RTB), couplant emplacements display et ciblage d’audience en temps réel"
+			"description": "Audience Square is a SAS whose shareholders are 10 of the biggest French media groups.",
+			"source": "AdGuard"
 		},
 		"audiencerate": {
 			"name": "AudienceRate",
@@ -3557,6 +3558,12 @@
 			"websiteUrl": "https://www.digilant.com/",
 			"description": "Digilant, a global programmatic media pioneer, partners with the world’s leading agencies and brands to provide customized and scalable programmatic media solutions. Powered by insightful and actionable data science, Digilant’s display, video, mobile, and social solutions are delivered through a world-class service offering. The company’s advanced technology platform connects brands with relevant and unique audiences by activating first party, third party and its own proprietary data, empowering marketers with an actionable end-to-end data science solution."
 		},
+		"digioh": {
+			"name": "Digioh",
+			"websiteUrl": "https://digioh.com/",
+			"description": "Digioh is a marketing company that offers lead generation services to its clients.",
+			"source": "AdGuard"
+		},
 		"digital_control_room": {
 			"name": "Digital Control Room",
 			"websiteUrl": "https://www.digitalcontrolroom.com/",
@@ -5183,6 +5190,12 @@
 			"websiteUrl": "http://www.icstats.nl/",
 			"description": "\"With web analytics is not about collecting as much data as possible, but about providing the right information at the right time. Every marketer knows in a few years what kind of visitor at his site and what information it should be offered. ICStats record[s] and report[s] information about visitor behavior on the Internet in such a way that the Marketing / Sales department of an SME to develop concrete actions to be taken.\"\r\n\r\nTranslated by Google Translate"
 		},
+		"id5-sync": {
+			"name": "ID5 Sync",
+			"websiteUrl": "https://id5.io/",
+			"description": "ID5 is the leading identity provider powering addressable advertising for brands, publishers, and their technology partners across all media environments.",
+			"source": "AdGuard"
+		},
 		"id_services": {
 			"name": "ID Services",
 			"websiteUrl": "https://id.services/",
@@ -5625,6 +5638,12 @@
 			"name": "Jet Interactive",
 			"websiteUrl": "http://www.jetinteractive.com.au/",
 			"description": "\"Jet Interactive is a call analytics company and specialist telecommunications provider.\""
+		},
+		"jetbrains": {
+			"name": "JetBrains",
+			"websiteUrl": "https://www.jetbrains.com/",
+			"description": "JetBrains is a Czech software development private limited company which makes tools for software developers and project managers.",
+			"source": "AdGuard"
 		},
 		"jetlore": {
 			"name": "Jetlore",
@@ -8268,6 +8287,12 @@
 			"name": "Prostor",
 			"websiteUrl": "http://prostor-lite.ru/",
 			"description": null
+		},
+		"proton_foundation": {
+			"name": "Proton Foundation",
+			"websiteUrl": "https://proton.me/foundation/",
+			"description": "The Proton Foundation is a non-profit promoting privacy-focused, encrypted digital services like ProtonMail, advocating for internet privacy, security, and transparency worldwide.",
+			"source": "AdGuard"
 		},
 		"provide_support": {
 			"name": "Provide Support",
