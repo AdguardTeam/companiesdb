@@ -1938,10 +1938,10 @@
         "zh-cn": "Audience2Media是一家技术和在线展示广告媒体公司，专注于特定的兴趣渠道。Audience2Media广告网络总部位于英国，与全球的广告代理和发布商合作，为客户的广告活动目标提供相关受众。"
     },
     "audience_square": {
-        "en": "Audience Square est une SAS dont les actionnaires sont 11 des plus grands groupes media français : Les Echos, le Groupe Express Roularta, Libération, le Groupe M6, le Groupe Le Monde, NextRadioTV, le Groupe Nouvel Observateur, Le Point, le groupe Prisma Média, le Groupe CCM Benchmark et RTL Net.\n\nAvec une offre transparente et innovante ouverte aux tradings desks et DSP du marché, Audience Square propose la vente aux enchères d’espaces publicitaires sur Internet (RTB), couplant emplacements display et ciblage d’audience en temps réel",
-        "ru": "Аудиенс Сквер - это SAS, в которой акционерами являются 11 крупнейших французских медиа-групп: Ле Эхо, Группа Экспресс Руларта, Либерасьон, Группа М6, Группа Ле Монд, Некстрадиотв, Группа Нувель Обсерватёр, Ле Пуэн, группа Призма Медиа, Группа ССМ Бенчмарк и RTL Нет.\n\nПредлагая прозрачное и инновационное предложение для торговых партнеров и платформ DSP на рынке, Аудиенс Сквер предлагает аукционное размещение рекламных площадей в Интернете (RTB), сочетая отображение мест и ориентацию на аудиторию в реальном времени.",
-        "de": "Audience Square ist eine SAS, deren Aktionäre 11 der größten französischen Medienkonzerne sind: Les Echos, Groupe Express Roularta, Libération, Groupe M6, Groupe Le Monde, NextRadioTV, Groupe Nouvel Observateur, Le Point, Prisma Média, Groupe CCM Benchmark und RTL Net.\n\nMit einem transparenten und innovativen Angebot, das für Handelsplattformen und DSPs auf dem Markt offen ist, bietet Audience Square die Versteigerung von Werbeflächen im Internet (RTB) an, die Display-Plätze und Echtzeit-Zielgruppenansprache kombiniert.",
-        "zh-cn": "Audience Square 是一家 SAS 公司，其股东是法国 11 家最大的传媒集团：Les Echos、Groupe Express Roularta、Libération、Groupe M6、Groupe Le Monde、NextRadioTV、Groupe Nouvel Observateur、Le Point、Prisma Média 集团、Groupe CCM Benchmark 和 RTL Net。\n\n通过透明和创新的方案，开放给市场上的交易桌和 DSP，Audience Square 提供互联网广告空间（RTB）拍卖服务，结合实时展示位置和受众定位。"
+        "en": "Audience Square is a SAS whose shareholders are 10 of the biggest French media groups.",
+        "ru": "Агентство Audience Square - это SAS, чьими акционерами являются 10 крупнейших французских медиа-групп.",
+        "de": "Audience Square ist eine SAS, deren Aktionäre 10 der größten französischen Medienkonzerne sind.",
+        "zh-cn": "皇室广场是一家SAS公司，其股东是法国最大的十家主流媒体集团之一。"
     },
     "audiencerate": {
         "en": "\"AudienceRate is the first Audience Service Provider able to operate in real time and with a census approach.\"",
@@ -13020,22 +13020,40 @@
         "zh-cn": "“Zift是无可争议的企业渠道管理领导者，在全球拥有最大的合作伙伴生态系统。Zift还是一个渠道和商业智能的宝库，拥有超过20亿条跟踪数据点供您用于分析和基准测试。超过80%的渠道主管依赖于Zift，因为我们对渠道的了解更多，比任何其他人更多地采取行动来推动可衡量的渠道成功。”"
     },
     "zippyshare": {
-        "en": "\"Zippyshare.com is completely free, reliable and popular way to store files online.\""
+        "en": "\"Zippyshare.com is completely free, reliable and popular way to store files online.\"",
+        "ru": "\"Zippyshare.com - это полностью бесплатный, надежный и популярный способ хранения файлов в Интернете.\"",
+        "de": "\"Zippyshare.com ist eine völlig kostenlose, zuverlässige und beliebte Möglichkeit, Dateien online zu speichern.\"",
+        "zh-cn": "\"Zippyshare.com是完全免费、可靠且流行的在线文件存储方式。\""
     },
     "zmags": {
-        "en": "Our platforms revolutionize how brands bring their content journeys to life — without traditional technology + resource constraints — delivering an immersive customer experience, and driving meaningful results for the brand."
+        "en": "Our platforms revolutionize how brands bring their content journeys to life — without traditional technology + resource constraints — delivering an immersive customer experience, and driving meaningful results for the brand.",
+        "ru": "Наши платформы революционизируют способ, которым бренды оживляют свои контентные путешествия - без традиционных технологических и ресурсных ограничений - обеспечивая захватывающий опыт для клиента и принося значимые результаты для бренда.",
+        "de": "Unsere Plattformen revolutionieren, wie Marken ihre Inhaltsreisen zum Leben erwecken - ohne traditionelle Technologie- und Ressourcenbeschränkungen - und bieten ein eindringliches Kundenerlebnis sowie bedeutungsvolle Ergebnisse für die Marke.",
+        "zh-cn": "我们的平台彻底改变了品牌如何将其内容旅程展现出来的方式，摆脱了传统技术和资源限制，提供沉浸式客户体验，并为品牌带来有意义的成果。"
     },
     "zoho_corp": {
-        "en": "\"Software.  It's our craft\r\n\r\nAt Zoho, software is our craft and passion. We create beautiful software to solve business problems. Over the past decade of our journey, the Zoho suite has emerged to be a leader in the cloud and on your devices. As much as we love software, it is our people and our culture that are our most valuable assets. Our people spend years mastering the craft. In an industry where technology changes at a relentless and dizzying pace, we value persistence and endurance as highly as adaptability.\r\nWhen you choose Zoho for your organization or as an individual, you don't just get the product. You get our enduring commitment to keep improving your experience. You get our relentless devotion to customer satisfaction.\""
+        "en": "\"Software.  It's our craft\r\n\r\nAt Zoho, software is our craft and passion. We create beautiful software to solve business problems. Over the past decade of our journey, the Zoho suite has emerged to be a leader in the cloud and on your devices. As much as we love software, it is our people and our culture that are our most valuable assets. Our people spend years mastering the craft. In an industry where technology changes at a relentless and dizzying pace, we value persistence and endurance as highly as adaptability.\r\nWhen you choose Zoho for your organization or as an individual, you don't just get the product. You get our enduring commitment to keep improving your experience. You get our relentless devotion to customer satisfaction.\"",
+        "ru": "\"Программное обеспечение. Это наше искусство\n\nВ Zoho программирование - наше искусство и страсть. Мы создаем красивое программное обеспечение для решения бизнес-проблем. За последнее десятилетие нашего пути комплекс Zoho стал лидером в области облачных технологий и на ваших устройствах. Несмотря на то, что мы любим программное обеспечение, это наши люди и наша культура являются нашими самыми ценными активами. Наши люди уделяют годы овладению мастерством. В отрасли, где технологии меняются с беспрерывной и ошеломляющей скоростью, мы ценим упорство и выносливость так же, как и адаптивность.\nКогда вы выбираете Zoho для вашей организации или в качестве частного лица, вы не просто получаете продукт. Вы получаете нашу постоянную приверженность улучшению вашего опыта. Вы получаете нашу беспрерывную преданность удовлетворению клиентов.\"",
+        "de": "\"Software. Es ist unser Handwerk\n\nBei Zoho ist Software unser Handwerk und unsere Leidenschaft. Wir schaffen schöne Software, um Geschäftsprobleme zu lösen. Im Laufe des letzten Jahrzehnts unserer Reise hat sich die Zoho Suite als führend in der Cloud und auf Ihren Geräten etabliert. So sehr wir Software lieben, sind es unsere Mitarbeiter und unsere Kultur, die unsere wertvollsten Vermögenswerte sind. Unsere Mitarbeiter verbringen Jahre damit, ihr Handwerk zu beherrschen. In einer Branche, in der sich die Technologie in einem unerbittlichen und schwindelerregenden Tempo verändert, schätzen wir Ausdauer und Durchhaltevermögen ebenso wie Anpassungsfähigkeit.\nWenn Sie Zoho für Ihre Organisation oder als Einzelperson wählen, erhalten Sie nicht nur das Produkt. Sie erhalten unser anhaltendes Engagement für die Verbesserung Ihrer Erfahrung. Sie erhalten unsere unermüdliche Hingabe an die Kundenzufriedenheit.\"",
+        "zh-cn": "\"软件。这是我们的手艺\n\n在 Zoho，软件是我们的手艺和激情。我们创造出美丽的软件来解决业务问题。在过去的十年里，Zoho 套件已经成为云端和移动设备领域的领军者。尽管我们热爱软件，但我们的人与文化才是我们最宝贵的资产。我们的人花费数年来精通这个手艺。在一个科技日新月异的行业，我们看重坚持和耐力同样高于适应性。\n当您选择 Zoho 作为您组织或个人的合作伙伴时，您获得的不仅仅是产品。您获得我们持续不断改进您体验的承诺。您获得我们对客户满意度的坚定执着。\""
     },
     "zoomd": {
-        "en": "\"Zoomd develops a site-search recommendation widget with new monetization opportunities. Zoomd transforms the standard site search field into engaging actionable search recommendations. \n\nWith a short code implementation, publishers and site owners can offer their visitors a new experience in the search box with user-friendly monetization opportunities. Our clients enjoy an increase in page views, lower bounce rates, and additive revenues from monetized ads. \n\nThe innovative technology behind Zoomd uses NLP and machine learning algorithms to offer the users customized and optimized content.  \n\nZoomd won the 2014 Mobile Monetization Summit Startup Contest and continues in its mission to make the search box the first step in the user's site journey.\""
+        "en": "\"Zoomd develops a site-search recommendation widget with new monetization opportunities. Zoomd transforms the standard site search field into engaging actionable search recommendations. \n\nWith a short code implementation, publishers and site owners can offer their visitors a new experience in the search box with user-friendly monetization opportunities. Our clients enjoy an increase in page views, lower bounce rates, and additive revenues from monetized ads. \n\nThe innovative technology behind Zoomd uses NLP and machine learning algorithms to offer the users customized and optimized content.  \n\nZoomd won the 2014 Mobile Monetization Summit Startup Contest and continues in its mission to make the search box the first step in the user's site journey.\"",
+        "ru": "Zoomd разрабатывает виджет рекомендаций для поиска на сайте с новыми возможностями монетизации. Zoomd превращает стандартное поле поиска на сайте в привлекательные рекомендации для действий по поиску.\n\nС помощью короткой реализации кода издатели и владельцы сайтов могут предложить своим посетителям новый опыт в строке поиска с пользовательскими возможностями монетизации. Наши клиенты получают увеличение просмотров страниц, снижение показателей отказов и добавочные доходы от монетизированной рекламы.\n\nИнновационная технология, лежащая в основе Zoomd, использует алгоритмы обработки естественного языка (NLP) и машинного обучения для предложения пользователям настроенного и оптимизированного контента. \n\nZoomd выиграл конкурс стартапов Mobile Monetization Summit 2014 и продолжает свое миссию сделать строку поиска первым шагом в путешествии пользователя по сайту.",
+        "de": "\"Zoomd entwickelt ein Website-Suchempfehlungswidget mit neuen Monetarisierungsmöglichkeiten. Zoomd verwandelt das Standard-Suchfeld der Website in ansprechende aktionsorientierte Suchempfehlungen.\n\nDurch eine kurze Code-Implementierung können Publisher und Website-Besitzer ihren Besuchern im Suchfeld ein neues Benutzererlebnis mit benutzerfreundlichen Monetarisierungsmöglichkeiten bieten. Unsere Kunden profitieren von einer Steigerung der Seitenaufrufe, niedrigeren Absprungraten und zusätzlichen Einnahmen aus monetarisierten Anzeigen.\n\nDie innovative Technologie von Zoomd nutzt NLP und maschinelles Lernen, um den Benutzern maßgeschneiderte und optimierte Inhalte anzubieten.\n\nZoomd gewann den Startup-Wettbewerb des Mobile Monetization Summit 2014 und setzt weiterhin seine Mission fort, das Suchfeld zum ersten Schritt in der Benutzerreise auf der Website zu machen.\"",
+        "zh-cn": "Zoomd开发了一个网站搜索推荐小部件，提供新的变现机会。Zoomd将标准的网站搜索字段转变为引人注目的可执行搜索推荐。\n\n通过简短的代码实现，发布商和网站所有者可以在搜索框中为他们的访问者提供全新的体验，提供用户友好的变现机会。我们的客户享受到了页面浏览量的增加、跳出率的降低以及从变现广告中获得的额外收入。\n\nZoomd背后的创新技术利用自然语言处理和机器学习算法为用户提供定制和优化的内容。\n\nZoomd赢得了2014年移动变现峰会创业大赛，并继续致力于使搜索框成为用户网站旅程的第一步。"
     },
     "zwaar": {
-        "en": "\"Launched ad network visitors in 2010, targeting the Middle East to serve a large group of beneficiaries of the advertising service in order to provide the best service at low cost, thanks to the efforts of the working group was able to display the development of a new propaganda system reimburse the advertising needs of the market; the aim of the network is to provide high-tech and more Control tools for better advertising platform\"\r\n\r\nTranslated from Arabic by Google Translate"
+        "en": "\"Launched ad network visitors in 2010, targeting the Middle East to serve a large group of beneficiaries of the advertising service in order to provide the best service at low cost, thanks to the efforts of the working group was able to display the development of a new propaganda system reimburse the advertising needs of the market; the aim of the network is to provide high-tech and more Control tools for better advertising platform\"\r\n\r\nTranslated from Arabic by Google Translate",
+        "ru": "Запущена рекламная сеть посетителей в 2010 году, ориентированная на Ближний Восток, чтобы обслужить большую группу получателей услуг рекламы с целью предоставления лучших услуг по низкой стоимости, благодаря усилиям рабочей группы удалось продемонстрировать разработку новой системы пропаганды для удовлетворения потребностей рынка в рекламе; цель сети - предоставить высокотехнологичные и более эффективные инструменты управления для лучшей рекламной платформы\"",
+        "de": "Gestartet wurde das Anzeigennetzwerk für Besucher im Jahr 2010 und zielt auf den Nahen Osten ab, um eine große Gruppe von Nutznießern des Werbedienstes zu bedienen und den besten Service zu niedrigen Kosten anzubieten. Dank der Bemühungen der Arbeitsgruppe war es möglich, die Entwicklung eines neuen Propagandasystems zur Deckung der Werbebedürfnisse des Marktes darzustellen; Ziel des Netzwerks ist es, hochmoderne und leistungsstärkere Tools für eine bessere Werbeplattform bereitzustellen.",
+        "zh-cn": "在2010年推出了广告网络访问者，针对中东地区的广告服务的大型受益者群体，以低成本提供最佳服务，多亏了工作团队的努力，能够展示开发新的宣传系统，满足市场的广告需求；网络的目标是为更好的广告平台提供高科技和更多控制工具。"
     },
     "zypmedia": {
-        "en": "ZypLink connects local media companies, advertising agencies and advertisers with the widest array of premium video and display impressions across desktop, mobile and connected TVs. ZypLink applies advanced geographic, demographic, contextual, behavioral and other targeting utilizing the best 3rd party data sources, proprietary 1st party data collected and segmented by ZypMedia, and 1st data supplied by advertisers (when available)."
+        "en": "ZypLink connects local media companies, advertising agencies and advertisers with the widest array of premium video and display impressions across desktop, mobile and connected TVs. ZypLink applies advanced geographic, demographic, contextual, behavioral and other targeting utilizing the best 3rd party data sources, proprietary 1st party data collected and segmented by ZypMedia, and 1st data supplied by advertisers (when available).",
+        "ru": "ZypLink соединяет местные медиа-компании, рекламные агентства и рекламодателей с широким ассортиментом премиальных видео- и дисплейных показов на рабочем столе, мобильных устройствах и Smart TV. ZypLink использует передовые географические, демографические, контекстные, поведенческие и другие виды таргетинга, используя лучшие сторонние источники данных, внутренние данные, собранные и сегментированные ZypMedia, а также данные, предоставленные рекламодателями (при наличии).",
+        "de": "ZypLink verbindet lokale Medienunternehmen, Werbeagenturen und Werbetreibende mit der größten Auswahl an hochwertigen Video- und Display-Impressionen auf Desktops, Mobilgeräten und Smart-TVs. ZypLink verwendet fortgeschrittene geografische, demografische, kontextbezogene, verhaltensbezogene und andere Targeting-Techniken unter Verwendung der besten Datenquellen von Drittanbietern, proprietärer Erstpartei-Daten, die von ZypMedia gesammelt und segmentiert werden, sowie Erstpartei-Daten, die von Werbetreibenden bereitgestellt werden (sofern verfügbar).",
+        "zh-cn": "ZypLink连接了本地媒体公司、广告代理和广告商，向宽泛的视频和展示印象提供服务，覆盖桌面、移动和连接电视。ZypLink应用先进的地理、人口、语境和行为等方面的定位技术，利用最佳的第三方数据源、由ZypMedia收集并分段处理的专有第一方数据，以及广告商提供的第一方数据（在适用时）。"
     },
     "24metrics": {
         "en": null,
@@ -13241,6 +13259,12 @@
         "de": null,
         "zh-cn": null
     },
+    "digioh": {
+        "en": "Digioh is a marketing company that offers lead generation services to its clients.",
+        "ru": "Digioh - это маркетинговая компания, предлагающая услуги по генерации лидов своим клиентам.",
+        "de": "Digioh ist ein Marketingunternehmen, das Lead-Generierungsdienste für seine Kunden anbietet.",
+        "zh-cn": "Digioh 是一家营销公司，为其客户提供潜在客户生成服务。"
+    },
     "direct_keyword_link": {
         "en": null,
         "ru": null,
@@ -13433,6 +13457,12 @@
         "de": null,
         "zh-cn": null
     },
+    "id5-sync": {
+        "en": "ID5 is the leading identity provider powering addressable advertising for brands, publishers, and their technology partners across all media environments.",
+        "ru": "ID5 - ведущий поставщик идентификации, обеспечивающий возможность адресной рекламы для брендов, издателей и их технологических партнеров во всех медийных средах.",
+        "de": "ID5 ist der führende Identitätsanbieter, der adressierbare Werbung für Marken, Verlage und ihre Technologiepartner in allen Medienumgebungen ermöglicht.",
+        "zh-cn": "ID5 是领先的身份验证提供商，为品牌、发布商和其技术合作伙伴在各种媒体环境中提供可寻址广告支持。"
+    },
     "id_services": {
         "en": null,
         "ru": null,
@@ -13474,6 +13504,12 @@
         "ru": null,
         "de": null,
         "zh-cn": null
+    },
+    "jetbrains": {
+        "en": "JetBrains is a Czech software development private limited company which makes tools for software developers and project managers.",
+        "ru": "JetBrains - это чешская частная компания по разработке программного обеспечения, которая создает инструменты для разработчиков программного обеспечения и менеджеров проектов.",
+        "de": "JetBrains ist ein tschechisches Softwareentwicklungsunternehmen mit beschränkter Haftung, das Werkzeuge für Softwareentwickler und Projektmanager herstellt.",
+        "zh-cn": "JetBrains是一家捷克的软件开发私人有限公司，为软件开发人员和项目经理提供工具。"
     },
     "jetlore": {
         "en": null,
@@ -13816,6 +13852,12 @@
         "ru": null,
         "de": null,
         "zh-cn": null
+    },
+    "proton_foundation": {
+        "en": "The Proton Foundation is a non-profit promoting privacy-focused, encrypted digital services like ProtonMail, advocating for internet privacy, security, and transparency worldwide.",
+        "ru": "Фонд Proton - некоммерческая организация, способствующая распространению конфиденциальных цифровых сервисов, таких как ProtonMail, и отстаивающая право на интернет-приватность, безопасность и прозрачность во всем мире.",
+        "de": "Die Proton Foundation ist eine gemeinnützige Organisation, die datenschutzorientierte, verschlüsselte digitale Dienste wie ProtonMail fördert und sich weltweit für Internetdatenschutz, Sicherheit und Transparenz einsetzt.",
+        "zh-cn": "Proton基金会是一个非营利组织，推广以隐私为重点的加密数字服务，如ProtonMail，并在全球倡导互联网隐私、安全和透明。"
     },
     "purlive": {
         "en": null,
