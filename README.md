@@ -192,6 +192,18 @@ The favicon of the company website is used as the company icon. It can be checke
 
 [https://icons.adguard.org/icon?domain=adguard.com](https://icons.adguard.org/icon?domain=adguard.com)
 
+## Company description translations
+
+Run the following command to translate company descriptions into different
+languages (you need an OpenAI API key for that):
+If the description of the companies has not changed, the update will not occur
+
+```bash
+OPENAI_API_KEY="YOUR_API_KEY" yarn translate
+```
+
+You can modify the list of supported languages in [./translate.ts].
+
 ## Policy
 
 The detailed policy currently is under development. The decision to add a company is at the discretion of the maintainers,
