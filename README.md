@@ -192,17 +192,59 @@ The favicon of the company website is used as the company icon. It can be checke
 
 [https://icons.adguard.org/icon?domain=adguard.com](https://icons.adguard.org/icon?domain=adguard.com)
 
-## Company description translations
+## How to translate company descriptions
 
-Run the following command to translate company descriptions into different
-languages (you need an OpenAI API key for that):
-If the description of the companies has not changed, the update will not occur
+Company descriptions are translated into all supported languages using the OpenAI API.
+The translations are stored in `dist/companies_i18n.json`.
+
+### Prerequisites
+
+- **Node.js** (v16 or later)
+- **OpenAI API key** — set the `OPENAI_API_KEY` environment variable before running the script
+
+### Running the script
 
 ```bash
-OPENAI_API_KEY="YOUR_API_KEY" yarn translate
+OPENAI_API_KEY="your-api-key-here" yarn translate
 ```
 
-You can modify the list of supported languages in [./translate.ts].
+On Windows (PowerShell):
+
+```powershell
+$env:OPENAI_API_KEY="your-api-key-here"; yarn translate
+```
+
+### What the script does
+
+1. Reads company descriptions from `dist/companies.json`.
+2. Loads existing translations from `dist/companies_i18n.json` (creates the file if it does not exist).
+3. For each company:
+   - Skips translation if the description is empty or numeric (copies the value as-is to all languages).
+   - Re-translates if the English description has changed since the last run.
+   - Otherwise only translates languages that are missing.
+4. Saves intermediate progress to `dist/companies_i18n.json` every 10 companies.
+5. Validates all translation results for forbidden control characters.
+6. After the full run, validates that every company has translations for all target languages.
+7. Prints a summary report with the total count of errors.
+
+### Expected output
+
+The script prints progress to stdout. After completing, it shows a summary:
+
+```
+=== Translation Summary ===
+Total companies processed: <N>
+Target languages: <M>
+All validations passed. No errors.
+```
+
+If there are errors (e.g., forbidden characters or missing translations), they are listed individually.
+
+### How to verify results
+
+1. Open `dist/companies_i18n.json` and check that company entries contain keys for all target languages.
+2. If the summary shows errors, fix the affected entries manually or re-run the script.
+3. Confirm no control characters appear in description values.
 
 ## Policy
 
