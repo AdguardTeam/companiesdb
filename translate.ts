@@ -194,7 +194,11 @@ async function generateTranslations(
         if (baseDescriptionChanged || newCompanyTranslations[lang] === undefined) {
             try {
                 consola.debug(`Translating ${companyId} description to ${lang}`);
-                const translatedText = await translateContent(englishDescription, lang, companyName);
+                const translatedText = await translateContent(
+                    englishDescription,
+                    lang,
+                    companyName,
+                );
                 const validationError = validateTranslationResult(translatedText, companyId, lang);
                 if (validationError) {
                     errors.push(validationError);
@@ -252,8 +256,12 @@ async function translateCompanyDescriptions(translations: Translations, companie
                 try {
                     const detectedLang = await detectLanguage(originalDescription);
                     if (detectedLang !== 'en') {
-                        consola.info(`[${processedCount}/${totalCompanies}] ${companyId}: source language is "${detectedLang}", translating to English...`);
-                        englishDescription = await translateToEnglish(originalDescription, company.name);
+                        consola.info(
+                            `[${processedCount}/${totalCompanies}] `
+                            + `${companyId}: source language is "${detectedLang}", translating to English...`,
+                        );
+                        const desc = originalDescription;
+                        englishDescription = await translateToEnglish(desc, company.name);
                     } else {
                         consola.info(`[${processedCount}/${totalCompanies}] ${companyId}: source is already English`);
                         englishDescription = originalDescription;
@@ -269,7 +277,9 @@ async function translateCompanyDescriptions(translations: Translations, companie
             // Update the English base.
             companyTranslations[defaultLanguage] = englishDescription;
 
-            const missingLangs = languages.filter((lang) => companyTranslations[lang] === undefined);
+            const missingLangs = languages.filter(
+                (lang) => companyTranslations[lang] === undefined,
+            );
             if (!baseDescriptionChanged && missingLangs.length === 0) {
                 consola.info(`[${processedCount}/${totalCompanies}] ${companyId}: all translations up to date`);
             } else {
@@ -352,7 +362,7 @@ async function main() {
     const allErrors = [...syncErrors, ...completenessErrors];
 
     // Print summary report
-    consola.info(`\n=== Translation Summary ===`);
+    consola.info('\n=== Translation Summary ===');
     consola.info(`Total companies processed: ${Object.keys(translations).length}`);
     consola.info(`Target languages: ${languages.length}`);
     if (allErrors.length === 0) {
