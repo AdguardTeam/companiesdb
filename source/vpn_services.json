@@ -43,7 +43,7 @@
             "aliexpress.com",
             "aliexpress.ru"
         ],
-        "icon_domain": "aliexpress.com"
+        "icon_domain": "best.aliexpress.com"
     },
     {
         "service_id": "amazon",
@@ -587,7 +587,7 @@
             "huluqa.com",
             "hulustream.com"
         ],
-        "icon_domain": "hulu.com"
+        "icon_domain": "help.hulu.com"
     },
     {
         "service_id": "instagram",
@@ -750,14 +750,15 @@
     },
     {
         "service_id": "origin",
-        "service_name": "Origin",
+        "service_name": "Electronic Arts",
         "categories": [
             "GAMES"
         ],
         "domains": [
-            "origin.com"
+            "origin.com",
+            "ea.com"
         ],
-        "icon_domain": "origin.com"
+        "icon_domain": "help.ea.com"
     },
     {
         "service_id": "pandora",
@@ -1076,7 +1077,7 @@
             "ubisoft.org",
             "ubisoftconnect.com"
         ],
-        "icon_domain": "ubisoft.com"
+        "icon_domain": "ubisoftconnect.com"
     },
     {
         "service_id": "vimeo",
