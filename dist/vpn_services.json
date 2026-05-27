@@ -44,8 +44,8 @@
 			"aliexpress.com",
 			"aliexpress.ru"
 		],
-		"icon_domain": "aliexpress.com",
-		"modified_time": "2021-09-14 10:23"
+		"icon_domain": "best.aliexpress.com",
+		"modified_time": "2026-05-27 10:42"
 	},
 	{
 		"service_id": "amazon",
@@ -238,6 +238,19 @@
 		],
 		"icon_domain": "ebay.com",
 		"modified_time": "2021-09-14 10:23"
+	},
+	{
+		"service_id": "electronic_arts",
+		"service_name": "Electronic Arts",
+		"categories": [
+			"GAMES"
+		],
+		"domains": [
+			"origin.com",
+			"ea.com"
+		],
+		"icon_domain": "help.ea.com",
+		"modified_time": "2026-05-27 10:42"
 	},
 	{
 		"service_id": "epicgames",
@@ -608,8 +621,8 @@
 			"huluqa.com",
 			"hulustream.com"
 		],
-		"icon_domain": "hulu.com",
-		"modified_time": "2021-09-14 10:23"
+		"icon_domain": "help.hulu.com",
+		"modified_time": "2026-05-27 10:42"
 	},
 	{
 		"service_id": "instagram",
@@ -1127,8 +1140,8 @@
 			"ubisoft.org",
 			"ubisoftconnect.com"
 		],
-		"icon_domain": "ubisoft.com",
-		"modified_time": "2021-09-14 10:23"
+		"icon_domain": "ubisoftconnect.com",
+		"modified_time": "2026-05-27 10:42"
 	},
 	{
 		"service_id": "vimeo",
