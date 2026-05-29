@@ -1,5 +1,21 @@
 [
     {
+        "service_id": "2gis",
+        "service_name": "2GIS",
+        "categories": [
+            "SEARCH"
+        ],
+        "domains": [
+            "2gis.com",
+            "2gis.ru",
+            "2gis.com.cy",
+            "2gis.ae",
+            "2gis.kz",
+            "2gis.uz"
+        ],
+        "icon_domain": "2gis.ru"
+    },
+    {
         "service_id": "adobe_creative_cloud",
         "service_name": "Adobe Creative Cloud",
         "categories": [
@@ -44,6 +60,19 @@
             "aliexpress.ru"
         ],
         "icon_domain": "best.aliexpress.com"
+    },
+    {
+        "service_id": "alipay",
+        "service_name": "Alipay",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "alipay.com",
+            "alipayobjects.com",
+            "alipaydev.com"
+        ],
+        "icon_domain": "alipay.com"
     },
     {
         "service_id": "amazon",
@@ -96,6 +125,18 @@
         "icon_domain": "atlassian.com"
     },
     {
+        "service_id": "avito",
+        "service_name": "Avito",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "avito.ru",
+            "avito.st"
+        ],
+        "icon_domain": "avito.ru"
+    },
+    {
         "service_id": "baidu",
         "service_name": "Baidu",
         "categories": [
@@ -115,6 +156,24 @@
             "wshifen.com"
         ],
         "icon_domain": "baidu.com"
+    },
+    {
+        "service_id": "bilibili",
+        "service_name": "Bilibili",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "bilibili.com",
+            "bilibili.tv",
+            "bilivideo.com",
+            "bilivideo.cn",
+            "biliapi.com",
+            "biliapi.net",
+            "hdslb.com",
+            "bstarstatic.com"
+        ],
+        "icon_domain": "bilibili.com"
     },
     {
         "service_id": "bing",
@@ -161,6 +220,20 @@
         "icon_domain": "deezer.com"
     },
     {
+        "service_id": "didi",
+        "service_name": "DiDi",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "didiglobal.com",
+            "didichuxing.com",
+            "xiaojukeji.com",
+            "udache.com"
+        ],
+        "icon_domain": "didiglobal.com"
+    },
+    {
         "service_id": "discord",
         "service_name": "Discord",
         "categories": [
@@ -189,6 +262,24 @@
             "bamgrid.com"
         ],
         "icon_domain": "disneyplus.com"
+    },
+    {
+        "service_id": "douyin",
+        "service_name": "Douyin",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "douyin.com",
+            "douyinpic.com",
+            "douyincdn.com",
+            "douyinstatic.com",
+            "amemv.com",
+            "ixigua.com",
+            "snssdk.com",
+            "pstatp.com"
+        ],
+        "icon_domain": "douyin.com"
     },
     {
         "service_id": "duckduckgo",
@@ -226,6 +317,18 @@
             "ebaystratus.com"
         ],
         "icon_domain": "ebay.com"
+    },
+    {
+        "service_id": "electronic_arts",
+        "service_name": "Electronic Arts",
+        "categories": [
+            "GAMES"
+        ],
+        "domains": [
+            "origin.com",
+            "ea.com"
+        ],
+        "icon_domain": "help.ea.com"
     },
     {
         "service_id": "epicgames",
@@ -555,6 +658,20 @@
         "icon_domain": "google.com"
     },
     {
+        "service_id": "gosuslugi",
+        "service_name": "Gosuslugi",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "gosuslugi.ru",
+            "esia.gosuslugi.ru",
+            "pos.gosuslugi.ru",
+            "gosuslugi.net"
+        ],
+        "icon_domain": "gosuslugi.ru"
+    },
+    {
         "service_id": "hbo",
         "service_name": "HBO",
         "categories": [
@@ -601,6 +718,22 @@
             "ig.me"
         ],
         "icon_domain": "instagram.com"
+    },
+    {
+        "service_id": "jd",
+        "service_name": "JD.com",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "jd.com",
+            "jd.hk",
+            "jdcloud.com",
+            "3.cn",
+            "360buyimg.com",
+            "jdpay.com"
+        ],
+        "icon_domain": "jd.com"
     },
     {
         "service_id": "jetbrains",
@@ -652,6 +785,19 @@
         "icon_domain": "kik.com"
     },
     {
+        "service_id": "kinopoisk",
+        "service_name": "Kinopoisk",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "kinopoisk.ru",
+            "kinopoisk.hd",
+            "kp.ru"
+        ],
+        "icon_domain": "kinopoisk.ru"
+    },
+    {
         "service_id": "last",
         "service_name": "Last.fm",
         "categories": [
@@ -675,6 +821,34 @@
             "linkedin.com"
         ],
         "icon_domain": "linkedin.com"
+    },
+    {
+        "service_id": "mailru",
+        "service_name": "Mail.ru",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "mail.ru",
+            "imgsmail.ru",
+            "mradx.net"
+        ],
+        "icon_domain": "mail.ru"
+    },
+    {
+        "service_id": "meituan",
+        "service_name": "Meituan",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "meituan.com",
+            "meituan.net",
+            "dianping.com",
+            "dpfile.com",
+            "maoyan.com"
+        ],
+        "icon_domain": "meituan.com"
     },
     {
         "service_id": "messenger",
@@ -735,6 +909,18 @@
         "icon_domain": "office.com"
     },
     {
+        "service_id": "okko",
+        "service_name": "Okko",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "okko.tv",
+            "okko.ru"
+        ],
+        "icon_domain": "okko.tv"
+    },
+    {
         "service_id": "openai",
         "service_name": "OpenAI",
         "categories": [
@@ -749,16 +935,19 @@
         "icon_domain": "openai.com"
     },
     {
-        "service_id": "electronic_arts",
-        "service_name": "Electronic Arts",
+        "service_id": "ozon",
+        "service_name": "Ozon",
         "categories": [
-            "GAMES"
+            "SHOP"
         ],
         "domains": [
-            "origin.com",
-            "ea.com"
+            "ozon.ru",
+            "ozon.com",
+            "ozoncloud.net",
+            "ozontech.com",
+            "ozon-st.cdn.ngenix.net"
         ],
-        "icon_domain": "help.ea.com"
+        "icon_domain": "ozon.ru"
     },
     {
         "service_id": "pandora",
@@ -772,6 +961,19 @@
             "pandora.com"
         ],
         "icon_domain": "pandora.com"
+    },
+    {
+        "service_id": "pinduoduo",
+        "service_name": "Pinduoduo",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "pinduoduo.com",
+            "yangkeduo.com",
+            "pinduoduo.net"
+        ],
+        "icon_domain": "pinduoduo.com"
     },
     {
         "service_id": "pinterest",
@@ -813,6 +1015,24 @@
         "icon_domain": "playstation.com"
     },
     {
+        "service_id": "qq",
+        "service_name": "QQ",
+        "categories": [
+            "MESSENGERS"
+        ],
+        "domains": [
+            "qq.com",
+            "gtimg.cn",
+            "gtimg.com",
+            "qpic.cn",
+            "qlogo.cn",
+            "idqqimg.com",
+            "myqcloud.com",
+            "tenpay.com"
+        ],
+        "icon_domain": "qq.com"
+    },
+    {
         "service_id": "reddit",
         "service_name": "Reddit",
         "categories": [
@@ -839,6 +1059,31 @@
             "rockstargames.com"
         ],
         "icon_domain": "rockstargames.com"
+    },
+    {
+        "service_id": "rutube",
+        "service_name": "Rutube",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "rutube.ru"
+        ],
+        "icon_domain": "rutube.ru"
+    },
+    {
+        "service_id": "sberbank",
+        "service_name": "Sberbank Online",
+        "categories": [
+            "WORK"
+        ],
+        "domains": [
+            "sberbank.ru",
+            "sber.ru",
+            "online.sberbank.ru",
+            "sbermarket.ru"
+        ],
+        "icon_domain": "sberbank.ru"
     },
     {
         "service_id": "signal",
@@ -951,6 +1196,23 @@
             "valvesoftware.com"
         ],
         "icon_domain": "steampowered.com"
+    },
+    {
+        "service_id": "taobao",
+        "service_name": "Taobao",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "taobao.com",
+            "tmall.com",
+            "tmall.hk",
+            "tbcdn.cn",
+            "taobaocdn.com",
+            "alicdn.com",
+            "tbcache.com"
+        ],
+        "icon_domain": "taobao.com"
     },
     {
         "service_id": "telegram",
@@ -1116,7 +1378,11 @@
             "MESSENGERS"
         ],
         "domains": [
-            "wechat.com"
+            "wechat.com",
+            "weixin.qq.com",
+            "wx.qq.com",
+            "weixinbridge.com",
+            "wechatpay.com"
         ],
         "icon_domain": "wechat.com"
     },
@@ -1133,6 +1399,21 @@
         "icon_domain": "whatsapp.com"
     },
     {
+        "service_id": "wildberries",
+        "service_name": "Wildberries",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "wildberries.ru",
+            "wb.ru",
+            "wbstatic.net",
+            "wbbasket.ru",
+            "wbx-content.ru"
+        ],
+        "icon_domain": "wildberries.ru"
+    },
+    {
         "service_id": "xbox",
         "service_name": "Xbox",
         "categories": [
@@ -1147,6 +1428,20 @@
             "xboxservices.com"
         ],
         "icon_domain": "xbox.com"
+    },
+    {
+        "service_id": "xiaohongshu",
+        "service_name": "Xiaohongshu",
+        "categories": [
+            "SOCIAL_NETWORKS"
+        ],
+        "domains": [
+            "xiaohongshu.com",
+            "xhscdn.com",
+            "xhslink.com",
+            "xhscdn.net"
+        ],
+        "icon_domain": "xiaohongshu.com"
     },
     {
         "service_id": "yahoo",
