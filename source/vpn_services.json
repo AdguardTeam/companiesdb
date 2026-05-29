@@ -6,11 +6,19 @@
             "SEARCH"
         ],
         "domains": [
-            "2gis.com",
-            "2gis.ru",
-            "2gis.com.cy",
             "2gis.ae",
+            "2gis.am",
+            "2gis.az",
+            "2gis.by",
+            "2gis.com",
+            "2gis.com.cy",
+            "2gis.cz",
+            "2gis.ge",
+            "2gis.kg",
             "2gis.kz",
+            "2gis.ru",
+            "2gis.tech",
+            "2gis.tj",
             "2gis.uz"
         ],
         "icon_domain": "2gis.ru"
@@ -143,6 +151,7 @@
             "SEARCH"
         ],
         "domains": [
+            "baidu.cn",
             "baidu.com",
             "baiducontent.com",
             "baidupcs.com",
@@ -151,8 +160,12 @@
             "bdimg.com",
             "bdstatic.com",
             "gshifen.com",
+            "hao123.com",
+            "nuomi.com",
             "popin.cc",
             "shifen.com",
+            "tieba.com",
+            "tiebaimg.com",
             "wshifen.com"
         ],
         "icon_domain": "baidu.com"
@@ -164,14 +177,20 @@
             "VIDEO"
         ],
         "domains": [
-            "bilibili.com",
-            "bilibili.tv",
-            "bilivideo.com",
-            "bilivideo.cn",
+            "acg.tv",
+            "acgvideo.com",
+            "b23.tv",
+            "bigfun.cn",
             "biliapi.com",
             "biliapi.net",
+            "bilibili.com",
+            "bilibili.tv",
+            "bilicomics.com",
+            "biliintl.com",
+            "bilivideo.cn",
+            "bilivideo.com",
             "hdslb.com",
-            "bstarstatic.com"
+            "im9.com"
         ],
         "icon_domain": "bilibili.com"
     },
@@ -226,10 +245,13 @@
             "WORK"
         ],
         "domains": [
-            "didiglobal.com",
+            "didi.cn",
             "didichuxing.com",
-            "xiaojukeji.com",
-            "udache.com"
+            "didiglobal.com",
+            "didistatic.com",
+            "diditaxi.com.cn",
+            "udache.com",
+            "xiaojukeji.com"
         ],
         "icon_domain": "didiglobal.com"
     },
@@ -270,14 +292,21 @@
             "VIDEO"
         ],
         "domains": [
-            "douyin.com",
-            "douyinpic.com",
-            "douyincdn.com",
-            "douyinstatic.com",
             "amemv.com",
+            "douyin.com",
+            "douyincdn.com",
+            "douyinpay.com",
+            "douyinpic.com",
+            "douyinstatic.com",
+            "douyinvod.com",
+            "huoshan.com",
+            "huoshanstatic.com",
+            "huoshanvod.com",
+            "idouyinvod.com",
+            "iesdouyin.com",
             "ixigua.com",
-            "snssdk.com",
-            "pstatp.com"
+            "pstatp.com",
+            "snssdk.com"
         ],
         "icon_domain": "douyin.com"
     },
@@ -726,12 +755,18 @@
             "SHOP"
         ],
         "domains": [
+            "3.cn",
+            "360buy.com",
+            "360buyimg.com",
             "jd.com",
             "jd.hk",
+            "jd.ru",
+            "jdcdn.com",
             "jdcloud.com",
-            "3.cn",
-            "360buyimg.com",
-            "jdpay.com"
+            "jdpay.com",
+            "jingdong.com",
+            "yhd.com",
+            "yihaodian.com"
         ],
         "icon_domain": "jd.com"
     },
@@ -838,16 +873,17 @@
         "service_id": "max",
         "service_name": "Max",
         "categories": [
-            "VIDEO"
+            "MESSENGERS"
         ],
         "domains": [
+            "calls.okcdn.ru",
+            "i.oneme.ru",
             "max.ru",
-            "max.com",
-            "maxstatic.com",
-            "play.max.com",
-            "play.max.ru"
+            "st.max.ru",
+            "web.max.ru",
+            "ws-api.oneme.ru"
         ],
-        "icon_domain": "max.com"
+        "icon_domain": "max.ru"
     },
     {
         "service_id": "meituan",
@@ -856,11 +892,14 @@
             "SHOP"
         ],
         "domains": [
-            "meituan.com",
-            "meituan.net",
             "dianping.com",
             "dpfile.com",
-            "maoyan.com"
+            "maoyan.com",
+            "meituan.com",
+            "meituan.net",
+            "mtyun.com",
+            "neixin.cn",
+            "sankuai.com"
         ],
         "icon_domain": "meituan.com"
     },
@@ -930,7 +969,8 @@
         ],
         "domains": [
             "okko.tv",
-            "okko.ru"
+            "okkoapi.tv",
+            "playfamily.ru"
         ],
         "icon_domain": "okko.tv"
     },
@@ -955,10 +995,15 @@
             "SHOP"
         ],
         "domains": [
-            "ozon.ru",
+            "ozon.by",
             "ozon.com",
-            "ozoncloud.net",
-            "ozontech.com"
+            "ozon.dev",
+            "ozon.kz",
+            "ozon.ru",
+            "ozon.tech",
+            "ozon.travel",
+            "ozoncard.ru",
+            "ozonusercontent.com"
         ],
         "icon_domain": "ozon.ru"
     },
@@ -982,9 +1027,11 @@
             "SHOP"
         ],
         "domains": [
+            "pddcdn.com",
+            "pddpic.com",
             "pinduoduo.com",
-            "yangkeduo.com",
-            "pinduoduo.net"
+            "pinduoduo.net",
+            "yangkeduo.com"
         ],
         "icon_domain": "pinduoduo.com"
     },
@@ -1080,7 +1127,9 @@
             "VIDEO"
         ],
         "domains": [
-            "rutube.ru"
+            "rtbcdn.ru",
+            "rutube.ru",
+            "rutubelist.ru"
         ],
         "icon_domain": "rutube.ru"
     },
@@ -1418,11 +1467,19 @@
             "SHOP"
         ],
         "domains": [
-            "wildberries.ru",
+            "paywb.com",
             "wb.ru",
-            "wbstatic.net",
             "wbbasket.ru",
-            "wbx-content.ru"
+            "wbstatic.net",
+            "wbx-content.ru",
+            "wildberries.am",
+            "wildberries.by",
+            "wildberries.eu",
+            "wildberries.ge",
+            "wildberries.kg",
+            "wildberries.kz",
+            "wildberries.ru",
+            "wildberries.uz"
         ],
         "icon_domain": "wildberries.ru"
     },
@@ -1449,10 +1506,12 @@
             "SOCIAL_NETWORKS"
         ],
         "domains": [
-            "xiaohongshu.com",
+            "rednote.com",
             "xhscdn.com",
+            "xhscdn.net",
             "xhslink.com",
-            "xhscdn.net"
+            "xhsrcdn.com",
+            "xiaohongshu.com"
         ],
         "icon_domain": "xiaohongshu.com"
     },
