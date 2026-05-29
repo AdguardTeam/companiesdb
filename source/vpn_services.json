@@ -58,6 +58,36 @@
         "icon_domain": "adobe.com"
     },
     {
+        "service_id": "alibaba",
+        "service_name": "Alibaba",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "1688.com",
+            "alibaba-inc.com",
+            "alibaba.com",
+            "alibabacorp.com",
+            "alibabagroup.com",
+            "alibabausercontent.com",
+            "alicdn.com",
+            "aliimg.com",
+            "etao.com",
+            "juhuasuan.com",
+            "taobao.com",
+            "taobao.net",
+            "taobao.org",
+            "taobaocdn.com",
+            "tb.cn",
+            "tbcache.com",
+            "tbcdn.cn",
+            "tmall.com",
+            "tmall.hk",
+            "tmalltv.com"
+        ],
+        "icon_domain": "alibaba.com"
+    },
+    {
         "service_id": "aliexpress",
         "service_name": "Aliexpress",
         "categories": [
@@ -76,9 +106,18 @@
             "WORK"
         ],
         "domains": [
+            "alipay-eco.com",
+            "alipay.cn",
             "alipay.com",
+            "alipay.com.cn",
+            "alipay.hk",
+            "alipaydns.com",
+            "alipaydev.com",
+            "alipaylog.com",
+            "alipaymo.com",
             "alipayobjects.com",
-            "alipaydev.com"
+            "alipayplus.com",
+            "aliplus.com"
         ],
         "icon_domain": "alipay.com"
     },
@@ -823,8 +862,8 @@
             "VIDEO"
         ],
         "domains": [
-            "kinopoisk.ru",
-            "kp.ru"
+            "kinopoisk-ru.clstorage.net",
+            "kinopoisk.ru"
         ],
         "icon_domain": "kinopoisk.ru"
     },
@@ -1106,13 +1145,23 @@
             "MESSENGERS"
         ],
         "domains": [
+            "foxmail.com",
+            "foxmail.com.cn",
             "gtimg.cn",
             "gtimg.com",
+            "gtimg.com.cn",
             "idqqimg.com",
+            "imqq.com",
             "myqcloud.com",
-            "qq.com",
             "qlogo.cn",
             "qpic.cn",
+            "qq.cn.com",
+            "qq.com",
+            "qq.com.cn",
+            "qq.wang",
+            "qq.xn--fiqs8s",
+            "qqmail.com",
+            "qzone.com",
             "tenpay.com"
         ],
         "icon_domain": "qq.com"
@@ -1283,23 +1332,6 @@
             "valvesoftware.com"
         ],
         "icon_domain": "steampowered.com"
-    },
-    {
-        "service_id": "taobao",
-        "service_name": "Taobao",
-        "categories": [
-            "SHOP"
-        ],
-        "domains": [
-            "alicdn.com",
-            "taobao.com",
-            "taobaocdn.com",
-            "tbcache.com",
-            "tbcdn.cn",
-            "tmall.com",
-            "tmall.hk"
-        ],
-        "icon_domain": "taobao.com"
     },
     {
         "service_id": "tbank",
