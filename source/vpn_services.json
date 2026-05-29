@@ -835,6 +835,21 @@
         "icon_domain": "mail.ru"
     },
     {
+        "service_id": "max",
+        "service_name": "Max",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "max.ru",
+            "max.com",
+            "maxstatic.com",
+            "play.max.com",
+            "play.max.ru"
+        ],
+        "icon_domain": "max.com"
+    },
+    {
         "service_id": "meituan",
         "service_name": "Meituan",
         "categories": [
