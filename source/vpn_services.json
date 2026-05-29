@@ -1510,7 +1510,15 @@
             "MESSENGERS"
         ],
         "domains": [
-            "wechat.com"
+            "servicewechat.com",
+            "wechat.com",
+            "wechatpay.cn",
+            "weixinbridge.com",
+            "weui.io",
+            "wxaurl.cn",
+            "wxcloudrun.com",
+            "wxgateway.com",
+            "wxlivecdn.com"
         ],
         "icon_domain": "wechat.com"
     },
