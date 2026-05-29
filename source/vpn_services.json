@@ -1231,8 +1231,7 @@
             "zoomgov.com"
         ],
         "icon_domain": "zoom.com"
-    }
-]
+    },
 {
     "service_id": "mailru",
     "service_name": "Mail.ru",
