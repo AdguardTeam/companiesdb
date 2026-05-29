@@ -1233,3 +1233,199 @@
         "icon_domain": "zoom.com"
     }
 ]
+{
+    "service_id": "mailru",
+    "service_name": "Mail.ru",
+    "categories": [
+        "SOCIAL_NETWORKS"
+    ],
+    "domains": [
+        "mail.ru",
+        "bk.ru",
+        "list.ru",
+        "inbox.ru",
+        "imgsmail.ru",
+        "mrgcdn.ru",
+        "attachmail.ru",
+        "smailru.net",
+        "mradx.net",
+        "my.com",
+        "ok.ru",
+        "okcdn.ru",
+        "odnoklassniki.ru",
+        "oneme.ru",
+        "max.ru"
+    ],
+    "icon_domain": "mail.ru"
+},
+{
+    "service_id": "sberbank",
+    "service_name": "Сбер",
+    "categories": [
+        "WORK"
+    ],
+    "domains": [
+        "sberbank.ru",
+        "sberbank.com",
+        "sber.ru",
+        "sbrf.ru",
+        "sberpay.ru",
+        "domclick.ru",
+        "sbermarket.ru",
+        "sbermegamarket.ru",
+        "okko.tv"
+    ],
+    "icon_domain": "sber.ru"
+},
+{
+    "service_id": "tbank",
+    "service_name": "Т-Банк (Тинькофф)",
+    "categories": [
+        "WORK"
+    ],
+    "domains": [
+        "tinkoff.ru",
+        "tbank.ru",
+        "t-bank.ru",
+        "acdn.tinkoff.ru"
+    ],
+    "icon_domain": "tinkoff.ru"
+},
+{
+    "service_id": "avito",
+    "service_name": "Авито",
+    "categories": [
+        "SHOP"
+    ],
+    "domains": [
+        "avito.ru",
+        "avito.st"
+    ],
+    "icon_domain": "avito.ru"
+},
+{
+    "service_id": "ozon",
+    "service_name": "Ozon",
+    "categories": [
+        "SHOP"
+    ],
+    "domains": [
+        "ozon.ru",
+        "ozonusercontent.com",
+        "ozonbank.ru",
+        "ozon-st.cdn.ngenix.net"
+    ],
+    "icon_domain": "ozon.ru"
+},
+{
+    "service_id": "wildberries",
+    "service_name": "Wildberries",
+    "categories": [
+        "SHOP"
+    ],
+    "domains": [
+        "wildberries.ru",
+        "wb.ru",
+        "wbbasket.ru",
+        "wbstatic.net",
+        "wildberries.by",
+        "wildberries.kz",
+        "wildberries.am"
+    ],
+    "icon_domain": "wildberries.ru"
+},
+{
+    "service_id": "hh",
+    "service_name": "HeadHunter (hh.ru)",
+    "categories": [
+        "WORK"
+    ],
+    "domains": [
+        "hh.ru",
+        "hhcdn.ru",
+        "hh.kz",
+        "hh.uz"
+    ],
+    "icon_domain": "hh.ru"
+},
+{
+    "service_id": "kinopoisk",
+    "service_name": "Кинопоиск",
+    "categories": [
+        "VIDEO"
+    ],
+    "domains": [
+        "kinopoisk.ru",
+        "kinopoisk.st"
+    ],
+    "icon_domain": "kinopoisk.ru"
+},
+{
+    "service_id": "rutube",
+    "service_name": "Rutube",
+    "categories": [
+        "VIDEO"
+    ],
+    "domains": [
+        "rutube.ru",
+        "static.rutube.ru",
+        "strm.rutube.ru"
+    ],
+    "icon_domain": "rutube.ru"
+},
+{
+    "service_id": "ivi",
+    "service_name": "Иви",
+    "categories": [
+        "VIDEO"
+    ],
+    "domains": [
+        "ivi.ru",
+        "ivicdn.com"
+    ],
+    "icon_domain": "ivi.ru"
+},
+{
+    "service_id": "gosuslugi",
+    "service_name": "Госуслуги",
+    "categories": [
+        "WORK"
+    ],
+    "domains": [
+        "gosuslugi.ru",
+        "esia.gosuslugi.ru",
+        "lk.gosuslugi.ru"
+    ],
+    "icon_domain": "gosuslugi.ru"
+},
+{
+    "service_id": "2gis",
+    "service_name": "2GIS",
+    "categories": [
+        "SEARCH"
+    ],
+    "domains": [
+        "2gis.ru",
+        "2gis.com",
+        "2gis.kz",
+        "2gis.by",
+        "2gis.ua",
+        "static.2gis.com",
+        "tile2.maps.2gis.com"
+    ],
+    "icon_domain": "2gis.com"
+},
+{
+    "service_id": "dzen",
+    "service_name": "Дзен",
+    "categories": [
+        "SOCIAL_NETWORKS"
+    ],
+    "domains": [
+        "dzen.ru",
+        "zen.yandex.ru",
+        "avatars.dzeninfra.ru",
+        "dzeninfra.ru"
+    ],
+    "icon_domain": "dzen.ru"
+}
