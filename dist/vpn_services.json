@@ -1079,9 +1079,12 @@
 			"VIDEO"
 		],
 		"domains": [
-			"okko.tv",
-			"okkoapi.tv",
-			"playfamily.ru"
+			"mediavitrina.ru",
+			"okko.sport",
+    		"okko.tv",
+   			"okkoapi.tv",
+    		"playfamily.ru"
+			
 		],
 		"icon_domain": "okko.tv",
 		"modified_time": "2026-05-30 09:51"
