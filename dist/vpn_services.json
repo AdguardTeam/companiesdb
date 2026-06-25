@@ -1079,12 +1079,14 @@
 			"VIDEO"
 		],
 		"domains": [
+			"mediavitrina.ru",
+			"okko.sport",
 			"okko.tv",
 			"okkoapi.tv",
 			"playfamily.ru"
 		],
 		"icon_domain": "okko.tv",
-		"modified_time": "2026-05-30 09:51"
+		"modified_time": "2026-06-25 08:57"
 	},
 	{
 		"service_id": "openai",
