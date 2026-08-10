@@ -1654,6 +1654,7 @@
 			"paywb.com",
 			"wb.ru",
 			"wbbasket.ru",
+			"wbcontent.net",
 			"wbstatic.net",
 			"wbx-content.ru",
 			"wildberries.am",
@@ -1666,7 +1667,7 @@
 			"wildberries.uz"
 		],
 		"icon_domain": "wildberries.ru",
-		"modified_time": "2026-05-30 09:51"
+		"modified_time": "2026-08-10 14:33"
 	},
 	{
 		"service_id": "xbox",
