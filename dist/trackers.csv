@@ -2166,6 +2166,7 @@ cloud.google.com;google_cloud_platform;10
 gcp.gvt2.com;google_cloud_platform;10
 storage.googleapis.com;google_cloud_storage;10
 adsensecustomsearchads.com;google_custom_search;4
+syndicatedsearch.goog;google_custom_search;4
 dns.google;google_dns;10
 dns.google.com;google_dns;10
 google-public-dns-a.google.com;google_dns;10
