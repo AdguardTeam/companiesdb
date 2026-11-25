@@ -159,6 +159,17 @@
         "icon_domain": "amazon.com"
     },
     {
+        "service_id": "aparat",
+        "service_name": "Aparat",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "aparat.com"
+        ],
+        "icon_domain": "aparat.com"
+    },
+    {
         "service_id": "atlassian",
         "service_name": "Atlassian",
         "categories": [
@@ -249,6 +260,17 @@
         "icon_domain": "bing.com"
     },
     {
+        "service_id": "cian",
+        "service_name": "Cian",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "cian.ru"
+        ],
+        "icon_domain": "cian.ru"
+    },
+    {
         "service_id": "craigslist",
         "service_name": "Craigslist",
         "categories": [
@@ -290,6 +312,17 @@
         "icon_domain": "didiglobal.com"
     },
     {
+        "service_id": "digikala",
+        "service_name": "Digikala",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "digikala.com"
+        ],
+        "icon_domain": "digikala.com"
+    },
+    {
         "service_id": "discord",
         "service_name": "Discord",
         "categories": [
@@ -318,6 +351,28 @@
             "bamgrid.com"
         ],
         "icon_domain": "disneyplus.com"
+    },
+    {
+        "service_id": "divar",
+        "service_name": "Divar",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "divar.ir"
+        ],
+        "icon_domain": "divar.ir"
+    },
+    {
+        "service_id": "domclick",
+        "service_name": "DomClick",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "domclick.ru"
+        ],
+        "icon_domain": "domclick.ru"
     },
     {
         "service_id": "douyin",
@@ -394,6 +449,17 @@
             "unrealengine.com"
         ],
         "icon_domain": "epicgames.com"
+    },
+    {
+        "service_id": "espn",
+        "service_name": "ESPN",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "espn.com"
+        ],
+        "icon_domain": "espn.com"
     },
     {
         "service_id": "etsy",
@@ -785,6 +851,28 @@
         "icon_domain": "instagram.com"
     },
     {
+        "service_id": "iqiyi",
+        "service_name": "iQIYI",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "iqiyi.com"
+        ],
+        "icon_domain": "iqiyi.com"
+    },
+    {
+        "service_id": "ivi",
+        "service_name": "IVI",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "ivi.ru"
+        ],
+        "icon_domain": "ivi.ru"
+    },
+    {
         "service_id": "jd",
         "service_name": "JD.com",
         "categories": [
@@ -833,6 +921,17 @@
         "icon_domain": "jetbrains.com"
     },
     {
+        "service_id": "joyn",
+        "service_name": "Joyn",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "joyn.de"
+        ],
+        "icon_domain": "joyn.de"
+    },
+    {
         "service_id": "kakao",
         "service_name": "Kakao Talk",
         "categories": [
@@ -866,6 +965,17 @@
             "kinopoisk.ru"
         ],
         "icon_domain": "kinopoisk.ru"
+    },
+    {
+        "service_id": "kleinanzeigen",
+        "service_name": "Kleinanzeigen",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "kleinanzeigen.de"
+        ],
+        "icon_domain": "kleinanzeigen.de"
     },
     {
         "service_id": "kuaishou",
@@ -1375,6 +1485,17 @@
         "icon_domain": "telegram.org"
     },
     {
+        "service_id": "ticketmaster",
+        "service_name": "Ticketmaster",
+        "categories": [
+            "SHOP"
+        ],
+        "domains": [
+            "ticketmaster.com"
+        ],
+        "icon_domain": "ticketmaster.com"
+    },
+    {
         "service_id": "tiktok",
         "service_name": "Tiktok",
         "categories": [
@@ -1579,6 +1700,17 @@
         "icon_domain": "wildberries.ru"
     },
     {
+        "service_id": "wink",
+        "service_name": "Wink",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "wink.ru"
+        ],
+        "icon_domain": "wink.ru"
+    },
+    {
         "service_id": "xbox",
         "service_name": "Xbox",
         "categories": [
@@ -1664,6 +1796,17 @@
         "icon_domain": "yandex.com"
     },
     {
+        "service_id": "youku",
+        "service_name": "Youku",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "youku.com"
+        ],
+        "icon_domain": "youku.com"
+    },
+    {
         "service_id": "youtube",
         "service_name": "YouTube",
         "categories": [
@@ -1681,6 +1824,17 @@
             "ggpht.com"
         ],
         "icon_domain": "youtube.com"
+    },
+    {
+        "service_id": "zdf",
+        "service_name": "ZDF",
+        "categories": [
+            "VIDEO"
+        ],
+        "domains": [
+            "zdf.de"
+        ],
+        "icon_domain": "zdf.de"
     },
     {
         "service_id": "zoom",
